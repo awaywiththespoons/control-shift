@@ -1,37 +1,56 @@
-
-
-body{
+body {
   background-color: #fae6e7;
   color: #060cb6;
-
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
 
 h1 {
-	font-size: 30px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   	font-weight: 300;
-   	font-style: italic;
-	letter-spacing: 3px;
-	line-height: 160%;
+  font-size: 30px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 3px;
+  line-height: 160%;
 }
 
 h2 {
-	font-size: 24px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   	font-weight: 200;
-   	font-style: italic;
-	letter-spacing: 3px;
-	line-height: 160%;
+  font-size: 24px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 3px;
+  line-height: 160%;
 }
 
 p {
-	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif;
-	letter-spacing: 0.5px;
-	line-height: 163%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 163%;
 }
 
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#heading {
+  text-align: left;
+  padding: 10px;
+}
+
+#maintext {
+  width: 80%;
+  position: absolute;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 60px;
+  /* Height of the footer */
+}
 
 #menu {
   list-style-type: none;
@@ -47,38 +66,62 @@ p {
   text-align: center;
   padding: 10px 14px;
   text-decoration: none;
-
 }
 
 #menu li {
-  float: right;
+  float: left;
 }
 
 #menu li a:hover:not(.active) {
-    color: blue;
-    border-bottom: 1px blue dotted;
+  color: blue;
+  border-bottom: 1px blue dotted;
 }
 
+#footer {
+  position: fixed;
+  overflow: hidden;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ded1d1;
+  color: #060cb6;
+  text-align: center;
+}
 
-
-.maintext {
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .maintext {
     width: 80%;
-  padding: 20px 70px;
-}
-
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #ded1d1;
-    color: #060cb6;
-    text-align: center;
+    padding: 10px 10px;
   }
 
+  #menu {
+    width: 200px;
+    text-align: left;
+  }
 
-#heading {
-  text-align: left;
-  padding: 30px;
+  #menu li a:hover:not(.active) {
+    border-bottom: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .maintext {}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .maintext {}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .maintext {}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .maintext {}
 }
