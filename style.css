@@ -89,6 +89,10 @@ p {
   text-align: center;
 }
 
+#footer .img{
+  height: 70px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
   .maintext {
