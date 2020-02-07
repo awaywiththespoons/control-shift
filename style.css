@@ -1,131 +1,182 @@
+/* setting up the grid
+see https://css-tricks.com/snippets/css/complete-guide-grid/#prop-display
+for more into */
 body {
   background-color: #fae6e7;
   color: #060cb6;
+  font-size: 22px;
 }
 
-img {
-  width: 100%;
+.page {
+  display: grid;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header-menu {
+  /* background-color: lightgreen; */
+  padding-bottom: 5px;
+}
+
+.mobile-menu {
+  /* background-color: lightblue; */
+  padding-bottom: 10px;
+}
+
+.header-title {
+  /*background-color: green;*/
+}
+
+.header-subtitle {
+  /* background-color: red; */
+}
+
+.main-section {
+  /* background-color: turquoise; */
+}
+
+.footer-contact {
+  /* background-color: black; */
+}
+
+.footer-support {
+  /* background-color: yellow; */
+}
+
+.footer-partner {
+  /* background-color: purple; */
+}
+
+/* menu for large screens*/
+
+#menu-web {
+  font-size: 1.6em;
+  padding-left: 0px;
+}
+
+#menu-web ul {
   height: auto;
 }
 
+#menu-web li {
+  margin-right: 40px;
+  list-style-type: none;
+  float: left;
+}
+
+
+#menu-web li.about {
+text-decoration: line-through;
+border-bottom: none;
+}
+
+#menu-web li.about a:hover {
+border-bottom: none;
+}
+
+
+#menu-web a {
+  color: #b60664;
+  text-decoration: none;
+}
+
+#menu-web li a:hover {
+  color: blue;
+  border-bottom: 1px blue dotted;
+}
+
+/* menu for small screens*/
+
+#menu-mobile {
+  font-size: 1.6em;
+  padding-left: 0px;
+}
+
+#menu-mobile ul {
+  height: auto;
+}
+
+#menu-mobile li.about {
+text-decoration: line-through;
+}
+
+#menu-mobile li {
+  margin-right: 40px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+#menu-mobile a {
+  color: #b60664;
+  text-decoration: none;
+}
+
+
 h1 {
-  font-size: 30px;
+  /*header-title*/
+  font-size: 1.5em;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-style: italic;
   letter-spacing: 3px;
-  line-height: 160%;
+  line-height: 70%;
 }
 
 h2 {
-  font-size: 24px;
+  /*header-subtitle*/
+  font-size: 1.2em;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 200;
   font-style: italic;
   letter-spacing: 3px;
-  line-height: 160%;
+  line-height: 50%;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.5px;
   line-height: 163%;
 }
 
-#container {
-  min-height: 100%;
-  position: relative;
-}
-
-#heading {
-  text-align: left;
-  padding: 10px;
-}
-
-#maintext {
-  width: 80%;
-  position: absolute;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-bottom: 60px;
-  /* Height of the footer */
-}
-
-#menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-size: 30px;
-  overflow: hidden;
-}
-
-#menu a {
-  display: block;
-  color: #b60664;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-}
-
-#menu li {
-  float: left;
-}
-
-#menu li a:hover:not(.active) {
-  color: blue;
-  border-bottom: 1px blue dotted;
-}
-
-#footer {
-  position: fixed;
-  overflow: hidden;
-  height: 60px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #ded1d1;
-  color: #060cb6;
-  text-align: center;
-}
-
-#footer .img{
-  height: 70px;
-}
-
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-  .maintext {
-    width: 80%;
-    padding: 10px 10px;
-  }
-
-  #menu {
-    width: 200px;
-    text-align: left;
-  }
-
-  #menu li a:hover:not(.active) {
+@media (max-width: 400px) {
+  #menu-style li a:hover:not(.active) {
     border-bottom: none;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  . p {
+    font-size: 1.1em;
+  }
+
+  body {
+    /* background-color: #F09A9D; */
+    /* Red */
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .maintext {}
+@media (min-width: 401px) and (max-width: 700px) {
+  body {
+    /* background-color: #F5CF8E; */
+    /* Yellow */
+  }
+
+  #menu-style li a:hover:not(.active) {
+    border-bottom: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .maintext {}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .maintext {}
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .maintext {}
+/* larger screens */
+@media only screen and (min-width: 701px) {
+  .mobile-menu {
+    display: none;
+  }
 }
