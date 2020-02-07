@@ -48,7 +48,6 @@ body {
 }
 
 /* menu for large screens*/
-
 #menu-web {
   font-size: 1.6em;
   padding-left: 0px;
@@ -64,16 +63,15 @@ body {
   float: left;
 }
 
-
 #menu-web li.about {
-text-decoration: line-through;
-border-bottom: none;
+  text-decoration: line-through;
+  border-bottom: none;
+  color: #b60664;
 }
 
 #menu-web li.about a:hover {
-border-bottom: none;
+  border-bottom: none;
 }
-
 
 #menu-web a {
   color: #b60664;
@@ -81,12 +79,10 @@ border-bottom: none;
 }
 
 #menu-web li a:hover {
-  color: blue;
-  border-bottom: 1px blue dotted;
+  border-bottom: 1px #b60664 dotted;
 }
 
 /* menu for small screens*/
-
 #menu-mobile {
   font-size: 1.6em;
   padding-left: 0px;
@@ -97,7 +93,8 @@ border-bottom: none;
 }
 
 #menu-mobile li.about {
-text-decoration: line-through;
+  text-decoration: line-through;
+  color: #b60664;
 }
 
 #menu-mobile li {
@@ -110,7 +107,6 @@ text-decoration: line-through;
   color: #b60664;
   text-decoration: none;
 }
-
 
 h1 {
   /*header-title*/
@@ -169,6 +165,7 @@ p {
   #menu-style li a:hover:not(.active) {
     border-bottom: none;
   }
+
   .mobile-menu {
     display: none;
   }
