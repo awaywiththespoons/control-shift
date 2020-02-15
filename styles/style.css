@@ -246,13 +246,13 @@ p {
 
 .form-control{
   color: #040995;
-  background-color: #EDDD6E;
+  background-color: #ffffff;
   background-clip: padding-box;    
   border: 1px solid #040995;
 }
 
 .form-control:focus {
-  background-color: #EDDD6E;  
+  background-color: #ffffff;  
   border-color: red;
   box-shadow: none; 
   -webkit-box-shadow: none;
@@ -261,14 +261,14 @@ p {
 @-webkit-keyframes autofill {
   to {
     color: #040995;
-    background: transparent; 
+    background: #ffffff; 
   } 
 }
 
 @keyframes autofill {
   to {
     color: #040995;
-    background: transparent; 
+    background: #ffffff; 
   } 
 }
 
@@ -280,8 +280,8 @@ input:-webkit-autofill {
 }
 
 .btn-blue {
-  color: #040995 !important;
-  background-color: transparent !important;
+  color: #ffffff !important;
+  background-color: #040995 !important;
   border-color: #040995 !important;
 }
 
