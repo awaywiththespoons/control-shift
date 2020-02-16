@@ -246,13 +246,14 @@ p {
 
 .form-control{
   color: #040995;
-  background-color: #ffffff;
-  background-clip: padding-box;    
-  border: 1px solid #040995;
+  background-color: transparent;
+  background-clip: padding-box; 
+  border: transparent;   
+  border-bottom: 1px solid #040995;
 }
 
 .form-control:focus {
-  background-color: #ffffff;  
+  background-color: transparent;  
   border-color: red;
   box-shadow: none; 
   -webkit-box-shadow: none;
@@ -261,14 +262,14 @@ p {
 @-webkit-keyframes autofill {
   to {
     color: #040995;
-    background: #ffffff; 
+    background: transparent; 
   } 
 }
 
 @keyframes autofill {
   to {
     color: #040995;
-    background: #ffffff; 
+    background: transparent; 
   } 
 }
 
