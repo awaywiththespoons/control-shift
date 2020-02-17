@@ -254,6 +254,10 @@ input:-webkit-autofill {
     background-image: url("");
   }
 
+  .home-page-content{
+    text-align: center;
+  }
+
   #menu-style li a:hover:not(.h5) {
     border-bottom: none;
   }
