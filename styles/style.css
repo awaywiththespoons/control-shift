@@ -173,7 +173,8 @@ p, li {
 }
 
 /* form */
-.form-area {
+.form-area form {
+  width: 100%;
   max-width: 500px;
 }
 
