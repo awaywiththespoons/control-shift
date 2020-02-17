@@ -223,6 +223,11 @@ input:-webkit-autofill {
   border-color: #074bdd !important;
 }
 
+/*download-docs*/
+.download-docs .material-icons{
+  vertical-align:top;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 400px) {
   #menu-style li a:hover:not(.active) {
