@@ -17,13 +17,14 @@ hr {
   border: none;
 }
 
-a:hover{
-text-decoration: none;
+a:hover {
+  text-decoration: none;
   color: #65dbb6;
 }
 
-a{
-color:#07dd99;
+a {
+  color: #06c488;
+  /*color:#07dd99;*/
 }
 
 .container {
@@ -41,7 +42,6 @@ color:#07dd99;
 }
 
 /* MENU */
-
 .navbar {
   font-family: "Times", serif;
 }
@@ -94,13 +94,12 @@ color:#07dd99;
   max-width: 200px;
   max-height: 90px;
   margin: 20px;
-/*  border: 1px solid white;*/
+  /*  border: 1px solid white;*/
 }
 
 .row.logos {
   align-items: center;
 }
-
 
 .jumbotron h1 {
   font-size: 3em;
@@ -233,8 +232,8 @@ input:-webkit-autofill {
 }
 
 /*download-docs*/
-.download-docs .material-icons{
-  vertical-align:top;
+.download-docs .material-icons {
+  vertical-align: top;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -272,7 +271,7 @@ input:-webkit-autofill {
     background-image: url("");
   }
 
-  .home-page-content{
+  .home-page-content {
     text-align: center;
   }
 
