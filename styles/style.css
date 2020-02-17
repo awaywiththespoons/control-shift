@@ -254,6 +254,10 @@ input:-webkit-autofill {
     font-size: 1em;
   }
 
+  .jumbotron .how-to-apply {
+    display: none;
+  }
+
   h1 span {
     padding: 0;
     background-image: url("");
