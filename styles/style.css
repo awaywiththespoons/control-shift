@@ -17,6 +17,15 @@ hr {
   border: none;
 }
 
+a:hover{
+text-decoration: none;
+  color: #65dbb6;
+}
+
+a{
+color:#07dd99;
+}
+
 .container {
   width: 100%;
   /* border: 1px black solid;*/
