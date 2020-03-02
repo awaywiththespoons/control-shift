@@ -2,139 +2,152 @@
 see https://css-tricks.com/snippets/css/complete-guide-grid/#prop-display
 for more into */
 body {
-  background-color: #ffffff !important;
-  /*  background-color: #EDDD6E !important;*/
-  color: #074bdd;
-  /*color: #040995;*/
-  font-size: 18px;
-  /*background-image: linear-gradient(rgba(242, 220, 9, 0.99) 0%, rgba(255, 255, 255, 0) 50%);*/
-  background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);
+    /*background-color: #ffffff !important;*/
+    /*  background-color: #EDDD6E !important;*/
+    background-color: #F8F2C9;
+    color: #074bdd;
+    /*color: #040995;*/
+    font-size: 18px;
+    /*background-image: linear-gradient(rgba(242, 220, 9, 0.99) 0%, rgba(255, 255, 255, 0) 50%);*/
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);*/
 }
 
+
 hr {
-  height: 1px;
-  background-color: #07dd99;
-  border: none;
+    height: 1px;
+    background-color: #07dd99;
+    border: none;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #65dbb6;
+    text-decoration: none;
+    color: #65dbb6;
 }
 
 a {
-  color: #06c488;
-  /*color:#07dd99;*/
+    color: #06c488;
+    /*color:#07dd99;*/
 }
 
 .container {
-  width: 100%;
-  /* border: 1px black solid;*/
+    width: 100%;
+    /* border: 1px black solid;*/
 }
 
 .jumbotron {
-  min-height: 100vh;
-  background-color: transparent;
+    min-height: 100vh;
+    background-image: url("/img/control-shiftBG.gif") !important;
+    background-attachment: fixed;
+    background-position: center;
+  /*  background-repeat: no-repeat;*/
+    background-color: transparent;
+
 }
 
 .jumbotron h2 {
-  font-style: italic;
+    font-style: italic;
 }
 
 /* MENU */
 .navbar {
-  font-family: "Times", serif;
+    font-family: "Times", serif;
 }
 
 .navbar .active {
-  text-decoration: line-through !important;
+    text-decoration: line-through !important;
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(223, 56, 56, 0);
-  border: 0px;
+    color: rgba(223, 56, 56, 0);
+    border: 0px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 2rem;
+    padding-right: 2rem;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(7, 221, 153, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(7, 221, 153, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* menu for small screens */
 #menu-mobile {
-  font-size: 1.6em;
-  padding-left: 0px;
+    font-size: 1.6em;
+    padding-left: 0px;
 }
 
 #menu-mobile a {
-  color: #07dd99;
-  text-decoration: none;
+    color: #07dd99;
+    text-decoration: none;
 }
 
 #menu-mobile a:hover {
-  color: #65dbb6;
+    color: #65dbb6;
 }
 
 .footer-text {
-  text-align: center !important;
-  font-style: italic;
+    text-align: center !important;
+    font-style: italic;
 }
 
-.footer, .page-footer {
-  /*  background-color: #040995 !important;*/
-  background-color: #053cb0 !important;
-  color: #fae6e7;
-  padding-bottom: 20px;
+.footer,
+.page-footer {
+    /*  background-color: #040995 !important;*/
+    background-color: #053cb0 !important;
+    color: #fae6e7;
+    padding-bottom: 20px;
 }
 
 .logos img {
-  max-width: 200px;
-  max-height: 90px;
-  margin: 20px;
-  /*  border: 1px solid white;*/
+    max-width: 200px;
+    max-height: 90px;
+    margin: 20px;
+    /*  border: 1px solid white;*/
 }
 
 .row.logos {
-  align-items: center;
+    align-items: center;
 }
 
 .jumbotron h1 {
-  font-size: 3em;
-  font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
-  font-weight: 600;
-  letter-spacing: 2px;
+    font-size: 6em;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-weight: 600;
+    letter-spacing: 2px;
+   text-shadow: 4px 4px 1px #07dd99;
+    /*text-shadow: 4px 4px 1px #F8F2C9;*/
 }
 
 h1 {
-  font-size: 1.8em;
-  font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px #07dd99;
-  /*padding-bottom: 30px;*/
+    font-size: 1.8em;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #07dd99;
+    /*padding-bottom: 30px;*/
 }
 
 h1 span {
-  padding: 0 70px 0 70px;
-  /*  background-image: url("../img/ctrl-shift.png");
+    padding: 0 70px 0 70px;
+    /*  background-image: url("../img/ctrl-shift.png");
   background-size: auto 60%;
   background-repeat: no-repeat;
   background-position: 0px center;*/
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
-  line-height: 70%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 70%;
+
+    font-style: italic;
 }
 
-.jumbotron h2 {
+.jumbotron h2 span {
   /* header-subtitle */
   font-size: 1.2em;
   color: #074bdd;
+    background-color: #F8F2C9;
   font-family: "Times", serif;
   /*font-family: 'Source Sans Pro', sans-serif;*/
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
@@ -144,150 +157,151 @@ h1 span {
 }
 
 h2 {
-  /* header-subtitle */
-  font-size: 1.2em;
-  color: #074bdd;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  letter-spacing: 1px;
-  /*line-height: 50%;*/
+    /* header-subtitle */
+    font-size: 1.2em;
+    color: #074bdd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /*line-height: 50%;*/
 }
 
 h3 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  color: #07dd99;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #07dd99;
 }
 
 h4 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 h5 {
-  font-size: 0.7em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 200;
-  letter-spacing: 2px;
+    font-size: 0.7em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
-p, li {
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 0.5px;
-  line-height: 163%;
+p,
+li {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 163%;
 }
 
 /* form */
 .form-area form {
-  width: 100%;
-  max-width: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .form-control {
-  color: #040995;
-  background-color: rgba(255, 255, 255, 0.1);
-  background-clip: padding-box;
-  border: transparent;
-  border-radius: 0px;
-  border-bottom: 1px solid #040995;
+    color: #040995;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-clip: padding-box;
+    border: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid #040995;
 }
 
 .form-control:focus {
-  background-color: rgba(255, 255, 255, 0.1);
-  ;
-  border-color: #07dd99;
-  box-shadow: none;
-  -webkit-box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
+    border-color: #07dd99;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 @-webkit-keyframes autofill {
-  to {
-    color: #040995;
-    background: rgba(255, 255, 255, 0.1);
-    ;
-  }
+    to {
+        color: #040995;
+        background: rgba(255, 255, 255, 0.1);
+        ;
+    }
 }
 
 @keyframes autofill {
-  to {
-    color: #040995;
-    background: rgba(255, 255, 255, 0.1);
-    ;
-  }
+    to {
+        color: #040995;
+        background: rgba(255, 255, 255, 0.1);
+        ;
+    }
 }
 
 input:-webkit-autofill {
-  -webkit-animation-name: autofill;
-  animation-name: autofill;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+    -webkit-animation-name: autofill;
+    animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 .btn-blue {
-  color: #ffffff !important;
-  background-color: #074bdd !important;
-  border-color: #074bdd !important;
+    color: #ffffff !important;
+    background-color: #074bdd !important;
+    border-color: #074bdd !important;
 }
 
 /*download-docs*/
 .download-docs .material-icons {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 400px) {
-  #menu-style li a:hover:not(.active) {
-    border-bottom: none;
-  }
+    #menu-style li a:hover:not(.active) {
+        border-bottom: none;
+    }
 
-  .header-menu {
-    display: none;
-  }
+    .header-menu {
+        display: none;
+    }
 
-  .p {
-    font-size: 1.1em;
-  }
+    .p {
+        font-size: 1.1em;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 700px) {
-  .jumbotron p {
-    padding-top: 20px;
-    /*  text-align: justify;*/
-  }
+    .jumbotron p {
+        padding-top: 20px;
+        /*  text-align: justify;*/
+    }
 
-  .jumbotron h2 {
-    font-size: 1em;
-  }
+    .jumbotron h2 {
+        font-size: 1em;
+    }
 
-  .jumbotron .how-to-apply {
-    display: none;
-  }
+    .jumbotron .how-to-apply {
+        display: none;
+    }
 
-  h1 span {
-    padding: 0;
-    background-image: url("");
-  }
+    h1 span {
+        padding: 0;
+        background-image: url("");
+    }
 
-  .home-page-content {
-    text-align: center;
-  }
+    .home-page-content {
+        text-align: center;
+    }
 
-  #menu-style li a:hover:not(.h5) {
-    border-bottom: none;
-  }
+    #menu-style li a:hover:not(.h5) {
+        border-bottom: none;
+    }
 
-  .mobile-menu {
-    display: none;
-  }
+    .mobile-menu {
+        display: none;
+    }
 }
 
 /* larger screens */
 @media only screen and (min-width: 701px) {
-  .mobile-menu {
-    display: none;
-  }
+    .mobile-menu {
+        display: none;
+    }
 }
