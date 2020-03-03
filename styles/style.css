@@ -268,22 +268,23 @@ input:-webkit-autofill {
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 400px) {
     
-        .jumbotron h1 {
+  .jumbotron h1 {
     font-size: 2em;
-                text-shadow: 2px 2px #07dd99;
-}
-    #menu-style li a:hover:not(.active) {
-        border-bottom: none;
-    }
+    text-shadow: 2px 2px #07dd99;
+  }
     
-        .jumbotron h2 span {
-  /* header-subtitle */
-  font-size: 0.8em;
-}
+  #menu-style li a:hover:not(.active) {
+    border-bottom: none;
+  }
+    
+  .jumbotron h2 span {
+    /* header-subtitle */
+    font-size: 0.8em;
+  }
 
-    .header-menu {
-        display: none;
-    }
+  .header-menu {
+    display: none;
+  }
 
   .p {
     font-size: 1.1em;
@@ -303,30 +304,29 @@ input:-webkit-autofill {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 700px) {
-    .jumbotron p {
-        padding-top: 20px;
-        /*  text-align: justify;*/
-    }
+  .jumbotron p {
+      padding-top: 20px;
+      /*  text-align: justify;*/
+  }
 
-    .jumbotron h2 span {
-  /* header-subtitle */
-  font-size: 0.8em;
-}
+  .jumbotron h2 span {
+    /* header-subtitle */
+    font-size: 0.8em;
+  }
 
-    .jumbotron .how-to-apply {
-        display: none;
-    }
+  .jumbotron .how-to-apply {
+      display: none;
+  }
 
-    h1 span {
-        padding: 0;
-        background-image: url("");
-      
-    }
+  h1 span {
+      padding: 0;
+      background-image: url("");
+  }
     
-    .jumbotron h1 {
+  .jumbotron h1 {
     font-size: 2em;
-            text-shadow: 2px 2px #07dd99;
-}
+    text-shadow: 2px 2px #07dd99;
+  }
 
 
   .logos img {
@@ -338,18 +338,17 @@ input:-webkit-autofill {
     background-image: url("");
   }
 
-    
-    .home-page-content {
-        text-align: center;
-    }
+  .home-page-content {
+      text-align: center;
+  }
 
-    #menu-style li a:hover:not(.h5) {
-        border-bottom: none;
-    }
+  #menu-style li a:hover:not(.h5) {
+      border-bottom: none;
+  }
 
-    .mobile-menu {
-        display: none;
-    }
+  .mobile-menu {
+      display: none;
+  }
 }
 
 /* larger screens */
