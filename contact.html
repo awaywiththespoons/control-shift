@@ -253,15 +253,35 @@
       return values;
     }
 
+    //MSG CHANGED
+    var textInput = document.getElementById('inputMsg');
+
+    textInput.addEventListener('keypress', function(){
+      console.log('some input ' + textInput.value);
+      if (document.getElementById('SubscribeCheckBox').checked) {
+        document.getElementById('sendMsg').innerHTML = "Send message and Subscribe";
+      } else {
+        document.getElementById('sendMsg').innerHTML = "Send message";
+      };
+    });
+
+
     //CHECKBOX TICKED
     var checkbox = document.getElementById('SubscribeCheckBox');
 
     checkbox.addEventListener('change', (event) => {
-      if (event.target.checked) {
-        document.getElementById('sendMsg').innerHTML = "Send and Subscribe";
-      } else {
-        document.getElementById('sendMsg').innerHTML = "Send"
+      if (event.target.checked && textInput.value != "") {
+        document.getElementById('sendMsg').innerHTML = "Send message and Subscribe";
       }
+      else if (event.target.checked) {
+        document.getElementById('sendMsg').innerHTML = "Subscribe"
+      }
+      else if (textInput.value != "") {
+        document.getElementById('sendMsg').innerHTML = "Send message";
+      }
+      else {
+        document.getElementById('sendMsg').innerHTML = "Send";
+      };
     })
 
     //SUBSCRIBE TO MAILCHIMP
