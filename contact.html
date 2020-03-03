@@ -257,7 +257,6 @@
     var textInput = document.getElementById('inputMsg');
 
     textInput.addEventListener('keypress', function(){
-      console.log('some input ' + textInput.value);
       if (document.getElementById('SubscribeCheckBox').checked) {
         document.getElementById('sendMsg').innerHTML = "Send message and Subscribe";
       } else {
