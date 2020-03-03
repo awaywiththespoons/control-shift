@@ -24,7 +24,7 @@ a:hover {
     color: #65dbb6;
 }
 
-a {
+a, button {
     color: #06c488;
     /*color:#07dd99;*/
 }
@@ -252,6 +252,10 @@ input:-webkit-autofill {
     animation-name: autofill;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+.send-submit {
+  margin-top: 20px;
 }
 
 .btn-blue {
