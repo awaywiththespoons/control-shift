@@ -132,7 +132,7 @@ h1 {
 }
 
 h1 span {
-    padding: 0 70px 0 70px;
+    padding: 0 5px 0 5px;
     /*  background-image: url("../img/ctrl-shift.png");
   background-size: auto 60%;
   background-repeat: no-repeat;
@@ -141,7 +141,7 @@ h1 span {
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 70%;
-
+background-color: #F8F2C9;
     font-style: italic;
 }
 
