@@ -37,13 +37,14 @@ a {
 .jumbotron {
     min-height: 100vh;
    /* background-image: url("/img/control-shiftBG.gif") !important;*/
-       background-image: url("/img/control-shiftBanner.png") !important;
+       background-image: url("/img/control-shiftBG.png") !important;
     background-attachment: fixed;
   /*  background-position: center;*/
   /*  background-repeat: no-repeat;*/
     background-color: transparent;
     background-size: 1000px;
 
+}
 }
 
 .jumbotron h2 {
