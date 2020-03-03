@@ -53,16 +53,16 @@ a {
 
 /* MENU */
 .navbar {
-    font-family: "Times", serif;
+  font-family: "Times", serif;
 }
 
 .navbar .active {
-    text-decoration: line-through !important;
+  text-decoration: line-through !important;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(223, 56, 56, 0);
-    border: 0px;
+  color: transparent !important;
+  border: 0px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
