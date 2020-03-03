@@ -256,10 +256,19 @@ input:-webkit-autofill {
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 400px) {
+    
+        .jumbotron h1 {
+    font-size: 2em;
+                text-shadow: 2px 2px #07dd99;
+}
     #menu-style li a:hover:not(.active) {
         border-bottom: none;
     }
     
+        .jumbotron h2 span {
+  /* header-subtitle */
+  font-size: 1em;
+}
 
     .header-menu {
         display: none;
@@ -277,9 +286,10 @@ input:-webkit-autofill {
         /*  text-align: justify;*/
     }
 
-    .jumbotron h2 {
-        font-size: 1em;
-    }
+    .jumbotron h2 span {
+  /* header-subtitle */
+  font-size: 1em;
+}
 
     .jumbotron .how-to-apply {
         display: none;
@@ -290,7 +300,14 @@ input:-webkit-autofill {
         background-image: url("");
       
     }
+    
+    .jumbotron h1 {
+    font-size: 2em;
+            text-shadow: 2px 2px #07dd99;
+}
 
+
+    
     .home-page-content {
         text-align: center;
     }
