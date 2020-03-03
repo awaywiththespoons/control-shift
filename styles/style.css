@@ -113,7 +113,7 @@ a {
 }
 
 .jumbotron h1 {
-    font-size: 6em;
+    font-size: 5em;
     font-family: 'Source Sans Pro', sans-serif;
     /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
     font-weight: 600;
@@ -259,6 +259,7 @@ input:-webkit-autofill {
     #menu-style li a:hover:not(.active) {
         border-bottom: none;
     }
+    
 
     .header-menu {
         display: none;
@@ -287,6 +288,7 @@ input:-webkit-autofill {
     h1 span {
         padding: 0;
         background-image: url("");
+      
     }
 
     .home-page-content {
