@@ -141,7 +141,7 @@ h1 span {
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 70%;
-background-color: #F8F2C9;
+background-color: rgba(248,242,201,0.9);
     font-style: italic;
 }
 
@@ -149,7 +149,7 @@ background-color: #F8F2C9;
   /* header-subtitle */
   font-size: 1.2em;
   color: #074bdd;
-    background-color: #F8F2C9;
+    background-color: rgba(248,242,201,0.9);
   font-family: "Times", serif;
   /*font-family: 'Source Sans Pro', sans-serif;*/
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
