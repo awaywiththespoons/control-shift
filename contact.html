@@ -256,8 +256,16 @@
     //MSG CHANGED
     var textInput = document.getElementById('inputMsg');
 
-    textInput.addEventListener('keypress', function(){
-      if (document.getElementById('SubscribeCheckBox').checked) {
+    textInput.addEventListener('keydown', function(){
+      console.log(textInput.value);
+      if (textInput.value == "") {
+        console.log('empty');
+      };
+      if (document.getElementById('SubscribeCheckBox').checked && textInput.value == "") {
+        document.getElementById('sendMsg').innerHTML = "Subscribe";
+      } else if(document.getElementById('SubscribeCheckBox').checked == false && textInput.value == ""){
+        document.getElementById('sendMsg').innerHTML = "Send";
+      } else if(document.getElementById('SubscribeCheckBox').checked){
         document.getElementById('sendMsg').innerHTML = "Send message and Subscribe";
       } else {
         document.getElementById('sendMsg').innerHTML = "Send message";
