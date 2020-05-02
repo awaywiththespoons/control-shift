@@ -4,7 +4,7 @@ for more into */
 body {
     /*background-color: #ffffff !important;*/
     /*  background-color: #EDDD6E !important;*/
-    background-color: #F8F2C9;
+    background-color: #FDFCD1;
     color: #074bdd;
     /*color: #040995;*/
     font-size: 18px;
@@ -303,16 +303,16 @@ input:-webkit-autofill {
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 400px) {
-    
+
   .jumbotron h1 {
     font-size: 2em;
     text-shadow: 2px 2px #07dd99;
   }
-    
+
   #menu-style li a:hover:not(.active) {
     border-bottom: none;
   }
-    
+
   .jumbotron h2 span {
     /* header-subtitle */
     font-size: 0.8em;
@@ -358,7 +358,7 @@ input:-webkit-autofill {
       padding: 0;
       background-image: url("");
   }
-    
+
   .jumbotron h1 {
     font-size: 2em;
     text-shadow: 2px 2px #07dd99;
