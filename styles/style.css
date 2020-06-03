@@ -73,6 +73,8 @@ a {
 
 .dropdown-menu {
   background-color: #FDFCD1;
+    border: 2px solid #07dd99;
+    border-radius: 0rem;
 }
 
 .dropdown-item:hover {
