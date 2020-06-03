@@ -107,6 +107,26 @@ a {
     padding-bottom: 20px;
 }
 
+
+/*  Making footer stick to bottom of page on the programmes page ;*/
+
+.programme-page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap-programme {
+  padding-bottom: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-wrap-programme {
+    padding-bottom: 40px;
+  }
+}
+
+  /*logos*/
+
 .logos img {
   /*max-width: 200px;*/
   max-height: 90px;
