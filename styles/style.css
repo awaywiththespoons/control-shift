@@ -12,7 +12,6 @@ body {
     /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);*/
 }
 
-
 hr {
     height: 1px;
     background-color: #07dd99;
@@ -72,6 +71,16 @@ a {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(7, 221, 153, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.dropdown-menu {
+  background-color: #FDFCD1;
+    border: 2px solid #07dd99;
+    border-radius: 0rem;
+}
+
+.dropdown-item:hover {
+  background-color: #053cb0;
+}
+
 /* menu for small screens */
 #menu-mobile {
     font-size: 1.6em;
@@ -99,6 +108,26 @@ a {
     color: #fae6e7;
     padding-bottom: 20px;
 }
+
+
+/*  Making footer stick to bottom of page on the programmes page ;*/
+
+.programme-page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap-programme {
+  padding-bottom: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-wrap-programme {
+    padding-bottom: 40px;
+  }
+}
+
+  /*logos*/
 
 .logos img {
   /*max-width: 200px;*/
@@ -141,7 +170,7 @@ h1 span {
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 70%;
-background-color: rgba(248,242,201,0.9);
+    background-color: rgba(248,242,201,0.9);
     font-style: italic;
 }
 
@@ -166,6 +195,10 @@ h2 {
     font-weight: 600;
     letter-spacing: 1px;
     /*line-height: 50%;*/
+}
+
+.subtitle {
+  padding-bottom: 5px;
 }
 
 h3 {
