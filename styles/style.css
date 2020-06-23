@@ -1,6 +1,7 @@
 /* setting up the grid
 see https://css-tricks.com/snippets/css/complete-guide-grid/#prop-display
 for more into */
+
 body {
     /*background-color: #ffffff !important;*/
     /*  background-color: #EDDD6E !important;*/
@@ -12,6 +13,9 @@ body {
     /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);*/
 }
 
+#navbar {
+  height: 75px;
+}
 
 hr {
     height: 1px;

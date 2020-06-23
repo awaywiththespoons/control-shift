@@ -1,37 +1,31 @@
 <!doctype html>
 <html lang="en">
-
-<head id="head"></head>
+<head>
+    <div id="head"></div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
 
 <body>
     <div class="container">
-        <!-- all content goes in the container -->
-        <!-- nav -->
         <div id="navbar"></div>
-        <!-- nav -->
         <div class="jumbotron d-flex align-items-center">
             <div class="container text-center">
                 <h1><span>Control Shift</span></h1>
-                <!-- nav  <h2><span>Weekender 5-7 June 2020
-                        <br>
-                        Exhibition 5-19 June 2020</span></h2>-->
-
-
-            </div> <!-- end of text container -->
-        </div> <!-- end of jumbotron -->
-
-    </div> <!-- end of main container -->
+            </div> 
+        </div> 
+    </div> 
 
     <div class="container home-page-content">
-        <!-- row -->
         <hr class="update">
         <p class="text-center"><em><strong>UPDATE COVID-19:</strong></em></p>
-        <p><em>
-            We are sorry to say that Control Shift, June 2020, will need to be postponed. The programme will still happen, it is just uncertain at this time what the new dates will be. 
-            We will continue to release updates but in the meantime, if you have any questions, feel free to reach out to the team at <a href="mailto:martha.kng@gmail.com">martha.kng@gmail.com</a>
-        </em></p>
+        <p>
+            <em>We are sorry to say that Control Shift, June 2020, will need to be postponed. The programme will still happen, it is just uncertain at this time what the new dates will be. 
+            We will continue to release updates but in the meantime, if you have any questions, feel free to reach out to the team at <a href="mailto:martha.kng@gmail.com">martha.kng@gmail.com</a></em>
+        </p>
         <hr class="update">
-        <p class="text-center"><em>Control Shift</em> is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.</p>
+            <p class="text-center"><em>Control Shift</em> is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.</p>
         <hr>
         <div class="row">
             <div class="col-sm ">
@@ -46,31 +40,26 @@
                 </p>
             </div>
         </div>
-            <!-- row -->
-
-            <!-- row -->
-            <div class="row">
-                <div class="col-sm">
-                    <br>
-                    <p>
-                        <strong>Launching soon, <em>Control Shift</em> will incorporate a weekend of events (including performances, workshops, and talks) and an exhibition sited across different locations in Bristol for 10 days.</strong>
-                    </p>
-                    <br><br>
-                </div>
+        <div class="row">
+            <div class="col-sm">
+                <br>
+                <p>
+                    <strong>Launching soon, <em>Control Shift</em> will incorporate a weekend of events (including performances, workshops, and talks) and an exhibition sited across different locations in Bristol for 10 days.</strong>
+                </p>
+                <br><br>
             </div>
-            <!-- row -->
+        </div>
     </div>
-
     <div id="footer"></div>
 
-    <!-- JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
         $('#navbar').load('./components/navigation.html');
         $('#head').load('./components/head.html');
         $('#footer').load('./components/footer.html');
     </script>
-</body></html>
+</body>
+</html>
