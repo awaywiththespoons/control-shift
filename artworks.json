@@ -1,0 +1,70 @@
+[
+    {
+        "id": 0,
+        "artist": {
+            "name": "Ben and Arjun",
+            "profile": "London-based art and design duo Arjun Harrison-Mann and Benjamin Redgrove explore forms of Accessibility through wearable accessories and custom built video-conferencing software. Their work is grounded in the Social Model of Disability, which proposes that social structures and attitudes define disability, rather than people’s impairments.",
+            "location": "London"
+        },
+        "artwork": {
+            "artwork_name": "Radical Accessibility Tools",
+            "artwork_description": "Recent enforced measures for staying at home illuminate how some of the systems and structures that define how people experience the world can be disabling. Arjun and Benjamin are programming a series of performative walks using Power Tools to explore issues around power, presence, access, and inclusion. During limited outdoor time, pairs of walkers are invited to take part in remote discussions on the Social Model of Disability. Through opening up these discussions to wider audiences, Power Tools asks us to consider the importance of Accessibility in people’s lives.",
+            "responce": "access",
+            "type": "commission"
+        },
+        "social_media": {
+            "website": "http://arjunhm.co.uk/projects/power-tool"
+        }
+    },
+    {
+        "id": 1,
+        "artist": {
+            "name": "Shannon Finnigan",
+            "profile": "about Shannon",
+            "location": "New York"
+        },
+        "artwork": {
+            "artwork_name": "Alt Txt as Poetry",
+            "artwork_description": "A workshop looking creatively at alt-text, looking afresh at tech and accessibility tools",
+            "responce": "access",
+            "type": "workshop"
+        },
+        "social_media": {
+            "website": "https://shannonfinnegan.com/alt-text-as-poetry"
+        }
+    },
+    {
+        "id": 2,
+        "artist": {
+            "name": "Coral Manton and Birgitte Aga",
+            "profile": "about coral and B",
+            "location": "Bristol and Norway"
+        },
+        "artwork": {
+            "artwork_name": "Women Reclaiming AI",
+            "artwork_description": "Presentation of the WRAI feminist chatbot and an interactive workshop",
+            "responce": "access",
+            "type": "workshop"
+        },
+        "social_media": {
+            "website": "https://womenreclaimingai.com/"
+        }
+    },
+    {
+        "id": 3,
+        "artist": {
+            "name": "Rachel Smith",
+            "profile": "about Rachel",
+            "location": "Bristol"
+        },
+        "artwork": {
+            "artwork_name": "Facial recognition door",
+            "artwork_description": "A public space door installation that highlights the unethical dimensions of facial recognition",
+            "responce": "access",
+            "type": "workshop"
+        },
+        "social_media": {
+            "website": "https://swctn.org.uk/2019/10/02/a-beginners-guide-to-building-your-own-face-recognition-system-to-creep-out-your-friends/"
+        }
+    }
+]
