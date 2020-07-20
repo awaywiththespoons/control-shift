@@ -15,28 +15,44 @@
     <div id="navbar"></div>
     <div class="container home-page-content pt-4">
         <h1>Artworks</h1>
-        <div>
-            <p> the artists name is: </p>
-            <span id="myData"></span>
-
+        <div class="padding-bottom" class="container">
+            <div id="myData" class="row">
+            </div>
         </div>
         <script>
             fetch('artworks.json')
                 .then(function (response) {
-                    return response.json();
+                    return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
                 })
                 .then(function (data) {
-                    appendData(data);
+                    appendData(data); // If successful, runs appendData function below
                 })
                 .catch(function (err) {
-                    console.log('error: ' + err);
+                    console.log('error: ' + err); // catches error & console logs out the error message
                 });
             function appendData(data) {
-                var mainContainer = document.getElementById("myData");
-                for (var i = 0; i < data.length; i++) {
-                    var div = document.createElement("div");
-                    div.innerHTML = 'Name: ' + data[i].artist.name;
-                    mainContainer.appendChild(div);
+                let mainContainer = document.getElementById("myData");
+                console.log("data", data);
+                for (let i = 0; i < data.length; i++) {
+                    //Making artist Container div to hold artist info
+                    let artistContainer = document.createElement("div");
+                    artistContainer.setAttribute("class", "col") // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                    //setting Artist Name
+                    let text = document.createElement("div");
+                    text.innerHTML = data[i].artist.name;
+                    text.setAttribute("class", "pt-2");
+                    // setting Image
+                    let image = document.createElement("IMG"); //creating image element
+                    let src = `./img/artists-work/` + data[i].artwork.image[0].url; //variable 'src' set to first image in array
+                    let alt = data[i].artwork.image[0].alt; // variable 'alt' set to matching alt value
+                    image.setAttribute("src", src ); // set src to variable
+                    image.setAttribute("width", "300"); //set width
+                    image.setAttribute("alt", alt); //set alt to variable
+                    image.setAttribute("class", "pt-4");
+                    //adding 
+                    artistContainer.appendChild(image);
+                    artistContainer.appendChild(text); 
+                    mainContainer.appendChild(artistContainer);
                 }
             }
         </script>

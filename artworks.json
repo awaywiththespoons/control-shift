@@ -9,6 +9,15 @@
         "artwork": {
             "artwork_name": "Radical Accessibility Tools",
             "artwork_description": "Recent enforced measures for staying at home illuminate how some of the systems and structures that define how people experience the world can be disabling. Arjun and Benjamin are programming a series of performative walks using Power Tools to explore issues around power, presence, access, and inclusion. During limited outdoor time, pairs of walkers are invited to take part in remote discussions on the Social Model of Disability. Through opening up these discussions to wider audiences, Power Tools asks us to consider the importance of Accessibility in people’s lives.",
+            "image":
+            [{
+                "url": "powertool-1-small.jpg",
+                "alt": "alt text example"
+            },
+            { 
+                "url": "CTP.png",
+                "alt": "alt text example"
+            }],
             "responce": "access",
             "type": "commission"
         },
@@ -26,6 +35,15 @@
         "artwork": {
             "artwork_name": "Alt Txt as Poetry",
             "artwork_description": "A workshop looking creatively at alt-text, looking afresh at tech and accessibility tools",
+            "image":
+            [{
+                "url": "powertool-1-small.jpg",
+                "alt": "alt text example"
+            },
+            { 
+                "url": "CTP.png",
+                "alt": "alt text example"
+            }],           
             "responce": "access",
             "type": "workshop"
         },
@@ -36,13 +54,22 @@
     {
         "id": 2,
         "artist": {
-            "name": "Coral Manton and Birgitte Aga",
+            "name": "Birgitte Aga",
             "profile": "about coral and B",
             "location": "Bristol and Norway"
         },
         "artwork": {
             "artwork_name": "Women Reclaiming AI",
             "artwork_description": "Presentation of the WRAI feminist chatbot and an interactive workshop",
+            "image":
+            [{
+                "url": "powertool-1-small.jpg",
+                "alt": "alt text example"
+            },
+            { 
+                "url": "CTP.png",
+                "alt": "alt text example"
+            }],  
             "responce": "access",
             "type": "workshop"
         },
@@ -60,6 +87,15 @@
         "artwork": {
             "artwork_name": "Facial recognition door",
             "artwork_description": "A public space door installation that highlights the unethical dimensions of facial recognition",
+            "image":
+            [{
+                "url": "powertool-1-small.jpg",
+                "alt": "alt text example"
+            },
+            { 
+                "url": "CTP.png",
+                "alt": "alt text example"
+            }],
             "responce": "access",
             "type": "workshop"
         },
