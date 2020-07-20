@@ -25,7 +25,7 @@ hr {
 
 a:hover {
     text-decoration: none;
-    color: #65dbb6;
+    color: #053cb0;
 }
 
 a {
@@ -63,6 +63,11 @@ a {
     text-decoration: line-through !important;
 }
 
+.navbar a:hover {
+    text-decoration: none;
+    color: #053cb0;
+}
+
 .navbar-light .navbar-toggler {
     color: transparent !important;
     border: 0px;
@@ -83,7 +88,7 @@ a {
 }
 
 .dropdown-item:hover {
-    background-color: #053cb0;
+     background-color: #053cb0;
 }
 
 /* menu for small screens */
@@ -104,6 +109,7 @@ a {
 .footer-text {
     text-align: center !important;
     font-style: italic;
+    color: #FDFCD1;
 }
 
 .footer,

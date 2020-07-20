@@ -12,8 +12,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="programme.html">Overview</a>
-                        <a class="dropdown-item" href="commissions.html">Commissions</a>
                         <a class="dropdown-item" href="artworks.html">Artworks</a>
+                        <a class="dropdown-item" href="commissions.html">Commissions</a>
+
 
                     </div>
                 </li>
@@ -25,10 +26,11 @@
 </div>
 
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(document).ready(function() {
         var url = window.location;
         $('nav.navbar a').filter(function() {
             return this.href == url;
         }).addClass('active');
     });
-</script> 
+
+</script>
