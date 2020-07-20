@@ -13,35 +13,35 @@
 
 <body>
     <div id="navbar"></div>
+    <!--  Grid of artworks -->
     <div class="container home-page-content pt-4">
         <h1>Artworks</h1>
         <div class="padding-bottom" class="container">
             <div id="myData" class="row">
             </div>
         </div>
-
-
-        <div id="infoModal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"></h5>
-                        <button class="modal-close-button" data-dismiss="modal" aria-label="Close">
-                            <div class="close-container">
-                                <div class="leftright"></div>
-                                <div class="rightleft"></div>
-                            </div>
-                        </button>
-                    </div>
-                    <div class="modal-body container">
-                        <div class="row align-items-center">
-                            <div class="col-lg">
-                                <img class="col img-fluid pb-2" src="/img/artists-work/powertool-w600.jpg" style="width:100%">
-                            </div>
-                            <div class="col-lg">
-                                <h1>Title of Artist</h1>
-                                <p class="modal-text">Recent enforced measures for staying at home illuminate how some of the systems and structures that define how people experience the world can be disabling. Arjun and Benjamin are programming a series of performative walks using Power Tools to explore issues around power, presence, access, and inclusion. During limited outdoor time, pairs of walkers are invited to take part in remote discussions on the Social Model of Disability. Through opening up these discussions to wider audiences, Power Tools asks us to consider the importance of Accessibility in people’s lives.</p>
-                            </div>
+    </div>
+    <!--  Modal  -->
+    <div id="infoModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button class="modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <div class="close-container">
+                            <div class="leftright"></div>
+                            <div class="rightleft"></div>
+                        </div>
+                    </button>
+                </div>
+                <div class="modal-body container">
+                    <div class="row align-items-center">
+                        <div class="col-lg">
+                            <img class="col img-fluid pb-2" src="/img/artists-work/powertool-w600.jpg" style="width:100%">
+                        </div>
+                        <div class="col-lg">
+                            <h1>Title of Artist</h1>
+                            <p class="modal-text">Recent enforced measures for staying at home illuminate how some of the systems and structures that define how people experience the world can be disabling. Arjun and Benjamin are programming a series of performative walks using Power Tools to explore issues around power, presence, access, and inclusion. During limited outdoor time, pairs of walkers are invited to take part in remote discussions on the Social Model of Disability. Through opening up these discussions to wider audiences, Power Tools asks us to consider the importance of Accessibility in people’s lives.</p>
                         </div>
                     </div>
                 </div>
@@ -50,49 +50,49 @@
     </div>
 
 
-        <script>
-            fetch('artworks.json')
-                .then(function (response) {
-                    return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
-                })
-                .then(function (data) {
-                    appendData(data); // If successful, runs appendData function below
-                })
-                .catch(function (err) {
-                    console.log('error: ' + err); // catches error & console logs out the error message
-                });
-            function appendData(data) {
-                let mainContainer = document.getElementById("myData");
-                console.log("data", data);
-                for (let i = 0; i < data.length; i++) {
-                    //Making artist Container div to hold artist info
-                    let artistContainer = document.createElement("div");
-                    artistContainer.setAttribute("class", "col-md") // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
-                    //setting Artist Name
-                    let text = document.createElement("div");
-                    text.innerHTML = data[i].artist.name;
-                    text.setAttribute("class", "pt-2");
-                    //make anchor 
-                    var a = document.createElement('a');
-                    a.setAttribute("href", "#");
-                    a.setAttribute("data-toggle", "modal");
-                    a.setAttribute("data-target", "#infoModal");
-                    // setting Image
-                    let image = document.createElement("IMG"); //creating image element
-                    let src = `./img/artists-work/` + data[i].artwork.image[0].url; //variable 'src' set to first image in array
-                    let alt = data[i].artwork.image[0].alt; // variable 'alt' set to matching alt value
-                    image.setAttribute("src", src ); // set src to variable
-                    image.setAttribute("width", "300"); //set width
-                    image.setAttribute("alt", alt); //set alt to variable
-                    image.setAttribute("class", "pt-4");
-                    //adding 
-                    a.appendChild(image);
-                    artistContainer.appendChild(a); 
-                    artistContainer.appendChild(text); 
-                    mainContainer.appendChild(artistContainer);
-                }
+    <script>
+        fetch('artworks.json')
+            .then(function (response) {
+                return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
+            })
+            .then(function (data) {
+                appendData(data); // If successful, runs appendData function below
+            })
+            .catch(function (err) {
+                console.log('error: ' + err); // catches error & console logs out the error message
+            });
+        function appendData(data) {
+            let mainContainer = document.getElementById("myData");
+            console.log("data", data);
+            for (let i = 0; i < data.length; i++) {
+                //Making artist Container div to hold artist info
+                let artistContainer = document.createElement("div");
+                artistContainer.setAttribute("class", "col-md") // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                //setting Artist Name
+                let text = document.createElement("div");
+                text.innerHTML = data[i].artist.name;
+                text.setAttribute("class", "pt-2");
+                //make anchor 
+                var a = document.createElement('a');
+                a.setAttribute("href", "#");
+                a.setAttribute("data-toggle", "modal");
+                a.setAttribute("data-target", "#infoModal");
+                // setting Image
+                let image = document.createElement("IMG"); //creating image element
+                let src = `./img/artists-work/` + data[i].artwork.image[0].url; //variable 'src' set to first image in array
+                let alt = data[i].artwork.image[0].alt; // variable 'alt' set to matching alt value
+                image.setAttribute("src", src ); // set src to variable
+                image.setAttribute("width", "300"); //set width
+                image.setAttribute("alt", alt); //set alt to variable
+                image.setAttribute("class", "pt-4");
+                //adding 
+                a.appendChild(image);
+                artistContainer.appendChild(a); 
+                artistContainer.appendChild(text); 
+                mainContainer.appendChild(artistContainer);
             }
-        </script>
+        }
+    </script>
 
 <!-- Grid row -->
     </div>
