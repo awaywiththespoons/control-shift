@@ -104,6 +104,7 @@
                 let text = document.createElement("div");
                 text.innerHTML = data[i].artist.name;
                 text.setAttribute("class", "pt-2");
+                text.setAttribute("class", "text-center");
                 //make anchor 
                 var a = document.createElement('a');
                 a.setAttribute("href", "#");
@@ -116,7 +117,7 @@
                 image.setAttribute("src", src ); // set src to variable
                 image.setAttribute("width", "300"); //set width
                 image.setAttribute("alt", alt); //set alt to variable
-                image.setAttribute("class", "pt-4");
+                image.setAttribute("class", "pt-4 mx-auto d-block");
                 //adding 
                 a.appendChild(image);
                 artistContainer.appendChild(a); 
