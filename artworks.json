@@ -2,22 +2,19 @@
     {
         "id": 0,
         "artist": {
-            "name": "Ben and Arjun",
-            "profile": "London-based art and design duo Arjun Harrison-Mann and Benjamin Redgrove explore forms of Accessibility through wearable accessories and custom built video-conferencing software. Their work is grounded in the Social Model of Disability, which proposes that social structures and attitudes define disability, rather than people’s impairments.",
+            "name": "Artist 1",
+            "bio_100w": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
             "location": "London"
         },
         "artwork": {
-            "artwork_name": "Radical Accessibility Tools",
-            "artwork_description": "Recent enforced measures for staying at home illuminate how some of the systems and structures that define how people experience the world can be disabling. Arjun and Benjamin are programming a series of performative walks using Power Tools to explore issues around power, presence, access, and inclusion. During limited outdoor time, pairs of walkers are invited to take part in remote discussions on the Social Model of Disability. Through opening up these discussions to wider audiences, Power Tools asks us to consider the importance of Accessibility in people’s lives.",
+            "artwork_name": "Artwork 1",
+            "artwork_description_150w_long": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
             "image":
-            [{
+            {
                 "url": "powertool-1-small.jpg",
                 "alt": "alt text example"
             },
-            { 
-                "url": "CTP.png",
-                "alt": "alt text example"
-            }],
             "responce": "access",
             "type": "commission"
         },
@@ -28,79 +25,70 @@
     {
         "id": 1,
         "artist": {
-            "name": "Shannon Finnigan",
-            "profile": "about Shannon",
-            "location": "New York"
+            "name": "Artist 2",
+            "bio_100w": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "location": "London"
         },
         "artwork": {
-            "artwork_name": "Alt Txt as Poetry",
-            "artwork_description": "A workshop looking creatively at alt-text, looking afresh at tech and accessibility tools",
+            "artwork_name": "Artwork 2",
+            "artwork_description_150w_long": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
             "image":
-            [{
+            {
                 "url": "powertool-1-small.jpg",
                 "alt": "alt text example"
             },
-            { 
-                "url": "CTP.png",
-                "alt": "alt text example"
-            }],           
             "responce": "access",
-            "type": "workshop"
+            "type": "commission"
         },
         "social_media": {
-            "website": "https://shannonfinnegan.com/alt-text-as-poetry"
+            "website": "http://arjunhm.co.uk/projects/power-tool"
         }
     },
     {
         "id": 2,
         "artist": {
-            "name": "Birgitte Aga",
-            "profile": "about coral and B",
-            "location": "Bristol and Norway"
+            "name": "Artist 3",
+            "bio_100w": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "location": "London"
         },
         "artwork": {
-            "artwork_name": "Women Reclaiming AI",
-            "artwork_description": "Presentation of the WRAI feminist chatbot and an interactive workshop",
+            "artwork_name": "Artwork 3",
+            "artwork_description_150w_long": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
             "image":
-            [{
+            {
                 "url": "powertool-1-small.jpg",
                 "alt": "alt text example"
             },
-            { 
-                "url": "CTP.png",
-                "alt": "alt text example"
-            }],  
             "responce": "access",
-            "type": "workshop"
+            "type": "commission"
         },
         "social_media": {
-            "website": "https://womenreclaimingai.com/"
+            "website": "http://arjunhm.co.uk/projects/power-tool"
         }
     },
     {
         "id": 3,
         "artist": {
-            "name": "Rachel Smith",
-            "profile": "about Rachel",
-            "location": "Bristol"
+            "name": "Artist 4",
+            "bio_100w": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "location": "London"
         },
         "artwork": {
-            "artwork_name": "Facial recognition door",
-            "artwork_description": "A public space door installation that highlights the unethical dimensions of facial recognition",
+            "artwork_name": "Artwork 4",
+            "artwork_description_150w_long": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
+            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
             "image":
-            [{
+            {
                 "url": "powertool-1-small.jpg",
                 "alt": "alt text example"
             },
-            { 
-                "url": "CTP.png",
-                "alt": "alt text example"
-            }],
             "responce": "access",
-            "type": "workshop"
+            "type": "commission"
         },
         "social_media": {
-            "website": "https://swctn.org.uk/2019/10/02/a-beginners-guide-to-building-your-own-face-recognition-system-to-creep-out-your-friends/"
+            "website": "http://arjunhm.co.uk/projects/power-tool"
         }
     }
 ]
