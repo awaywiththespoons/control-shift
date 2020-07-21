@@ -35,16 +35,16 @@
                     </button>
                 </div>
                 <div class="modal-body container">
-                    <h1 class="modal-header-text pb-3">Title of Artwork by Title of Artist</h1>
+                    <h1 class="title-text modal-header-text pb-3"></h1>
                     <img class="mx-auto d-block pb-3" src="/img/artists-work/powertool-w600.jpg" style="width:70%">
                     <div>
-                        <h2 class="modal-h2-text pb-3 pt-3">*Artwork Name*</h2>
-                        <p class="modal-text">Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.</p>
+                        <h2 class="artwork-title-text modal-h2-text pb-3 pt-3"></h2>
+                        <p class="artwork-info-text modal-text"></p>
                     </div>
                     <hr>
                     <div>
-                        <h2 class="modal-h2-text pb-3 pt-3">About *Artist Name*</h2>
-                        <p class="modal-text">Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.</p>
+                        <h2 class="about-artist-name-text modal-h2-text pb-3 pt-3"></h2>
+                        <p class="artist-bio-text modal-text"></p>
                     </div>
                     <hr>
                 </div>
@@ -100,6 +100,7 @@
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
                 artistContainer.setAttribute("class", "col-md") // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("id", data[i].artist.name) //setting unique id to artist name
                 //setting Artist Name
                 let text = document.createElement("div");
                 text.innerHTML = data[i].artist.name;
@@ -110,6 +111,10 @@
                 a.setAttribute("href", "#");
                 a.setAttribute("data-toggle", "modal");
                 a.setAttribute("data-target", "#infoModal");
+                a.setAttribute("data-artist-name", data[i].artist.name);
+                a.setAttribute("data-artist-bio", data[i].artist.bio_100w);
+                a.setAttribute("data-artwork-title", data[i].artwork.artwork_name);
+                a.setAttribute("data-artwork-description", data[i].artwork.artwork_description_150w_long);
                 // setting Image
                 let image = document.createElement("IMG"); //creating image element
                 let src = `./img/artists-work/` + data[i].artwork.image.url; //variable 'src' set to first image in array
@@ -124,7 +129,18 @@
                 artistContainer.appendChild(text); 
                 mainContainer.appendChild(artistContainer);
             }
+            $('#infoModal').on('show.bs.modal', function (event) {
+            var a = $(event.relatedTarget) // Button that triggered the modal
+            var modal = $(this)
+            modal.find('.title-text').text(a.data('artwork-title') + ' by ' + a.data('artist-name'))
+            modal.find('.artist-name-text').text(a.data('artist-name'))
+            modal.find('.about-artist-name-text').text('About ' + a.data('artist-name'))
+            modal.find('.artist-bio-text').text(a.data('artist-bio'))
+            modal.find('.artwork-title-text').text(a.data('artwork-title'))
+            modal.find('.artwork-info-text').text(a.data('artwork-description'))
+            })      
         }
+
     </script>
 
 <!-- Grid row -->
