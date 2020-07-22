@@ -35,7 +35,9 @@
                 </div>
                 <div class="modal-body container">
                     <h1 class="modal-header-text pb-3"><span class="artwork-title-text modal-header-text pb-3"></span> by <span class="artist-name-text modal-header-text pb-3"></span></h1>
-                    <img class="mx-auto d-block pb-3" src="/img/artists-work/powertool-w600.jpg" style="width:70%">
+                    <div id="imageContainer">
+                        <img id="modalImage" class="mx-auto d-block pb-3" src="" style="width:70%">
+                    </div>
                     <div>
                         <h2 class="artwork-title-text modal-h2-text pb-3 pt-3"></h2>
                         <p class="artwork-info-text modal-text"></p>
@@ -52,11 +54,11 @@
                     <div class="row align-items-center">
                         <div class="col-sm text-center">
                             <p class="modal-text"><small>When?</small></p>
-                            <p class="modal-text">*Data*</p>
+                            <p class="modal-text when-text"></p>
                         </div>
                         <div class="col-sm text-center bottom-bar-modal-info">
                             <p class="modal-text"><small>Where?</small></p>
-                            <p class="modal-text">*Location*</p>
+                            <p class="modal-text where-text"></p>
                         </div>
                         <div id="socialMediaContainer" class="col-sm text-center bottom-bar-modal-info">
                             <p class="modal-text"><small>Social Media</small></p>
@@ -125,11 +127,9 @@
                 a.setAttribute("class", "thumbnail");
                 // setting Image
                 let image = document.createElement("IMG"); //creating image element
-                let src = `./img/artists-work/` + data[i].artwork.image.url; //variable 'src' set to first image in array
-                let alt = data[i].artwork.image.alt; // variable 'alt' set to matching alt value
-                image.setAttribute("src", src ); // set src to variable
+                image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array
                 image.setAttribute("width", "300"); //set width
-                image.setAttribute("alt", alt); //set alt to variable
+                image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
                 image.setAttribute("class", "pt-4 mx-auto d-block");
                 //adding new elements to one another & positioning in mainContainer
                 a.appendChild(image);
@@ -153,7 +153,15 @@
                             infoModal.find('.artist-bio-text').text(data[id].artist.bio_100w);
                             infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);
                             infoModal.find('.artwork-info-text').text(data[id].artwork.artwork_description_150w_long);
+                            infoModal.find('.when-text').text(data[id].artwork.when);
+                            infoModal.find('.where-text').text(data[id].artwork.where);
                             infoModal.modal('show');
+                            
+                            // large image on modal src set 
+                            var x = document.getElementById("modalImage");
+                            console.log('modalimage', x)
+                            x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
+
                             // SOCIAL MEDIA SECTION
                             // If no social media accounts in json, then hide div
                             let socialAccounts = Object.keys(data[id].social_media).length; //count how many social media accounts artist needs displaying
