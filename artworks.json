@@ -18,9 +18,11 @@
             "responce": "access",
             "type": "commission"
         },
-        "social_media": {
-            "website": "http://arjunhm.co.uk/projects/power-tool"
-        }
+        "social_media": { 
+            "website": "http://arjunhm.co.uk/projects/power-tool",
+            "twitter": "example",
+            "instagram": "example"
+        }    
     },
     {
         "id": 1,
@@ -42,8 +44,8 @@
             "type": "commission"
         },
         "social_media": {
-            "website": "http://arjunhm.co.uk/projects/power-tool"
         }
+        
     },
     {
         "id": 2,
@@ -65,7 +67,10 @@
             "type": "commission"
         },
         "social_media": {
-            "website": "http://arjunhm.co.uk/projects/power-tool"
+            "website": "http://arjunhm.co.uk/projects/power-tool",
+            "twitter": "example",
+            "instagram": "example",
+            "linkedIn": "example"
         }
     },
     {
@@ -88,7 +93,9 @@
             "type": "commission"
         },
         "social_media": {
-            "website": "http://arjunhm.co.uk/projects/power-tool"
+            "website": "http://arjunhm.co.uk/projects/power-tool",
+            "instagram": "example",
+            "linkedIn": "example"
         }
     }
 ]

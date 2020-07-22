@@ -525,9 +525,9 @@ input:-webkit-autofill {
     opacity: 0.9;
 }
 
-/* .modal-content {
+.modal-content {
     background-color: #074bdd 
-} */
+}
 
 .modal-header {
     border-bottom: 0 none;
@@ -545,6 +545,12 @@ input:-webkit-autofill {
     color: #07dd99;
     text-shadow: 1px 1px #FDFCD1;
     text-align: center;
+    background-color: #074bdd;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 3px;
+
 }
 
 .modal-h2-text {
@@ -579,4 +585,8 @@ input:-webkit-autofill {
 
 .icon-max-width {
     max-width: 20px;
+}
+
+.hide {
+    display:none;
 }
