@@ -22,8 +22,8 @@
         },
         "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
-            "twitter": "example",
-            "instagram": "example"
+            "twitter": "https://twitter.com/control_shift_",
+            "instagram": "https://www.instagram.com/"
         }    
     },
     {
@@ -74,9 +74,9 @@
         },
         "social_media": {
             "website": "http://arjunhm.co.uk/projects/power-tool",
-            "twitter": "example",
-            "instagram": "example",
-            "linkedIn": "example"
+            "twitter": "https://twitter.com/control_shift_",
+            "instagram": "https://www.instagram.com/",
+            "linkedIn": "https://www.linkedin.com/feed/"
         }
     },
     {
@@ -102,8 +102,8 @@
         },
         "social_media": {
             "website": "http://arjunhm.co.uk/projects/power-tool",
-            "instagram": "example",
-            "linkedIn": "example"
+            "instagram": "https://www.instagram.com/",
+            "linkedIn": "https://www.linkedin.com/feed/"
         }
     }
 ]
