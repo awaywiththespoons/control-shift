@@ -525,9 +525,9 @@ input:-webkit-autofill {
     opacity: 0.9;
 }
 
-.modal-content {
+/* .modal-content {
     background-color: #074bdd 
-}
+} */
 
 .modal-header {
     border-bottom: 0 none;
