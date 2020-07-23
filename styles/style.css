@@ -587,6 +587,27 @@ input:-webkit-autofill {
     max-width: 20px;
 }
 
-.hide {
+.hide { /* To hide social media icons not present */
     display:none;
+}
+
+/* Artwork grid styles */
+
+
+.artworkImageDiv { /* Div wrapping each image  */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.artworkImage { /* Image itself */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+
+.artworkImage:hover { /* Image itself */
+    filter: grayscale(0%);
 }
