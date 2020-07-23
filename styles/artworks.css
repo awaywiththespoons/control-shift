@@ -1,0 +1,170 @@
+/* STYLES FOR ARTWORK PAGE */
+
+/* modal styles */
+
+.modal-close-button {
+    background-color: #074bdd;
+    border: none;
+    outline:none;
+}
+
+.modal-close-button:focus {
+    outline: 0 !important;
+}
+
+/* modal styles: closs modal 'X' annimation */
+.close-container{
+    position: relative;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .leftright{
+    height: 4px;
+    width: 25px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: #FDFCD1;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+  }
+  
+  .rightleft{
+    height: 4px;
+    width: 25px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: #FDFCD1;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all .3s ease-in;
+  }
+  
+  .close{
+    margin: 60px 0 0 5px;
+    position: absolute;
+  }
+  
+  .close-container:hover .leftright{
+    transform: rotate(-45deg);
+    background-color: #07dd99;
+  }
+  .close-container:hover .rightleft{
+    transform: rotate(45deg);
+    background-color: #07dd99;
+  }
+  .close-container:hover label{
+    opacity: 1;
+  }
+  
+/* modal styles: background opacity when modal is open */
+
+.modal-backdrop.show {
+    opacity: 0.9;
+}
+
+.modal-content {
+    background-color: #074bdd;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+    padding-top: 0;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+/* modal styles: text */
+
+
+.modal-header-text {
+    color: #07dd99;
+    text-shadow: 1px 1px #FDFCD1;
+    text-align: center;
+    background-color: #074bdd;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+
+.modal-h2-text {
+    color: #FDFCD1;
+}
+
+.modal-text {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #FDFCD1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bottom-bar-modal-info {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #FDFCD1;
+}
+
+/* modal styles: convert social media svgs to blue & turn green on hover */
+
+.filter-blue{
+    filter: invert(87%) sepia(35%) saturate(261%) hue-rotate(343deg) brightness(108%) contrast(103%);
+}
+
+.filter-blue:hover {
+    filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);
+  }
+
+.icon-max-width {
+    max-width: 20px;
+}
+
+.hide { /* To hide social media icons not present */
+    display:none;
+}
+
+/* Artwork grid styles */
+
+
+.artworkImageDiv { /* Div wrapping each image & text  */
+    margin-top: 25px;
+    margin-bottom: 25px;
+  
+}
+
+.blueSquare {
+    /* background: #040995;
+    background-image: linear-gradient(rgba(4, 9, 149 ) 100%, rgba(7, 221, 153) 0%); */
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+}
+
+.blueSquare:hover {
+    background:none;  
+    background-image: none;
+}
+
+
+.artworkImage { /* Image itself */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.6; */
+}
+
+.artworkImage:hover { /* Image itself */
+    /* opacity: 0.6; */
+    border-style: dotted;
+    border-color: #07dd99;
+}
+
