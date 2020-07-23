@@ -13,7 +13,7 @@
 
 <body>
     <div id="navbar"></div>
-    <!--  Grid of artworks -->
+    <!--  Grid of artworks generated from json file - see js below -->
     <div class="pb-5 container home-page-content pt-4">
         <h1>Artworks</h1>
         <div class="padding-bottom" class="container">
@@ -26,7 +26,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-header-text"></h5>
-                    <button class="modal-close-button" data-dismiss="modal" aria-label="Close">
+                    <button class="modal-close-button" data-dismiss="modal" aria-label="Close"> <!--  close modal button animation --> 
                         <div class="close-container">
                             <div class="leftright"></div>
                             <div class="rightleft"></div>
@@ -38,19 +38,17 @@
                     <div id="imageContainer">
                         <img id="modalImage" class="mx-auto d-block pb-3" src="" style="width:70%">
                     </div>
-                    <div>
-                        <h2 class="artwork-title-text modal-h2-text pb-3 pt-3"></h2>
-                        <p class="artwork-info-text modal-text"></p>
+                    <div class="pr-4 pl-4">
+                        <h2 class="pt-3 pb-3 artwork-title-text modal-h2-text"></h2>
+                        <p class="pb-2 artwork-info-text modal-text"></p>
+                        <hr>
+                        <h2 class="pt-2 pb-3 modal-h2-text">About <span class="artist-name-text modal-h2-text"></span></h2>
+                        <p class="pb-2 artist-bio-text modal-text"></p>
+                        <hr>
                     </div>
-                    <hr>
-                    <div>
-                        <h2 class="modal-h2-text pb-3 pt-3">About <span class="artist-name-text modal-h2-text pb-3 pt-3"></span></h2>
-                        <p class="artist-bio-text modal-text"></p>
-                    </div>
-                    <hr>
                 </div>
                 <!--  Bottom section with when, where, social media sections --> 
-                <div class="container">
+                <div class="pb-2 container">
                     <div class="row align-items-center">
                         <div class="col-sm text-center">
                             <p class="modal-text"><small>When?</small></p>
@@ -94,12 +92,11 @@
     <script>
         $('#navbar').load('./components/navigation.html');
         $('#head').load('./components/head.html');
-        $('#footer').load('./components/footer.html');
+        setTimeout(function(){ $('#footer').load('./components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
     </script>
 
     <script>
-        // fetching json code
-        fetch('artworks.json')
+        fetch('artworks.json') // fetching json code
         .then(function (response) {
             return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
         })
@@ -115,26 +112,30 @@
             for (let i = 0; i < data.length; i++) {
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
-                artistContainer.setAttribute("class", "col-lg-4 artworkImageDiv") // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
-                artistContainer.setAttribute("id", data[i].artist.name) //setting unique id to artist name
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("id", data[i].artist.name); //setting unique id to artist name
                 //setting Artist Name
                 let text = document.createElement("div");
                 text.innerHTML = data[i].artist.name;
-                text.setAttribute("class", "pt-2 text-center");
-                //make anchor 
+                text.setAttribute("class", "gridText pt-2 text-center");
+                //make anchor
                 var a = document.createElement('a');
                 a.setAttribute("href", "#");
                 a.setAttribute("data-id", data[i].id);
                 a.setAttribute("data-toggle", "modal");
                 a.setAttribute("data-target", "#infoModal");
                 a.setAttribute("class", "thumbnail");
+                //make div overlay for image - for the coloured filter
+                let blueSquare = document.createElement("div");
+                blueSquare.setAttribute("class", "blueSquare");
                 // setting Image
                 let image = document.createElement("IMG"); //creating image element
                 image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
                 image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
-                image.setAttribute("class", "pt-4 mx-auto d-block artworkImage img-fluid");
+                image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
                 //adding new elements to one another & positioning in mainContainer
-                a.appendChild(image);
+                a.appendChild(blueSquare);
+                blueSquare.appendChild(image);
                 artistContainer.appendChild(a); 
                 artistContainer.appendChild(text); 
                 mainContainer.appendChild(artistContainer);
