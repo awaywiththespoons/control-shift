@@ -18,6 +18,15 @@
     <!--  Grid of artworks generated from json file - see js below -->
     <div class="pb-5 container home-page-content pt-4">
         <h1>Artworks</h1>
+        <!--  Test filtering grid -->
+        <h2 class="pt-3">testing filtering</h2>
+        <div class="pb-5">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="workshop">Workshops</button>
+            <button class="btn btn-default filter-button" data-filter="installation">Installation</button>
+            <button class="btn btn-default filter-button" data-filter="online">Online</button>
+        </div>
+
         <div class="padding-bottom" class="container">
             <div id="myData" class="row"></div>
         </div>
@@ -114,8 +123,8 @@
             for (let i = 0; i < data.length; i++) {
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
-                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
-                artistContainer.setAttribute("id", data[i].artist.name); //setting unique id to artist name
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv filter " + data[i].artwork.type); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
                 let text = document.createElement("div");
                 text.innerHTML = data[i].artist.name;
@@ -213,4 +222,29 @@
             })(jQuery);  
         }
     </script>
+    
+    <script>
+        // FILTER FUNCTIONALITY
+        $(document).ready(function(){
+            $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter'); // value = the data-filter attribute of button clicked (either all, or type)
+                console.log("value", value);
+                if(value == "all")
+                {
+                    $('.filter').show('1000'); //The show() method shows the hidden, selected elements.
+                }
+                else
+                {
+                    $(".filter").not('.'+value).hide("slow"); //.not() method removes elements from the matched set
+                    $('.filter').filter('.'+value).show("slow"); // Reduce the set of matched elements to those that match the selector 
+                }
+                console.log("this", $(this))
+                if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+                }
+                $(this).addClass("active");
+            });
+  
+        });
+</script>
 </body></html>

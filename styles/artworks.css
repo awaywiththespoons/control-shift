@@ -168,3 +168,31 @@
     border-color: #65dbb6;
 }
 
+
+ /* Button Styles */
+ 
+.filter-button
+{
+    border: 1px solid #074bdd;
+    border-radius: 5px;
+    color: #074bdd;
+    margin-bottom: 30px;
+    background-color: #FDFCD1;
+
+}
+
+.filter-button:hover
+{
+    background-color: #074bdd;
+    color: #FDFCD1;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.active {
+    background-color: #074bdd;
+    color: #FDFCD1;
+}
