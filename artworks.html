@@ -126,7 +126,7 @@
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
                 let text = document.createElement("div");
-                text.innerHTML = data[i].artist.name;
+                text.innerHTML = data[i].artwork.artwork_name;
                 text.setAttribute("class", "gridText pt-2 text-center");
                 //make anchor
                 var a = document.createElement('a');
@@ -135,17 +135,13 @@
                 a.setAttribute("data-toggle", "modal");
                 a.setAttribute("data-target", "#infoModal");
                 a.setAttribute("class", "thumbnail");
-                //make div overlay for image - for the coloured filter
-                let blueSquare = document.createElement("div");
-                blueSquare.setAttribute("class", "blueSquare");
                 // setting Image
                 let image = document.createElement("IMG"); //creating image element
                 image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
                 image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
                 image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
                 //adding new elements to one another & positioning in mainContainer
-                a.appendChild(blueSquare);
-                blueSquare.appendChild(image);
+                a.appendChild(image);
                 artistContainer.appendChild(a); 
                 artistContainer.appendChild(text); 
                 mainContainer.appendChild(artistContainer);
