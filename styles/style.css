@@ -34,6 +34,11 @@ hr {
     border: none;
 }
 
+hr.yelz{
+    background-color: #FDFCD1;
+    border: none;
+}
+
 a:hover {
     text-decoration: none;
     color: #053cb0;
