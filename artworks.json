@@ -4,21 +4,33 @@
         "artist": {
             "name": "Artist 1",
             "bio_100w": "Artist 1 bio Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "location": "London"
+            "image": [
+            {
+                "url": "CFTP_artist_WEB[600x600].png",
+                "alt": "photo of artist(s)"
+            }
+            ]
         },
         "artwork": {
             "artwork_name": "Artwork 1",
             "artwork_description_150w_long": "Artwork 1 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
             "artwork_description_50w_short": "Artwork 1 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
-            "when": "example days",
-            "where": "example location",
+            "details":
+            {
+                "filterOnline": true,
+                "filterType": "workshop",
+                "filterWeek": "week-1",
+                "day": "Monday",
+                "date": "12th October 2020",
+                "time": "12:00 - 13:00",
+                "location": "example location",
+                "theme": "access"
+            },
             "image":
             {
-                "url": "powertool-1-small.jpg",
+                "url": "CFTP_artwork_WEB[560x340].png",
                 "alt": "alt text example"
-            },
-            "responce": "access",
-            "type": "online"
+            }
         },
         "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
@@ -31,134 +43,155 @@
         "artist": {
             "name": "Artist 2",
             "bio_100w": "Artist 2 bio Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "location": "London"
+            "image": [
+            {
+                "url": "CFTP_artist_WEB[600x600].png",
+                "alt": "photo of artist(s)"
+            }
+            ]
         },
         "artwork": {
             "artwork_name": "Artwork 2",
             "artwork_description_150w_long": "Artwork 2 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
-            "when": "example days",
-            "where": "example location",
+            "artwork_description_50w_short": "Artwork 2 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
+            "details":
+            {
+                "filterOnline": false,
+                "filterType": "workshop",
+                "filterWeek": "week-1",
+                "day": "Monday",
+                "date": "12th October 2020",
+                "time": "12:00 - 13:00",
+                "location": "example location",
+                "theme": "access"
+            },
             "image":
             {
-                "url": "CTP.png",
+                "url": "CFTP_artwork_WEB[560x340].png",
                 "alt": "alt text example"
-            },
-            "responce": "access",
-            "type": "online"
+            }
         },
-        "social_media": {
-        }
-        
+        "social_media": { 
+            "website": "http://arjunhm.co.uk/projects/power-tool",
+            "twitter": "https://twitter.com/control_shift_",
+            "instagram": "https://www.instagram.com/"
+        }    
     },
     {
         "id": 2,
         "artist": {
             "name": "Artist 3",
             "bio_100w": "Artist 3 bio Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "location": "London"
+            "image": [
+            {
+                "url": "CFTP_artist_WEB[600x600].png",
+                "alt": "photo of artist(s)"
+            }
+            ]
         },
         "artwork": {
             "artwork_name": "Artwork 3",
             "artwork_description_150w_long": "Artwork 3 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
-            "when": "example days",
-            "where": "example location",
+            "artwork_description_50w_short": "Artwork 3 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
+            "details":
+            {
+                "filterOnline": false,
+                "filterType": "workshop",
+                "filterWeek": "week-2",
+                "day": "Monday",
+                "date": "12th October 2020",
+                "time": "12:00 - 13:00",
+                "location": "example location",
+                "theme": "access"
+            },
             "image":
             {
-                "url": "knitwitter-w600.png",
+                "url": "CFTP_artwork_WEB[560x340].png",
                 "alt": "alt text example"
-            },
-            "responce": "access",
-            "type": "installation"
+            }
         },
-        "social_media": {
+        "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
             "twitter": "https://twitter.com/control_shift_",
-            "instagram": "https://www.instagram.com/",
-            "linkedIn": "https://www.linkedin.com/feed/"
-        }
+            "instagram": "https://www.instagram.com/"
+        }    
     },
     {
         "id": 3,
         "artist": {
             "name": "Artist 4",
             "bio_100w": "Artist 4 bio Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "location": "London"
+            "image": [
+            {
+                "url": "CFTP_artist_WEB[560x340].png",
+                "alt": "photo of artist(s)"
+            }
+            ]
         },
         "artwork": {
             "artwork_name": "Artwork 4",
             "artwork_description_150w_long": "Artwork 4 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
-            "when": "example days",
-            "where": "example location",
+            "artwork_description_50w_short": "Artwork 4 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
+            "details":
+            {
+                "filterOnline": true,
+                "filterType": "workshop",
+                "filterWeek": "week-3",
+                "day": "Monday",
+                "date": "12th October 2020",
+                "time": "12:00 - 13:00",
+                "location": "example location",
+                "theme": "access"
+            },
             "image":
             {
-                "url": "proxy-protest.png",
+                "url": "CFTP_artwork_WEB[560x340].png",
                 "alt": "alt text example"
-            },
-            "responce": "access",
-            "type": "online"
+            }
         },
-        "social_media": {
+        "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
-            "instagram": "https://www.instagram.com/",
-            "linkedIn": "https://www.linkedin.com/feed/"
-        }
+            "twitter": "https://twitter.com/control_shift_",
+            "instagram": "https://www.instagram.com/"
+        }    
     },
     {
         "id": 4,
         "artist": {
             "name": "Artist 5",
             "bio_100w": "Artist 5 bio Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "location": "London"
+            "image": [
+            {
+                "url": "CFTP_artist_WEB[600x600].png",
+                "alt": "photo of artist(s)"
+            }
+            ]
         },
         "artwork": {
             "artwork_name": "Artwork 5",
             "artwork_description_150w_long": "Artwork 5 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
-            "when": "example days",
-            "where": "example location",
+            "artwork_description_50w_short": "Artwork 5 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
+            "details":
+            {
+                "filterOnline": true,
+                "filterType": "workshop",
+                "filterWeek": "untimed",
+                "day": "Monday",
+                "date": "12th October 2020",
+                "time": "12:00 - 13:00",
+                "location": "example location",
+                "theme": "access"
+            },
             "image":
             {
-                "url": "proxy-protest.png",
+                "url": "CFTP_artwork_WEB[560x340].png",
                 "alt": "alt text example"
-            },
-            "responce": "access",
-            "type": "workshop"
+            }
         },
-        "social_media": {
-            "website": "http://arjunhm.co.uk/projects/power-tool",
-            "instagram": "https://www.instagram.com/",
-            "linkedIn": "https://www.linkedin.com/feed/"
-        }
-    },
-    {
-        "id": 5,
-        "artist": {
-            "name": "Artist 6",
-            "bio_100w": "Artist 6 bio Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "location": "London"
-        },
-        "artwork": {
-            "artwork_name": "Artwork 6",
-            "artwork_description_150w_long": "Artwork 6 Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas. Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has.",
-            "artwork_description_50w_short": "Lorem ipsum dolor sit amet, mel maiorum volumus eu. Altera conclusionemque no usu! Ei quas nullam melius pro, an vim errem consequat disputando, summo quidam graecis sea at. Ut dictas invenire percipitur per, mea ei ubique deseruisse percipitur, modo esse prompta mei ne! Dicat consetetur ullamcorper has in, has eu perpetua urbanitas.",
-            "when": "example days",
-            "where": "example location",
-            "image":
-            {
-                "url": "knitwitter-w600.png",
-                "alt": "alt text example"
-            },
-            "responce": "access",
-            "type": "installation"
-        },
-        "social_media": {
+        "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
             "twitter": "https://twitter.com/control_shift_",
-            "instagram": "https://www.instagram.com/",
-            "linkedIn": "https://www.linkedin.com/feed/"
-        }
+            "instagram": "https://www.instagram.com/"
+        }    
     }
 ]
