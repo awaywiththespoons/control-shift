@@ -18,21 +18,19 @@
     <!--  Grid of artworks generated from json file - see js below -->
     <div class="pb-3 container home-page-content pt-4">
         <h1>Artworks</h1>
-
-        <!--  Test filtering grid -->
-        <p>Filter by:</p>
-        <div>
-            <button class="btn btn-default filter-button-one" data-filter="all">All</button>
-            <button class="btn btn-default filter-button-one" data-filter="untimed">Untimed</button>
-            <button class="btn btn-default filter-button-one" data-filter="week-1">w/c 5 Oct</button>
-            <button class="btn btn-default filter-button-one" data-filter="week-2">w/c 12 Oct</button>
-            <button class="btn btn-default filter-button-one" data-filter="week-3">w/c 19 Oct</button>
-        </div>
-
-        <div class="pb-3">
-            <button class="btn btn-default filter-button-two" data-filter="all">All</button>
-            <button class="btn btn-default filter-button-two" data-filter=true>Online</button>
-            <button class="btn btn-default filter-button-two" data-filter=false>In person</button>
+        <!--  filtering grid -->
+        <p class="pt-3">Filter by:</p>
+        <div class="filterInputs">
+            <label class="time-filter"><input type="radio" name="time" value="" checked><i></i><span>All</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="untimed"><i></i><span>Untimed</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-1"><i></i><span>wc 5 Oct</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-2"><i></i><span>wc 12 Oct</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-3"><i></i><span>wc 19 Oct</span></label>
+        </div> 
+        <div class="filterInputs">
+            <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
+            <label class="online-filter"><input type="radio" name="online" value=true><i></i><span>Online</span></label>
+            <label class="online-filter"><input type="radio" name="online" value=false><i></i><span>In person</span></label>
         </div>
 
         <div class="padding-bottom" class="container">
@@ -131,7 +129,8 @@
             for (let i = 0; i < data.length; i++) {
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
-                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv filter " + data[i].artwork.details.filterWeek + " " + data[i].artwork.details.filterOnline); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterWeek + " " + data[i].artwork.details.filterOnline)
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
                 let text = document.createElement("div");
@@ -154,6 +153,7 @@
                 artistContainer.appendChild(a); 
                 artistContainer.appendChild(text); 
                 mainContainer.appendChild(artistContainer);
+                loadWindowSystem();
             }
 
             // function to populate modal with artist info from json file, based on which thumbnail image is clicked
@@ -229,45 +229,32 @@
     
     <script>
         // FILTER FUNCTIONALITY
-        $(document).ready(function(){
-            $(".filter-button-one").click(function(){
-                var value = $(this).attr('data-filter'); // value = the data-filter attribute of button clicked (either all, or type)
-                console.log("value", value);
-                if(value == "all")
-                {
-                    $('.filter').show('1000'); //The show() method shows the hidden, selected elements.
-                }
-                else
-                {
-                    $(".filter").not('.'+value).hide("slow"); //.not() method removes elements from the matched set
-                    $('.filter').filter('.'+value).show("slow"); // Reduce the set of matched elements to those that match the selector 
-                }
-                console.log("this", $(this))
-                if ($(".filter-button-one").removeClass("active")) {
-                $(this).removeClass("active");
-                }
-                $(this).addClass("active");
+        function loadWindowSystem(){
+            const el_filters = document.querySelectorAll('[name="time"], [name="online"]'),
+            el_filterable = document.querySelectorAll('[data-filterable]');
+            const applyFilter = () => {
+            // Filter checked inputs
+            const el_checked = [...el_filters].filter(el => el.checked && el.value);
+            // Collect checked inputs values to array
+            const filters = [...el_checked].map(el => el.value);
+            // Get elements to filter
+            const el_filtered = [...el_filterable].filter(el => {
+                const props = el.getAttribute('data-filterable').trim().split(/\s+/);
+                return filters.every(fi => props.includes(fi))
             });
-            $(".filter-button-two").click(function(){
-                var value = $(this).attr('data-filter'); // value = the data-filter attribute of button clicked (either all, or type)
-                console.log("value", value);
-                if(value == "all")
-                {
-                    $('.filter').show('1000'); //The show() method shows the hidden, selected elements.
-                }
-                else
-                {
-                    $(".filter").not('.'+value).hide("slow"); //.not() method removes elements from the matched set
-                    $('.filter').filter('.'+value).show("slow"); // Reduce the set of matched elements to those that match the selector 
-                }
-                console.log("this", $(this))
-                if ($(".filter-button-two").removeClass("active")) {
-                $(this).removeClass("active");
-                }
-                $(this).addClass("active");
-            });
-  
-        });
+            // Hide all
+            el_filterable.forEach(el => el.classList.add('is-hidden'));
+            // Show filtered
+            el_filtered.forEach(el => el.classList.remove('is-hidden'));
+            }
+            // Assign event listener
+            el_filters.forEach(el => el.addEventListener('change', applyFilter));
+            // Init
+            applyFilter();
+        };
+
+
+        
 </script>
 <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
 </body></html>
