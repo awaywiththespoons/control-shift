@@ -10,7 +10,7 @@
     <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/artworks.css">
-
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
 
 <body>
@@ -43,40 +43,68 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-header-text"></h5>
-                    <button class="modal-close-button" data-dismiss="modal" aria-label="Close"> <!--  close modal button animation --> 
+                    <!--  close modal button animation -->
+                    <button class="modal-close-button" data-dismiss="modal" aria-label="Close">  
                         <div class="close-container">
                             <div class="leftright"></div>
                             <div class="rightleft"></div>
                         </div>
                     </button>
                 </div>
+                <!--  Main Modal Image -->
                 <div class="modal-body container">
                     <h1 class="modal-header-text pb-4"><span class="artwork-title-text modal-header-text pb-4"></span> by <span class="artist-name-text modal-header-text pb-3"></span></h1>
                     <div id="imageContainer" class="pt-2">
                         <img id="modalImage" class="mx-auto d-block pb-3" src="" style="width:70%">
                     </div>
+                    <!-- Section one: When, where, book now or add to calendar -->
+                    <div class="pb-3 pt-3 container">
+                        <div class="row align-items-center">
+                            <!-- When -->
+                            <div class="col-sm text-center border-right ">
+                                <p class="mb-0 modal-top-text time-text"></p>
+                                <p class="pb-0 mb-0 modal-top-text when-text"></p>
+                            </div>
+                            <!-- Where -->
+                            <div class="col-sm text-center bottom-bar-modal-info border-right">
+                                <p></p>
+                                <p class="modal-top-text where-text"></p>
+                            </div>
+                            <!-- Book Now  -->
+                            <div id="bookNowContainer" class="col-sm text-center">
+                                <a id="bookingLink" target="_blank" class="modal-link-text modal-top-text" href="" role="button">Book Now</a>
+                            </div>
+                            <!-- or Add to calendar -->
+                            <div id="calendarContainer" class="col-sm text-center bottom-bar-modal-info">
+                                <div title="Add to Calendar" class="addeventatc">
+                                    Add to Calendar
+                                    <span class="start calendar-start"></span>
+                                    <span class="end calendar-end"></span>
+                                    <span class="title calendar-title"></span>
+                                    <span class="description calendar-description"></span>
+                                    <span class="timezone">Europe/London</span>
+                                    <span class="location">Bristol</span>
+                                    <span class="organizer">Control Shift</span>
+                                    <span class="all_day_event calendar-all-day"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- End of section one: When, where, book now or add to calendar -->
+                    
+
                     <div class="pr-4 pl-4">
-                        <h2 class="pt-3 pb-3 artwork-title-text modal-h2-text"></h2>
-                        <p class="pb-2 artwork-info-text modal-text"></p>
+                        <!--  Section two : About Artwork -->
+                        <!-- <h2 class="pt-3 pb-3 artwork-title-text modal-h2-text"></h2> -->
+                        <p class="pb-2 pt-3 artwork-info-text modal-text"></p>
                         <hr>
+                        <!--  Section three : About Artist -->
                         <h2 class="pt-2 pb-3 modal-h2-text">About <span class="artist-name-text modal-h2-text"></span></h2>
                         <p class="pb-2 artist-bio-text modal-text"></p>
-                        <hr>
-                    </div>
-                </div>
-                <!--  Bottom section with when, where, social media sections --> 
-                <div class="pb-2 container">
-                    <div class="row align-items-center">
-                        <div class="col-sm text-center">
-                            <p class="modal-text"><small>When?</small></p>
-                            <p class="modal-text when-text"></p>
-                        </div>
-                        <div class="col-sm text-center bottom-bar-modal-info">
-                            <p class="modal-text"><small>Where?</small></p>
-                            <p class="modal-text where-text"></p>
-                        </div>
+                        <!--  social media sections --> 
                         <div id="socialMediaContainer" class="col-sm text-center bottom-bar-modal-info">
-                            <p class="modal-text"><small>Social Media</small></p>
+                            <!-- <p class="modal-text"><small>Artist's Social Media</small></p> -->
                             <div class="container pb-3">
                                 <div class="row justify-content-center no-gutters">
                                     <div id="websiteIcon" class="col">
@@ -94,9 +122,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!--  End of social media --> 
+                        <hr>
                     </div>
                 </div>
-                <!--  End of bottom section with when, where, social media --> 
             </div>
         </div>
     </div>
@@ -171,8 +200,9 @@
                             infoModal.find('.artist-bio-text').text(data[id].artist.bio_100w);
                             infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);
                             infoModal.find('.artwork-info-text').text(data[id].artwork.artwork_description_150w_long);
-                            infoModal.find('.when-text').text(data[id].artwork.when);
-                            infoModal.find('.where-text').text(data[id].artwork.where);
+                            infoModal.find('.when-text').text(data[id].artwork.details.date);
+                            infoModal.find('.where-text').text(data[id].artwork.details.location);
+                            infoModal.find('.time-text').text(data[id].artwork.details.time);
                             infoModal.modal('show');
                             
                             // large image on modal src set 
@@ -219,6 +249,29 @@
                             } else {
                                 $( "#linkedIn" ).addClass( "hide" )
                             }
+                            // CALENDAR SECTION
+                            // If not bookable, then show calendar
+                            if (data[id].artwork.details.bookable == true) {
+                                $( "#calendarContainer" ).addClass( "hide" );
+                            } else {
+                                $( "#calendarContainer" ).removeClass( "hide" );
+                                infoModal.find('.calendar-all-day').text(data[id].artwork.details.calendarEvent.allDay);
+                                infoModal.find('.calendar-start').text(data[id].artwork.details.calendarEvent.start);
+                                infoModal.find('.calendar-end').text(data[id].artwork.details.calendarEvent.end);
+                                infoModal.find('.calendar-description').text(data[id].artwork.details.calendarEvent.description);
+                                infoModal.find('.calendar-title').text(data[id].artwork.details.calendarEvent.calendarTitle);
+                            }
+                            // BOOK NOW SECTION
+                            if (data[id].artwork.details.bookable == false) {
+                                $( "#bookNowContainer" ).addClass( "hide" );
+                            } else {
+                                $( "#bookNowContainer" ).removeClass( "hide" );
+                                let l = document.getElementById('bookingLink');
+                                l.getAttributeNode("href").value = data[id].artwork.details.bookingLink;
+                            }
+
+
+
                         }      
                     });
                     return false;

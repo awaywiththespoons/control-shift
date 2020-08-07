@@ -1,7 +1,79 @@
 /* STYLES FOR ARTWORK PAGE */
 
-/* modal styles */
+/* Artwork grid: all styles */
 
+.artworkImageDiv { /* Div wrapping each image & text  */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.artworkImage { /* Image itself */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.6; */
+}
+
+.artworkImage:hover { /* Image itself */
+    /* opacity: 0.6; */
+    border-style: dotted;
+    border-color: #65dbb6;
+}
+
+
+/* Filter Button Styles on artworks page */
+
+.filterInputs {
+    padding-bottom: 5px;
+}
+
+.filterInputs input {
+    display: none; /* does not display tick box as per normal radio button */
+}
+  
+.filterInputs label {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none; /* prevent highlight */
+}
+  
+.filterInputs i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  
+.time-filter input:checked + i {
+    background: #074bdd;
+}
+
+.time-filter {
+    color: #053cb0;
+    border: 1px solid #053cb0;
+}
+
+.online-filter {
+    color: #65dbb6;
+    border: 1px solid #65dbb6;
+}
+
+.online-filter input:checked + i {
+    background: #65dbb6;
+}
+
+label input[type="radio"]:checked ~ span {
+    color: #FDFCD1;
+}
+
+/* MODAL STYLES */
+
+/* modal styles: closs modal 'X' annimation */
 .modal-close-button {
     background-color: #074bdd;
     border: none;
@@ -12,7 +84,6 @@
     outline: 0 !important;
 }
 
-/* modal styles: closs modal 'X' annimation */
 .close-container{
     position: relative;
     margin: auto;
@@ -81,7 +152,6 @@
 
 /* modal styles: text */
 
-
 .modal-header-text {
     color: #07dd99;
     text-shadow: 1px 1px #FDFCD1;
@@ -104,6 +174,22 @@
     color: #FDFCD1;
 }
 
+.modal-top-text {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #07dd99;
+}
+
+.modal-link-text {
+    border-bottom: 1px solid #07dd99;
+}
+
+.modal-link-text:hover {
+    color: #FDFCD1;
+    border-bottom: 1px solid #FDFCD1
+
+}
+
 .text-center {
     text-align: center;
 }
@@ -114,8 +200,24 @@
     color: #FDFCD1;
 }
 
-/* modal styles: convert social media svgs to blue & turn green on hover */
+.book-now {
+    text-decoration: underline;
+}
 
+/* Modal: artist social media container */
+
+#socialMediaContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #socialMediaContainer {
+        width: 100%;
+    }
+}
+
+/* convert social media svgs to blue & turn green on hover */
 .filter-blue{
     filter: invert(87%) sepia(35%) saturate(261%) hue-rotate(343deg) brightness(108%) contrast(103%);
 }
@@ -129,126 +231,36 @@
 }
 
 .hide { /* To hide social media icons not present */
-    display:none;
+    display: none;
 }
 
-/* Artwork grid styles */
+/* Modal: top panel with Where/When/Book now or calendar*/
 
-
-.artworkImageDiv { /* Div wrapping each image & text  */
-    margin-top: 25px;
-    margin-bottom: 25px;
+.border-right {
+    border-right: 1px solid #07dd99 !important; 
 }
 
+/* Modal: Add to calendar button styles*/
 
-.artworkImage { /* Image itself */
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    /* opacity: 0.6; */
+.addeventatc {
+    background-color: #074bdd;
+    color: #07dd99 !important;
+    border: 1px solid #07dd99;
 }
 
-.artworkImage:hover { /* Image itself */
-    /* opacity: 0.6; */
-    border-style: dotted;
-    border-color: #65dbb6;
-}
-
-
- /* Button Styles */
- 
-.filter-button
-{
-    border: 1px solid #074bdd;
-    border-radius: 5px;
-    color: #074bdd;
-    margin-bottom: 30px;
+.addeventatc:hover  {
+    color: #074bdd !important;
     background-color: #FDFCD1;
-
+    border: 1px solid #074bdd;
 }
 
-.filter-button:hover
-{
-    background-color: #074bdd;
-    color: #FDFCD1;
+.addeventatc {visibility:hidden;}
+
+
+.addeventatc_icon {
+    filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);
 }
 
-.btn:focus,.btn:active {
-    outline: none !important;
-    box-shadow: none;
- }
-
-.active {
-    background-color: #074bdd;
-    color: #FDFCD1;
+.addeventatc:hover .addeventatc_icon {
+    filter: invert(21%) sepia(89%) saturate(2647%) hue-rotate(218deg) brightness(91%) contrast(107%);
 }
-
-/* FILTER BUTTON STYLES */
-
-.filterInputs {
-    padding-bottom: 5px;
-}
-
-/* does not display tick box as per normal radio button */
-.filterInputs input {
-    display: none;
-}
-  
-.filterInputs label {
-    display: inline-block;
-    position: relative;
-    padding: 10px 20px;
-    cursor: pointer;
-    user-select: none; /* prevent highlight */
-}
-  
-.filterInputs i {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-  
-.time-filter input:checked + i {
-    background: #074bdd;
-}
-
-.time-filter {
-    color: #053cb0;
-    border: 1px solid #053cb0;
-}
-
-/* .time-filter:hover
-{
-    background-color: #074bdd;
-    color: #FDFCD1;
-} */
-
-.online-filter {
-    color: #65dbb6;
-    border: 1px solid #65dbb6;
-}
-
-/* .online-filter:hover
-{
-    background-color: #65dbb6;
-    color: #FDFCD1;
-} */
-
-.online-filter input:checked + i {
-    background: #65dbb6;
-}
-
-label input[type="radio"]:checked ~ span {
-    color: #FDFCD1;
-}
-
-  
-  
-  /* HELPER CLASSES */
-  
-  .is-hidden {
-    display: none;
-  }

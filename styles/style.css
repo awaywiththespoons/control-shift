@@ -334,8 +334,8 @@ input:-webkit-autofill {
 }
 
 .send-submit:hover {
-    background-color: #074bdd;
-    /*border: 1px solid #07dd99;*/
+    background-color: #07dd99;
+    color: #FDFCD1;
 }
 
 /* contact form modal styles */

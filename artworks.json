@@ -24,7 +24,15 @@
                 "date": "12th October 2020",
                 "time": "12:00 - 13:00",
                 "location": "example location",
-                "theme": "access"
+                "theme": "access",
+                "bookable": false,
+                "calendarEvent": {
+                    "calendarTitle": "Calendar title",
+                    "start": "10/21/2020 06:00 PM",
+                    "end": "10/21/2020 08:00 PM",
+                    "description": "example description bla bla bla",
+                    "allDay": false
+                }
             },
             "image":
             {
@@ -60,10 +68,12 @@
                 "filterType": "workshop",
                 "filterWeek": "week-1",
                 "day": "Monday",
-                "date": "12th October 2020",
+                "date": "7th October 2020",
                 "time": "12:00 - 13:00",
-                "location": "example location",
-                "theme": "access"
+                "location": "Bristol city center",
+                "theme": "access",
+                "bookable": true, 
+                "bookingLink": "https://www.eventbrite.com/"
             },
             "image":
             {
@@ -102,7 +112,15 @@
                 "date": "12th October 2020",
                 "time": "12:00 - 13:00",
                 "location": "example location",
-                "theme": "access"
+                "theme": "access",
+                "bookable": false,
+                "calendarEvent": {
+                    "calendarTitle": "Calendar title",
+                    "start": "10/21/2020 02:00 PM",
+                    "end": "10/21/2020 03:00 PM",
+                    "description": "example description bla bla bla",
+                    "allDay": true
+                }        
             },
             "image":
             {
@@ -112,8 +130,7 @@
         },
         "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
-            "twitter": "https://twitter.com/control_shift_",
-            "instagram": "https://www.instagram.com/"
+            "twitter": "https://twitter.com/control_shift_"
         }    
     },
     {
@@ -141,9 +158,11 @@
                 "date": "12th October 2020",
                 "time": "12:00 - 13:00",
                 "location": "example location",
-                "theme": "access"
+                "theme": "access",
+                "bookable": true, 
+                "bookingLink": "https://www.eventbrite.com/"
             },
-            "image":
+            "image":    
             {
                 "url": "CFTP_artwork_WEB[560x340].png",
                 "alt": "alt text example"
@@ -151,7 +170,6 @@
         },
         "social_media": { 
             "website": "http://arjunhm.co.uk/projects/power-tool",
-            "twitter": "https://twitter.com/control_shift_",
             "instagram": "https://www.instagram.com/"
         }    
     },
@@ -180,7 +198,9 @@
                 "date": "12th October 2020",
                 "time": "12:00 - 13:00",
                 "location": "example location",
-                "theme": "access"
+                "theme": "access",
+                "bookable": true, 
+                "bookingLink": "https://www.eventbrite.com/"
             },
             "image":
             {
