@@ -264,3 +264,81 @@ label input[type="radio"]:checked ~ span {
 .addeventatc:hover .addeventatc_icon {
     filter: invert(21%) sepia(89%) saturate(2647%) hue-rotate(218deg) brightness(91%) contrast(107%);
 }
+
+/* SCHEDULE PAGE */
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    background: #ecbbf0;
+    margin: 5px;
+    position: relative;
+    width: calc(100%/8);
+    min-width: 120px;
+}
+
+.schedule-box-text {
+    color: #074bdd;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px;
+}
+
+.box:after {
+    content: "";
+    float: left;
+    padding-top: 90%;
+}
+
+.inner-div {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.title {
+    border-bottom: 1px solid #053cb0;
+}
+
+ .single-event-box {
+     background-color: #65dbb6;
+     width: 70%;
+     display: inline-block;
+     margin: 0px 10px 0px 10px;
+
+ }
+
+/* all 3 weeks box*/
+
+.box-long {
+    background: #ecbbf0;
+    margin: 5px;
+    position: relative;
+    width: 93%;
+    min-width: 120px;
+}
+
+.box-long:after {
+    content: "";
+    float: left;
+    padding-top: 10%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
