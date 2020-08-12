@@ -18,16 +18,17 @@
         <h1>Schedule</h1>
     </div>
 
-    <div class="container">
+    <div id="schedulePage" class="container">
         <div class="grid-calendar">
             <!-- Row - all three weeks -->
             <h2 class="pt-2">Anytime</h2>
+            <h1 id="example"></h1>
             <div class="row">
                 <div class="col-xs box-long">
                     <div class="inner-div">
                         <div class="title schedule-box-text">Throught all three weeks</div>
                         <div class="flex">
-                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a>
+                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text"></p></a>
                             <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event two</p></a>
                             <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event three</p></a>
                             <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event four</p></a>
@@ -38,64 +39,97 @@
             <!-- Row - week 1 -->
             <h2 class="pt-2">Week 1</h2>
             <div class="row">
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Fri 2nd</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="2nd" class="inner-div">
+                        <div class="title schedule-box-text">Fri 2nd</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Sat 3rd</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="3rd" class="inner-div">
+                        <div class="title schedule-box-text">Sat 3rd</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Sun 4th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="4th" class="inner-div">
+                        <div class="title schedule-box-text">Sun 4th</div>
+                    </div>
                 </div>
             </div>
             <!-- Row - week 2 -->
             <h2 class="pt-2">Week 2</h2>
             <div class="row">
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Mon 5th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="5th" class="inner-div">
+                        <div class="title schedule-box-text">Mon 5th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Tues 6th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="6th" class="inner-div">
+                        <div class="title schedule-box-text">Tues 6th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Wed 7th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="7th" class="inner-div"><div class="title schedule-box-text">Wed 7th</div>
+                    </div>
                 </div>  
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Thurs 8th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="8th" class="inner-div">
+                        <div class="title schedule-box-text">Thurs 8th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Fri 9th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="9th" class="inner-div">
+                        <div class="title schedule-box-text">Fri 9th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Sat 10th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="10th" class="inner-div">
+                        <div class="title schedule-box-text">Sat 10th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Sun 11th</div>
-                <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="11th" class="inner-div">
+                        <div class="title schedule-box-text">Sun 11th</div>
+                    </div>
                 </div>
             </div>
             <!-- Row - week 3 -->
             <h2 class="pt-2">Week 3</h2>
             <div class="row">
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Mon 12th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="12th" class="inner-div">
+                        <div class="title schedule-box-text">Mon 12th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Tues 13th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="13th" class="inner-div">
+                        <div class="title schedule-box-text">Tues 13th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Wed 14th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="14th" class="inner-div">
+                        <div class="title schedule-box-text">Wed 14th</div>
+                    </div>
                 </div>  
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Thurs 15th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="15th" class="inner-div">
+                        <div class="title schedule-box-text">Thurs 15th</div>
+                    </div>
                 </div>  
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Fri 16th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="16th" class="inner-div">
+                        <div class="title schedule-box-text">Fri 16th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Sat 17th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="17th" class="inner-div">
+                        <div class="title schedule-box-text">Sat 17th</div>
+                    </div>
                 </div>
-                <div class="col-xs box"><div class="inner-div"><div class="title schedule-box-text">Sun 18th</div>
-                    <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event one</p></a></div>
+                <div class="col-xs box">
+                    <div id="18th" class="inner-div">
+                        <div class="title schedule-box-text">Sun 18th</div>
+                    </div>
                 </div>
             </div>
             <!-- End of last row -->
@@ -132,6 +166,22 @@
             console.log('error: ' + err); // catches error & console logs out the error message
         });
         function appendData(data) {
+            // function adding events to calendar
+            for (let i = 0; i < data.length; i++) {
+                let a = document.createElement('a');
+                a.setAttribute("data-id", data[i].id);
+                    a.setAttribute("data-toggle", "modal");
+                    a.setAttribute("data-target", "#infoModal");
+                    a.setAttribute("class", "thumbnail single-event-box");
+                    a.setAttribute("href", "#");
+                let p = document.createElement('p');
+                p.setAttribute("class", "schedule-box-text");
+                p.setAttribute("id", data[i].id);
+                p.innerText = data[i].artwork.artwork_name;
+                let postItDay = document.getElementById(data[i].artwork.details.date);
+                a.appendChild(p);
+                postItDay.appendChild(a);
+            }
             $.getScript("./js/modal.js");
         }
     </script>
