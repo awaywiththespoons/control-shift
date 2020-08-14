@@ -172,6 +172,7 @@ label input[type="radio"]:checked ~ span {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     color: #FDFCD1;
+    margin-bottom: 5px;
 }
 
 .modal-top-text {
@@ -240,6 +241,10 @@ label input[type="radio"]:checked ~ span {
     border-right: 1px solid #07dd99 !important; 
 }
 
+.border-left {
+    border-left: 1px solid #07dd99 !important; 
+}
+
 /* Modal: Add to calendar button styles*/
 
 .addeventatc {
@@ -283,14 +288,21 @@ label input[type="radio"]:checked ~ span {
     margin: 5px;
     position: relative;
     width: calc(100%/8);
-    min-width: 120px;
+    min-width: 150px;
 }
 
 .schedule-box-text {
     color: #074bdd;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
-    margin: 15px;
+    margin: 5px;
+}
+
+.event-text {
+    color: #FDFCD1;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px;
 }
 
 .box:after {
@@ -314,11 +326,10 @@ label input[type="radio"]:checked ~ span {
 }
 
  .single-event-box {
-     background-color: #65dbb6;
+     background-color: #053cb0;
      width: 70%;
      display: inline-block;
      margin: 5px 10px 5px 10px;
-
  }
 
 /* all 3 weeks box*/
@@ -334,7 +345,7 @@ label input[type="radio"]:checked ~ span {
 .box-long:after {
     content: "";
     float: left;
-    padding-top: 10%;
+    padding-top: 200px;
 }
 
 .flex {

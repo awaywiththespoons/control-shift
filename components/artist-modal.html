@@ -23,20 +23,24 @@
                     <div class="row align-items-center">
                         <!-- When -->
                         <div class="col-sm text-center border-right ">
-                            <p class="mb-0 modal-top-text time-text"></p>
                             <p class="pb-0 mb-0 modal-top-text when-text"></p>
+                            <p class="mb-0 modal-top-text time-text"></p>
                         </div>
                         <!-- Where -->
-                        <div class="col-sm text-center bottom-bar-modal-info border-right">
+                        <div class="col-sm text-center bottom-bar-modal-info">
                             <p></p>
                             <p class="modal-top-text where-text"></p>
                         </div>
                         <!-- Book Now  -->
-                        <div id="bookNowContainer" class="col-sm text-center">
+                        <div id="bookNowContainer" class="hide col-sm text-center border-left">
                             <a id="bookingLink" target="_blank" class="modal-link-text modal-top-text" href="" role="button">Book Now</a>
                         </div>
+                        <!-- Book Now  -->
+                        <div id="doNowContainer" class="hide col-sm text-center border-left">
+                            <a id="doNowLink" target="_blank" class="modal-link-text modal-top-text" href="" role="button">Go Now</a>
+                        </div>
                         <!-- or Add to calendar -->
-                        <div id="calendarContainer" class="col-sm text-center bottom-bar-modal-info">
+                        <div id="calendarContainer" class="hide col-sm text-center bottom-bar-modal-info border-left">
                             <div title="Add to Calendar" class="addeventatc">
                                 Add to Calendar
                                 <span class="start calendar-start"></span>
@@ -58,11 +62,11 @@
                 <div class="pr-4 pl-4">
                     <!--  Section two : About Artwork -->
                     <!-- <h2 class="pt-3 pb-3 artwork-title-text modal-h2-text"></h2> -->
-                    <p class="pb-2 pt-3 artwork-info-text modal-text"></p>
+                    <div id="aboutArtwork" class="pb-2 pt-3 artwork-info-text modal-text"></div>
                     <hr>
                     <!--  Section three : About Artist -->
                     <h2 class="pt-2 pb-3 modal-h2-text">About <span class="artist-name-text modal-h2-text"></span></h2>
-                    <p class="pb-2 artist-bio-text modal-text"></p>
+                    <div id="aboutArtist" class="pb-2 artist-bio-text modal-text"></div>
                     <!--  social media sections --> 
                     <div id="socialMediaContainer" class="col-sm text-center bottom-bar-modal-info">
                         <!-- <p class="modal-text"><small>Artist's Social Media</small></p> -->

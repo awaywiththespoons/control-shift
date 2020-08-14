@@ -19,13 +19,29 @@ function appendData(data) {
                 type: "GET", 
                 url: './artworks.json',
                 dataType: 'json',
-                success: function(data){    
+                success: function(data){  
                     //injecting the text into elements with class specified
+                    // Artist Info
                     infoModal.find('.artist-name-text').text(data[id].artist.name);
-                    infoModal.find('.artist-bio-text').text(data[id].artist.bio_100w);
+                    // loop through array of artist bio - print new string as a <p> so displays on new line
+                    for (let i = 0; i < data[id].artist.bio_100w.length; i++) {
+                        let mainContainer = document.getElementById("aboutArtist");
+                        var p = document.createElement('p');
+                        p.setAttribute("class", "modal-text");
+                        p.innerHTML = data[id].artist.bio_100w[i];
+                        mainContainer.appendChild(p);
+                    }
+                    // Artwork Info
                     infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);
-                    infoModal.find('.artwork-info-text').text(data[id].artwork.artwork_description_150w_long);
-                    infoModal.find('.when-text').text(data[id].artwork.details.date);
+                    // loop through array of artwork info - print new string as a <p> so displays on new line
+                    for (let i = 0; i < data[id].artwork.artwork_description_150w_long.length; i++) {
+                        let mainContainer = document.getElementById("aboutArtwork");
+                        var p = document.createElement('p');
+                        p.setAttribute("class", "modal-text");
+                        p.innerHTML = data[id].artwork.artwork_description_150w_long[i];
+                        mainContainer.appendChild(p);
+                    }
+                    infoModal.find('.when-text').text(data[id].artwork.details.date + " October");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text(data[id].artwork.details.time);
                     infoModal.modal('show');
@@ -74,11 +90,9 @@ function appendData(data) {
                     } else {
                         $( "#linkedIn" ).addClass( "hide" )
                     }
-                    // CALENDAR SECTION
-                    // If not bookable, then show calendar
-                    if (data[id].artwork.details.bookable == true) {
-                        $( "#calendarContainer" ).addClass( "hide" );
-                    } else {
+
+                    // calendar button OR book now button OR do now button
+                    if (data[id].artwork.details.calendarButton) {
                         $( "#calendarContainer" ).removeClass( "hide" );
                         infoModal.find('.calendar-all-day').text(data[id].artwork.details.calendarEvent.allDay);
                         infoModal.find('.calendar-start').text(data[id].artwork.details.calendarEvent.start);
@@ -86,14 +100,16 @@ function appendData(data) {
                         infoModal.find('.calendar-description').text(data[id].artwork.details.calendarEvent.description);
                         infoModal.find('.calendar-title').text(data[id].artwork.details.calendarEvent.calendarTitle);
                     }
-                    // BOOK NOW SECTION
-                    if (data[id].artwork.details.bookable == false) {
-                        $( "#bookNowContainer" ).addClass( "hide" );
-                    } else {
+                    else if (data[id].artwork.details.bookNowButton) {
                         $( "#bookNowContainer" ).removeClass( "hide" );
                         let l = document.getElementById('bookingLink');
                         l.getAttributeNode("href").value = data[id].artwork.details.bookingLink;
                     }
+                    else if (data[id].artwork.details.doNowButton) {
+                        $( "#doNowContainer" ).removeClass( "hide" );
+                        let x = document.getElementById('goNowLink');
+                        x.getAttributeNode("href").value = data[id].artwork.details.activityLink;
+                    }          
                 }      
             });
             return false;

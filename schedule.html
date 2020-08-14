@@ -21,23 +21,21 @@
     <div id="schedulePage" class="container">
         <div class="grid-calendar">
             <!-- Row - all three weeks -->
-            <h2 class="pt-2">Anytime</h2>
             <h1 id="example"></h1>
             <div class="row">
                 <div class="col-xs box-long">
                     <div class="inner-div">
-                        <div class="title schedule-box-text">Throught all three weeks</div>
+                        <div class="title schedule-box-text">Watch or Listen at any time</div>
                         <div class="flex">
-                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text"></p></a>
-                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event two</p></a>
-                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event three</p></a>
-                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="schedule-box-text">example event four</p></a>
+                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="event-text">example event one</p></a>
+                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="event-text">example event two</p></a>
+                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="event-text">example event three</p></a>
+                            <a href="#" data-toggle="modal" data-target="#infoModal" data-id="1" class="thumbnail single-event-box"><p class="event-text">example event four</p></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Row - week 1 -->
-            <h2 class="pt-2">Week 1</h2>
             <div class="row">
                 <div class="col-xs box">
                     <div id="2nd" class="inner-div">
@@ -56,7 +54,6 @@
                 </div>
             </div>
             <!-- Row - week 2 -->
-            <h2 class="pt-2">Week 2</h2>
             <div class="row">
                 <div class="col-xs box">
                     <div id="5th" class="inner-div">
@@ -94,7 +91,6 @@
                 </div>
             </div>
             <!-- Row - week 3 -->
-            <h2 class="pt-2">Week 3</h2>
             <div class="row">
                 <div class="col-xs box">
                     <div id="12th" class="inner-div">
@@ -175,9 +171,9 @@
                     a.setAttribute("class", "thumbnail single-event-box");
                     a.setAttribute("href", "#");
                 let p = document.createElement('p');
-                p.setAttribute("class", "schedule-box-text");
+                p.setAttribute("class", "event-text");
                 p.setAttribute("id", data[i].id);
-                p.innerText = data[i].artwork.artwork_name;
+                p.innerText = data[i].artwork.artwork_name + " by " + data[i].artist.name;
                 let postItDay = document.getElementById(data[i].artwork.details.date);
                 a.appendChild(p);
                 postItDay.appendChild(a);
