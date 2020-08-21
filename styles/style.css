@@ -167,6 +167,17 @@ a {
     align-items: center;
 }
 
+.icon-max-width-footer {
+    max-width: 30px;
+    margin:10px;
+}
+
+.social {
+    align-items: center;
+    max-width: 250px;
+    margin:auto;
+}
+
 .jumbotron h1 {
     font-size: 4em;
     font-family: 'Source Sans Pro', sans-serif;
