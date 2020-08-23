@@ -38,6 +38,7 @@ function appendData(data) {
                         let mainContainer = document.getElementById("aboutArtwork");
                         var p = document.createElement('p');
                         p.setAttribute("class", "modal-text");
+                        console.log(data[id].artwork.artwork_description_150w_long[i])
                         p.innerHTML = data[id].artwork.artwork_description_150w_long[i];
                         mainContainer.appendChild(p);
                     }

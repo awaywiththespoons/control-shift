@@ -38,5 +38,47 @@
             "twitter": "https://twitter.com/birdtwitchr",
             "instagram": "https://www.instagram.com/kathyhinde/"
         }    
+    },
+    {
+        "id": 1,
+        "artist": {
+            "name": "Tim Kindberg",
+            "bio_100w": 
+            ["Bristol-based duo Sarah Selby and Tim Kindberg have collaborated on this new work. Sarah is an interdisciplinary artist exploring digital culture through creative applications of emerging and pervasive technology. Graduating from Manchester Metropolitan University’s Interactive Arts course in 2017, she has since been selected to participate in Roche Continents Science and Art residency and was shortlisted for the Ashurst Emerging Artist Prize. Sarah was the winner of arebyte Gallery’s ‘Hotel Generation’ programme 2019 and is also a member of the Immersive Kind - an interdisciplinary network facilitating knowledge-exchange between artists, scientists and researchers.",
+            "Tim runs digital technology company <a target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
+            "image": [
+            {
+                "url": "Artist_DeepListening[600x600].png",
+                "alt": "photo of Kathy Hinde"
+            }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "The Departed",
+            "artwork_description_150w_long": ["Part séance, part performative workshop, The Departed is an attempt to bridge the gap between physical and virtual realms. Participants will be guided through a process that opens a communication channel between physical and digital worlds. Lockdown has disembodied us from the physical. Our fallible bodies are confined to ‘safe spaces’, isolated and hidden away from harm. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have re-explored the physical pathways, parks and gardens around us. We have listened to new birdsong, and to the silence of carless streets - things we lost as the world unlocked. We invite you to join us in making contact with those things that have departed, in both physical and virtual, human and non-human. We hope to inspire new ways of being in the world; finding what we have lost that was valuable, and discarding the rest."],
+            "artwork_description_50w_short": "The Departed, part séance, part performative workshop, will be held between the physical and the virtual. Participants will be guided through a process to reconnect with those we have lost during Covid-19: the locked down, the deceased, the birds who sang of late, and the supervirtual wanderers of cyberspace who used to breathe our same air.",
+            "details":
+            {
+                "filterOnline": "online person",
+                "filterType": "performance",
+                "filterWeek": "week-1",
+                "day": "Monday",
+                "date": "10th",
+                "time": "11:00am - 12:30pm",
+                "location": "Bristol Harbourside",
+                "bookNowButton": true, 
+                "bookingLink": "https://www.eventbrite.com/TBCTBCTBCTBC"
+            },
+            "image":
+            {
+                "url": "Artwork_DeepListening[560x340].png",
+                "alt": "alt text example"
+            }
+        },
+        "social_media": { 
+            "website": "http://kathyhinde.co.uk/deep-listening-walks/",
+            "twitter": "https://twitter.com/birdtwitchr",
+            "instagram": "https://www.instagram.com/kathyhinde/"
+        }    
     }
 ]
