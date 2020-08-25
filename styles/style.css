@@ -96,6 +96,7 @@ a.dropdown-item:hover {
 
 .container {
     width: 100%;
+    max-width: 1200px;
     /* border: 1px black solid;*/
 }
 
@@ -353,30 +354,42 @@ li {
     background-clip: padding-box;
     border: transparent;
     border-radius: 0px;
-    border-bottom: 1px solid var(--dark-primary);
+    border: solid 1px var(--dark-primary);
 }
 
 .justify-content-center {
     justify-content: left !important;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 0, 0, 0.2);
+    opacity: 1; /* Firefox */
+}
+
+
 input[name=FNAME].form-control {
     display: inline;
-    width: 48%;
     margin-right: 2%;
 }
 
 input[name=LNAME].form-control {
     display: inline;
-    width: 48%;
 }
 
 .form-control:focus {
-    background-color: rgba(255, 255, 255, 0.1);
-    ;
-    border-color: var(--dark-link);
+    background-color: rgba(255, 255, 255, 0.1);;
+    border: solid 1px var(--dark-link);
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+/* #contactForm {
+    margin-left: 30px;
+} */
+
+.form-check-label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @-webkit-keyframes autofill {

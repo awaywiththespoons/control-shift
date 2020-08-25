@@ -284,15 +284,37 @@ label input[type="radio"]:checked ~ span {
 }
 
 .box {
-    background: var(--dark-primary);
+    background: var(--background);
+    border: solid 1px var(--dark-primary);
     margin: 5px;
     position: relative;
     width: calc(100%/8);
     min-width: 150px;
 }
 
+.box-anytime {
+    background: var(--background);
+    border: solid 1px var(--dark-primary);
+    margin: 5px;
+    position: relative;
+    width: 56%;
+    min-width: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-anytime {
+        margin-bottom: 200px;
+        border: none;
+        width: 90%;
+    }
+}
+
+#anytimestyle {
+    padding: 10px;
+}
+
 .schedule-box-text {
-    color: var(--background);
+    color: var(--dark-primary);
     font-size: 16px;
     font-family: var(--font-paragraph-modal);
     margin: 1px;
@@ -300,15 +322,15 @@ label input[type="radio"]:checked ~ span {
 
 .event-text {
     color: var(--dark-primary);
-    font-size: 12px;
+    font-size: 14px;
     font-family: var(--font-paragraph-modal);
-    margin: 1px;
+    margin-bottom: 0px;
 }
 
 .box:after {
     content: "";
     float: left;
-    padding-top: 190%;
+    padding-top: 150%;
 }
 
 .inner-div {
@@ -327,7 +349,7 @@ label input[type="radio"]:checked ~ span {
 
  .single-event-box {
      background-color: var(--text-highlight);
-     width: 70%;
+     width: 80%;
      display: inline-block;
      margin: 5px 5px 5px 5px;
  }
@@ -335,12 +357,22 @@ label input[type="radio"]:checked ~ span {
 /* all 3 weeks box*/
 
 .box-long {
-    background: var(--dark-primary);
+    background: var(--background);
     margin: 5px;
     position: relative;
-    width: 93%;
+    width: 50%;
     min-width: 120px;
+    max-width: 600px;
+    height: 200px;
 }
+
+.row-schedule {
+    max-width: 1120px;
+}
+
+/* #anytime {
+    display: flex;
+} */
 
 .box-long:after {
     content: "";
