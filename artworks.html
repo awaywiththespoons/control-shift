@@ -76,7 +76,7 @@
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
                 let text = document.createElement("div");
-                text.innerHTML = data[i].artwork.artwork_name + " by " + data[i].artist.name;
+                text.innerHTML = data[i].artwork.artwork_name + " by " + data[i].artist.name + data[i];
                 text.setAttribute("class", "gridText pt-2 text-center");
                 //make anchor
                 var a = document.createElement('a');

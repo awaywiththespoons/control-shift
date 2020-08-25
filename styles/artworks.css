@@ -1,3 +1,4 @@
+
 /* STYLES FOR ARTWORK PAGE */
 
 /* Artwork grid: all styles */
@@ -18,7 +19,7 @@
 .artworkImage:hover { /* Image itself */
     /* opacity: 0.6; */
     border-style: dotted;
-    border-color: #65dbb6;
+    border-color: var(--dark-link);
 }
 
 
@@ -50,32 +51,34 @@
 }
   
 .time-filter input:checked + i {
-    background: #074bdd;
+    background: var(--mid-primary);
 }
 
 .time-filter {
-    color: #053cb0;
-    border: 1px solid #053cb0;
+    color: var(--dark-primary);
+    border: 1px solid var(--dark-primary);
+    font-family: var(--font-large-headings);
 }
 
 .online-filter {
-    color: #65dbb6;
-    border: 1px solid #65dbb6;
+    color: var(--dark-link);
+    border: 1px solid var(--dark-link);
+    font-family: var(--font-large-headings);
 }
 
 .online-filter input:checked + i {
-    background: #65dbb6;
+    background: var(--dark-link);
 }
 
 label input[type="radio"]:checked ~ span {
-    color: #FDFCD1;
+    color: var(--background);
 }
 
 /* MODAL STYLES */
 
 /* modal styles: closs modal 'X' annimation */
 .modal-close-button {
-    background-color: #074bdd;
+    background-color: var(--mid-primary);
     border: none;
     outline:none;
 }
@@ -97,7 +100,7 @@ label input[type="radio"]:checked ~ span {
     width: 25px;
     position: absolute;
     margin-top: 24px;
-    background-color: #FDFCD1;
+    background-color: var(--background);
     border-radius: 2px;
     transform: rotate(45deg);
     transition: all .3s ease-in;
@@ -108,7 +111,7 @@ label input[type="radio"]:checked ~ span {
     width: 25px;
     position: absolute;
     margin-top: 24px;
-    background-color: #FDFCD1;
+    background-color: var(--background);
     border-radius: 2px;
     transform: rotate(-45deg);
     transition: all .3s ease-in;
@@ -121,11 +124,11 @@ label input[type="radio"]:checked ~ span {
   
   .close-container:hover .leftright{
     transform: rotate(-45deg);
-    background-color: #07dd99;
+    background-color: var(--dark-link);
   }
   .close-container:hover .rightleft{
     transform: rotate(45deg);
-    background-color: #07dd99;
+    background-color: var(--dark-link);
   }
   .close-container:hover label{
     opacity: 1;
@@ -138,7 +141,7 @@ label input[type="radio"]:checked ~ span {
 }
 
 .modal-content {
-    background-color: #074bdd;
+    background-color: var(--mid-primary);
 }
 
 .modal-header {
@@ -153,41 +156,41 @@ label input[type="radio"]:checked ~ span {
 /* modal styles: text */
 
 .modal-header-text {
-    color: #07dd99;
-    text-shadow: 1px 1px #FDFCD1;
+    color: var(--dark-link);
+    text-shadow: 1px 1px var(--background);
     text-align: center;
-    background-color: #074bdd;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--mid-primary);
+    font-family: var(--font-small-headings);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 3px;
 
 }
 
 .modal-h2-text {
-    color: #FDFCD1;
+    color: var(--background);
 }
 
 .modal-text {
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
-    color: #FDFCD1;
+    font-family: var(--font-paragraph-modal);
+    color: var(--background);
     margin-bottom: 5px;
 }
 
 .modal-top-text {
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
-    color: #07dd99;
+    font-family: var(--font-paragraph-modal);
+    color: var(--dark-link);
 }
 
 .modal-link-text {
-    border-bottom: 1px solid #07dd99;
+    border-bottom: 1px solid var(--dark-link);
 }
 
 .modal-link-text:hover {
-    color: #FDFCD1;
-    border-bottom: 1px solid #FDFCD1
+    color: var(--background);
+    border-bottom: 1px solid var(--background)
 
 }
 
@@ -197,8 +200,8 @@ label input[type="radio"]:checked ~ span {
 
 .bottom-bar-modal-info {
     font-size: 14px;
-    font-family: 'Rubik', sans-serif;
-    color: #FDFCD1;
+    font-family: var(--font-paragraph-modal);
+    color: var(--background);
 }
 
 .book-now {
@@ -218,15 +221,6 @@ label input[type="radio"]:checked ~ span {
     }
 }
 
-/* convert social media svgs to blue & turn green on hover */
-.filter-blue{
-    filter: invert(87%) sepia(35%) saturate(261%) hue-rotate(343deg) brightness(108%) contrast(103%);
-}
-
-.filter-blue:hover {
-    filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);
-  }
-
 .icon-max-width {
     max-width: 20px;
 }
@@ -238,25 +232,25 @@ label input[type="radio"]:checked ~ span {
 /* Modal: top panel with Where/When/Book now or calendar*/
 
 .border-right {
-    border-right: 1px solid #07dd99 !important; 
+    border-right: 1px solid var(--dark-link) !important; 
 }
 
 .border-left {
-    border-left: 1px solid #07dd99 !important; 
+    border-left: 1px solid var(--dark-link) !important; 
 }
 
 /* Modal: Add to calendar button styles*/
 
 .addeventatc {
-    background-color: #074bdd;
-    color: #07dd99 !important;
-    border: 1px solid #07dd99;
+    background-color: var(--mid-primary);
+    color: var(--dark-link) !important;
+    border: 1px solid var(--dark-link);
 }
 
 .addeventatc:hover  {
-    color: #074bdd !important;
-    background-color: #FDFCD1;
-    border: 1px solid #074bdd;
+    color: var(--mid-primary) !important;
+    background-color: var(--background);
+    border: 1px solid var(--mid-primary);
 }
 
 .addeventatc {visibility:hidden;}
@@ -284,7 +278,7 @@ label input[type="radio"]:checked ~ span {
 }
 
 .box {
-    background: #ecbbf0;
+    background: var(--background);
     margin: 5px;
     position: relative;
     width: calc(100%/8);
@@ -292,23 +286,23 @@ label input[type="radio"]:checked ~ span {
 }
 
 .schedule-box-text {
-    color: #074bdd;
+    color: var(--background);
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
-    margin: 5px;
+    font-family: var(--font-paragraph-modal);
+    margin: 1px;
 }
 
 .event-text {
-    color: #FDFCD1;
-    font-size: 14px;
-    font-family: 'Rubik', sans-serif;
-    margin: 5px;
+    color: var(--dark-primary);
+    font-size: 12px;
+    font-family: var(--font-paragraph-modal);
+    margin: 1px;
 }
 
 .box:after {
     content: "";
     float: left;
-    padding-top: 90%;
+    padding-top: 190%;
 }
 
 .inner-div {
@@ -322,20 +316,20 @@ label input[type="radio"]:checked ~ span {
 }
 
 .title {
-    border-bottom: 1px solid #053cb0;
+    border-bottom: 1px solid var(--dark-primary);
 }
 
  .single-event-box {
-     background-color: #053cb0;
+     background-color: var(--text-highlight);
      width: 70%;
      display: inline-block;
-     margin: 5px 10px 5px 10px;
+     margin: 5px 5px 5px 5px;
  }
 
 /* all 3 weeks box*/
 
 .box-long {
-    background: #ecbbf0;
+    background: var(--text-highlight);
     margin: 5px;
     position: relative;
     width: 93%;

@@ -1,27 +1,45 @@
+
+
+
+/* Setting up colours */
+:root {
+    --background: #FDFCD1;
+    --mid-primary: #074bdd;
+    --dark-primary: #053cb0;
+
+    --light-link: #bb2cc6;
+    --light-link-hover: #d361dc;
+
+    --dark-link: #07dd99;
+    --dark-link-hover: #65dbb6;
+
+    --text-highlight: #ecbbf0;
+
+    --font-large-headings: 'rubik', sans-serif;
+    --font-paragraph-modal: 'Karla', sans-serif;
+    --font-paragraph-text: 'Karla', sans-serif;
+    --font-small-headings: 'Source Sans Pro', sans-serif;
+    --font-nav-bar: 'Times', serif;
+}
+
 /* setting up the grid
 see https://css-tricks.com/snippets/css/complete-guide-grid/#prop-display
 for more into */
-
 body {
-    /*background-color: #ffffff !important;*/
-    /*  background-color: #EDDD6E !important;*/
-    background-color: #FDFCD1;
-    color: #074bdd;
-    /*color: #040995;*/
+    background-color: var(--background);
+    color: var(--mid-primary);
     font-size: 18px;
-    /*background-image: linear-gradient(rgba(242, 220, 9, 0.99) 0%, rgba(255, 255, 255, 0) 50%);*/
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(248, 242, 201, 0.99) 50%);*/
 }
 
 /* selection text */
 ::-moz-selection { /* Code for Firefox */
-    background: #ecbbf0	;
-    color: #074bdd;
+    background: var(--text-highlight)	;
+    color: var(--mid-primary);
   }
   
   ::selection {
-    background: #ecbbf0	;
-    color: #074bdd;
+    background: var(--text-highlight)	;
+    color: var(--mid-primary);
   }
 
 #navbar {
@@ -30,24 +48,42 @@ body {
 
 hr {
     height: 1px;
-    background-color: #07dd99;
+    background-color: var(--dark-link);
     border: none;
 }
 
 hr.yelz{
-    background-color: #FDFCD1;
+    background-color: var(--background);
     border: none;
 }
 
 a:hover {
+    color: var(--light-link-hover);
     text-decoration: none;
-    color: #053cb0;
 }
 
 a {
-    color: #06c488;
-    /*color:#07dd99;*/
+    color: var(--light-link);
 }
+
+p a {
+    text-decoration: none;
+}
+
+a.dark-link {
+    color: var(--dark-link) !important;
+}
+
+a.dark-link:hover {
+    color: var(--dark-link-hover) !important;
+}
+
+a.nav-link:hover {
+    color: #65dbb6 !important;
+}
+ a.dropdown-item:hover {
+     color: var(--background) !important;
+ }
 
 .container {
     width: 100%;
@@ -72,7 +108,7 @@ a {
 
 /* MENU */
 .navbar {
-    font-family: "Times", serif;
+    font-family: var(--font-nav-bar)
 }
 
 .navbar .active {
@@ -81,7 +117,7 @@ a {
 
 .navbar a:hover {
     text-decoration: none;
-    color: #053cb0;
+    color: var(--dark-primary);
 }
 
 .navbar-light .navbar-toggler {
@@ -98,13 +134,13 @@ a {
 }
 
 .dropdown-menu {
-    background-color: #FDFCD1;
-    border: 2px solid #07dd99;
+    background-color: var(--background);
+    border: 2px solid var(--dark-link);
     border-radius: 0rem;
 }
 
 .dropdown-item:hover {
-     background-color: #053cb0;
+     background-color: var(--dark-primary);
 }
 
 /* menu for small screens */
@@ -114,24 +150,24 @@ a {
 }
 
 #menu-mobile a {
-    color: #07dd99;
+    color: var(--dark-link);
     text-decoration: none;
 }
 
 #menu-mobile a:hover {
-    color: #65dbb6;
+    color: var(--hover-colour);
 }
 
 .footer-text {
     text-align: center !important;
     font-style: italic;
-    color: #FDFCD1;
+    color: var(--background);
 }
 
 .footer,
 .page-footer {
     /*  background-color: #040995 !important;*/
-    background-color: #053cb0 !important;
+    background-color: var(--dark-primary) !important;
     color: #fae6e7;
     padding-bottom: 20px;
 }
@@ -178,33 +214,35 @@ a {
     margin:auto;
 }
 
+/* convert social media svgs to blue & turn green on hover */
+.filter-blue{
+    filter: invert(87%) sepia(35%) saturate(261%) hue-rotate(343deg) brightness(108%) contrast(103%);
+}
+
+.filter-blue:hover {
+    filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);
+}
+
 .jumbotron h1 {
     font-size: 4em;
-    font-family: 'Source Sans Pro', sans-serif;
-    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-family: var(--font-small-headings);
     font-weight: 600;
     letter-spacing: 2px;
-    text-shadow: 4px 4px 1px #07dd99;
-    /*text-shadow: 4px 4px 1px #F8F2C9;*/
+    text-shadow: 4px 4px 1px var(--dark-link);
 }
 
 h1 {
     font-size: 1.8em;
-    font-family: 'Source Sans Pro', sans-serif;
-    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-family: var(--font-small-headings);
     font-weight: 600;
+    margin-bottom: 20px;
     letter-spacing: 2px;
-    text-shadow: 2px 2px #07dd99;
-    /*padding-bottom: 30px;*/
+    text-shadow: 2px 2px var(--dark-link);
 }
 
 h1 span {
     padding: 0 5px 0 5px;
-    /*  background-image: url("../img/ctrl-shift.png");
-  background-size: auto 60%;
-  background-repeat: no-repeat;
-  background-position: 0px center;*/
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: var(--font-large-headings);
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 70%;
@@ -215,24 +253,20 @@ h1 span {
 .jumbotron h2 span {
     /* header-subtitle */
     font-size: 1.2em;
-    color: #074bdd;
+    color: var(--mid-primary);
     background-color: rgba(248, 242, 201, 0.9);
-    font-family: "Times", serif;
-    /*font-family: 'Source Sans Pro', sans-serif;*/
-    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-family: var(--font-nav-bar);
     font-weight: 500;
     letter-spacing: 1px;
-    /*line-height: 50%;*/
 }
 
 h2 {
     /* header-subtitle */
     font-size: 1.2em;
-    color: #074bdd;
+    color: var(--mid-primary);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
-    /*line-height: 50%;*/
 }
 
 .subtitle {
@@ -243,7 +277,7 @@ h3 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
-    color: #07dd99;
+    color: var(--dark-link);
 }
 
 h4 {
@@ -261,11 +295,25 @@ h5 {
 
 p,
 li {
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05em;
+    font-family: var(--font-paragraph-text);
     letter-spacing: 0.5px;
     line-height: 163%;
 }
+
+.gridText {
+    font-size: 1.0em;
+    font-family: var(--font-paragraph-text);
+    letter-spacing: 0.5px;
+}
+
+.aboutText {
+    font-size: 0.8em;
+    font-family: var(--font-paragraph-text);
+    letter-spacing: 0.5px;
+}
+
+
 
 /* form */
 .form-area form {
@@ -279,12 +327,12 @@ li {
 }
 
 .form-control {
-    color: #040995 !important;
-    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--dark-primary);
+    background-color: var(--background);
     background-clip: padding-box;
     border: transparent;
     border-radius: 0px;
-    border-bottom: 1px solid #040995;
+    border-bottom: 1px solid var(--dark-primary);
 }
 
 .justify-content-center {
@@ -305,14 +353,14 @@ input[name=LNAME].form-control {
 .form-control:focus {
     background-color: rgba(255, 255, 255, 0.1);
     ;
-    border-color: #07dd99;
+    border-color: var(--dark-link);
     box-shadow: none;
     -webkit-box-shadow: none;
 }
 
 @-webkit-keyframes autofill {
     to {
-        color: #040995;
+        color: var(--dark-primary);
         background: rgba(255, 255, 255, 0.1);
         ;
     }
@@ -320,7 +368,7 @@ input[name=LNAME].form-control {
 
 @keyframes autofill {
     to {
-        color: #040995;
+        color: var(--dark-primary);
         background: rgba(255, 255, 255, 0.1);
         ;
     }
@@ -335,18 +383,18 @@ input:-webkit-autofill {
 
 .send-submit {
     margin-top: 20px;
-    border: 2px solid #07dd99;
+    border: 2px solid var(--dark-link);
     padding: 8px;
     text-align: center;
-    color:#07dd99;
+    color:var(--dark-link);
     width: 25%;
     min-width: 100px;
  
 }
 
 .send-submit:hover {
-    background-color: #07dd99;
-    color: #FDFCD1;
+    background-color: var(--dark-link);
+    color: var(--background);
 }
 
 /* contact form modal styles */
@@ -384,8 +432,8 @@ input:-webkit-autofill {
 
 .btn-blue {
     color: #ffffff !important;
-    background-color: #074bdd !important;
-    border-color: #074bdd !important;
+    background-color: var(--mid-primary) !important;
+    border-color: var(--mid-primary) !important;
 }
 
 /*download-docs*/
@@ -398,7 +446,7 @@ input:-webkit-autofill {
 
     .jumbotron h1 {
         font-size: 2em;
-        text-shadow: 2px 2px #07dd99;
+        text-shadow: 2px 2px var(--dark-link);
     }
 
     #menu-style li a:hover:not(.active) {
@@ -453,7 +501,7 @@ input:-webkit-autofill {
 
     .jumbotron h1 {
         font-size: 2em;
-        text-shadow: 2px 2px #07dd99;
+        text-shadow: 2px 2px var(--dark-link);
     }
 
 
