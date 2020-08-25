@@ -190,7 +190,7 @@ a.dropdown-item:hover {
 }
 
 .content-wrap-programme {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -213,14 +213,18 @@ a.dropdown-item:hover {
 }
 
 .icon-max-width-footer {
-    max-width: 30px;
+    max-width: 20px;
     margin:10px;
 }
 
 .social {
     align-items: center;
-    max-width: 250px;
-    margin:auto;
+    max-width: 165px;
+    margin: 0 auto;
+}
+
+.centerSocials {
+    margin: 0 auto;
 }
 
 /* convert social media svgs to blue & turn green on hover */
@@ -326,6 +330,8 @@ li {
 
 .aboutText {
     font-size: 0.8em;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 
@@ -546,5 +552,16 @@ input:-webkit-autofill {
 @media only screen and (min-width: 701px) {
     .mobile-menu {
         display: none;
+    }
+}
+
+.youtubeEmbed {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .youtubeEmbed {
+        width: 100%
     }
 }
