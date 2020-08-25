@@ -10,23 +10,29 @@
 
 
 .artworkImage { /* Image itself */
-    object-fit: cover;
+    object-fit: scale-down;
     width: 100%;
     height: 100%;
+    margin-bottom: -25px;
     /* opacity: 0.6; */
 }
 
-.artworkImage:hover { /* Image itself */
-    /* opacity: 0.6; */
-    border-style: dotted;
-    border-color: var(--dark-link);
+.artworkImage:hover {
+    transform: scale(1.01) translate(0px, -3px);
 }
+
+/* #outerImage:hover > #gridTextBoxHighlight { color: var(--light-link); } */
+
 
 
 /* Filter Button Styles on artworks page */
 
 .filterInputs {
     padding-bottom: 5px;
+}
+
+.filterBottom {
+    margin-bottom: -20px;
 }
 
 .filterInputs input {
@@ -278,7 +284,7 @@ label input[type="radio"]:checked ~ span {
 }
 
 .box {
-    background: var(--background);
+    background: var(--dark-primary);
     margin: 5px;
     position: relative;
     width: calc(100%/8);
@@ -329,7 +335,7 @@ label input[type="radio"]:checked ~ span {
 /* all 3 weeks box*/
 
 .box-long {
-    background: var(--text-highlight);
+    background: var(--dark-primary);
     margin: 5px;
     position: relative;
     width: 93%;

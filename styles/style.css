@@ -70,6 +70,10 @@ p a {
     text-decoration: none;
 }
 
+.nav-link {
+    font-size: 30px;
+}
+
 a.dark-link {
     color: var(--dark-link) !important;
 }
@@ -81,9 +85,14 @@ a.dark-link:hover {
 a.nav-link:hover {
     color: #65dbb6 !important;
 }
- a.dropdown-item:hover {
-     color: var(--background) !important;
- }
+
+a.dropdown-item:hover {
+    color: var(--background) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: var(--background);
+}
 
 .container {
     width: 100%;
@@ -140,7 +149,7 @@ a.nav-link:hover {
 }
 
 .dropdown-item:hover {
-     background-color: var(--dark-primary);
+     background-color: var(--mid-primary);
 }
 
 /* menu for small screens */
@@ -302,15 +311,21 @@ li {
 }
 
 .gridText {
-    font-size: 1.0em;
     font-family: var(--font-paragraph-text);
     letter-spacing: 0.5px;
 }
 
+.gridTitle {
+    font-weight: 800;
+    font-size: 1.05em;
+}
+
+.gridAbout {
+    font-size: 1.05em;
+}
+
 .aboutText {
     font-size: 0.8em;
-    font-family: var(--font-paragraph-text);
-    letter-spacing: 0.5px;
 }
 
 
