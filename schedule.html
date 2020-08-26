@@ -19,20 +19,16 @@
     </div>
 
     <div id="schedulePage" class="container">
-        <div class="grid-calendar">
+        <div class="grid-calendar pb-4">
             <!-- Row - all three weeks -->
-            <h1 id="example"></h1>
-            <div class="row">
-                <div class="col-xs box-long">
+            <p class="pb-3">Welcome to the programme page. We can write something here about welcoming everyone and practical things like some events require booking</p>
+            <!-- Row - week 1 -->
+            <div class="row row-schedule">
+                <div class="col-xs  box-anytime">
                     <div id="anytime" class="inner-div">
                         <div class="title schedule-box-text">Watch or Listen at any time</div>
-                        <div class="flex">
-                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Row - week 1 -->
-            <div class="row">
                 <div class="col-xs box">
                     <div id="2nd" class="inner-div">
                         <div class="title schedule-box-text">Fri 2nd</div>
@@ -50,7 +46,7 @@
                 </div>
             </div>
             <!-- Row - week 2 -->
-            <div class="row">
+            <div class="row row-schedule">
                 <div class="col-xs box">
                     <div id="5th" class="inner-div">
                         <div class="title schedule-box-text">Mon 5th</div>
@@ -87,7 +83,7 @@
                 </div>
             </div>
             <!-- Row - week 3 -->
-            <div class="row">
+            <div class="row row-schedule">
                 <div class="col-xs box">
                     <div id="12th" class="inner-div">
                         <div class="title schedule-box-text">Mon 12th</div>
@@ -162,14 +158,15 @@
             for (let i = 0; i < data.length; i++) {
                 let a = document.createElement('a');
                 a.setAttribute("data-id", data[i].id);
-                    a.setAttribute("data-toggle", "modal");
-                    a.setAttribute("data-target", "#infoModal");
-                    a.setAttribute("class", "thumbnail single-event-box");
-                    a.setAttribute("href", "#");
+                a.setAttribute("id", data[i].artwork.details.date + "style");
+                a.setAttribute("data-toggle", "modal");
+                a.setAttribute("data-target", "#infoModal");
+                a.setAttribute("class", "thumbnail single-event-box");
+                a.setAttribute("href", "#");
                 let p = document.createElement('p');
                 p.setAttribute("class", "event-text");
                 p.setAttribute("id", data[i].id);
-                p.innerText = data[i].artwork.artwork_name + " by " + data[i].artist.name;
+                p.innerText = data[i].artwork.artwork_name;
                 let postItDay = document.getElementById(data[i].artwork.details.date);
                 a.appendChild(p);
                 postItDay.appendChild(a);

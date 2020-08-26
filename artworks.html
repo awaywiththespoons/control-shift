@@ -18,7 +18,7 @@
     <div class="pb-3 container home-page-content pt-4">
         <h1>Artworks</h1>
         <!--  filtering grid -->
-        <p class="pt-3">Filter by:</p>
+        <p>Filter by:</p>
         <div class="filterInputs">
             <label class="time-filter"><input type="radio" name="time" value="" checked><i></i><span>All</span></label>
             <label class="time-filter"><input type="radio" name="time" value="untimed"><i></i><span>Untimed</span></label>
@@ -26,7 +26,7 @@
             <label class="time-filter"><input type="radio" name="time" value="week-2"><i></i><span>wc 12 Oct</span></label>
             <label class="time-filter"><input type="radio" name="time" value="week-3"><i></i><span>wc 19 Oct</span></label>
         </div> 
-        <div class="filterInputs">
+        <div class="filterInputs filterBottom">
             <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
             <label class="online-filter"><input type="radio" name="online" value="online"><i></i><span>Online</span></label>
             <label class="online-filter"><input type="radio" name="online" value="person"><i></i><span>In person</span></label>
@@ -39,7 +39,7 @@
     <div id="modal"></div>
     
     <!-- Include Footer -->
-    <div id="footer"></div>
+    <div id="footer" style="margin-top: 100px"></div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -75,9 +75,27 @@
                 artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterWeek + " " + data[i].artwork.details.filterOnline)
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
-                let text = document.createElement("div");
-                text.innerHTML = data[i].artwork.artwork_name + " by " + data[i].artist.name;
-                text.setAttribute("class", "gridText pt-2 text-center");
+                let textTitle = document.createElement("div");
+                textTitle.setAttribute("id", "gridTextBoxHighlight");
+                let textInfo = document.createElement("div");
+                
+                let p1 = document.createElement("div");
+                p1.innerHTML = data[i].artwork.artwork_name;
+                p1.setAttribute("class", "gridText gridTitle pt-0 text-center");
+                p1.setAttribute("id", "gridTitleHighlight");
+
+                let p2 = document.createElement("div");
+                if (data[i].artist.name === "Russel Hlongwane") {
+                    p2.innerHTML = "curated by " + data[i].artist.name
+                } else {
+                    p2.innerHTML = " by " + data[i].artist.name
+                }
+                p2.setAttribute("class", "gridText gridAbout pt-0 text-center");
+                
+                let p3 = document.createElement("div");
+                p3.innerHTML = data[i].artwork.artwork_description_line;
+                p3.setAttribute("class", "gridText aboutText pt-2 text-center");
+
                 //make anchor
                 var a = document.createElement('a');
                 a.setAttribute("href", "#");
@@ -90,10 +108,15 @@
                 image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
                 image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
                 image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
+                image.setAttribute("id", "artworkID");
                 //adding new elements to one another & positioning in mainContainer
                 a.appendChild(image);
+                textTitle.appendChild(p1);
+                textTitle.appendChild(p2)
+                textInfo.appendChild(p3)
                 artistContainer.appendChild(a); 
-                artistContainer.appendChild(text); 
+                artistContainer.appendChild(textTitle); 
+                artistContainer.appendChild(textInfo); 
                 mainContainer.appendChild(artistContainer);
                 loadWindowSystem();
             }
@@ -126,6 +149,11 @@
             // Init
             applyFilter();
         };  
+
+        // $("#outerImage").hover(function(){
+        //     console.log('hovering')
+        // $('.gridTitle').css({'color':'blue','background-color':'white' });
+// });
 </script>
 
 </body></html>

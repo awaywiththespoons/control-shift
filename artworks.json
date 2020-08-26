@@ -46,7 +46,7 @@
             "name": "Sarah Selby and Tim Kindberg",
             "bio_100w": 
             ["Bristol-based duo Sarah Selby and Tim Kindberg have collaborated on this new work. Sarah is an interdisciplinary artist exploring digital culture through creative applications of emerging and pervasive technology. Graduating from Manchester Metropolitan University’s Interactive Arts course in 2017, she has since been selected to participate in Roche Continents Science and Art residency and was shortlisted for the Ashurst Emerging Artist Prize. Sarah was the winner of arebyte Gallery’s ‘Hotel Generation’ programme 2019 and is also a member of the Immersive Kind - an interdisciplinary network facilitating knowledge-exchange between artists, scientists and researchers.",
-            "Tim runs digital technology company <a target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
+            "Tim runs digital technology company <a class='dark-link' target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a class='dark-link' target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a class='dark-link' target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a class='dark-link' target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a class='dark-link' target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
             "image": [
             {
                 "url": "",
@@ -87,12 +87,12 @@
         "artist": {
             "name": "KASAVA",
             "bio_100w": 
-            ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a target='_blank' href='www.courtenaywelcome.com'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
+            ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a class='dark-link' target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a class='dark-link' target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a class='dark-link' target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a class='dark-link' target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a class='dark-link' target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a class='dark-link' target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a class='dark-link' target='_blank' href='www.courtenaywelcome.com'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
             "image": [
-            {
-                "url": "",
-                "alt": ""
-            }
+                {
+                    "url": "",
+                    "alt": ""
+                }
             ]
         },
         "artwork": {
@@ -129,10 +129,10 @@
             "name": "MELT",
             "bio_100w": ["As MELT, Loren Britton and Isabel Paehr are Berlin-based arts-design researchers who work with games, tech and radical pedagogy. Investigating the political & material conditions of tech infrastructures, they re-distribute agency in socio-technological systems with the methods of queer play, unlearning and leaking. Their work crumbles structures, unbounds materials, dissolves technology and makes collectivities. MELT is exploring how to make something but to keep it open to change, and is doing this through formats like video artworks and workshops. MELT has been influenced by (melting) Ice, Freezers, Software, Signal, moving too fast/slow, Wendy Hui Kyong Chun, Denise Ferreira Da Silva, Digital Materialism, Post/De Colonial thinking, Gifs, Climate Protests, Anti-Racism and Dancing."],
             "image": [
-            {
-                "url": "",
-                "alt": ""
-            }
+                {
+                    "url": "",
+                    "alt": ""
+                }
             ]
         },
         "artwork": {
@@ -145,7 +145,7 @@
                 "filterOnline": "TBC",
                 "filterType": "workshop",
                 "filterWeek": "week-2",
-                "day": "TBC",
+                "day": "Wednesday",
                 "date": "7th",
                 "time": "16:00 - 19:00",
                 "location": "TBC",
@@ -169,23 +169,23 @@
             "name": "Shannon Finnegan",
             "bio_100w": ["Shannon Finnegan is a multidisciplinary artist living and working in New York City, making work about accessibility and disability culture. They have done projects with Banff Centre, the High Line, MCA Denver, Tallinn Art Hall, Nook Gallery, and the Wassaic Project. They have spoken about their work at the Brooklyn Museum, School for Poetic Computation, The 8th Floor, and The Andrew Heiskell Braille and Talking Book Library. In 2018, they received a Wynn Newhouse Award and participated in Art Beyond Sight’s Art + Disability Residency. In 2019, they were an artist-in-residence at Eyebeam."],
             "image": [
-            {
-                "url": "",
-                "alt": ""
-            }
+                {
+                    "url": "",
+                    "alt": ""
+                }
             ]
         },
         "artwork": {
             "artwork_name": "Alt-Text as Poetry",
             "artwork_description_line": "Online creative writing workshop reframing “alt-text” as poetry", 
-            "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
+            "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a class='dark-link' target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
             "artwork_description_50w_short": "Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.",
             "details":
             {
                 "filterOnline": "TBC",
                 "filterType": "workshop",
                 "filterWeek": "week-3",
-                "day": "TBC",
+                "day": "Wednesday",
                 "date": "14th",
                 "time": "TBC",
                 "location": "TBC",
@@ -203,6 +203,277 @@
             "twitter": "https://twitter.com/shanfinnegan",
             "instagram": "https://www.instagram.com/shanfinnegan/"
         }
+    },
+    {
+        "id": 5,
+        "artist": {
+            "name": "Dasha Ilina",
+            "bio_100w": ["Dasha Ilina is a Russian digital artist based in Paris, France. Her work explores the relationship we develop with the digital devices we use on a daily basis, specifically in regards to the human body. Ilina’s work centers around  notions of care and technology, DIY practices and low-tech solutions to examining various issues such as phone addiction, tech-related health problems and privacy in the digital age. She is the founder of the Center for Technological Pain, a center that proposes DIY solutions to health problems caused by digital technologies. She is also the co-director of NØ SCHOOL."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Center for Technological Pain",
+            "artwork_description_line": "Workshop and exhibition of DIY solutions to health problems caused by digital technologies", 
+            "artwork_description_150w_long": ["<a class='dark-link' target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
+            "artwork_description_50w_short": "Center for Technological Pain (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies. The solutions proposed by the center take the form of physical objects against tech-pain, self-defense moves against technology, as well as workshops to fight addiction to technology.",
+            "details":
+            {
+                "filterOnline": "online person",
+                "filterType": "workshop installation",
+                "filterWeek": "week-1",
+                "day": "Saturday",
+                "date": "3rd",
+                "time": "TBC",
+                "location": "KWMC & online",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
+            },
+            "image":
+            {
+                "url": "CTP_artwork_WEB.png",
+                "alt": "Image of the Dasha's work"
+            }
+        },
+        "social_media": { 
+            "website": "http://www.dashailina.com/",
+            "twitter": "https://twitter.com/PublicDasha",
+            "instagram": "https://www.instagram.com/dashesandcommas/"
+        }
+    },
+    {
+        "id": 6,
+        "artist": {
+            "name": "DANAE",
+            "bio_100w": ["Danae is a Chilean working-class feminist writer, multimedia artist and technologist based in Rotterdam. She is a lecturer of Hacking and Autonomous Practices at the Willem de Kooning Academy in Rotterdam and the founder of The Digital Witchcraft Institute, an artistic-research organization that develops advanced and non-conforming digital technologies for posthuman futures.", "In the past, Danae has been a fellow of the Mozilla Foundation and has led several interdisciplinary projects in activist organizations dedicated to technology and human rights in the US, Brazil and Chile. She has presented her work in places such as Kyoto, Havana, San Francisco, Tunisia, London, Honolulu. She has also published in magazines, academic journals and outlets of creative non-fiction. She is currently writing a thesis on masochism and artificial intelligence."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Digital Witchcraft",
+            "artwork_description_line": "Creative workshop for making technology based on magical thinking", 
+            "artwork_description_150w_long": ["At the Digital Witchcraft workshop we invite you to discuss non-conforming approaches to technology. You will have the opportunity to develop a series of prototypes targeted for specific communities using a methodology of magical thinking. This means no idea is off-limits: teleportation, invisibility, everything counts. This methodology is inspired by Peter Sloterdijk’s quote “magic is the mother of technology” which implies that every technological advance was initially conceived as an act of imagination that seemed impossible to achieve.", "We will review examples of dissident technology around the globe and adopt a radical change of world-veiw in our conception of the cybernetic through the incorporation of logics of ancient knowledge and the supernatural. The workshop is open to all audiences, though it will be especially compelling for those who are interested in intersectional approaches to technology."],
+            "artwork_description_50w_short": "This workshop is an experience of speculative design and magical thinking. We will create prototypes of advanced technology to tackle the most central challenges of our current times. With this exercise, we will take back technology from the hands of Silicon Valley dudes and will give it back to our communities.",
+            "details":
+            {
+                "filterOnline": "TBC",
+                "filterType": "workshop",
+                "filterWeek": "week-2",
+                "day": "Tuesday",
+                "date": "6th",
+                "time": "TBC",
+                "location": "TBC",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
+            },
+            "image":
+            {
+                "url": "digital-witchcraft_artwork_WEB.png",
+                "alt": "Image of Digital Witchcraft"
+            }
+        },
+        "social_media": { 
+            "website": "",
+            "twitter": "",
+            "instagram": ""
+        }
+    },
+    {
+        "id": 7,
+        "artist": {
+            "name": "Rachel Smith",
+            "bio_100w": ["Bristol based Rachel Smith is a media artist and creative technologist with an MFA in Media Art from Bauhaus University Weimar and an undergraduate in Maths. She is a resident of the Pervasive Media Studio in Bristol and recently completed a Fellowship in Automation for the South West Creative Technology Network. Often creating playful experiences and interactive installations, she interrogates emerging technologies with both a critical and affectionate eye. Her main interests lie in the relationship between humans and machines and her work has a particular focus on the hidden decision-making processes found in artificial intelligence. She has exhibited internationally including at the Kunstverein Tiergarten in Berlin and the Ars Electronica festival."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Face / On",
+            "artwork_description_line": "Installation to playfully engage with ideas around facial recognition technology", 
+            "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise in order to gain access. Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Do they align with our own ideas of identity? Where have these rules come from and what are the consequences? Face / On is an invitation to playfully engage with ideas around facial recognition technology."],
+            "artwork_description_50w_short": "Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise.",
+            "details":
+            {
+                "filterOnline": "TBC",
+                "filterType": "installation",
+                "filterWeek": "TBC",
+                "day": "TBC",
+                "date": "anytime",
+                "time": "TBC",
+                "location": "TBC"
+            },
+            "image":
+            {
+                "url": "face-on_artwork_WEB.png",
+                "alt": "Image of Rachel's face mixed with Arnold Schwarzenegger"
+            }
+        },
+        "social_media": { 
+            "website": "https://www.watershed.co.uk/studio/residents/rachel-smith"
+        }
+    },
+    {
+        "id": 8,
+        "artist": {
+            "name": "Heath Bunting",
+            "bio_100w": ["South West based artist Heath Bunting has exhibited, performed and taught internationally for over 25 years. As a young adult, he undertook a three year apprenticeship in stained glass. After this, Heath spent several years roaming both Bristol and London as a street artist as well as distributing thousands of art-works via postal and fax networks. During the rise of the internet, he was a key participant of the net.art movement. Within this time he founded <add link> irational.org. He has setup and run multiple radio transmission and listening stations internationally. He has worked as staff at The Banff Centre for the Arts (three years) and The Cube Cinema (eight years). His current work, The Status Project, uses artificial intelligence to search for artificial life in both societal and natural systems. Heath regularly runs artist's training workshops in artist resilience."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Maps of Consequential Paradox",
+            "artwork_description_line": "Artist walk exploring networks of paradox and consequence in Brandon Hill park", 
+            "artwork_description_150w_long": ["We invite you on a walk around Brandon Hill park. Heath, your guide, will walk with you whilst examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.", "Visit Maps of Consequential Paradox website <a class='dark-link' target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
+            "artwork_description_50w_short": "A circuitous mis-guided walk around Brandon Hill park examining sustainability, paradox and consequence. Both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.",
+            "details":
+            {
+                "filterOnline": "TBC",
+                "filterType": "walk",
+                "filterWeek": "week-2",
+                "day": "Saturday",
+                "date": "10th",
+                "time": "TBC",
+                "location": "Brandon Hill TBC",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
+            },
+            "image":
+            {
+                "url": "mapsofCP_WEB.png",
+                "alt": "Group of people looking at maps"
+            }
+        },
+        "social_media": { 
+            "website": "http://irational.org/heath/"
+        }
+    },
+    {
+        "id": 9,
+        "artist": {
+            "name": "Arjun Harrison Mann and Benjamin Redgrove",
+            "bio_100w": ["Arjun Harrison Mann and Benjamin Redgrove are London-based artist & designer duo exploring alternative forms of Accessibility in relation to Disability Rights in the UK. Their work is created in solidarity with <add link> Disabled People Against Cuts and explores the relationship between power and presence. It is grounded in the Social Model of Disability — the belief that people aren’t disabled, but society is disabling."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Power Tools",
+            "artwork_description_line": "Short films documenting encounters made when using proxy protest tools", 
+            "artwork_description_150w_long": ["Power Tools is a series of short films that document encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> - wearable accessories and custom built video-conferencing software, the films follow experiences of pairs of walkers, exploring the nuances of accessibility and how they may have been affected by the global pandemic. The series, commissioned earlier this year by Control Shift, attempts to highlight the dialogues, encounters or performances with systems and structures that define how people experience the world. Conversations address the relationship between power and presence, the reimagining of access under a global pandemic, the foregrounding of the aesthetics of accessibility, and the role of allyship in an age of lockdown and restricted movement."],
+            "artwork_description_50w_short": "Power Tools is a series of short films documenting encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> they explore the nuances of accessibility and how they may have been affected by the global pandemic.",
+            "details":
+            {
+                "filterOnline": "TBC",
+                "filterType": "film",
+                "filterWeek": "week-1",
+                "day": "Saturday",
+                "date": "3rd",
+                "time": "TBC",
+                "location": "TBC"
+            },
+            "image":
+            {
+                "url": "power-toos_artwork_WEB.png",
+                "alt": "Man with phoen strapped to his chest. The phone has an image of a face on it"
+            }
+        },
+        "social_media": { 
+            "website": ""
+        }
+    },
+    {
+        "id": 10,
+        "artist": {
+            "name": "Russel Hlongwane",
+            "bio_100w": ["Russel Hlongwane is a cultural producer and creative industries consultant based in Durban, South Africa. His work obsesses over the tensions in Heritage/ Modernity and Culture/Tradition as it applies to black life. His practice includes cultural research, creative producing, design, film and curatorship. He is part of a number of working groups spread across the Southern African Region, the African continent more broadly and internationally. He has shown work in Munich, Marrakech, Maputo, Karlsruhe, Harare, Bristol, Tokyo as well as throughout South Africa."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Indigeneity & Digital Entanglements",
+            "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction", 
+            "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
+            "artwork_description_50w_short": "This programme of film shorts offers counter evidence to the assumption that technology is a western construction. The films are seen as a sample of cinematic expressions from Africa addressing the politics of technology on the continent. They affirm Africa as an active agent in the production of technology through indigenous practices.",
+            "details":
+            {
+                "filterOnline": "TBC",
+                "filterType": "film",
+                "filterWeek": "week-2",
+                "day": "Saturday",
+                "date": "10th",
+                "time": "TBC",
+                "location": "Arnolfini TBC"
+            },
+            "image":
+            {
+                "url": "film_artwork_WEB.png",
+                "alt": "man and digital hard drive"
+            }
+        },
+        "social_media": { 
+            "website": "https://www.facebook.com/russel.hlongwane",
+            "instagram": "https://www.instagram.com/russel.hlongwane/",
+            "twitter": "https://twitter.com/RusselHlongwane"
+        }
+    },
+    {
+        "id": 11,
+        "artist": {
+            "name": "Wisterlitz",
+            "bio_100w": ["<a class='dark-link' target='_blank' href='https://wisterlitz.wordpress.com/'>Wisterlitz</a> (Liz Lister and Becky Hurwitz) make playful, interactive work exploring relationships between science, technologies, and society. Their work reflects on the position of women in relation to these areas, often looking afresh at invisible histories through a contemporary lens and combining physical making with digital mediums."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Knitwitter",
+            "artwork_description_line": "An invitation to encode secret messages into your knitting", 
+            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a class='dark-link' target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a class='dark-link' target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
+            "artwork_description_50w_short": "Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text in to a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.",
+            "details":
+            {
+                "filterOnline": "TBC",
+                "filterType": "website",
+                "filterWeek": "TBC",
+                "day": "TBC",
+                "date": "8th",
+                "time": "TBC",
+                "location": "TBC"
+            },
+            "image":
+            {
+                "url": "knitwitter_Artwork_WEB.png",
+                "alt": "Digital knitting pattern"
+            }
+        },
+        "social_media": { 
+            "website": "https://wisterlitz.wordpress.com/",
+            "twitter": "https://twitter.com/Wisterlitz"
+        }
     }
-    
 ]
