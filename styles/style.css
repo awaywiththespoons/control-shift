@@ -143,12 +143,19 @@ a.dropdown-item:hover {
 
 .nav-bar-mobile-open {
     border-bottom: 1px solid var(--dark-link);
+    padding-bottom: 30px;
 }
 
 .dropdown-menu {
     background-color: var(--background);
     border: 2px solid var(--dark-link);
     border-radius: 0rem;
+}
+
+@media (max-width: 850px) {
+    .dropdown-menu {
+        border: none;
+    }
 }
 
 .dropdown-item:hover {
