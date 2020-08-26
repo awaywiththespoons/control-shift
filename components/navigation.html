@@ -1,8 +1,10 @@
-<div class="container">
     <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="anchor navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
+            <div class="menu-btn">
+            <div class="menu-btn__burger">
+            </div>
+          </div>
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="index.html">home</a>
@@ -14,8 +16,6 @@
                         <a class="dropdown-item" href="programme.html">Overview</a>
                         <a class="dropdown-item" href="artworks.html">Happenings</a>
                         <a class="dropdown-item" href="schedule.html">Schedule</a>
-
-
                     </div>
                 </li>
                 <a class="nav-item nav-link" href="about.html">about us</a>
@@ -23,7 +23,6 @@
             </div>
         </div>
     </nav>
-</div>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -33,4 +32,18 @@
         }).addClass('active');
     });
 
+    const menuBtn = document.querySelector('.menu-btn');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () => {
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+    $( "#menu-mobile" ).addClass( "nav-bar-mobile-open" );
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+    $( "#menu-mobile" ).removeClass( "nav-bar-mobile-open" );
+
+  }
+});
 </script>

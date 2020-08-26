@@ -69,9 +69,10 @@ a {
 p a {
     text-decoration: none;
 }
-
+  
 .nav-link {
     font-size: 30px;
+    justify-content: end;
 }
 
 a.dark-link {
@@ -133,14 +134,15 @@ a.dropdown-item:hover {
 .navbar-light .navbar-toggler {
     color: transparent !important;
     border: 0px;
+    padding-right: 0;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2rem;
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(7, 221, 153, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.nav-bar-mobile-open {
+    border-bottom: 1px solid var(--dark-link);
 }
 
 .dropdown-menu {
@@ -156,7 +158,10 @@ a.dropdown-item:hover {
 /* menu for small screens */
 #menu-mobile {
     font-size: 1.6em;
-    padding-left: 0px;
+    background-color: var(--background);
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #menu-mobile a {
@@ -167,6 +172,59 @@ a.dropdown-item:hover {
 #menu-mobile a:hover {
     color: var(--hover-colour);
 }
+
+/* nav bar for mobile */
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger {
+    width: 40px;
+    height: 4px;
+    background: #07dd99;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #07dd99;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-16px);
+  }
+  .menu-btn__burger::after {
+    transform: translateY(16px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg);
+  }
+  
+  .anchor {
+    margin-left:auto;
+    margin-right:0;
+  }
+
 
 .footer-text {
     text-align: center !important;
@@ -578,3 +636,4 @@ input:-webkit-autofill {
         width: 100%
     }
 }
+
