@@ -103,7 +103,7 @@ a.dropdown-item:hover {
 .jumbotron {
     min-height: 100vh;
     /* background-image: url("/img/control-shiftBG.gif") !important;*/
-    background-image: url("https://ellieforeman.github.io/testing-new-release-cs/control-shiftBG.png") !important;
+    background-image: url("/control-shift-bg.png") !important;
     background-attachment: fixed;
     /*  background-position: center;*/
     /*  background-repeat: no-repeat;*/
