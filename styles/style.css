@@ -469,9 +469,22 @@ input[name=LNAME].form-control {
 } */
 
 .form-check-label {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-family: var(--font-paragraph-modal);
+    margin-left: 15px;
+    
 }
+
+.form-check {
+    margin-left: 10px;
+}
+
+#SubscribeCheckBox {
+    height: 25px;
+    width: 25px;
+}
+
+/* end of form */
 
 @-webkit-keyframes autofill {
     to {
