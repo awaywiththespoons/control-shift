@@ -510,18 +510,18 @@ input:-webkit-autofill {
 }
 
 .send-submit {
+    background-color: var(--dark-primary);
     margin-top: 20px;
-    border: 2px solid var(--dark-link);
     padding: 8px;
     text-align: center;
-    color:var(--dark-link);
+    color:var(--background);
     width: 25%;
     min-width: 100px;
  
 }
 
 .send-submit:hover {
-    background-color: var(--dark-link);
+    background-color: var(--dark-link-hover);
     color: var(--background);
 }
 

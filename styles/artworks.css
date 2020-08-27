@@ -96,14 +96,14 @@ label input[type="radio"]:checked ~ span {
 .close-container{
     position: relative;
     margin: auto;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
   }
   
   .leftright{
     height: 4px;
-    width: 25px;
+    width: 35px;
     position: absolute;
     margin-top: 24px;
     background-color: var(--background);
@@ -114,7 +114,7 @@ label input[type="radio"]:checked ~ span {
   
   .rightleft{
     height: 4px;
-    width: 25px;
+    width: 35px;
     position: absolute;
     margin-top: 24px;
     background-color: var(--background);
@@ -122,6 +122,8 @@ label input[type="radio"]:checked ~ span {
     transform: rotate(-45deg);
     transition: all .3s ease-in;
   }
+
+
   
   .close{
     margin: 60px 0 0 5px;
@@ -152,11 +154,15 @@ label input[type="radio"]:checked ~ span {
 
 .modal-header {
     border-bottom: 0 none;
-    padding-top: 0;
+    padding-top: 10px;
 }
 
 .modal-footer {
     border-top: 0 none;
+}
+
+#modalImage {
+    width: 70%;
 }
 
 /* modal styles: text */
@@ -170,6 +176,7 @@ label input[type="radio"]:checked ~ span {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 3px;
+    margin-bottom: 0;
 
 }
 
@@ -214,6 +221,21 @@ label input[type="radio"]:checked ~ span {
     text-decoration: underline;
 }
 
+#bookingLink {
+    border: 1px solid var(--dark-link); 
+    padding: 10px;
+}
+
+#doNowLink {
+    border: 1px solid var(--dark-link); 
+    padding: 10px;
+}
+
+.padding-modal-right-left {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 /* Modal: artist social media container */
 
 #socialMediaContainer {
@@ -223,6 +245,13 @@ label input[type="radio"]:checked ~ span {
 
 @media only screen and (max-width: 768px) {
     #socialMediaContainer {
+        width: 100%;
+    }
+    .padding-modal-right-left {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    #modalImage {
         width: 100%;
     }
 }
@@ -237,12 +266,33 @@ label input[type="radio"]:checked ~ span {
 
 /* Modal: top panel with Where/When/Book now or calendar*/
 
-.border-right {
-    border-right: 1px solid var(--dark-link) !important; 
+.border-sides {
+    border-right: 1px solid var(--dark-link); 
+    border-left: 1px solid var(--dark-link); 
 }
 
-.border-left {
-    border-left: 1px solid var(--dark-link) !important; 
+@media only screen and (max-width: 768px) {
+    .border-sides {
+        border: none;
+    }
+    .when-text {
+        padding-bottom: 10px;
+    }
+    .time-text {
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--dark-link); 
+        width: 50%;
+        margin: 0 auto;
+    }
+    #bookNowContainer {
+        padding-top: 10px;
+    }
+    #doNowContainer {
+        padding-top: 10px;
+    }
+    #calendarContainer {
+        padding-top: 10px;
+    }
 }
 
 /* Modal: Add to calendar button styles*/

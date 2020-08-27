@@ -311,7 +311,9 @@
                 "day": "TBC",
                 "date": "anytime",
                 "time": "TBC",
-                "location": "TBC"
+                "location": "TBC",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -387,7 +389,9 @@
                 "day": "Saturday",
                 "date": "3rd",
                 "time": "TBC",
-                "location": "TBC"
+                "location": "TBC",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -424,7 +428,9 @@
                 "day": "Saturday",
                 "date": "10th",
                 "time": "TBC",
-                "location": "Arnolfini TBC"
+                "location": "Arnolfini TBC",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -463,7 +469,9 @@
                 "day": "TBC",
                 "date": "8th",
                 "time": "TBC",
-                "location": "TBC"
+                "location": "TBC",
+                "bookNowButton": true, 
+                "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
             {
