@@ -8,6 +8,18 @@
     margin-bottom: 25px;
 }
 
+/* targeting tablets only */
+@media only screen and (max-width:768px) {
+    .artworkImageDiv { /* Div wrapping each image & text  */
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #myData {
+        margin-top: -60px;
+    }
+}
+
 
 .artworkImage { /* Image itself */
     object-fit: scale-down;

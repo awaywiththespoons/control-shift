@@ -13,7 +13,7 @@
         },
         "artwork": {
             "artwork_name": "Deep Listening",
-            "artwork_description_line": "Artist walk exploring underwater perspectives of the Bristol floating harbour",
+            "artwork_description_line": "Artist walk exploring underwater perspectives of the Bristol floating harbour.",
             "artwork_description_150w_long": ["In this artist led walk, you are invited to listen deeply to the waterways of Bristol using underwater microphones at the point where the floating harbour meets the gorge. Together, we will contemplate the huge tidal range of the Bristol Channel by positioning ourselves at an edge point of the city, demarcated by a shifting watery passageway that carves a liminal space between the urban and the rural. There are many interventions that keep Bristol’s relationship with water flowing and smooth. Watery compositions created from underwater sounds and shaped by tidal data, are integrated into the walk, inviting us to consider the potential future of rising sea levels. Join us to develop a meaningful connection with the watery environs of Bristol by pausing to reflect through listening from an underwater perspective."],
             "artwork_description_50w_short": "Join us for a walk along the harbour, to pause, reflect and listen to Bristol from an underwater perspective. We will contemplate tidal changes from an edge point of the city, demarcated by a shifting watery passageway carving a space between the urban and the rural.",
             "details":
@@ -97,7 +97,7 @@
         },
         "artwork": {
             "artwork_name": "Interwave",
-            "artwork_description_line": "Podcast series exploring the effects of living and working online", 
+            "artwork_description_line": "Podcast series exploring the effects of living and working online.", 
             "artwork_description_150w_long": ["This three-part podcast series takes a deep dive into the effects of “Zoom fatigue”, a new social phenomenon created by living and working online. Using interviews, discussions and intersectional reflections, Interwave explores how increased video calling has impacted our mental, emotional and physical health. Coming from a female-led perspective, KASAVA bring creative womxn to the centre of the narrative. Through laughter, tears and unfiltered conversations, the Interwave podcast series weaves important issues into the Zoom fatigue narrative, raising questions around who’s included and who isn’t, and ultimately, how can we be doing things differently?"],
             "artwork_description_50w_short": "This three-part podcast series by the KASAVA collective will be discussing and exploring the effects of a new social phenomenon, Zoom fatigue, created and exacerbated by living and working online. Interwave delves into the effects that increased video calling has on our mental, emotional, physical health - begging the question, ​‘how can we be doing things differently?​’",
             "details":
@@ -177,7 +177,7 @@
         },
         "artwork": {
             "artwork_name": "Alt-Text as Poetry",
-            "artwork_description_line": "Online creative writing workshop reframing “alt-text” as poetry", 
+            "artwork_description_line": "Online creative writing workshop reframing “alt-text” as poetry.", 
             "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a class='dark-link' target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
             "artwork_description_50w_short": "Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.",
             "details":
@@ -218,7 +218,7 @@
         },
         "artwork": {
             "artwork_name": "Center for Technological Pain",
-            "artwork_description_line": "Workshop and exhibition of DIY solutions to health problems caused by digital technologies", 
+            "artwork_description_line": "Workshop and exhibition of DIY solutions to health problems caused by digital technologies.", 
             "artwork_description_150w_long": ["<a class='dark-link' target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
             "artwork_description_50w_short": "Center for Technological Pain (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies. The solutions proposed by the center take the form of physical objects against tech-pain, self-defense moves against technology, as well as workshops to fight addiction to technology.",
             "details":
@@ -259,7 +259,7 @@
         },
         "artwork": {
             "artwork_name": "Digital Witchcraft",
-            "artwork_description_line": "Creative workshop for making technology based on magical thinking", 
+            "artwork_description_line": "Creative workshop for making technology based on magical thinking.", 
             "artwork_description_150w_long": ["At the Digital Witchcraft workshop we invite you to discuss non-conforming approaches to technology. You will have the opportunity to develop a series of prototypes targeted for specific communities using a methodology of magical thinking. This means no idea is off-limits: teleportation, invisibility, everything counts. This methodology is inspired by Peter Sloterdijk’s quote “magic is the mother of technology” which implies that every technological advance was initially conceived as an act of imagination that seemed impossible to achieve.", "We will review examples of dissident technology around the globe and adopt a radical change of world-veiw in our conception of the cybernetic through the incorporation of logics of ancient knowledge and the supernatural. The workshop is open to all audiences, though it will be especially compelling for those who are interested in intersectional approaches to technology."],
             "artwork_description_50w_short": "This workshop is an experience of speculative design and magical thinking. We will create prototypes of advanced technology to tackle the most central challenges of our current times. With this exercise, we will take back technology from the hands of Silicon Valley dudes and will give it back to our communities.",
             "details":
@@ -300,7 +300,7 @@
         },
         "artwork": {
             "artwork_name": "Face / On",
-            "artwork_description_line": "Installation to playfully engage with ideas around facial recognition technology", 
+            "artwork_description_line": "Installation to playfully engage with ideas around facial recognition technology.", 
             "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise in order to gain access. Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Do they align with our own ideas of identity? Where have these rules come from and what are the consequences? Face / On is an invitation to playfully engage with ideas around facial recognition technology."],
             "artwork_description_50w_short": "Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise.",
             "details":
@@ -339,7 +339,7 @@
         },
         "artwork": {
             "artwork_name": "Maps of Consequential Paradox",
-            "artwork_description_line": "Artist walk exploring networks of paradox and consequence in Brandon Hill park", 
+            "artwork_description_line": "Artist walk exploring networks of paradox and consequence in Brandon Hill park.", 
             "artwork_description_150w_long": ["We invite you on a walk around Brandon Hill park. Heath, your guide, will walk with you whilst examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.", "Visit Maps of Consequential Paradox website <a class='dark-link' target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
             "artwork_description_50w_short": "A circuitous mis-guided walk around Brandon Hill park examining sustainability, paradox and consequence. Both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.",
             "details":
@@ -378,7 +378,7 @@
         },
         "artwork": {
             "artwork_name": "Power Tools",
-            "artwork_description_line": "Short films documenting encounters made when using proxy protest tools", 
+            "artwork_description_line": "Short films documenting encounters made when using proxy protest tools.", 
             "artwork_description_150w_long": ["Power Tools is a series of short films that document encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> - wearable accessories and custom built video-conferencing software, the films follow experiences of pairs of walkers, exploring the nuances of accessibility and how they may have been affected by the global pandemic. The series, commissioned earlier this year by Control Shift, attempts to highlight the dialogues, encounters or performances with systems and structures that define how people experience the world. Conversations address the relationship between power and presence, the reimagining of access under a global pandemic, the foregrounding of the aesthetics of accessibility, and the role of allyship in an age of lockdown and restricted movement."],
             "artwork_description_50w_short": "Power Tools is a series of short films documenting encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> they explore the nuances of accessibility and how they may have been affected by the global pandemic.",
             "details":
@@ -417,7 +417,7 @@
         },
         "artwork": {
             "artwork_name": "Indigeneity & Digital Entanglements",
-            "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction", 
+            "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction.", 
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
             "artwork_description_50w_short": "This programme of film shorts offers counter evidence to the assumption that technology is a western construction. The films are seen as a sample of cinematic expressions from Africa addressing the politics of technology on the continent. They affirm Africa as an active agent in the production of technology through indigenous practices.",
             "details":
@@ -458,7 +458,7 @@
         },
         "artwork": {
             "artwork_name": "Knitwitter",
-            "artwork_description_line": "An invitation to encode secret messages into your knitting", 
+            "artwork_description_line": "An invitation to encode secret messages into your knitting.", 
             "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a class='dark-link' target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a class='dark-link' target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
             "artwork_description_50w_short": "Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text in to a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.",
             "details":
