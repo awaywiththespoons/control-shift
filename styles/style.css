@@ -602,7 +602,15 @@ input:-webkit-autofill {
     input[name=LNAME].form-control {
         display: block;
         width: 100%;
-        margin-top: 15px;
+    }
+
+    .send-submit {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .form-check {
+        padding-bottom: 20px;
     }
 }
 
