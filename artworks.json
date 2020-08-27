@@ -74,7 +74,7 @@
                    "start": "10/21/2020 02:00 PM",
                    "end": "10/21/2020 03:00 PM",
                    "description": "example description bla bla bla",
-                   "allDay": true
+                   "allDay": false
                } 
             },
             "image":
