@@ -68,8 +68,14 @@
                 "date": "18th",
                 "time": "TBC",
                 "location": "TBC",
-                "bookNowButton": true, 
-                "bookingLink": "TBCTBCTBCTBC"
+                "calendarButton": true,
+                "calendarEvent": {
+                   "calendarTitle": "Calendar title",
+                   "start": "10/21/2020 02:00 PM",
+                   "end": "10/21/2020 03:00 PM",
+                   "description": "example description bla bla bla",
+                   "allDay": true
+               } 
             },
             "image":
             {
@@ -429,8 +435,14 @@
                 "date": "10th",
                 "time": "TBC",
                 "location": "Arnolfini TBC",
-                "bookNowButton": true, 
-                "bookingLink": "TBCTBCTBCTBC"
+                "calendarButton": true,
+                 "calendarEvent": {
+                    "calendarTitle": "Calendar title",
+                    "start": "10/21/2020 02:00 PM",
+                    "end": "10/21/2020 03:00 PM",
+                    "description": "example description bla bla bla",
+                    "allDay": true
+                } 
             },
             "image":
             {
