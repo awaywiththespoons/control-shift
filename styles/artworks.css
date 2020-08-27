@@ -271,7 +271,8 @@ label input[type="radio"]:checked ~ span {
     border-left: 1px solid var(--dark-link); 
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 320px) {
     .border-sides {
         border: none;
     }
@@ -294,6 +295,23 @@ label input[type="radio"]:checked ~ span {
         padding-top: 10px;
     }
 }
+
+/* targeting tablets only */
+@media only screen and (min-width:321px) and (max-width:768px) {
+    #bookingLink {
+        border: none;
+        border-bottom: 1px solid var(--dark-link); 
+        padding: 0;
+    }
+    
+    #doNowLink {
+        border: none;
+        border-bottom: 1px solid var(--dark-link); 
+        padding: 0;
+    }
+    
+}
+
 
 /* Modal: Add to calendar button styles*/
 
