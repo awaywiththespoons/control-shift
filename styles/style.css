@@ -46,6 +46,15 @@ body {
   height: 75px;
 }
 
+@media (max-width: 850px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+}
+  
 hr {
     height: 1px;
     background-color: var(--dark-link);
@@ -192,6 +201,13 @@ a.dropdown-item:hover {
     cursor: pointer;
     transition: all .5s ease-in-out;
   }
+
+    @media (max-width: 850px) {
+        .nav-bar-space {
+            margin-top: 58px;
+        }
+    }
+
   .menu-btn__burger {
     width: 40px;
     height: 4px;
