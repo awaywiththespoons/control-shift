@@ -61,7 +61,7 @@
             "artwork_description_50w_short": "The Departed, part séance, part performative workshop, will be held between the physical and the virtual. Participants will be guided through a process to reconnect with those we have lost during Covid-19: the locked down, the deceased, the birds who sang of late, and the supervirtual wanderers of cyberspace who used to breathe our same air.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online person",
                 "filterType": "performance",
                 "filterWeek": "week-3",
                 "day": "Sunday",
@@ -110,7 +110,7 @@
             {
                 "filterOnline": "online",
                 "filterType": "podcast",
-                "filterWeek": "all",
+                "filterWeek": "anytime",
                 "day": "TBC",
                 "date": "anytime",
                 "time": "TBC",
@@ -148,7 +148,7 @@
             "artwork_description_50w_short": "In MIAU ID, the cats of the internet gather to decide upon a network structure that's good for every cat! Using embroidery, we will play as cats and address each other via different rules. On our agenda are three network types: Centralized, Decentralized and Distributed. Let us find out about these network's purrtocols (protocols)!",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online",
                 "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Wednesday",
@@ -188,7 +188,7 @@
             "artwork_description_50w_short": "Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online",
                 "filterType": "workshop",
                 "filterWeek": "week-3",
                 "day": "Wednesday",
@@ -270,7 +270,7 @@
             "artwork_description_50w_short": "This workshop is an experience of speculative design and magical thinking. We will create prototypes of advanced technology to tackle the most central challenges of our current times. With this exercise, we will take back technology from the hands of Silicon Valley dudes and will give it back to our communities.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online person",
                 "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Tuesday",
@@ -311,9 +311,9 @@
             "artwork_description_50w_short": "Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "person",
                 "filterType": "installation",
-                "filterWeek": "TBC",
+                "filterWeek": "anytime",
                 "day": "TBC",
                 "date": "anytime",
                 "time": "TBC",
@@ -350,7 +350,7 @@
             "artwork_description_50w_short": "A circuitous mis-guided walk around Brandon Hill park examining sustainability, paradox and consequence. Both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online person",
                 "filterType": "walk",
                 "filterWeek": "week-2",
                 "day": "Saturday",
@@ -389,7 +389,7 @@
             "artwork_description_50w_short": "Power Tools is a series of short films documenting encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> they explore the nuances of accessibility and how they may have been affected by the global pandemic.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online person",
                 "filterType": "film",
                 "filterWeek": "week-1",
                 "day": "Saturday",
@@ -428,7 +428,7 @@
             "artwork_description_50w_short": "This programme of film shorts offers counter evidence to the assumption that technology is a western construction. The films are seen as a sample of cinematic expressions from Africa addressing the politics of technology on the continent. They affirm Africa as an active agent in the production of technology through indigenous practices.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online person",
                 "filterType": "film",
                 "filterWeek": "week-2",
                 "day": "Saturday",
@@ -475,10 +475,10 @@
             "artwork_description_50w_short": "Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text in to a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.",
             "details":
             {
-                "filterOnline": "TBC",
+                "filterOnline": "online person",
                 "filterType": "website",
-                "filterWeek": "TBC",
-                "day": "TBC",
+                "filterWeek": "week-2",
+                "day": "Thursday",
                 "date": "8th",
                 "time": "TBC",
                 "location": "TBC",
