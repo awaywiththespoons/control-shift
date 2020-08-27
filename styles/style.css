@@ -435,7 +435,7 @@ li {
     background-clip: padding-box;
     border: transparent;
     border-radius: 0px;
-    border: solid 1px var(--dark-primary);
+    border-bottom: solid 1px var(--dark-primary);
 }
 
 .justify-content-center {
@@ -459,7 +459,7 @@ input[name=LNAME].form-control {
 
 .form-control:focus {
     background-color: rgba(255, 255, 255, 0.1);;
-    border: solid 1px var(--dark-link);
+    border-bottom: solid 1px var(--dark-link);
     box-shadow: none;
     -webkit-box-shadow: none;
 }
