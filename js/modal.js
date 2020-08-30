@@ -8,7 +8,6 @@ fetch('artworks.json') // fetching json code
 .catch(function (err) {
     console.log('error: ' + err); // catches error & console logs out the error message
 });
-// function to generate grid of artworks from json file
 function appendData(data) {
     // function to populate modal with artist info from json file, based on which thumbnail image is clicked
     (function($) {
