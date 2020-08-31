@@ -103,9 +103,7 @@
                 //make anchor
                 var a = document.createElement('a');
                 a.setAttribute("href", "#");
-                a.setAttribute("data-id", data[i].id);
-                a.setAttribute("data-toggle", "modal");
-                a.setAttribute("data-target", "#infoModal");
+                a.setAttribute("data-id", data[i].artist.name);
                 a.setAttribute("class", "thumbnail");
                 // setting Image
                 let image = document.createElement("IMG"); //creating image element
