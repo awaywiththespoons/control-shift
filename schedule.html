@@ -157,10 +157,8 @@
             // function adding events to calendar
             for (let i = 0; i < data.length; i++) {
                 let a = document.createElement('a');
-                a.setAttribute("data-id", data[i].id);
+                a.setAttribute("data-id", data[i].artist.name);
                 a.setAttribute("id", data[i].artwork.details.date + "style");
-                a.setAttribute("data-toggle", "modal");
-                a.setAttribute("data-target", "#infoModal");
                 a.setAttribute("class", "thumbnail single-event-box");
                 a.setAttribute("href", "#");
                 let p = document.createElement('p');
