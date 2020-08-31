@@ -58,13 +58,18 @@ function appendData(data) {
                         // Artwork Info
                         infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);
                         // loop through array of artwork info - print new string as a <p> so displays on new line
-                        for (let i = 0; i < data[id].artwork.artwork_description_150w_long.length; i++) {
-                            let mainContainer = document.getElementById("aboutArtwork");
-                            var p = document.createElement('p');
-                            p.setAttribute("class", "modal-text text" + data[id].id);
-                            p.innerHTML = data[id].artwork.artwork_description_150w_long[i];
-                            mainContainer.appendChild(p);
-                        }
+                        // for (let i = 0; i < data[id].artwork.artwork_description_150w_long.length; i++) {
+                        //     let mainContainer = document.getElementById("aboutArtwork");
+                        //     var p = document.createElement('p');
+                        //     p.setAttribute("class", "modal-text text" + data[id].id);
+                        //     p.innerHTML = data[id].artwork.artwork_description_150w_long[i];
+                        //     mainContainer.appendChild(p);
+                        // }
+                        let mainContainer = document.getElementById("aboutArtwork");
+                        var p = document.createElement('p');
+                        p.setAttribute("class", "modal-text text" + data[id].id);
+                        p.innerHTML = data[id].artwork.artwork_description_50w_short;
+                        mainContainer.appendChild(p);
                         if (data[id].artwork.details.date == "anytime") {
                             infoModal.find('.when-text').text("At your own pace");
                             infoModal.find('.where-text').text(data[id].artwork.details.location);
