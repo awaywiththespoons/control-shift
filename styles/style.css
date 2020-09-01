@@ -15,11 +15,17 @@
 
     --text-highlight: #ecbbf0;
 
-    --font-large-headings: 'rubik', sans-serif;
+    --font-large-headings: 'BagnardSans', sans-serif;
     --font-paragraph-modal: 'Karla', sans-serif;
     --font-paragraph-text: 'Karla', sans-serif;
-    --font-small-headings: 'Source Sans Pro', sans-serif;
-    --font-nav-bar: 'Times', serif;
+    --font-small-headings: 'BagnardSans', sans-serif;
+    --font-nav-bar: 'BagnardSans', sans-serif;
+}
+
+
+@font-face {
+font-family: "BagnardSans";
+src: url("./fonts/BagnardSans.otf");
 }
 
 /* setting up the grid
@@ -94,6 +100,9 @@ a.nav-link:hover {
     color: #65dbb6 !important;
 }
 
+
+/*
+commenting this out as not using dropdown
 a.dropdown-item:hover {
     color: var(--background) !important;
 }
@@ -101,6 +110,8 @@ a.dropdown-item:hover {
 .dropdown-item.active, .dropdown-item:active {
     background-color: var(--background);
 }
+*/
+
 
 .container {
     width: 100%;
@@ -153,6 +164,10 @@ a.dropdown-item:hover {
     padding-bottom: 30px;
 }
 
+/*
+
+>>>>dropdown again
+
 .dropdown-menu {
     background-color: var(--background);
     border: 2px solid var(--dark-link);
@@ -168,8 +183,9 @@ a.dropdown-item:hover {
 .dropdown-item:hover {
      background-color: var(--mid-primary);
 }
+*/
 
-/* menu for small screens */
+/* MENU for small screens */
 #menu-mobile {
     font-size: 1.6em;
     background-color: var(--background);
@@ -316,23 +332,26 @@ a.dropdown-item:hover {
     filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);
 }
 
+/* home page central heading */
 .jumbotron h1 {
     font-size: 4em;
     font-family: var(--font-small-headings);
     font-weight: 600;
     letter-spacing: 2px;
-    text-shadow: 4px 4px 1px var(--dark-link);
+/*    text-shadow: 4px 4px 1px var(--dark-link);*/
 }
 
+/* home page central heading */
 h1 {
     font-size: 1.8em;
     font-family: var(--font-small-headings);
     font-weight: 600;
     margin-bottom: 20px;
     letter-spacing: 2px;
-    text-shadow: 2px 2px var(--dark-link);
+/*    text-shadow: 2px 2px var(--dark-link);*/
 }
 
+/* home page central heading */
 h1 span {
     padding: 0 5px 0 5px;
     font-family: var(--font-large-headings);
@@ -343,6 +362,7 @@ h1 span {
     font-style: italic;
 }
 
+/* home page central heading */
 .jumbotron h2 span {
     /* header-subtitle */
     font-size: 1.2em;
@@ -353,11 +373,11 @@ h1 span {
     letter-spacing: 1px;
 }
 
+/* header-subtitle */
 h2 {
-    /* header-subtitle */
     font-size: 1.2em;
     color: var(--mid-primary);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-paragraph-text);
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -366,26 +386,30 @@ h2 {
     padding-bottom: 5px;
 }
 
+/* header-subtitle */
 h3 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: var(--font-paragraph-text);
     font-weight: 300;
     letter-spacing: 1px;
     color: var(--dark-link);
 }
 
+/* header-subtitle */
 h4 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: var(--font-paragraph-text);
     font-weight: 300;
     letter-spacing: 2px;
 }
 
+/* header-subtitle */
 h5 {
     font-size: 0.7em;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: var(--font-paragraph-text);
     font-weight: 200;
     letter-spacing: 2px;
 }
 
+/* Paragraph text */
 p,
 li {
     font-size: 1.05em;
@@ -572,7 +596,7 @@ input:-webkit-autofill {
 
     .jumbotron h1 {
         font-size: 2em;
-        text-shadow: 2px 2px var(--dark-link);
+/*        text-shadow: 2px 2px var(--dark-link);*/
     }
 
     #menu-style li a:hover:not(.active) {
@@ -635,7 +659,7 @@ input:-webkit-autofill {
 
     .jumbotron h1 {
         font-size: 2em;
-        text-shadow: 2px 2px var(--dark-link);
+/*        text-shadow: 2px 2px var(--dark-link);*/
     }
 
 
