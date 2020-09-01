@@ -1,6 +1,3 @@
-
-
-
 /* Setting up colours */
 :root {
     --background: #FDFCD1;
@@ -15,17 +12,36 @@
 
     --text-highlight: #ecbbf0;
 
-    --font-large-headings: 'BagnardSans', sans-serif;
+    --font-large-headings: OfficeCode, serif;
     --font-paragraph-modal: 'Karla', sans-serif;
     --font-paragraph-text: 'Karla', sans-serif;
-    --font-small-headings: 'BagnardSans', sans-serif;
-    --font-nav-bar: 'BagnardSans', sans-serif;
+    --font-small-headings: BagnardSans, serif;
+    --font-nav-bar: OfficeCode, serif;
 }
 
+@font-face {
+    font-family: BagnardSans;
+    src: url("../fonts/BagnardSans.otf") format("opentype");
+}
 
 @font-face {
-font-family: "BagnardSans";
-src: url("./fonts/BagnardSans.otf");
+    font-family: Bagnard;
+    src: url("../fonts/Bagnard.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CothamSans;
+    src: url("../fonts/CothamSans.otf") format("opentype");
+}
+
+@font-face {
+    font-family: OfficeCode;
+    src: url("../fonts/OfficeCodePro-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url("../fonts/YoungSerif-Regular.otf") format("opentype");
 }
 
 /* setting up the grid
@@ -38,18 +54,19 @@ body {
 }
 
 /* selection text */
-::-moz-selection { /* Code for Firefox */
-    background: var(--text-highlight)	;
+::-moz-selection {
+    /* Code for Firefox */
+    background: var(--text-highlight);
     color: var(--mid-primary);
-  }
-  
-  ::selection {
-    background: var(--text-highlight)	;
+}
+
+::selection {
+    background: var(--text-highlight);
     color: var(--mid-primary);
-  }
+}
 
 #navbar {
-  height: 75px;
+    height: 75px;
 }
 
 @media (max-width: 850px) {
@@ -60,14 +77,14 @@ body {
         z-index: 3;
     }
 }
-  
+
 hr {
     height: 1px;
     background-color: var(--dark-link);
     border: none;
 }
 
-hr.yelz{
+hr.yelz {
     background-color: var(--background);
     border: none;
 }
@@ -82,7 +99,7 @@ p a {
     color: var(--mid-primary);
     border-bottom: 1px solid var(--mid-primary);
 }
-  
+
 .nav-link {
     font-size: 30px;
     justify-content: end;
@@ -122,7 +139,7 @@ a.dropdown-item:hover {
 .jumbotron {
     min-height: 100vh;
     /* background-image: url("/img/control-shiftBG.gif") !important;*/
-    background-image: url("../img/control-shift-bg.png") !important;
+/*    background-image: url("../img/control-shift-bg.png") !important;*/
     background-attachment: fixed;
     /*  background-position: center;*/
     /*  background-repeat: no-repeat;*/
@@ -132,7 +149,7 @@ a.dropdown-item:hover {
 }
 
 .jumbotron h2 {
-    font-style: italic;
+    /*    font-style: italic;*/
 }
 
 /* MENU */
@@ -214,23 +231,24 @@ a.dropdown-item:hover {
     height: 50px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-  }
+}
 
-    @media (max-width: 850px) {
-        .nav-bar-space {
-            margin-top: 58px;
-        }
+@media (max-width: 850px) {
+    .nav-bar-space {
+        margin-top: 58px;
     }
+}
 
-  .menu-btn__burger {
+.menu-btn__burger {
     width: 40px;
     height: 4px;
     background: #07dd99;
     border-radius: 5px;
     transition: all .5s ease-in-out;
-  }
-  .menu-btn__burger::before,
-  .menu-btn__burger::after {
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
     content: '';
     position: absolute;
     width: 40px;
@@ -238,29 +256,34 @@ a.dropdown-item:hover {
     background: #07dd99;
     border-radius: 5px;
     transition: all .5s ease-in-out;
-  }
-  .menu-btn__burger::before {
+}
+
+.menu-btn__burger::before {
     transform: translateY(-16px);
-  }
-  .menu-btn__burger::after {
+}
+
+.menu-btn__burger::after {
     transform: translateY(16px);
-  }
-  /* ANIMATION */
-  .menu-btn.open .menu-btn__burger {
+}
+
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
     background: transparent;
     box-shadow: none;
-  }
-  .menu-btn.open .menu-btn__burger::before {
+}
+
+.menu-btn.open .menu-btn__burger::before {
     transform: rotate(45deg);
-  }
-  .menu-btn.open .menu-btn__burger::after {
+}
+
+.menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg);
-  }
-  
-  .anchor {
-    margin-left:auto;
-    margin-right:0;
-  }
+}
+
+.anchor {
+    margin-left: auto;
+    margin-right: 0;
+}
 
 
 .footer-text {
@@ -310,7 +333,7 @@ a.dropdown-item:hover {
 
 .icon-max-width-footer {
     max-width: 20px;
-    margin:10px;
+    margin: 10px;
 }
 
 .social {
@@ -324,7 +347,7 @@ a.dropdown-item:hover {
 }
 
 /* convert social media svgs to blue & turn green on hover */
-.filter-blue{
+.filter-blue {
     filter: invert(87%) sepia(35%) saturate(261%) hue-rotate(343deg) brightness(108%) contrast(103%);
 }
 
@@ -338,7 +361,7 @@ a.dropdown-item:hover {
     font-family: var(--font-small-headings);
     font-weight: 600;
     letter-spacing: 2px;
-/*    text-shadow: 4px 4px 1px var(--dark-link);*/
+    text-shadow: 4px 4px 1px var(--dark-link);
 }
 
 /* home page central heading */
@@ -348,10 +371,11 @@ h1 {
     font-weight: 600;
     margin-bottom: 20px;
     letter-spacing: 2px;
-/*    text-shadow: 2px 2px var(--dark-link);*/
+    /*    text-shadow: 2px 2px var(--dark-link);*/
 }
 
 /* home page central heading */
+/*
 h1 span {
     padding: 0 5px 0 5px;
     font-family: var(--font-large-headings);
@@ -359,8 +383,9 @@ h1 span {
     letter-spacing: 3px;
     line-height: 70%;
     background-color: rgba(248, 242, 201, 0.9);
-    font-style: italic;
+        font-style: italic;
 }
+*/
 
 /* home page central heading */
 .jumbotron h2 span {
@@ -464,9 +489,11 @@ li {
     justify-content: left !important;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(255, 0, 0, 0.2);
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
 
@@ -480,7 +507,8 @@ input[name=LNAME].form-control {
 }
 
 .form-control:focus {
-    background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
     border-bottom: solid 1px var(--dark-link);
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -494,7 +522,7 @@ input[name=LNAME].form-control {
     font-size: 19px;
     font-family: var(--font-paragraph-modal);
     margin-left: 15px;
-    
+
 }
 
 .form-check {
@@ -536,10 +564,10 @@ input:-webkit-autofill {
     margin-top: 20px;
     padding: 8px;
     text-align: center;
-    color:var(--background);
+    color: var(--background);
     width: 25%;
     min-width: 100px;
- 
+
 }
 
 .send-submit:hover {
@@ -596,7 +624,7 @@ input:-webkit-autofill {
 
     .jumbotron h1 {
         font-size: 2em;
-/*        text-shadow: 2px 2px var(--dark-link);*/
+        /*        text-shadow: 2px 2px var(--dark-link);*/
     }
 
     #menu-style li a:hover:not(.active) {
@@ -659,7 +687,7 @@ input:-webkit-autofill {
 
     .jumbotron h1 {
         font-size: 2em;
-/*        text-shadow: 2px 2px var(--dark-link);*/
+        /*        text-shadow: 2px 2px var(--dark-link);*/
     }
 
 
@@ -702,4 +730,3 @@ input:-webkit-autofill {
         width: 100%
     }
 }
-
