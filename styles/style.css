@@ -133,7 +133,14 @@ a.dropdown-item:hover {
 .container {
    width: 100%;
    max-width: 1200px;
+   overflow: hidden;
 /*    border: 1px black solid;*/
+}
+
+/*P5 sketch container*/
+.sketch {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .jumbotron {
@@ -206,7 +213,7 @@ a.dropdown-item:hover {
 /* MENU for small screens */
 #menu-mobile {
     font-size: 1.6em;
-   background-color: #fdfcd1a6;;
+    background-color: #fdfcd1;
     z-index: 1;
     max-width: 1200px;
     margin: 0 auto;
