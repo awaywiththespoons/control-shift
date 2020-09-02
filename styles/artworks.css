@@ -166,7 +166,7 @@ label input[type="radio"]:checked ~ span {
 /* modal styles: background opacity when modal is open */
 
 .modal-backdrop.show {
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .modal-content {
