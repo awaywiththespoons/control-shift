@@ -32,7 +32,8 @@
 }
 
 .artworkImage:hover {
-    transform: scale(1.01) translate(0px, -3px);
+/*    transform: scale(1.01) translate(0px, -3px);*/
+    opacity: 0.8;
 }
 
 /* #outerImage:hover > #gridTextBoxHighlight { color: var(--light-link); } */
@@ -260,6 +261,10 @@ label input[type="radio"]:checked ~ span {
 .padding-modal-right-left {
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.col-sm text-center{
+    padding:2px;
 }
 
 /* Modal: artist social media container */

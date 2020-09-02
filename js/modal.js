@@ -70,6 +70,13 @@ function createModal() {
                 //     p.innerHTML = data[id].artwork.artwork_description_150w_long[i];
                 //     mainContainer.appendChild(p);
                 // }
+                
+                //Artwork TYPE
+                infoModal.find('.artwork-type').text(data[id].artwork.details.filterType);
+                
+                //call to action
+                infoModal.find('.artwork-call-to-action').text(data[id].artwork.details.bookingText);
+                
                 let mainContainer = document.getElementById("aboutArtwork");
                 var p = document.createElement('p');
                 p.setAttribute("class", "modal-text text" + data[id].id);

@@ -15,7 +15,7 @@
     --font-large-headings: OfficeCode, serif;
     --font-paragraph-modal: 'Karla', sans-serif;
     --font-paragraph-text: 'Karla', sans-serif;
-    --font-small-headings: BagnardSans, serif;
+    --font-small-headings: OfficeCode, serif;
     --font-nav-bar: OfficeCode, serif;
 }
 
@@ -131,20 +131,21 @@ a.dropdown-item:hover {
 
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    /* border: 1px black solid;*/
+   width: 100%;
+   max-width: 1200px;
+/*    border: 1px black solid;*/
 }
 
 .jumbotron {
-    min-height: 100vh;
+    min-height: 70vh;
     /* background-image: url("/img/control-shiftBG.gif") !important;*/
 /*    background-image: url("../img/control-shift-bg.png") !important;*/
     background-attachment: fixed;
     /*  background-position: center;*/
     /*  background-repeat: no-repeat;*/
-    background-color: transparent;
-    background-size: 1000px;
+   background-color: transparent;*/
+   background-size: 1000px;
+/*        border: 1px black solid;*/
 
 }
 
@@ -205,7 +206,7 @@ a.dropdown-item:hover {
 /* MENU for small screens */
 #menu-mobile {
     font-size: 1.6em;
-    background-color: var(--background);
+   background-color: #fdfcd1a6;;
     z-index: 1;
     max-width: 1200px;
     margin: 0 auto;

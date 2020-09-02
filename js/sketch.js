@@ -4,8 +4,8 @@ var imgBrand = [];
 var img = [];
 var imgW;
 var imgH;
-let picBrand = 2; // number of images to test
-let picOther = 15; // number of other images
+let picBrand = 7; // number of images to test
+let picOther = 10; // number of other images
 
 
 
@@ -32,10 +32,9 @@ function setup() {
  //   noLoop();
     imageMode(CENTER);
     noStroke();
-    imageSnap();
+
     textFont(OfficeFont);
-
-
+        imageSnap();
 }
 
 
@@ -56,6 +55,10 @@ function imageSnap() {
     var randAng2 = ~~random(360);
     var randBrand = ~~random(picBrand);
     var randImg = ~~random(picOther);
+    
+    //text
+ var controlRand = ~~random(60,170);
+    var shiftRand = ~~random(25,170);
 
 
 
@@ -82,28 +85,30 @@ function imageSnap() {
         
    // Control text
     push(); // Start a new drawing state
-   // translate((width / 2) - 300, (height / 2));
- //   rotate(90);
-    textSize(150);
+    translate((width / 2)-100, (height / 2)-50);
+   rotate(controlRand);
+    textSize(width/10);
    
-    fill(7,221,153, 20);
-    for (var i = 0; i < 100; i=i+20) {
-        text("Control", width/2, height/2+i )}
+//    fill(7,221,153, 20);
+//    for (var i = 0; i < 200; i=i+20) {
+//        text("Control", 0, i )}
      fill(5,60,176,200);
-    text("Control", width/2, height/2);
+    text("Control", 0,0);
+        console.log("control "+controlRand);
     pop(); // Restore original state
 
     
     // shift text
     push(); // Start a new drawing state
-//    translate(width / 2, (height / 2) - 10);
-  //  rotate(180);
-    textSize(150);
-    fill(7,221,153, 20);
-      for (var i = 0; i < 100; i=i+20) {
-        text("Shift", width/2, height/2+i )}
+   translate(width / 2, (height / 2));
+    rotate(shiftRand);
+    textSize(width/10);
+//    fill(7,221,153, 20);
+//      for (var i = 0; i < 200; i=i+20) {
+//        text("Shift", 0, i )}
      fill(5,60,176,200);
-    text("Shift", width/2, height/2 )
+    text("Shift", 0,0)
+    console.log("shift "+shiftRand);
     pop(); // Restore original state
 
 

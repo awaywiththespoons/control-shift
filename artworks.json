@@ -19,7 +19,7 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "workshop installation",
+                "filterType": "👣 WALK",
                 "filterWeek": "week-1",
                 "day": "Monday",
                 "date": "10th",
@@ -62,13 +62,14 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "performance",
+                "filterType": "WORKSHOP",
                 "filterWeek": "week-3",
                 "day": "Sunday",
                 "date": "18th",
                 "time": "TBC",
                 "location": "TBC",
                 "calendarButton": true,
+                "bookingText": "Book Now",
                 "calendarEvent": {
                    "calendarTitle": "Calendar title",
                    "start": "10/21/2020 02:00 PM",
@@ -109,13 +110,14 @@
             "details":
             {
                 "filterOnline": "online",
-                "filterType": "podcast",
+                "filterType": "🎧  PODCAST",
                 "filterWeek": "anytime",
                 "day": "TBC",
                 "date": "anytime",
                 "time": "TBC",
                 "location": "online",
                 "doNowButton": true, 
+                "bookingText": "Listen Now",
                 "activityLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -149,13 +151,14 @@
             "details":
             {
                 "filterOnline": "online",
-                "filterType": "workshop",
+                "filterType": "WORKSHOP",
                 "filterWeek": "week-2",
                 "day": "Wednesday",
                 "date": "7th",
                 "time": "16:00 - 19:00",
-                "location": "TBC",
+                "location": "ONLINE",
                 "bookNowButton": true, 
+                "bookingText": "Book Now",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -189,13 +192,14 @@
             "details":
             {
                 "filterOnline": "online",
-                "filterType": "workshop",
+                "filterType": "WORKSHOP",
                 "filterWeek": "week-3",
                 "day": "Wednesday",
                 "date": "14th",
                 "time": "TBC",
-                "location": "TBC",
-                "bookNowButton": true, 
+                "location": "ONLINE",
+                "bookNowButton": true,
+                "bookingText": "Book Now",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -230,13 +234,14 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "workshop installation",
+                "filterType": "WORKSHOP",
                 "filterWeek": "week-1",
                 "day": "Saturday",
                 "date": "3rd",
                 "time": "TBC",
                 "location": "KWMC & online",
                 "bookNowButton": true, 
+                "bookingText": "Book Now",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -271,12 +276,13 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "workshop",
+                "filterType": "WORKSHOP",
                 "filterWeek": "week-2",
                 "day": "Tuesday",
                 "date": "6th",
                 "time": "TBC",
-                "location": "TBC",
+                "location": "ONLINE",
+                "bookingText": "Book Now",
                 "bookNowButton": true, 
                 "bookingLink": "TBCTBCTBCTBC"
             },
@@ -312,13 +318,14 @@
             "details":
             {
                 "filterOnline": "person",
-                "filterType": "installation",
+                "filterType": "INSTALLATION",
                 "filterWeek": "anytime",
                 "day": "TBC",
                 "date": "anytime",
                 "time": "TBC",
                 "location": "TBC",
                 "bookNowButton": true, 
+                "bookingText": "Venue Info",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -351,13 +358,14 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "walk",
+                "filterType": "GUIDED WALK",
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": "10th",
                 "time": "TBC",
-                "location": "Brandon Hill TBC",
+                "location": "Brandon Hill, BRISTOL",
                 "bookNowButton": true, 
+                "bookingText": "Book Now",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -390,13 +398,14 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "film",
+                "filterType": "FILM SHORTS",
                 "filterWeek": "week-1",
                 "day": "Saturday",
                 "date": "3rd",
                 "time": "TBC",
-                "location": "TBC",
+                "location": "ONLINE",
                 "bookNowButton": true, 
+                "bookingText": "Watch",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
@@ -429,12 +438,13 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "film",
+                "filterType": "FILM SHORTS + Q&A",
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": "10th",
                 "time": "TBC",
-                "location": "Arnolfini TBC",
+                "location": "ONLINE / Arnolfini",
+                "bookingText": "Watch Now",
                 "calendarButton": true,
                  "calendarEvent": {
                     "calendarTitle": "Calendar title",
@@ -476,13 +486,14 @@
             "details":
             {
                 "filterOnline": "online person",
-                "filterType": "website",
+                "filterType": "KNITTED DATABASE",
                 "filterWeek": "week-2",
                 "day": "Thursday",
                 "date": "8th",
                 "time": "TBC",
-                "location": "TBC",
+                "location": "ONLINE",
                 "bookNowButton": true, 
+                "bookingText": "Get Knitting",
                 "bookingLink": "TBCTBCTBCTBC"
             },
             "image":
