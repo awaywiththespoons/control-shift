@@ -112,7 +112,7 @@ function imageSnap() {
     else{
         translate((width / 2)-100, (height / 2)-50);
         rotate(controlRand);
-        textSize(width/10);
+        textSize(width/12);
     };
     
    
@@ -137,7 +137,7 @@ function imageSnap() {
         textAlign(LEFT);
         translate((width / 2)-200, (height / 2)-50);
         rotate(shiftRand);
-        textSize(width/10);
+        textSize(width/12);
     };
 //    fill(7,221,153, 20);
 //      for (var i = 0; i < 200; i=i+20) {
