@@ -110,6 +110,10 @@ label input[type="radio"]:checked ~ span {
     outline: 0 !important;
 }
 
+.modal-body {
+    padding-top: 0;
+}
+
 .close-container {
     position: relative;
     margin: auto;
@@ -140,8 +144,6 @@ label input[type="radio"]:checked ~ span {
     transition: all .3s ease-in;
 }
 
-
-
 .close {
     margin: 60px 0 0 5px;
     position: absolute;
@@ -149,12 +151,12 @@ label input[type="radio"]:checked ~ span {
 
 .close-container:hover .leftright {
     transform: rotate(-45deg);
-    background-color: var(--dark-link);
+    background-color: var(--light-link-hover);
 }
 
 .close-container:hover .rightleft {
     transform: rotate(45deg);
-    background-color: var(--dark-link);
+    background-color: var(--light-link-hover);
 }
 
 .close-container:hover label {

@@ -106,7 +106,11 @@ p a {
 }
 
 a.dark-link:hover {
-    color: var(--dark-link-hover) !important;
+    color: var(--background) !important;
+}
+
+.dark-link {
+    color: var(--dark-link)
 }
 
 a.nav-link:hover {
@@ -472,8 +476,6 @@ li {
     padding-right: 5px;
     padding-left: 5px;
 }
-
-
 
 /* form */
 .form-area form {
