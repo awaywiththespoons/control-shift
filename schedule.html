@@ -170,7 +170,7 @@
                 a.setAttribute("data-id", data[i].artist.name);
                 a.setAttribute("id", data[i].artwork.details.date + "style");
                 a.setAttribute("class", "thumbnail single-event-box");
-                a.setAttribute("href", "#");
+                a.setAttribute("href", "#" + data[i].artist.name)
                 let p = document.createElement('p');
                 p.setAttribute("class", "event-text");
                 p.setAttribute("id", data[i].id);

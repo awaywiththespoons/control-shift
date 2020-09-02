@@ -94,7 +94,7 @@
 }
 
 label input[type="radio"]:checked ~ span {
-    color: var(--dark-primary);
+    color: var(--background);
 }
 
 /* MODAL STYLES */
@@ -123,7 +123,7 @@ label input[type="radio"]:checked ~ span {
     width: 35px;
     position: absolute;
     margin-top: 24px;
-    background-color: var(--dark-link);
+    background-color: var(--dark-primary);
     border-radius: 2px;
     transform: rotate(45deg);
     transition: all .3s ease-in;
@@ -134,7 +134,7 @@ label input[type="radio"]:checked ~ span {
     width: 35px;
     position: absolute;
     margin-top: 24px;
-    background-color: var(--dark-link);
+    background-color: var(--dark-primary);
     border-radius: 2px;
     transform: rotate(-45deg);
     transition: all .3s ease-in;
@@ -181,7 +181,7 @@ label input[type="radio"]:checked ~ span {
 }
 
 #modalImage {
-    width: 85%;
+    width: 100%;
 }
 
 /* modal styles: text */
@@ -195,10 +195,15 @@ label input[type="radio"]:checked ~ span {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 3px;
-    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 
 }
 
+.artwork-title-text {
+    margin: 30px;
+}
 .modal-h2-text {
     color: var(--dark-primary);
     text-align: center;
@@ -222,17 +227,17 @@ label input[type="radio"]:checked ~ span {
 .modal-top-text {
     font-size: 16px;
     font-family: var(--font-paragraph-modal);
-    color: var(--dark-link);
+    color: var(--dark-primary);
 }
 
-.modal-link-text {
+/* .modal-link-text {
     border-bottom: 1px solid var(--dark-link);
 }
 
 .modal-link-text:hover {
     color: var(--dark-primary);
     border-bottom: 1px solid var(--background)
-}
+} */
 
 .text-center {
     text-align: center;
@@ -248,13 +253,13 @@ label input[type="radio"]:checked ~ span {
     text-decoration: underline;
 }
 
-#bookingLink {
-    border: 1px solid var(--dark-link);
+#actionLink {
+    border: 1px solid var(--dark-primary);
     padding: 10px;
 }
 
-#doNowLink {
-    border: 1px solid var(--dark-link);
+#actionLink:hover {
+    border: 1px solid var(--light-link-hover);
     padding: 10px;
 }
 
@@ -349,35 +354,6 @@ label input[type="radio"]:checked ~ span {
         padding: 0;
     }
 
-}
-
-
-/* Modal: Add to calendar button styles*/
-
-.addeventatc {
-    background-color: var(--mid-primary);
-    color: var(--dark-link) !important;
-    border: 1px solid var(--dark-link);
-}
-
-.addeventatc:hover {
-    color: var(--mid-primary) !important;
-    background-color: var(--background);
-    border: 1px solid var(--mid-primary);
-}
-
-.addeventatc {
-    visibility: hidden;
-}
-
-
-.addeventatc_icon {
-filter: invert(15%) sepia(67%) saturate(5331%) hue-rotate(222deg) brightness(79%) contrast(96%);
-/*    filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);*/
-}
-
-.addeventatc:hover .addeventatc_icon {
-    filter: invert(21%) sepia(89%) saturate(2647%) hue-rotate(218deg) brightness(91%) contrast(107%);
 }
 
 /* SCHEDULE PAGE */

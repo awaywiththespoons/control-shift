@@ -25,8 +25,8 @@
                 "date": "10th",
                 "time": "11:00 - 12:30",
                 "location": "Bristol Harbourside",
-                "bookNowButton": true, 
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -46,7 +46,7 @@
             "name": "Sarah Selby and Tim Kindberg",
             "bio_100w": 
             ["Bristol-based duo Sarah Selby and Tim Kindberg have collaborated on this new work. Sarah is an interdisciplinary artist exploring digital culture through creative applications of emerging and pervasive technology. Graduating from Manchester Metropolitan University’s Interactive Arts course in 2017, she has since been selected to participate in Roche Continents Science and Art residency and was shortlisted for the Ashurst Emerging Artist Prize. Sarah was the winner of arebyte Gallery’s ‘Hotel Generation’ programme 2019 and is also a member of the Immersive Kind - an interdisciplinary network facilitating knowledge-exchange between artists, scientists and researchers.",
-            "Tim runs digital technology company <a class='dark-link' target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a class='dark-link' target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a class='dark-link' target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a class='dark-link' target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a class='dark-link' target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
+            "Tim runs digital technology company <a  target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a  target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a  target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a  target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a  target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
             "image": [
             {
                 "url": "",
@@ -68,15 +68,8 @@
                 "date": "18th",
                 "time": "TBC",
                 "location": "TBC",
-                "calendarButton": true,
-                "bookingText": "Book Now",
-                "calendarEvent": {
-                   "calendarTitle": "Calendar title",
-                   "start": "10/21/2020 02:00 PM",
-                   "end": "10/21/2020 03:00 PM",
-                   "description": "example description bla bla bla",
-                   "allDay": false
-               } 
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -94,7 +87,7 @@
         "artist": {
             "name": "KASAVA",
             "bio_100w": 
-            ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a class='dark-link' target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a class='dark-link' target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a class='dark-link' target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a class='dark-link' target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a class='dark-link' target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a class='dark-link' target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a class='dark-link' target='_blank' href='www.courtenaywelcome.com'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
+            ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a  target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a  target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a  target='_blank' href='www.courtenaywelcome.com'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
             "image": [
                 {
                     "url": "",
@@ -116,9 +109,8 @@
                 "date": "anytime",
                 "time": "TBC",
                 "location": "online",
-                "doNowButton": true, 
-                "bookingText": "Listen Now",
-                "activityLink": "TBCTBCTBCTBC"
+                "actionText": "Listen Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -157,9 +149,8 @@
                 "date": "7th",
                 "time": "16:00 - 19:00",
                 "location": "ONLINE",
-                "bookNowButton": true, 
-                "bookingText": "Book Now",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -187,7 +178,7 @@
         "artwork": {
             "artwork_name": "Alt-Text as Poetry",
             "artwork_description_line": "Online creative writing workshop reframing “alt-text” as poetry.", 
-            "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a class='dark-link' target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
+            "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a  target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
             "artwork_description_50w_short": "Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.",
             "details":
             {
@@ -198,9 +189,8 @@
                 "date": "14th",
                 "time": "TBC",
                 "location": "ONLINE",
-                "bookNowButton": true,
-                "bookingText": "Book Now",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -229,7 +219,7 @@
         "artwork": {
             "artwork_name": "Center for Technological Pain",
             "artwork_description_line": "Workshop and exhibition of DIY solutions to health problems caused by digital technologies.", 
-            "artwork_description_150w_long": ["<a class='dark-link' target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
+            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
             "artwork_description_50w_short": "Center for Technological Pain (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies. The solutions proposed by the center take the form of physical objects against tech-pain, self-defense moves against technology, as well as workshops to fight addiction to technology.",
             "details":
             {
@@ -240,9 +230,8 @@
                 "date": "3rd",
                 "time": "TBC",
                 "location": "KWMC & online",
-                "bookNowButton": true, 
-                "bookingText": "Book Now",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -282,9 +271,8 @@
                 "date": "6th",
                 "time": "TBC",
                 "location": "ONLINE",
-                "bookingText": "Book Now",
-                "bookNowButton": true, 
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -324,9 +312,8 @@
                 "date": "anytime",
                 "time": "TBC",
                 "location": "TBC",
-                "bookNowButton": true, 
-                "bookingText": "Venue Info",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Venue Info", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -353,7 +340,7 @@
         "artwork": {
             "artwork_name": "Maps of Consequential Paradox",
             "artwork_description_line": "Artist walk exploring networks of paradox and consequence in Brandon Hill park.", 
-            "artwork_description_150w_long": ["We invite you on a walk around Brandon Hill park. Heath, your guide, will walk with you whilst examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.", "Visit Maps of Consequential Paradox website <a class='dark-link' target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
+            "artwork_description_150w_long": ["We invite you on a walk around Brandon Hill park. Heath, your guide, will walk with you whilst examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.", "Visit Maps of Consequential Paradox website <a  target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
             "artwork_description_50w_short": "A circuitous mis-guided walk around Brandon Hill park examining sustainability, paradox and consequence. Both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.",
             "details":
             {
@@ -364,9 +351,8 @@
                 "date": "10th",
                 "time": "TBC",
                 "location": "Brandon Hill, BRISTOL",
-                "bookNowButton": true, 
-                "bookingText": "Book Now",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -393,8 +379,8 @@
         "artwork": {
             "artwork_name": "Power Tools",
             "artwork_description_line": "Short films documenting encounters made when using proxy protest tools.", 
-            "artwork_description_150w_long": ["Power Tools is a series of short films that document encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> - wearable accessories and custom built video-conferencing software, the films follow experiences of pairs of walkers, exploring the nuances of accessibility and how they may have been affected by the global pandemic. The series, commissioned earlier this year by Control Shift, attempts to highlight the dialogues, encounters or performances with systems and structures that define how people experience the world. Conversations address the relationship between power and presence, the reimagining of access under a global pandemic, the foregrounding of the aesthetics of accessibility, and the role of allyship in an age of lockdown and restricted movement."],
-            "artwork_description_50w_short": "Power Tools is a series of short films documenting encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a class='dark-link' target='_blank' href='http://proxyprotest.com/'>proxy tools</a> they explore the nuances of accessibility and how they may have been affected by the global pandemic.",
+            "artwork_description_150w_long": ["Power Tools is a series of short films that document encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a  target='_blank' href='http://proxyprotest.com/'>proxy tools</a> - wearable accessories and custom built video-conferencing software, the films follow experiences of pairs of walkers, exploring the nuances of accessibility and how they may have been affected by the global pandemic. The series, commissioned earlier this year by Control Shift, attempts to highlight the dialogues, encounters or performances with systems and structures that define how people experience the world. Conversations address the relationship between power and presence, the reimagining of access under a global pandemic, the foregrounding of the aesthetics of accessibility, and the role of allyship in an age of lockdown and restricted movement."],
+            "artwork_description_50w_short": "Power Tools is a series of short films documenting encounters between artists, performers and activists working broadly in the context of The Social Model of Disability. Using <a  target='_blank' href='http://proxyprotest.com/'>proxy tools</a> they explore the nuances of accessibility and how they may have been affected by the global pandemic.",
             "details":
             {
                 "filterOnline": "online person",
@@ -404,9 +390,8 @@
                 "date": "3rd",
                 "time": "TBC",
                 "location": "ONLINE",
-                "bookNowButton": true, 
-                "bookingText": "Watch",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Book Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -444,15 +429,8 @@
                 "date": "10th",
                 "time": "TBC",
                 "location": "ONLINE / Arnolfini",
-                "bookingText": "Watch Now",
-                "calendarButton": true,
-                 "calendarEvent": {
-                    "calendarTitle": "Calendar title",
-                    "start": "10/21/2020 02:00 PM",
-                    "end": "10/21/2020 03:00 PM",
-                    "description": "example description bla bla bla",
-                    "allDay": true
-                } 
+                "actionText": "Watch Now", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {
@@ -470,7 +448,7 @@
         "id": 11,
         "artist": {
             "name": "Wisterlitz",
-            "bio_100w": ["<a class='dark-link' target='_blank' href='https://wisterlitz.wordpress.com/'>Wisterlitz</a> (Liz Lister and Becky Hurwitz) make playful, interactive work exploring relationships between science, technologies, and society. Their work reflects on the position of women in relation to these areas, often looking afresh at invisible histories through a contemporary lens and combining physical making with digital mediums."],
+            "bio_100w": ["<a  target='_blank' href='https://wisterlitz.wordpress.com/'>Wisterlitz</a> (Liz Lister and Becky Hurwitz) make playful, interactive work exploring relationships between science, technologies, and society. Their work reflects on the position of women in relation to these areas, often looking afresh at invisible histories through a contemporary lens and combining physical making with digital mediums."],
             "image": [
                 {
                     "url": "",
@@ -481,7 +459,7 @@
         "artwork": {
             "artwork_name": "Knitwitter",
             "artwork_description_line": "An invitation to encode secret messages into your knitting.", 
-            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a class='dark-link' target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a class='dark-link' target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
+            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
             "artwork_description_50w_short": "Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text in to a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.",
             "details":
             {
@@ -492,9 +470,8 @@
                 "date": "8th",
                 "time": "TBC",
                 "location": "ONLINE",
-                "bookNowButton": true, 
-                "bookingText": "Get Knitting",
-                "bookingLink": "TBCTBCTBCTBC"
+                "actionText": "Get Knitting", 
+                "actionLink": "TBCTBCTBCTBC"
             },
             "image":
             {

@@ -96,17 +96,13 @@ a:hover {
 
 p a {
     text-decoration: none;
-    color: var(--mid-primary);
+    color: var(--dark-primary);
     border-bottom: 1px solid var(--mid-primary);
 }
 
 .nav-link {
     font-size: 30px;
     justify-content: end;
-}
-
-a.dark-link {
-    color: var(--dark-link) !important;
 }
 
 a.dark-link:hover {
@@ -349,11 +345,24 @@ a.dropdown-item:hover {
 
 /* convert social media svgs to blue & turn green on hover */
 .filter-blue {
+    /* green */
     filter: invert(87%) sepia(35%) saturate(261%) hue-rotate(343deg) brightness(108%) contrast(103%);
 }
 
 .filter-blue:hover {
+    /* yellow hover */
     filter: invert(79%) sepia(35%) saturate(6989%) hue-rotate(114deg) brightness(101%) contrast(94%);
+}
+
+.filter-green {
+    /* blue */
+    filter: invert(15%) sepia(67%) saturate(5331%) hue-rotate(222deg) brightness(79%) contrast(96%);
+}
+
+
+.filter-green:hover {
+    /* pink hover */
+    filter: invert(53%) sepia(97%) saturate(1984%) hue-rotate(266deg) brightness(95%) contrast(80%);
 }
 
 /* home page central heading */
