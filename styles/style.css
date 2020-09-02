@@ -170,7 +170,7 @@ a.dropdown-item:hover {
 }
 
 .navbar a:hover {
-    text-decoration: none;
+    text-decoration: line-through !important;
     color: var(--dark-primary);
 }
 
