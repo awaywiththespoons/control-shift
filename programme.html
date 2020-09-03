@@ -3,57 +3,171 @@
 
 <head>
     <!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Control Shift is an exciting new arts programme coming to Bristol (UK) in June 2020.">
-<meta name="keywords" content="art, artists, Bristol, data, embodiement, materiality, code">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta property="og:url" content="http://www.control-shift.network">
-<meta property="og:title" content="Control Shift">
-<meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
-<meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
-<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
-<title> Control (╯°▽°)╯ ┻━┻ Shift </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Control Shift is an exciting new arts programme coming to Bristol (UK) in June 2020.">
+    <meta name="keywords" content="art, artists, Bristol, data, embodiement, materiality, code">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:url" content="http://www.control-shift.network">
+    <meta property="og:title" content="Control Shift">
+    <meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
+    <meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
+    <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/artworks.css">
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
-
-
-
 <body>
-    <!-- Include Nav bar -->
-
+    
+    
     <div id="navbar"></div>
-    <div class="programme-page-container nav-bar-space">
-    <div class="container home-page-content content-wrap-programme pt-4">
-        <!-- row -->
-            <h1>Programme Overview</h1>
-            <p>
-                We would like to publicly thank everyone who applied to our open call. We were thrilled by the response, and had over 180 applications from all over the world. We wish we could have worked with more artists and hope we will be able to grow to include more works in the future.
-            </p>
-            <p>
-                We have selected an exciting mix of brilliant artists and are currently shaping the programme and developing an appropriate format to share it with you. Control Shift will be taking place in the Autumn through online channels and physical safe spaces. Full programme will be announced soon, but you can find out a bit more through our Pervastive Media Studio lunchtime talk.
-            </p>
-            <p class="pb-4">See our exciting new commissions <a href="./commissions.html">here</a></p>
+    <!--  Grid of artworks generated from json file - see js below -->
+    <div class="pb-3 container home-page-content pt-4 nav-bar-space">
+        <h1>Programme</h1>
+        <p>
+            some new text here
+        </p>
+        <p class="pb-4">See our exciting new commissions <a href="./commissions.html">here</a></p>
+        <!--  filtering grid -->
+        <p class="pt-2">Filter by week and location:</p>
+        <div class="filterInputs">
+            <label class="time-filter"><input type="radio" name="time" value="" checked><i></i><span>All</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="anytime"><i></i><span>Anytime</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-1"><i></i><span>week 1</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-2"><i></i><span>week 2</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-3"><i></i><span>week 3</span></label>
+        </div> 
+        <div class="filterInputs filterBottom">
+            <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
+            <label class="online-filter"><input type="radio" name="online" value="online"><i></i><span>Online</span></label>
+            <label class="online-filter"><input type="radio" name="online" value="person"><i></i><span>In person</span></label>
         </div>
 
+        <div class="padding-bottom" class="container">
+            <div id="myData" class="row"></div>
+        </div>
+    </div>
+    <div id="modal"></div>
+    
     <!-- Include Footer -->
-    <div id="footer"></div>
-
-    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <div id="footer" style="margin-top: 150px"></div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
+
+    <!-- <script src="/modal.js"></script> -->
     <script>
         $('#navbar').load('./components/navigation.html');
         $('#head').load('./components/head.html');
-        $('#footer').load('./components/footer.html');
+        setTimeout(function(){ $('#footer').load('./components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
+        $('#modal').load('./components/artist-modal.html');
     </script>
-    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
-</body>
 
-</html>
+    <script>
+        fetch('artworks.json') // fetching json code
+        .then(function (response) {
+            return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
+        })
+        .then(function (data) {
+            appendData(data); // If successful, runs appendData function below
+        })
+        .catch(function (err) {
+            console.log('error: ' + err); // catches error & console logs out the error message
+        });
+        // function to generate grid of artworks from json file
+        function appendData(data) {
+            let mainContainer = document.getElementById("myData");
+            for (let i = 0; i < data.length; i++) {
+                //Making artist Container div to hold artist info
+                let artistContainer = document.createElement("div");
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterWeek + " " + data[i].artwork.details.filterOnline)
+                artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
+                //setting Artist Name
+                let textTitle = document.createElement("div");
+                textTitle.setAttribute("id", "gridTextBoxHighlight");
+                let textInfo = document.createElement("div");
+                
+                let p1 = document.createElement("div");
+                p1.innerHTML = data[i].artwork.artwork_name;
+                p1.setAttribute("class", "gridText gridTitle pt-0 text-center");
+                p1.setAttribute("id", "gridTitleHighlight");
+
+                let p2 = document.createElement("div");
+                if (data[i].artist.name === "Russel Hlongwane") {
+                    p2.innerHTML = "curated by " + data[i].artist.name
+                } else {
+                    p2.innerHTML = " by " + data[i].artist.name
+                }
+                p2.setAttribute("class", "gridText gridAbout pt-0 text-center");
+                
+                let p3 = document.createElement("div");
+                p3.innerHTML = data[i].artwork.artwork_description_line;
+                p3.setAttribute("class", "gridText aboutText pt-2 text-center");
+
+                //make anchor
+                var a = document.createElement('a');
+                a.setAttribute("href", "#" + data[i].artist.name);
+                a.setAttribute("data-id", data[i].artist.name);
+                a.setAttribute("class", "thumbnail");
+                // setting Image
+                let image = document.createElement("IMG"); //creating image element
+                image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
+                image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
+                image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
+                image.setAttribute("id", "artworkID");
+                //adding new elements to one another & positioning in mainContainer
+                a.appendChild(image);
+                textTitle.appendChild(p1);
+                textTitle.appendChild(p2)
+                textInfo.appendChild(p3)
+                artistContainer.appendChild(a); 
+                artistContainer.appendChild(textTitle); 
+                artistContainer.appendChild(textInfo); 
+                mainContainer.appendChild(artistContainer);
+                loadWindowSystem();
+            }
+            $.getScript("./js/modal.js");
+        }
+    </script>
+    
+    <script>
+        // FILTER FUNCTIONALITY
+        function loadWindowSystem(){
+            const el_filters = document.querySelectorAll('[name="time"], [name="online"]'),
+            el_filterable = document.querySelectorAll('[data-filterable]');
+            const applyFilter = () => {
+            // Filter checked inputs
+            const el_checked = [...el_filters].filter(el => el.checked && el.value);
+            // Collect checked inputs values to array
+            const filters = [...el_checked].map(el => el.value);
+            // Get elements to filter
+            const el_filtered = [...el_filterable].filter(el => {
+                const props = el.getAttribute('data-filterable').trim().split(/\s+/);
+                return filters.every(fi => props.includes(fi))
+            });
+            // Hide all
+            el_filterable.forEach(el => el.classList.add('is-hidden'));
+            // Show filtered
+            el_filtered.forEach(el => el.classList.remove('is-hidden'));
+            }
+            // Assign event listener
+            el_filters.forEach(el => el.addEventListener('change', applyFilter));
+            // Init
+            applyFilter();
+        };  
+    
+        // $("#outerImage").hover(function(){
+        //     console.log('hovering')
+        // $('.gridTitle').css({'color':'blue','background-color':'white' });
+// });
+</script>
+
+</body></html>
