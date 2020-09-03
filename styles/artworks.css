@@ -2,39 +2,29 @@
 
 /* Artwork grid: all styles */
 
-.artworkImageDiv {
-    /* Div wrapping each image & text  */
-    margin-top: 25px;
-    margin-bottom: 25px;
+.blueSquare {
+    object-fit: scale-down;
+    background: #040995;
+    background-image: linear-gradient(rgba(4, 9, 149 ) 100%, rgba(7, 221, 153) 0%);
+    max-width: 560px;
+    margin: 0 auto;
 }
 
-/* targeting tablets only */
-@media only screen and (max-width:768px) {
-    .artworkImageDiv {
-        /* Div wrapping each image & text  */
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    #myData {
-        margin-top: -60px;
-    }
+.blueSquare:hover {
+    background:none;  
+    background-image: none;
 }
-
 
 .artworkImage {
     /* Image itself */
     object-fit: scale-down;
-    width: 100%;
-    height: 100%;
-    margin-bottom: -25px;
-    filter: grayscale(100%);
+    /* height: 100%; */
+    opacity: 0.6;
 }
 
 .artworkImage:hover {
     /*    transform: scale(1.01) translate(0px, -3px);*/
-    filter: none;
-    opacity: 1;
+    opacity: 100;
 }
 
 /* #outerImage:hover > #gridTextBoxHighlight { color: var(--light-link); } */
@@ -44,10 +34,6 @@
 
 .filterInputs {
     padding-bottom: 5px;
-}
-
-.filterBottom {
-    margin-bottom: -20px;
 }
 
 .filterInputs input {

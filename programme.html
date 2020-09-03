@@ -42,7 +42,7 @@
             <label class="time-filter"><input type="radio" name="time" value="week-2"><i></i><span>week 2</span></label>
             <label class="time-filter"><input type="radio" name="time" value="week-3"><i></i><span>week 3</span></label>
         </div> 
-        <div class="filterInputs filterBottom">
+        <div class="filterInputs pb-3">
             <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
             <label class="online-filter"><input type="radio" name="online" value="online"><i></i><span>Online</span></label>
             <label class="online-filter"><input type="radio" name="online" value="person"><i></i><span>In person</span></label>
@@ -55,7 +55,7 @@
     <div id="modal"></div>
     
     <!-- Include Footer -->
-    <div id="footer" style="margin-top: 150px"></div>
+    <div id="footer"></div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -87,7 +87,7 @@
             for (let i = 0; i < data.length; i++) {
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
-                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4 pb-2"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
                 artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterWeek + " " + data[i].artwork.details.filterOnline)
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
@@ -97,7 +97,7 @@
                 
                 let p1 = document.createElement("div");
                 p1.innerHTML = data[i].artwork.artwork_name;
-                p1.setAttribute("class", "gridText gridTitle pt-0 text-center");
+                p1.setAttribute("class", "gridText gridTitle pt-4 text-center");
                 p1.setAttribute("id", "gridTitleHighlight");
 
                 let p2 = document.createElement("div");
@@ -117,6 +117,9 @@
                 a.setAttribute("href", "#" + data[i].artist.name);
                 a.setAttribute("data-id", data[i].artist.name);
                 a.setAttribute("class", "thumbnail");
+                //make div overlay for image - for the coloured filter
+                let blueSquare = document.createElement("div");
+                blueSquare.setAttribute("class", "blueSquare");
                 // setting Image
                 let image = document.createElement("IMG"); //creating image element
                 image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
@@ -124,11 +127,12 @@
                 image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
                 image.setAttribute("id", "artworkID");
                 //adding new elements to one another & positioning in mainContainer
-                a.appendChild(image);
+                a.appendChild(blueSquare);
+                blueSquare.appendChild(image);
+                artistContainer.appendChild(a); 
                 textTitle.appendChild(p1);
                 textTitle.appendChild(p2)
                 textInfo.appendChild(p3)
-                artistContainer.appendChild(a); 
                 artistContainer.appendChild(textTitle); 
                 artistContainer.appendChild(textInfo); 
                 mainContainer.appendChild(artistContainer);
