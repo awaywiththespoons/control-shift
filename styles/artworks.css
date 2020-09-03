@@ -259,7 +259,7 @@ label input[type="radio"]:checked ~ span {
 
 #actionLink {
     border: 1px solid var(--dark-primary);
-    padding: 10px;
+    padding: 4%;
 }
 
 #actionLink:hover {
