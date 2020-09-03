@@ -443,9 +443,9 @@
             "details": {
                 "filterOnline": "online",
                 "filterType": "DIY KNITTING",
-                "filterWeek": "week-2",
+                "filterWeek": "anytime",
                 "day": " ",
-                "date": "anytime",
+                "date": " ",
                 "time": " ",
                 "location": "ONLINE",
                 "actionText": "Knitwitter App",
@@ -533,7 +533,7 @@
                 "actionLink": "venue-info.html"
             },
             "image": {
-                "url": "this-city-is_artwork_WEB.gif",
+                "url": "this-city-is_Artwork_WEB.gif",
                 "alt": "animated updates describing this city"
             }
         },
