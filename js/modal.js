@@ -9,6 +9,8 @@ $(document).ready(function(){
     $("#infoModal").on("hidden.bs.modal", function (e) {
         e.preventDefault();
         $(this).modal('dispose');
+        $("p.modal-text").remove()
+        $("p.about-modal-text").remove()
         history.replaceState(null, null, ' ');
     });
 
@@ -17,8 +19,6 @@ $(document).ready(function(){
          createModal();
     });
 });
-
-
 
 // create and show modal
 // function to populate modal with artist info from json file, matching the url to the id
