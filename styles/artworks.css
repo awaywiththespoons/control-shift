@@ -1,14 +1,134 @@
+/*to do for json
+
+ORDER - how do we want to order them in the grid (by date, or we set this )
+6PM or 18:00?
+
+Deep Listening 
+ALL DONE
+
+The Departed
+- new image 
+- new image alt-text 
+- sort out social media links so both can be up there
+- add start time
+
+Interwave
+- add action link (soundcloud or similar)
+
+<MIAU ID>
+- sort out tags on title <>
+
+ALT Text
+- all done
+
+CTP
+- confirm veunue
+- confirm time and date
+- check that the venue-info link works
+- check images are right way round (workshop / installaion)
+
+Digital Witchcraft
+- check if we are doing bot workshop
+- check dates / time 
+- add new image
+- add new alt text
+
+Face / on
+- add time / date
+- add location
+- check that venue info link works
+
+MoCP
+- ask for bigger image
+
+Power tools
+- add new image? 
+- add alt text
+- add links from contributors and artists in the text
+- add link to youtube event
+
+Indigeneity & Digital Entanglements
+- are we keeping this name
+- add youtube link
+- add links of film makers in text
+- add seperate event for film sceening / Q+A
+- check venue page works
+
+Knitwitter
+- ask liz to use one of thier instagram images
+- get a facebook icon
+
+CTP (workshop)
+- all done
+- check as hasn't seemed to update?
+
+This city is
+- check venue info link works
+- add location
+
+Art code and bowl of fruit
+- add all info
+
+Algo rave
+- add all info
+
+AI for Nervous Humans
+
+Power tools workshop
+- add link to action
+- add web / soc media
+
+SWCTN 1
+- add all info
+
+SWCTN 2
+- add all info
+
+
+
+https://twitter.com/
+https://www.instagram.com/
+
+
+*/
+
+
+
 /* STYLES FOR ARTWORK PAGE */
 
 /* Artwork grid: all styles */
 
+/*
 .blueSquare {
     object-fit: scale-down;
-    background: #040995;
-    background-image: linear-gradient(rgba(4, 9, 149 ) 100%, rgba(7, 221, 153) 0%);
-    max-width: 560px;
+    background: #074bdd;    
+    background-image: linear-gradient(rgba(7,75,221,1) 100%, rgba(7,75,221,1) 0%);
+    max-width: 795px;
     margin: 0 auto;
 }
+*/
+
+/*try yellow*/
+/*
+.blueSquare {
+    object-fit: scale-down;
+    background: #FDFCD1;    
+    background-image: linear-gradient(rgba(253,252,209,1) 100%, rgba(253,252,209,1) 0%);
+    max-width: 795px;
+    margin: 0 auto;
+}
+*/
+
+/*try darker*/
+
+.blueSquare {
+    object-fit: scale-down;
+    background: #053cb0;    
+    background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);
+    max-width: 795px;
+    margin: 0 auto;
+}
+
 
 .blueSquare:hover {
     background:none;  
@@ -19,7 +139,7 @@
     /* Image itself */
     object-fit: scale-down;
     /* height: 100%; */
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .artworkImage:hover {
