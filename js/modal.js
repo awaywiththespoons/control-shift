@@ -66,11 +66,12 @@ function createModal() {
                 } 
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
+                
                 // Artist Info: loop through array of artist bio - print new string as a <p> so displays on new line
                 for (let i = 0; i < data[id].artist.bio_100w.length; i++) {
                     let mainContainer = document.getElementById("aboutArtist");
                     var p = document.createElement('p');
-                    p.setAttribute("class", "modal-text text" + data[id].id);
+                    p.setAttribute("class", "about-modal-text text" + data[id].id);
                     p.innerHTML = data[id].artist.bio_100w[i];
                     mainContainer.appendChild(p);
                 }
