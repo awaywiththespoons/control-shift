@@ -19,41 +19,169 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/artworks.css">
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
-
-
-
 <body>
-    <!-- Include Nav bar -->
-
     <div id="navbar"></div>
-    <div class="programme-page-container nav-bar-space">
-    <div class="container home-page-content content-wrap-programme pt-4">
-        <!-- row -->
-            <h1>Programme Overview</h1>
-            <p>
-                We would like to publicly thank everyone who applied to our open call. We were thrilled by the response, and had over 180 applications from all over the world. We wish we could have worked with more artists and hope we will be able to grow to include more works in the future.
-            </p>
-            <p>
-                We have selected an exciting mix of brilliant artists and are currently shaping the programme and developing an appropriate format to share it with you. Control Shift will be taking place in the Autumn through online channels and physical safe spaces. Full programme will be announced soon, but you can find out a bit more through our Pervastive Media Studio lunchtime talk.
-            </p>
-            <p class="pb-4">See our exciting new commissions <a href="./commissions.html">here</a></p>
-        </div>
+    <div class="pb-3 container home-page-content pt-4 nav-bar-space">
+        <h1>Calendar</h1>
+    </div>
 
+    <div id="schedulePage" class="container">
+        <div class="grid-calendar pb-4">
+            <!-- Row - all three weeks -->
+            <p class="pb-3">Some text here welcoming everyone and practical things like some events require booking</p>
+            <!-- Row - week 1 -->
+            <div class="row row-schedule">
+                <div class="col-xs  box-anytime">
+                    <div id="anytime" class="inner-div">
+                        <div class="title schedule-box-text">Watch or Listen at any time</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="2nd" class="inner-div">
+                        <div class="title schedule-box-text">Fri 2nd</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="3rd" class="inner-div">
+                        <div class="title schedule-box-text">Sat 3rd</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="4th" class="inner-div">
+                        <div class="title schedule-box-text">Sun 4th</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row - week 2 -->
+            <div class="row row-schedule">
+                <div class="col-xs box">
+                    <div id="5th" class="inner-div">
+                        <div class="title schedule-box-text">Mon 5th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="6th" class="inner-div">
+                        <div class="title schedule-box-text">Tues 6th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="7th" class="inner-div"><div class="title schedule-box-text">Wed 7th</div>
+                    </div>
+                </div>  
+                <div class="col-xs box">
+                    <div id="8th" class="inner-div">
+                        <div class="title schedule-box-text">Thurs 8th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="9th" class="inner-div">
+                        <div class="title schedule-box-text">Fri 9th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="10th" class="inner-div">
+                        <div class="title schedule-box-text">Sat 10th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="11th" class="inner-div">
+                        <div class="title schedule-box-text">Sun 11th</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row - week 3 -->
+            <div class="row row-schedule">
+                <div class="col-xs box">
+                    <div id="12th" class="inner-div">
+                        <div class="title schedule-box-text">Mon 12th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="13th" class="inner-div">
+                        <div class="title schedule-box-text">Tues 13th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="14th" class="inner-div">
+                        <div class="title schedule-box-text">Wed 14th</div>
+                    </div>
+                </div>  
+                <div class="col-xs box">
+                    <div id="15th" class="inner-div">
+                        <div class="title schedule-box-text">Thurs 15th</div>
+                    </div>
+                </div>  
+                <div class="col-xs box">
+                    <div id="16th" class="inner-div">
+                        <div class="title schedule-box-text">Fri 16th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="17th" class="inner-div">
+                        <div class="title schedule-box-text">Sat 17th</div>
+                    </div>
+                </div>
+                <div class="col-xs box">
+                    <div id="18th" class="inner-div">
+                        <div class="title schedule-box-text">Sun 18th</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of last row -->
+        </div>
+    </div>
+    
+    <div id="modal"></div>
+    
     <!-- Include Footer -->
     <div id="footer"></div>
-
-    <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
+
+    <!-- <script src="/modal.js"></script> -->
     <script>
         $('#navbar').load('./components/navigation.html');
         $('#head').load('./components/head.html');
-        $('#footer').load('./components/footer.html');
+        setTimeout(function(){ $('#footer').load('./components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
+        $('#modal').load('./components/artist-modal.html');
     </script>
-    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
-</body>
 
-</html>
+    <script>
+        fetch('artworks.json') // fetching json code
+        .then(function (response) {
+            return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
+        })
+        .then(function (data) {
+            appendData(data); // If successful, runs appendData function below
+        })
+        .catch(function (err) {
+            console.log('error: ' + err); // catches error & console logs out the error message
+        });
+        function appendData(data) {
+            // function adding events to calendar
+            for (let i = 0; i < data.length; i++) {
+                let a = document.createElement('a');
+                a.setAttribute("data-id", data[i].artist.name);
+                a.setAttribute("id", data[i].artwork.details.date + "style");
+                a.setAttribute("class", "thumbnail single-event-box");
+                a.setAttribute("href", "#" + data[i].artist.name)
+                let p = document.createElement('p');
+                p.setAttribute("class", "event-text");
+                p.setAttribute("id", data[i].id);
+                p.innerText = data[i].artwork.artwork_name;
+                let postItDay = document.getElementById(data[i].artwork.details.date);
+                a.appendChild(p);
+                postItDay.appendChild(a);
+            }
+            $.getScript("./js/modal.js");
+        }
+    </script>
+
+
+</body></html>
