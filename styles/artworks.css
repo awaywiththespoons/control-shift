@@ -282,9 +282,7 @@ label input[type="radio"]:checked ~ span {
     font-weight: 400;
     letter-spacing: 3px;
     padding-bottom: 20px;
-    padding-top: 20px;
-
-
+    margin-top: 20px;
 }
 
 .artwork-title-text {
