@@ -27,7 +27,7 @@
                 "location": "Online",
                 "practicalInfo": "no coding experience necessary",
                 "actionText": "Book Now",
-                "actionLink": "TBCTBCTBCTBC"
+                "actionLink": "link"
             },
             "image": {
                 "url": "live-coding_artwork_WEB.png",
@@ -106,7 +106,7 @@
                 "filterWeek": "week-3",
                 "day": "Sunday",
                 "date": ["18th"],
-                "time": "TBC",
+                "time": "",
                 "location": "Arnos Vale, Bristol",
                 "practicalInfo": "",
                 "actionText": "Book Now",
@@ -151,7 +151,7 @@
                 "location": "online",
                 "practicalInfo": "",
                 "actionText": "Listen Now",
-                "actionLink": "TBCTBCTBCTBC"
+                "actionLink": "Link"
             },
             "image": {
                 "url": "intervave_artwork_WEB.png",
@@ -269,7 +269,7 @@
                 "day": "Saturday",
                 "date": [],
                 "time": "",
-                "location": "TBC",
+                "location": "Bristol City Centre",
                 "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
@@ -285,47 +285,11 @@
             "instagram": "https://www.instagram.com/dashesandcommas/"
         }
     },
-    {
-        "id": 7,
-        "artist": {
-            "name": "DANAE",
-            "bio_100w": ["Danae is a Chilean working-class feminist writer, multimedia artist and technologist based in Rotterdam. She is a lecturer of Hacking and Autonomous Practices at the Willem de Kooning Academy in Rotterdam and the founder of The Digital Witchcraft Institute, an artistic-research organization that develops advanced and non-conforming digital technologies for posthuman futures.", "In the past, Danae has been a fellow of the Mozilla Foundation and has led several interdisciplinary projects in activist organizations dedicated to technology and human rights in the US, Brazil and Chile. She has presented her work in places such as Kyoto, Havana, San Francisco, Tunisia, London, Honolulu. She has also published in magazines, academic journals and outlets of creative non-fiction. She is currently writing a thesis on masochism and artificial intelligence."],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "Digital Witchcraft",
-            "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Creative workshop for making technology based on magical thinking.",
-            "artwork_description_150w_long": ["At the Digital Witchcraft workshop we invite you to discuss non-conforming approaches to technology. You will have the opportunity to develop a series of prototypes targeted for specific communities using a methodology of magical thinking. This means no idea is off-limits: teleportation, invisibility, everything counts. This methodology is inspired by Peter Sloterdijk’s quote “magic is the mother of technology” which implies that every technological advance was initially conceived as an act of imagination that seemed impossible to achieve.", "We will review examples of dissident technology around the globe and adopt a radical change of world-veiw in our conception of the cybernetic through the incorporation of logics of ancient knowledge and the supernatural. The workshop is open to all audiences, though it will be especially compelling for those who are interested in intersectional approaches to technology."],
-            "artwork_description_50w_short": "This workshop is an experience of speculative design and magical thinking. We will create prototypes of advanced technology to tackle the most central challenges of our current times. With this exercise, we will take back technology from the hands of Silicon Valley dudes and will give it back to our communities.",
-            "details": {
-                "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Tuesday",
-                "date": ["6th"],
-                "time": "TBC",
-                "location": "ONLINE",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119437981217"
-            },
-            "image": {
-                "url": "digital-witchcraft_artwork_WEB.png",
-                "alt": "Image of Digital Witchcraft"
-            }
-        },
-        "social_media": {
-            "website": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
+    
+    
+    
+    
+    
     {
         "id": 8,
         "artist": {
@@ -348,10 +312,10 @@
                 "filterOnline": "person",
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
-                "day": "TBC",
-                "date": [],
-                "time": "TBC",
-                "location": "TBC",
+                "day": "",
+                "date": ["anytime"],
+                "time": "",
+                "location": "Bristol City Centre",
                 "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
@@ -385,7 +349,7 @@
             "artwork_description_50w_short": "We invite you to take a stroll around Brandon Hill. Heath, your guide, will walk with you to explore the paradoxes and consequences hidden within the park. Guided by a custom map that has been generated by an algorithm, see the parts of the park from the perspective of a computer.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "event",
+                "filterType": "event workshop",
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": ["10th"],
@@ -426,13 +390,13 @@
                 "filterOnline": "online",
                 "filterType": "watchlisten",
                 "filterWeek": "week-1",
-                "day": "Saturday",
-                "date": ["3rd"],
-                "time": "TBC",
+                "day": "",
+                "date": ["anytime"],
+                "time": "",
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Watch online",
-                "actionLink": "TBCTBCTBCTBC"
+                "actionLink": "Link"
             },
             "image": {
                 "url": "power-tools-film_artwork_WEB.png",
@@ -462,13 +426,13 @@
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
             "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.",
             "details": {
-                "filterOnline": "person",
+                "filterOnline": "online person",
                 "filterType": "watchlisten event",
                 "filterWeek": "week-2",
-                "day": "Saturday and Sunday",
-                "date": ["10th", "11th"],
-                "time": "TBC",
-                "location": "Arnolfini",
+                "day": "",
+                "date": [],
+                "time": "anytime",
+                "location": "Online and Arnolfini",
                 "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
@@ -484,6 +448,53 @@
             "twitter": "https://twitter.com/RusselHlongwane"
         }
     },
+    
+    {
+        "id": 7,
+        "artist": {
+            "name": "Russel Hlongwane",
+            "bio_100w": ["Russel Hlongwane is a cultural producer and creative industries consultant based in Durban, South Africa. His work obsesses over the tensions in Heritage/ Modernity and Culture/Tradition as it applies to black life. His practice includes cultural research, creative producing, design, film and curatorship. He is part of a number of working groups spread across the Southern African Region, the African continent more broadly and internationally. He has shown work in Munich, Marrakech, Maputo, Karlsruhe, Harare, Bristol, Tokyo as well as throughout South Africa."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Thinking the digital through the indigenous",
+            "artwork_type":"SHORT FILMS",
+            "artwork_description_line": "Panel discussion with invited filmmakers, what are the new languages for technology?",
+            "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
+            "artwork_description_50w_short": "The invited filmmakers use their films as vehicles to think through some core questions. This panel discussion offers an alternative to the assumption that technology is a western invention; whilst problematising 'tech tools' through different lenses and practices. The artists also propose new languages to imagine technology, beyond hardware and software.",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "watchlisten event",
+                "filterWeek": "week-2",
+                "day": "Saturday",
+                "date": ["10th"],
+                "time": "6-7pm",
+                "location": "Online",
+                "practicalInfo": "",
+                "actionText": "Watch Online",
+                "actionLink": "youtubelink"
+            },
+            "image": {
+                "url": "film-QA_artwork_WEB.png",
+                "alt": "Date and text subtitles"
+            }
+        },
+        "social_media": {
+            "website": "https://www.facebook.com/russel.hlongwane",
+            "instagram": "https://www.instagram.com/russel.hlongwane/",
+            "twitter": "https://twitter.com/RusselHlongwane"
+        }
+    },
+    
+    
+    
+    
+    
     
     {
         "id": 12,
@@ -505,7 +516,7 @@
             "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app encodes your texts into binary patterns so that we can carefully knit encoded messages instead. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag pictures with #knitwitter hashtag to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a>, and encode your own message into a piece of knitting</em>. ",
             "details": {
                 "filterOnline": "online person",
-                "filterType": "workshop",
+                "filterType": "workshop exhibition",
                 "filterWeek": "anytime",
                 "day": " ",
                 "date": ["anytime"],
@@ -594,7 +605,7 @@
                 "day": "Friday",
                 "date": ["2nd"],
                 "time": "6-11pm",
-                "location": "TBC",
+                "location": "Bristol City Centre",
                 "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
@@ -602,6 +613,46 @@
             "image": {
                 "url": "this-city-is_Artwork_WEB.gif",
                 "alt": "animated updates describing this city"
+            }
+        },
+        "social_media": {
+            "website": "https://www.nahomatsuda.com/"
+        }
+    },
+    
+    {
+        "id": 19,
+        "artist": {
+            "name": "Naho Matsuda",
+            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Data Poetics",
+            "artwork_type":"LUNCHTIME TALK",
+            "artwork_description_line": "Artist talk and discussion on data in the arts",
+            "artwork_description_150w_long": [""],
+            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "event",
+                "filterWeek": "week-1",
+                "day": "Friday",
+                "date": ["2nd"],
+                "time": "1-2pm",
+                "location": "Online",
+                "practicalInfo": "",
+                "actionText": "Watch online",
+                "actionLink": "youtube"
+            },
+            "image": {
+                "url": "this-city-is-talk_Artwork_WEB.gif",
+                "alt": "image of website describing the city"
             }
         },
         "social_media": {
@@ -637,7 +688,7 @@
                 "location": "Online",
                 "practicalInfo": "Family Friendly",
                 "actionText": "Book Now",
-                "actionLink": "TBCTBCTBCTBC"
+                "actionLink": "link"
             },
             "image": {
                 "url": "art-code-fruit_artwork_WEB.png",
@@ -732,4 +783,9 @@
             "twitter": ""
         }
     }
+    
+    
+    
+    
+    
 ]
