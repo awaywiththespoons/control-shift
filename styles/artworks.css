@@ -98,29 +98,6 @@ https://www.instagram.com/
 
 /* Artwork grid: all styles */
 
-/*
-.blueSquare {
-    object-fit: scale-down;
-    background: #074bdd;    
-    background-image: linear-gradient(rgba(7,75,221,1) 100%, rgba(7,75,221,1) 0%);
-    max-width: 795px;
-    margin: 0 auto;
-}
-*/
-
-/*try yellow*/
-/*
-.blueSquare {
-    object-fit: scale-down;
-    background: #FDFCD1;    
-    background-image: linear-gradient(rgba(253,252,209,1) 100%, rgba(253,252,209,1) 0%);
-    max-width: 795px;
-    margin: 0 auto;
-}
-*/
-
-/*try darker*/
-
 .blueSquare {
     object-fit: scale-down;
     background: #053cb0;    
@@ -436,17 +413,11 @@ label input[type="radio"]:checked ~ span {
         width: 50%;
         margin: 0 auto;
     }
-
-    #bookNowContainer {
-        padding-top: 10px;
+    .blueSquare  {
+        background: transparent
     }
-
-    #doNowContainer {
-        padding-top: 10px;
-    }
-
-    #calendarContainer {
-        padding-top: 10px;
+    .artworkImage {
+        opacity: 1;
     }
 }
 
@@ -463,7 +434,12 @@ label input[type="radio"]:checked ~ span {
         border-bottom: 1px solid var(--dark-link);
         padding: 0;
     }
-
+    .blueSquare  {
+        background: transparent
+    }
+    .artworkImage {
+        opacity: 1;
+    }
 }
 
 /* SCHEDULE PAGE */
