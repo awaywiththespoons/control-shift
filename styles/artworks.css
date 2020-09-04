@@ -416,10 +416,10 @@ label input[type="radio"]:checked ~ span {
         margin: 0 auto;
     }
     .blueSquare  {
-        background: transparent
+        /*background: transparent*/
     }
     .artworkImage {
-        opacity: 1;
+        /*opacity: 1;*/
     }
 }
 
@@ -437,10 +437,10 @@ label input[type="radio"]:checked ~ span {
         padding: 0;
     }
     .blueSquare  {
-        background: transparent
+        /*background: transparent*/
     }
     .artworkImage {
-        opacity: 1;
+        /*opacity: 1;*/
     }
 }
 
