@@ -165,12 +165,14 @@ https://www.instagram.com/
 }
 
 .time-filter {
+    font-weight: bolder;
     color: var(--dark-primary);
     border: 1px solid var(--dark-primary);
     font-family: var(--font-large-headings);
 }
 
 .online-filter {
+    font-weight: bolder;
     color: var(--dark-link);
     border: 1px solid var(--dark-link);
     font-family: var(--font-large-headings);
