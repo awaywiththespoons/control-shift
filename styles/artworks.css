@@ -286,7 +286,7 @@ label input[type="radio"]:checked ~ span {
 }
 
 .artwork-title-text {
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .modal-h2-text {
@@ -328,7 +328,7 @@ label input[type="radio"]:checked ~ span {
     text-align: center;
 }
 
-.bottom-bar-modal-info {
+.info-bar-modal-info {
     font-size: 14px;
     font-family: var(--font-paragraph-modal);
     color: var(--dark-primary);
@@ -340,12 +340,23 @@ label input[type="radio"]:checked ~ span {
 
 #actionLink {
     border: 1px solid var(--dark-primary);
-    padding: 4%;
+    padding: 8px;
+}
+
+.bookingOpensText {
+    border: 1px solid var(--dark-primary);
+    padding: 6px 3px 6px 3px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.actionContainer {
+    margin-top: 25px;
 }
 
 #actionLink:hover {
     border: 1px solid var(--light-link-hover);
-    padding: 4%;
+    padding: 8px;
 }
 
 .padding-modal-right-left {
@@ -395,27 +406,30 @@ label input[type="radio"]:checked ~ span {
     border-left: 1px solid var(--dark-link);
 }
 
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 575px) {
     .border-sides {
         border: none;
     }
 
-    .when-text {
+    .modal-top-text {
         padding-bottom: 10px;
     }
 
-    .time-text {
-        padding-bottom: 10px;
-        border-bottom: 1px solid var(--dark-link);
-        width: 50%;
-        margin: 0 auto;
-    }
     .blueSquare  {
         background: transparent
     }
     .artworkImage {
         opacity: 1;
+    }
+
+    .middleColumn {
+        border-bottom: 1px solid var(--dark-link);
+        border-top: 1px solid var(--dark-link);
+        width: 250px;
+        margin: 0 auto;
+    }
+    .actionContainer {
+        margin-top: 5px;
     }
 }
 
@@ -527,7 +541,7 @@ label input[type="radio"]:checked ~ span {
 
 /* SMALL PHONES: 1 BOX PER WIDTH */
 @media only screen and (max-width: 420px) {
-    [class*="col-"] {
+    [class*="col-xs"] {
       width: 100%;
     }
     .greyBox { /*do not display crossed out days on mobile screens */
@@ -542,7 +556,7 @@ label input[type="radio"]:checked ~ span {
 
 /* LARGER PHONES: 2 BOXES PER WIDTH */
 @media (min-width: 420px) and (max-width: 600px){ 
-    [class*="col-"] {
+    [class*="col-xs"] {
         width: 45%;
     }
     .greyBox { /*do not display crossed out days on mobile screens */
@@ -555,7 +569,7 @@ label input[type="radio"]:checked ~ span {
 
 /* TABLETS: 3 BOXES PER WIDTH */
 @media (min-width: 600px) and (max-width: 1000px){ 
-    [class*="col-"] {
+    [class*="col-xs"] {
         width: 30%;
     }
     .greyBox { /*do not display crossed out days on mobile screens */
