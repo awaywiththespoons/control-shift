@@ -609,7 +609,7 @@
             "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using Improviz for live visuals.",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Sunday",
                 "date": ["11th"],
