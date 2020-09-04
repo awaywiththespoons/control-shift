@@ -3,7 +3,7 @@
         "id": 0,
         "artist": {
             "name": "Antonio Roberts",
-            "bio_100w": ["AWAITING TEXT"],
+            "bio_100w": ["Antonio Roberts is an artist and curator based in Birmingham, UK. His practices explore what ownership and authorship mean in an age impacted by digital technology.<br><br>His work has been featured at galleries and festivals including databit.me in Arles, France (2012), Glitch Moment/ums at Furtherfield Gallery, London (2013), Loud Tate: Code at Tate Britain (2014), glitChicago at the Ukrainian Institute of Modern Art in Chicago, US (2014), Permission Taken at Birmingham Open Media and University of Birmingham (2015-2016), Common Property at Jerwood Arts, London (2016), Ways of Something at Whitney Museum of American Art, New York (2017), Green Man Festival, Wales (2017), Barbican, London (2018), Copy / Paste at the Victoria and Albert Museum (2019) and We Are Your Friends at Czurles Nelson Gallery, Buffalo, US (2019).<br><br>He has curated exhibitions and projects including GLI.TC/H Birmingham (2011), the Birmingham editions of Bring Your Own Beamer (2012, 2013), Stealth (2015), and No Copyright Infringement Intended (2017), and Copy Paste (2020). He is part of a-n's Artist Council, is an Artist Advisor for Jerwood Arts and from 2014 - 2019 he was Curator at Vivid Projects where he produced the Black Hole Club artist development programme."],
             "image": [
                 {
                     "url": "",
@@ -12,32 +12,31 @@
             ]
         },
         "artwork": {
-            "artwork_name": "AWAITING TEXT",
-            "artwork_type":"workshop",
-            "artwork_description_line": "AWAITING TEXT",
+            "artwork_name": "Live Coding",
+            "artwork_type":"WORKSHOP",
+            "artwork_description_line": "Live coding visuals workshop using Improviz",
             "artwork_description_150w_long": ["AWAITING TEXT"],
-            "artwork_description_50w_short": "AWAITING TEXT",
+            "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using Improviz for live visuals.",
             "details": {
                 "filterOnline": "online",
                 "filterType": "WORKSHOP",
                 "filterWeek": "week-2",
                 "day": "Sunday",
                 "date": ["11th"],
-                "time": "TBC",
-                "location": "online",
-                "practicalInfo": "",
+                "time": "2-3:30pm",
+                "location": "Online",
+                "practicalInfo": "no coding experience necessary",
                 "actionText": "Book Now",
                 "actionLink": "TBCTBCTBCTBC"
             },
             "image": {
-                "url": " ",
-                "alt": "AWAITING TEXT"
+                "url": "live-coding_artwork_WEB.png",
+                "alt": "vibrant live coded visuals with code-text"
             }
         },
         "social_media": {
-            "website": " ",
-            "twitter": " ",
-            "instagram": " "
+            "website": "https://hellocatfood.com",
+            "instagram": "https://instagram.com/hellocatfooood"
         }
     },
     {
@@ -614,7 +613,7 @@
         "id": 15,
         "artist": {
             "name": "Alice Haynes, Pete Bennett and Dave Webb",
-            "bio_100w": ["AWAITING TEXT"],
+            "bio_100w": ["Bristol based Alice Haynes, Pete Bennett and Dave Webb, are a group of artists who like to code - or indeed coders who like to art! Their interests run the full range of physical to digital and and they like to crossover and bring this together in unlikely combinations as often as possible: robotics, music, sketching, programming, sound-art, making, painting, crafting, patchworking and print-making. They make silly, simple and rewarding things with high and low tech."],
             "image": [
                 {
                     "url": "",
@@ -623,75 +622,30 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Art, code and a bowl of fruit",
+            "artwork_name": "Art, Code and a Bowl of Fruit",
             "artwork_type":"WORKSHOP",
-            "artwork_description_line": "AWAITING TEXT",
+            "artwork_description_line": "Workshop to make coding tools to draw still-life",
             "artwork_description_150w_long": ["AWAITING TEXT"],
-            "artwork_description_50w_short": "AWAITING TEXT",
+            "artwork_description_50w_short": "Come join us for a workshop of creative coding and art! In the first hour you will program your own drawing tool, in the second hour you will be doing some life-drawing with your new tool. Absolutely no art or coding skills are required for this workshop, only a sense of fun and an open mind!",
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop",
                 "filterWeek": "week-1",
-                "day": " ",
-                "date": [],
-                "time": " ",
-                "location": " ",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "TBCTBCTBCTBC"
-            },
-            "image": {
-                "url": "AWAITING TEXT",
-                "alt": "AWAITING TEXT"
-            }
-        },
-        "social_media": {
-            "website": " ",
-            "twitter": " ",
-            "instagram": " "
-        }
-    },
-
-
-    {
-        "id": 16,
-        "artist": {
-            "name": "Antonio Roberts",
-            "bio_100w": ["AWAITING TEXT"],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "AWAITING TEXT",
-            "artwork_type":"WORKSHOP",
-            "artwork_description_line": "AWAITING TEXT",
-            "artwork_description_150w_long": ["AWAITING TEXT"],
-            "artwork_description_50w_short": "AWAITING TEXT",
-            "details": {
-                "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
                 "day": "Sunday",
-                "date": ["11th"],
-                "time": "TBC",
-                "location": "online",
-                "practicalInfo": "",
+                "date": ["18th"],
+                "time": "3-5pm",
+                "location": "Online",
+                "practicalInfo": "Family Friendly",
                 "actionText": "Book Now",
                 "actionLink": "TBCTBCTBCTBC"
             },
             "image": {
-                "url": " ",
-                "alt": "AWAITING TEXT"
+                "url": "art-code-fruit_artwork_WEB.png",
+                "alt": "a digital illustration of a statue, seen through a 90s style browser"
             }
         },
         "social_media": {
-            "website": " ",
-            "twitter": " ",
-            "instagram": " "
+            "website": "https://cranbim.github.io/artcodeandabowloffruit/"
         }
     },
 
