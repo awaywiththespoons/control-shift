@@ -97,7 +97,7 @@ https://www.instagram.com/
 
 /* STYLES FOR ARTWORK PAGE */
 
-/* Artwork grid: all styles */
+/* Artwork grid: all styles 
 
 .blueSquare {
     /*object-fit: scale-down;*/
@@ -107,12 +107,14 @@ https://www.instagram.com/
     background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);*/
     max-width: 795px;
     margin: 0 auto;
-}
+}*/
 
+/*
 .blueSquare:hover {
     background:none;  
     background-image: none;
 }
+*/
 
 .artworkImage {
     /* Image itself */
@@ -296,6 +298,10 @@ label input[type="radio"]:checked ~ span {
 }
 
 .mainLinkText {
+    color: var(--dark-primary);
+}
+
+a:hover.mainLinkText {
     color: var(--dark-primary);
 }
 

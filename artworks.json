@@ -1,128 +1,7 @@
 [
-    {
-        "id": 0,
-        "artist": {
-            "name": "Antonio Roberts",
-            "bio_100w": ["Antonio Roberts is an artist and curator based in Birmingham, UK. His practices explore what ownership and authorship mean in an age impacted by digital technology.<br><br>His work has been featured at galleries and festivals including databit.me in Arles, France (2012), Glitch Moment/ums at Furtherfield Gallery, London (2013), Loud Tate: Code at Tate Britain (2014), glitChicago at the Ukrainian Institute of Modern Art in Chicago, US (2014), Permission Taken at Birmingham Open Media and University of Birmingham (2015-2016), Common Property at Jerwood Arts, London (2016), Ways of Something at Whitney Museum of American Art, New York (2017), Green Man Festival, Wales (2017), Barbican, London (2018), Copy / Paste at the Victoria and Albert Museum (2019) and We Are Your Friends at Czurles Nelson Gallery, Buffalo, US (2019).<br><br>He has curated exhibitions and projects including GLI.TC/H Birmingham (2011), the Birmingham editions of Bring Your Own Beamer (2012, 2013), Stealth (2015), and No Copyright Infringement Intended (2017), and Copy Paste (2020). He is part of a-n's Artist Council, is an Artist Advisor for Jerwood Arts and from 2014 - 2019 he was Curator at Vivid Projects where he produced the Black Hole Club artist development programme."],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "Live Coding",
-            "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Live coding visuals workshop using Improviz",
-            "artwork_description_150w_long": ["AWAITING TEXT"],
-            "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using Improviz for live visuals.",
-            "details": {
-                "filterOnline": "online",
-                "filterType": "WORKSHOP",
-                "filterWeek": "week-2",
-                "day": "Sunday",
-                "date": ["11th"],
-                "time": "2-3:30pm",
-                "location": "Online",
-                "practicalInfo": "no coding experience necessary",
-                "actionText": "Book Now",
-                "actionLink": "link"
-            },
-            "image": {
-                "url": "live-coding_artwork_WEB.png",
-                "alt": "vibrant live coded visuals with code-text"
-            }
-        },
-        "social_media": {
-            "website": "https://hellocatfood.com",
-            "instagram": "https://instagram.com/hellocatfooood"
-        }
-    },
-    {
-        "id": 1,
-        "artist": {
-            "name": "Kathy Hinde",
-            "bio_100w": ["Bristol based artist Kathy Hinde’s work grows from a partnership between nature and technology expressed through audio-visual installations and performances that combine sound, sculpture, image and light. She creates work that evolves and can be different each time it is experienced. Kathy frequently works in collaboration with other practitioners and scientists and often actively involves the audience in the creative process. Awards include an Honorary Mention at Prix Ars Electronica, a British Composer Award, an ORAM award and a Scottish Award for New Music. She became a Cryptic Artist in 2015, and is a member of the Bristol Experimental Expanded Film collective."],
-            "image": [
-                {
-                    "url": "DeepListening_artist_WEB.png",
-                    "alt": "photo of Kathy Hinde"
-            }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "Deep Listening",
-            "artwork_type":"ARTIST WALK",
-            "artwork_description_line": "Artist walk exploring underwater perspectives of the Bristol floating harbour",
-            "artwork_description_150w_long": ["In this artist led walk, you are invited to listen deeply to the waterways of Bristol using underwater microphones at the point where the floating harbour meets the gorge. Together, we will contemplate the huge tidal range of the Bristol Channel by positioning ourselves at an edge point of the city, demarcated by a shifting watery passageway that carves a liminal space between the urban and the rural. There are many interventions that keep Bristol’s relationship with water flowing and smooth. Watery compositions created from underwater sounds and shaped by tidal data, are integrated into the walk, inviting us to consider the potential future of rising sea levels. Join us to develop a meaningful connection with the watery environs of Bristol by pausing to reflect through listening from an underwater perspective."],
-            "artwork_description_50w_short": "Join us for a walk along the harbour, to pause, reflect and listen to Bristol from an underwater perspective. We will contemplate tidal changes from an edge point of the city, demarcated by a shifting watery passageway carving a space between the urban and the rural.",
-            "details": {
-                "filterOnline": "person",
-                "filterType": "event",
-                "filterWeek": "week-1",
-                "day": "Monday",
-                "date": ["10th"],
-                "time": "11:00 - 12:30",
-                "location": "Bristol Harbourside",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/deep-listening-tickets-119422557083"
-            },
-            "image": {
-                "url": "deep-listening_artwork_WEB.png",
-                "alt": "photo of Kathy Hinde exploring underwater perspectives"
-            }
-        },
-        "social_media": {
-            "website": "http://kathyhinde.co.uk/deep-listening-walks/",
-            "twitter": "https://twitter.com/birdtwitchr",
-            "instagram": "https://www.instagram.com/kathyhinde/"
-        }
-    },
-    {
-        "id": 2,
-        "artist": {
-            "name": "Sarah Selby and Tim Kindberg",
-            "bio_100w": ["<a  target='_blank' href='https://www.sarahselby.co.uk/'>Sarah</a> is an interdisciplinary artist exploring digital culture through creative applications of emerging and pervasive technology. Graduating from Manchester Metropolitan University’s Interactive Arts course in 2017, she has since been selected to participate in Roche Continents Science and Art residency and was shortlisted for the Ashurst Emerging Artist Prize. Sarah was the winner of arebyte Gallery’s ‘Hotel Generation’ programme 2019 and is also a member of the Immersive Kind - an interdisciplinary network facilitating knowledge-exchange between artists, scientists and researchers.",
-             "<br>",
-            "Tim runs digital technology company <a  target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a  target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a  target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a  target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a  target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-            }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "The Departed",
-            "artwork_type":"PERFORMATIVE WORKSHOP",
-            "artwork_description_line": "Part séance, part workshop bridging the gap between physical and virtual realms",
-            "artwork_description_150w_long": ["Part séance, part performative workshop, The Departed is an attempt to bridge the gap between physical and virtual realms. Participants will be guided through a process that opens a communication channel between physical and digital worlds. Lockdown has disembodied us from the physical. Our fallible bodies are confined to ‘safe spaces’, isolated and hidden away from harm. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have re-explored the physical pathways, parks and gardens around us. We have listened to new birdsong, and to the silence of carless streets - things we lost as the world unlocked. We invite you to join us in making contact with those things that have departed, in both physical and virtual, human and non-human. We hope to inspire new ways of being in the world; finding what we have lost that was valuable, and discarding the rest."],
-            "artwork_description_50w_short": "Lockdown has disembodied us from the physical. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have listened to new birdsong, and to the silence of carless streets. Part séance, part performative workshop, The Departed guides us through open communication between physical and digital worlds. We invite you to join us in making contact with those things that have departed and the things we lost as the world unlocked.",
-            "details": {
-                "filterOnline": "person",
-                "filterType": "event",
-                "filterWeek": "week-3",
-                "day": "Sunday",
-                "date": ["18th"],
-                "time": "",
-                "location": "Arnos Vale, Bristol",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119415863061"
-            },
-            "image": {
-                "url": "the-departed_Artwork_WEB.png",
-                "alt": "Image of the departed artwork"
-            }
-        },
-        "social_media": {
-            "instagram": "https://www.instagram.com/sarahselbyart",
-            "twitter": "https://twitter.com/SarahSelbyArt",
-            "twitterTwo": "https://twitter.com/timkindberg"
-        }
-    },
+    
+    
+        
     {
         "id": 3,
         "artist": {
@@ -163,11 +42,12 @@
             "twitter": "https://twitter.com/kasava_co"
         }
     },
+     
     {
-        "id": 4,
+        "id": 8,
         "artist": {
-            "name": "MELT",
-            "bio_100w": ["As MELT, <a  target='_blank' href='https://lorenbritton.com/'>Loren Britton</a> and <a  target='_blank' href='https://www.isabelpaehr.com/'>Isabel Paehr</a> are Berlin-based arts-design researchers who work with games, tech and radical pedagogy. Investigating the political & material conditions of tech infrastructures, they re-distribute agency in socio-technological systems with the methods of queer play, unlearning and leaking. Their work crumbles structures, unbounds materials, dissolves technology and makes collectivities. MELT is exploring how to make something but to keep it open to change, and is doing this through formats like video artworks and workshops. MELT has been influenced by (melting) Ice, Freezers, Software, Signal, moving too fast/slow, Wendy Hui Kyong Chun, Denise Ferreira Da Silva, Digital Materialism, Post/De Colonial thinking, Gifs, Climate Protests, Anti-Racism and Dancing."],
+            "name": "Rachel Smith",
+            "bio_100w": ["Bristol based Rachel Smith is a media artist and creative technologist with an MFA in Media Art from Bauhaus University Weimar and an undergraduate in Maths. She is a resident of the Pervasive Media Studio in Bristol and recently completed a Fellowship in Automation for the South West Creative Technology Network. Often creating playful experiences and interactive installations, she interrogates emerging technologies with both a critical and affectionate eye. Her main interests lie in the relationship between humans and machines and her work has a particular focus on the hidden decision-making processes found in artificial intelligence. She has exhibited internationally including at the Kunstverein Tiergarten in Berlin and the Ars Electronica festival."],
             "image": [
                 {
                     "url": "",
@@ -176,38 +56,39 @@
             ]
         },
         "artwork": {
-            "artwork_name": "MIAU ID",
-            "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Workshop exploring network purrtocols (protocols) from the perspective of cats",
-            "artwork_description_150w_long": ["In MIAU ID, the cats of the internet gather to decide upon a network structure that's good for every cat! In this online workshop, the game is played by a group of around 15 cats (people). Stitching on an embroidery hoop / yarn network, each cat has a specific ID and transmits messages. Through 'miauing' the cats address each other, as they perform different rules on different networks: Centralized, Decentralized and Distributed. Depending on the purrotcols (protocols) of the network, they weave different patterns.", "By embodying networks, cats explore the politics of centralization, but also P2P networks and sharing. Thus it becomes possible to question the hard-wired power relations embedded within internet infrastructures. Cats shift control by making technical specificities accessible in play and through practicing that there are as many teachers as there are cats (people) in the room. This creates space to understand why the internet can be 'shut down' and to consider alternative infrastructures. MIAU ID is playable by people of any age and accessible towards those with variable mobility, neurodiverse peoples and hearing impaired peoples. We would love to be in touch with any peoples who have other accessibility concerns.", "Note: there is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and have bursaries available."],
-            "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! Using yarn, we will play as cats and address each other via different rules. On our agenda are three network types: Centralized, Decentralized and Distributed. Let us find out about these network's purrtocols (protocols)! <br><br><em>There is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and we have bursaries available.</em>",
+            "artwork_name": "Face / On",
+            "artwork_type":"INSTALLATION",
+            "artwork_description_line": "Interactive installation playfully engaging with facial recognition technology",
+            "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise in order to gain access. Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Do they align with our own ideas of identity? Where have these rules come from and what are the consequences? Face / On is an invitation to playfully engage with ideas around facial recognition technology."],
+            "artwork_description_50w_short": "How do AI systems decide on personal labels such as age and gender based on looks alone? Face / On is an interactive installation that explores who systems see. It takes the form of a closed door embedded with a facial recognition system. Face/On is a gatekeeper deciding on who looks like they fit its criteria, and who will be permitted entry past the threshold. It may be necessary to adopt a disguise to fool the system.",
             "details": {
-                "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Saturday 17th",
-                "date": ["17th"],
-                "time": "14:00 - 16:30",
-                "location": "ONLINE",
+                "filterOnline": "person",
+                "filterType": "exhibition",
+                "filterWeek": "anytime",
+                "day": "",
+                "date": ["anytime"],
+                "time": "",
+                "location": "Bristol City Centre",
                 "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119423213045"
+                "actionText": "Venue Info",
+                "actionLink": "venue-info.html"
             },
             "image": {
-                "url": "miauID_artwork_WEB.png",
-                "alt": "a messy network of yarn in differnt colours"
+                "url": "face-on_artwork_WEB.png",
+                "alt": "Image of Rachel's face mixed with Arnold Schwarzenegger"
             }
         },
         "social_media": {
-            "website": "http://meltionary.com/",
-            "instagram": "https://www.instagram.com/meltionary"
+            "website": "https://www.watershed.co.uk/studio/residents/rachel-smith"
         }
     },
+   
+    
     {
-        "id": 5,
+        "id": 12,
         "artist": {
-            "name": "Shannon Finnegan",
-            "bio_100w": ["Shannon Finnegan is a multidisciplinary artist living and working in New York City, making work about accessibility and disability culture. They have done projects with Banff Centre, the High Line, MCA Denver, Tallinn Art Hall, Nook Gallery, and the Wassaic Project. They have spoken about their work at the Brooklyn Museum, School for Poetic Computation, The 8th Floor, and The Andrew Heiskell Braille and Talking Book Library. In 2018, they received a Wynn Newhouse Award and participated in Art Beyond Sight’s Art + Disability Residency. In 2019, they were an artist-in-residence at Eyebeam."],
+            "name": "Wisterlitz",
+            "bio_100w": ["<a  target='_blank' href='https://wisterlitz.wordpress.com/'>Wisterlitz</a> (Liz Lister and Becky Hurwitz) make playful, interactive work exploring relationships between science, technologies, and society. Their work reflects on the position of women in relation to these areas, often looking afresh at invisible histories through a contemporary lens and combining physical making with digital mediums."],
             "image": [
                 {
                     "url": "",
@@ -216,34 +97,185 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Alt-Text as Poetry",
+            "artwork_name": "Knitwitter",
+            "artwork_type":"DIY KNITTING",
+            "artwork_description_line": "An invitation to encode secret messages into your knitting.",
+            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
+            "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app encodes your texts into binary patterns so that we can carefully knit encoded messages instead. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag pictures with #knitwitter hashtag to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a>, and encode your own message into a piece of knitting</em>. ",
+            "details": {
+                "filterOnline": "online person",
+                "filterType": "workshop exhibition",
+                "filterWeek": "anytime",
+                "day": " ",
+                "date": ["anytime"],
+                "time": " ",
+                "location": "ONLINE",
+                "practicalInfo": "",
+                "actionText": "Knitwitter App",
+                "actionLink": "https://www.knitwitter.com/"
+            },
+            "image": {
+                "url": "knitwitter_Artwork_WEB.png",
+                "alt": "Digital knitting pattern"
+            }
+        },
+        "social_media": {
+            "website": "https://www.knitwitter.com/",
+            "facebook": "https://www.facebook.com/groups/knitwitter/",
+            "instagram": "https://www.instagram.com/knit.witter/"
+        }
+    },
+    
+    
+      {
+        "id": 19,
+        "artist": {
+            "name": "Jump Studio",
+            "bio_100w": ["Jump studio are a group of resident art makers and code wranglers aged 11-13 years. They meet every Monday at Knowle West Media Centre to explore how to be creative with technology. To make this work they collaborated with Bristol based media artist <a  target='_blank' href='https://www.beccarose.co.uk'> Becca Rose</a>"],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Get this position",
             "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Workshop for creating “alt-text” poetry",
-            "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a  target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
-            "artwork_description_50w_short": "Alt-text is an essential part of the internet, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. Alt-text is often overlooked and vivid images are written as dull one-liners. In this workshop we will create alt-text poetry, and practice writing thoughtful and creative texts together.<br><br><em>Find out more on the workshop <a  target='_blank' href='https://docs.google.com/document/d/1bHBnwCoKZd1VMZ4op3dpdnU012kIdOF-5XHSCeAAWvE/edit?usp=sharing'>Access</a> page.</em>",
+            "artwork_description_line": "Exhibition of DIY augmented reality filters by young people from Knowle West",
+            "artwork_description_150w_long": [" "],
+            "artwork_description_50w_short": "Augmented reality filters, used in apps such as Tik Tok, Instagram and Snapchat are part of our lives in intimate ways whilst also defining who we are. Rather than defining themselves through the eyes of others, young people from KWMC’s Jump Studio have made their own augmented realities to share with the world. How do they look? <br><br><em>Exhibition co-prduced by <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a>.</em>",
+            
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
+                "filterType": "exhibition",
                 "filterWeek": "week-3",
-                "day": "Friday",
-                "date": ["16th"],
-                "time": "4-6pm",
+                "day": "",
+                "date": ["anytime"],
+                "time": "",
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119413175021"
+                "actionLink": "LINK"
             },
             "image": {
-                "url": "alt-text-poetry_artwork_WEB.png",
-                "alt": "Image of hand written alt text on a sheet of white paper"
+                "url": "get-this-position_artwork_WEB.gif",
+                "alt": "text here"
             }
         },
         "social_media": {
-            "website": "https://shannonfinnegan.com/",
-            "twitter": "https://twitter.com/shanfinnegan",
-            "instagram": "https://www.instagram.com/shanfinnegan/"
+            "website": "https://kwmc.org.uk/projects/jumpstudios/",
+            "twitter": "https://twitter.com/jumpkwmc",
+            "instagram":"https://www.instagram.com/jumpkwmc/"
         }
     },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        "id": 19,
+        "artist": {
+            "name": "Naho Matsuda",
+            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Data Poetics",
+            "artwork_type":"LUNCHTIME TALK",
+            "artwork_description_line": "Artist talk and discussion on data in the arts",
+            "artwork_description_150w_long": [""],
+            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "event",
+                "filterWeek": "week-1",
+                "day": "Friday",
+                "date": ["2nd"],
+                "time": "1-2pm",
+                "location": "Online",
+                "practicalInfo": "",
+                "actionText": "Watch online",
+                "actionLink": "youtube"
+            },
+            "image": {
+                "url": "this-city-is-talk_Artwork_WEB.png",
+                "alt": "image of website describing the city"
+            }
+        },
+          "social_media": {
+            "website": "https://www.nahomatsuda.com/"
+        }
+    },
+    
+
+    
+    {
+        "id": 14,
+        "artist": {
+            "name": "Naho Matsuda",
+            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "This City Is",
+            "artwork_type":"INSTALLATION",
+            "artwork_description_line": "Large-scale projection describing Bristol through the eyes of the internet",
+            "artwork_description_150w_long": ["‘This City is’ is a large-scale projection that describes Bristol through a continuous list of statements taken from twitter, reddit and various other online platforms. The statements range from personal opinions to public announcements and from commercial texts to political statements. Continuously updating and randomly arranged, this collectivised stream of consciousness is an attempt to capture the many layers, voices and emotions that exist in Bristol at this very moment. In a time where our engagement in public places has changed, it has become difficult to sense how a city ‘feels’ and to connect to the shared sentiment of a place. This work engages and reconnects with the multiple versions of this city through the re-edit of found text. This project is coded by Paul Angus, and was first commissioned by O,Miami 2020."],
+            "artwork_description_50w_short": "Being in public space has changed, and it has become difficult to sense how a city ‘feels’ and how to connect to the shared sentiment of a place. <em>This City Is</em> projects collectivised streams of consciousness back onto the city. Through large-scale projections we see Bristol through a continuous list of updates, ranging from personal opinions to public announcements. We project the many layers, voices and emotions that exist at this very moment right back into the city itself. <br><br><em>This project is coded by Paul Angus, and was first commissioned by O,Miami 2020.</em>",
+            "details": {
+                "filterOnline": "person",
+                "filterType": "exhibition event",
+                "filterWeek": "week-1",
+                "day": "Friday",
+                "date": ["2nd"],
+                "time": "6-11pm",
+                "location": "Bristol City Centre",
+                "practicalInfo": "",
+                "actionText": "Venue Info",
+                "actionLink": "venue-info.html"
+            },
+            "image": {
+                "url": "this-city-is_Artwork_WEB.gif",
+                "alt": "animated updates describing this city"
+            }
+        },
+        "social_media": {
+            "website": "https://www.nahomatsuda.com/"
+        }
+    },
+    
+    
+    
+    
+    
     {
         "id": 6,
         "artist": {
@@ -291,10 +323,10 @@
     
     
     {
-        "id": 8,
+        "id": 13,
         "artist": {
-            "name": "Rachel Smith",
-            "bio_100w": ["Bristol based Rachel Smith is a media artist and creative technologist with an MFA in Media Art from Bauhaus University Weimar and an undergraduate in Maths. She is a resident of the Pervasive Media Studio in Bristol and recently completed a Fellowship in Automation for the South West Creative Technology Network. Often creating playful experiences and interactive installations, she interrogates emerging technologies with both a critical and affectionate eye. Her main interests lie in the relationship between humans and machines and her work has a particular focus on the hidden decision-making processes found in artificial intelligence. She has exhibited internationally including at the Kunstverein Tiergarten in Berlin and the Ars Electronica festival."],
+            "name": "Dasha Ilina",
+            "bio_100w": ["Dasha Ilina is a Russian digital artist based in Paris, France. Her work explores the relationship we develop with the digital devices we use on a daily basis, specifically in regards to the human body. Ilina’s work centers around  notions of care and technology, DIY practices and low-tech solutions to examining various issues such as phone addiction, tech-related health problems and privacy in the digital age. She is the founder of the Center for Technological Pain, a center that proposes DIY solutions to health problems caused by digital technologies. She is also the co-director of NØ SCHOOL."],
             "image": [
                 {
                     "url": "",
@@ -303,33 +335,129 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Face / On",
-            "artwork_type":"INSTALLATION",
-            "artwork_description_line": "Interactive installation playfully engaging with facial recognition technology",
-            "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise in order to gain access. Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Do they align with our own ideas of identity? Where have these rules come from and what are the consequences? Face / On is an invitation to playfully engage with ideas around facial recognition technology."],
-            "artwork_description_50w_short": "How do AI systems decide on personal labels such as age and gender based on looks alone? Face / On is an interactive installation that explores who systems see. It takes the form of a closed door embedded with a facial recognition system. Face/On is a gatekeeper deciding on who looks like they fit its criteria, and who will be permitted entry past the threshold. It may be necessary to adopt a disguise to fool the system.",
+            "artwork_name": "DIY Solutions to End Tech Pain",
+            "artwork_type":"WORKSHOP",
+            "artwork_description_line": "Workshop designing speculative treatments for the symptoms caused by excess digital technology use",
+            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
+            "artwork_description_50w_short": "DIY Solutions to End Tech Pain is a workshop focused on imagining DIY objects against health problems that arise from technology, using materials you can find in your own home. This workshop will be taking place online, so the main focus will be sketching and conceptualizing the various low-tech solutions, in order to create a discussion around the impact technology has on our physical and mental health. If you have ever experienced eye dryness from staring at a screen for too long or neck pain from looking down at your phone too much, this workshop is for you! <br><br> <em>Workhsop co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
-                "filterOnline": "person",
-                "filterType": "exhibition",
-                "filterWeek": "anytime",
-                "day": "",
-                "date": ["anytime"],
-                "time": "",
-                "location": "Bristol City Centre",
+                "filterOnline": "online",
+                "filterType": "workshop",
+                "filterWeek": "week-1",
+                "day": "Saturday",
+                "date": ["3rd"],
+                "time": "1.30-3pm",
+                "location": "online",
                 "practicalInfo": "",
-                "actionText": "Venue Info",
-                "actionLink": "venue-info.html"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.com/e/119421465819"
             },
             "image": {
-                "url": "face-on_artwork_WEB.png",
-                "alt": "Image of Rachel's face mixed with Arnold Schwarzenegger"
+                "url": "CTP-workshop_artwork_WEB.png",
+                "alt": "Image of a prototype laptop contraption from CTP"
             }
         },
         "social_media": {
-            "website": "https://www.watershed.co.uk/studio/residents/rachel-smith"
+            "website": "http://www.dashailina.com/",
+            "twitter": "https://twitter.com/PublicDasha",
+            "instagram": "https://www.instagram.com/dashesandcommas/"
         }
     },
+
+   
+    
+    
     {
+        "id": 17,
+        "artist": {
+            "name": "Dave Webb",
+            "bio_100w": ["Dave Webb is a creative technologist and artist working with code to express interesting and difficult ideas. Dave is studying for an MSc in Creative Computing at Bath Spa University, is a resident at <a  target='_blank' href='https://www.bathspa.ac.uk/research-and-enterprise/the-studio/'> The Studio, Palace Yard Mews</a> in Bath and is a member of the Control Shift Network."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "AI for Nervous Humans",
+            "artwork_type":"WORKSHOP",
+            "artwork_description_line": "Hands-on workshop creatively training AI using just pen + paper with analogue code",
+            "artwork_description_150w_long": ["AI for Nervous Humans is a creative coding workshop that takes a look at what Artificial Intelligence is, reminding ourselves of the incredible things we can do that machines cannot. Using tangible materials such as pen and paper, we will explore how Machine Learning does what it does, and how this helps us understand our brains. We will have a look at some common fears about, and positive potential of AI, and then we will see how easily you can train a simple Machine Learning Algorithm yourself, without any code."],
+            "artwork_description_50w_short": "AI for Nervous Humans is a hands-on workshop, exploring what artificial intelligence is and how it works, whilst asking what sort of things we might be worried about. Come and play with some very easy to train AI software to make it work for us.",
+            
+            "details": {
+                "filterOnline": "online",
+                "filterType": "workshop",
+                "filterWeek": "week-2",
+                "day": "Monday",
+                "date": ["5th"],
+                "time": "18:30 - 20:00",
+                "location": "ONLINE",
+                "practicalInfo": "",
+                "actionText": "Book Now",
+                "actionLink": "LINK"
+            },
+            "image": {
+                "url": "AI-for-nervous-humans_artwork_WEB.png",
+                "alt": "image of people coding with paper"
+            }
+        },
+        "social_media": {
+            "website": "https://remented.com/portfolio/",
+            "twitter": "https://twitter.com/crispysmokedweb"
+        }
+    },
+    
+    
+    
+    
+    
+     {
+        "id": 1,
+        "artist": {
+            "name": "Kathy Hinde",
+            "bio_100w": ["Bristol based artist Kathy Hinde’s work grows from a partnership between nature and technology expressed through audio-visual installations and performances that combine sound, sculpture, image and light. She creates work that evolves and can be different each time it is experienced. Kathy frequently works in collaboration with other practitioners and scientists and often actively involves the audience in the creative process. Awards include an Honorary Mention at Prix Ars Electronica, a British Composer Award, an ORAM award and a Scottish Award for New Music. She became a Cryptic Artist in 2015, and is a member of the Bristol Experimental Expanded Film collective."],
+            "image": [
+                {
+                    "url": "DeepListening_artist_WEB.png",
+                    "alt": "photo of Kathy Hinde"
+            }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Deep Listening",
+            "artwork_type":"ARTIST WALK",
+            "artwork_description_line": "Artist walk exploring underwater perspectives of the Bristol floating harbour",
+            "artwork_description_150w_long": ["In this artist led walk, you are invited to listen deeply to the waterways of Bristol using underwater microphones at the point where the floating harbour meets the gorge. Together, we will contemplate the huge tidal range of the Bristol Channel by positioning ourselves at an edge point of the city, demarcated by a shifting watery passageway that carves a liminal space between the urban and the rural. There are many interventions that keep Bristol’s relationship with water flowing and smooth. Watery compositions created from underwater sounds and shaped by tidal data, are integrated into the walk, inviting us to consider the potential future of rising sea levels. Join us to develop a meaningful connection with the watery environs of Bristol by pausing to reflect through listening from an underwater perspective."],
+            "artwork_description_50w_short": "Join us for a walk along the harbour, to pause, reflect and listen to Bristol from an underwater perspective. We will contemplate tidal changes from an edge point of the city, demarcated by a shifting watery passageway carving a space between the urban and the rural.",
+            "details": {
+                "filterOnline": "person",
+                "filterType": "event",
+                "filterWeek": "week-1",
+                "day": "Monday",
+                "date": ["10th"],
+                "time": "11:00 - 12:30",
+                "location": "Bristol Harbourside",
+                "practicalInfo": "",
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.com/e/deep-listening-tickets-119422557083"
+            },
+            "image": {
+                "url": "deep-listening_artwork_WEB.png",
+                "alt": "photo of Kathy Hinde exploring underwater perspectives"
+            }
+        },
+        "social_media": {
+            "website": "http://kathyhinde.co.uk/deep-listening-walks/",
+            "twitter": "https://twitter.com/birdtwitchr",
+            "instagram": "https://www.instagram.com/kathyhinde/"
+        }
+    },
+    
+    
+    
+     {
         "id": 9,
         "artist": {
             "name": "Heath Bunting",
@@ -349,7 +477,7 @@
             "artwork_description_50w_short": "We invite you to take a stroll around Brandon Hill. Heath, your guide, will walk with you to explore the paradoxes and consequences hidden within the park. Guided by a custom map that has been generated by an algorithm, see the parts of the park from the perspective of a computer.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "event workshop",
+                "filterType": "event",
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": ["10th"],
@@ -368,46 +496,11 @@
             "website": "http://irational.org/heath/"
         }
     },
-    {
-        "id": 10,
-        "artist": {
-            "name": "Arjun Harrison Mann and Benjamin Redgrove",
-            "bio_100w": ["Arjun Harrison-Mann and Benjamin Redgrove are an artist & designer duo, whose work is grounded in The Social Model of Disability, often in collaboration with activist group Disabled People Against Cuts. As allies to the Disability Rights Movement, and stemming from personal experiences with disability benefits in the UK, their work often sits somewhere between provocation and service. <br><br>Kaiya Waerea is a writer and designer, whose work looks critically at chronic illness and the body by activating alternate forms of knowledge production to interrogate how we can collaboratively develop new ways of listening and taking care of each other. <br><br>Together they are exploring notions of radical accessibility, the relationship between power & presence and the foregrounding of the aesthetics of accessibility."],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "Three Perspectives on Visibility",
-            "artwork_type":"SHORT FILMS",
-            "artwork_description_line": "Film vignettes considering how ways of seeing & being seen have reshaped the nuances of accessibility under lockdown",
-            "artwork_description_150w_long": ["Under lockdown, the form and power of representation and our expectations of participation are being questioned, subverted and reimagined. Normative tools of communication are changing, our screens are liquifying the borders between the office, our homes, & protests.<br><br> Developing from Arjun & Ben’s pre-existing work on access tools for protest in collaboration with activist group Disabled People Against Cuts, we ask three creative practitioners: how have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? <br><br>With this question, we have produced three film vignettes, each with a different performance-based practitioner, to think about how digital protest tools might be used beyond service, as methods and medium for art making. In doing so, the collaborations reflect on the aesthetics of access, and the styles and perspectives produced through what is or isn’t accessible to the particular needs of each artist. Produced remotely, the work uses custom wearable rigs, video conference calling, chat functions, and audio calls both in process and in final outcome. <br><br>Using each of their own practices and subjective relationship with accessibility, these vignettes subvert communications tools to explore representation, inclusion, intimacy and allyship. We are proud to be working with Sky Cubacub, Ebony Dark Rose, and a third artist who will be announced shortly. <br><br>These films will contain audio description, BSL & captioning."],
-            "artwork_description_50w_short": "How have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? <br><br>Through three film vignettes released throughout the festival, we will explore different performance-based practitioners' subjective relationship with accessibility and visibility. These films were produced remotely using custom made proxy tools and video-conferencing software, currently in collaboration with Sky Cubacub & Ebony Dark Rose.<br><br><em>These films will contain audio description, BSL & captioning.</em> ",
-            "details": {
-                "filterOnline": "online",
-                "filterType": "watchlisten",
-                "filterWeek": "week-1",
-                "day": "",
-                "date": ["anytime"],
-                "time": "",
-                "location": "ONLINE",
-                "practicalInfo": "",
-                "actionText": "Watch online",
-                "actionLink": "Link"
-            },
-            "image": {
-                "url": "power-tools-film_artwork_WEB.png",
-                "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on it"
-            }
-        },
-        "social_media": {
-            "website": ""
-        }
-    },
-    {
+    
+    
+    
+    
+     {
         "id": 11,
         "artist": {
             "name": "Russel Hlongwane",
@@ -448,6 +541,9 @@
             "twitter": "https://twitter.com/RusselHlongwane"
         }
     },
+    
+    
+    
     
     {
         "id": 7,
@@ -493,14 +589,12 @@
     
     
     
-    
-    
-    
+
     {
-        "id": 12,
+        "id": 0,
         "artist": {
-            "name": "Wisterlitz",
-            "bio_100w": ["<a  target='_blank' href='https://wisterlitz.wordpress.com/'>Wisterlitz</a> (Liz Lister and Becky Hurwitz) make playful, interactive work exploring relationships between science, technologies, and society. Their work reflects on the position of women in relation to these areas, often looking afresh at invisible histories through a contemporary lens and combining physical making with digital mediums."],
+            "name": "Antonio Roberts",
+            "bio_100w": ["Antonio Roberts is an artist and curator based in Birmingham, UK. His practices explore what ownership and authorship mean in an age impacted by digital technology.<br><br>His work has been featured at galleries and festivals including databit.me in Arles, France (2012), Glitch Moment/ums at Furtherfield Gallery, London (2013), Loud Tate: Code at Tate Britain (2014), glitChicago at the Ukrainian Institute of Modern Art in Chicago, US (2014), Permission Taken at Birmingham Open Media and University of Birmingham (2015-2016), Common Property at Jerwood Arts, London (2016), Ways of Something at Whitney Museum of American Art, New York (2017), Green Man Festival, Wales (2017), Barbican, London (2018), Copy / Paste at the Victoria and Albert Museum (2019) and We Are Your Friends at Czurles Nelson Gallery, Buffalo, US (2019).<br><br>He has curated exhibitions and projects including GLI.TC/H Birmingham (2011), the Birmingham editions of Bring Your Own Beamer (2012, 2013), Stealth (2015), and No Copyright Infringement Intended (2017), and Copy Paste (2020). He is part of a-n's Artist Council, is an Artist Advisor for Jerwood Arts and from 2014 - 2019 he was Curator at Vivid Projects where he produced the Black Hole Club artist development programme."],
             "image": [
                 {
                     "url": "",
@@ -509,40 +603,42 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Knitwitter",
-            "artwork_type":"DIY KNITTING",
-            "artwork_description_line": "An invitation to encode secret messages into your knitting.",
-            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
-            "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app encodes your texts into binary patterns so that we can carefully knit encoded messages instead. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag pictures with #knitwitter hashtag to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a>, and encode your own message into a piece of knitting</em>. ",
+            "artwork_name": "Live Coding",
+            "artwork_type":"WORKSHOP",
+            "artwork_description_line": "Live coding visuals workshop using Improviz",
+            "artwork_description_150w_long": ["AWAITING TEXT"],
+            "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using Improviz for live visuals.",
             "details": {
-                "filterOnline": "online person",
-                "filterType": "workshop exhibition",
-                "filterWeek": "anytime",
-                "day": " ",
-                "date": ["anytime"],
-                "time": " ",
-                "location": "ONLINE",
-                "practicalInfo": "",
-                "actionText": "Knitwitter App",
-                "actionLink": "https://www.knitwitter.com/"
+                "filterOnline": "online",
+                "filterType": "WORKSHOP",
+                "filterWeek": "week-2",
+                "day": "Sunday",
+                "date": ["11th"],
+                "time": "2-3:30pm",
+                "location": "Online",
+                "practicalInfo": "no coding experience necessary",
+                "actionText": "Book Now",
+                "actionLink": "link"
             },
             "image": {
-                "url": "knitwitter_Artwork_WEB.png",
-                "alt": "Digital knitting pattern"
+                "url": "live-coding_artwork_WEB.png",
+                "alt": "vibrant live coded visuals with code-text"
             }
         },
         "social_media": {
-            "website": "https://www.knitwitter.com/",
-            "facebook": "https://www.facebook.com/groups/knitwitter/",
-            "instagram": "https://www.instagram.com/knit.witter/"
+            "website": "https://hellocatfood.com",
+            "instagram": "https://instagram.com/hellocatfooood"
         }
     },
     
-    {
-        "id": 13,
+
+    
+    
+     {
+        "id": 18,
         "artist": {
-            "name": "Dasha Ilina",
-            "bio_100w": ["Dasha Ilina is a Russian digital artist based in Paris, France. Her work explores the relationship we develop with the digital devices we use on a daily basis, specifically in regards to the human body. Ilina’s work centers around  notions of care and technology, DIY practices and low-tech solutions to examining various issues such as phone addiction, tech-related health problems and privacy in the digital age. She is the founder of the Center for Technological Pain, a center that proposes DIY solutions to health problems caused by digital technologies. She is also the co-director of NØ SCHOOL."],
+            "name": "Arjun Harrison-Mann, Benjamin Redgrove and Kaiya Waerea",
+            "bio_100w": ["Arjun Harrison-Mann and Benjamin Redgrove are an artist & designer duo, whose work is grounded in The Social Model of Disability, often in collaboration with activist group Disabled People Against Cuts. As allies to the Disability Rights Movement, and stemming from personal experiences with disability benefits in the UK, their work often sits somewhere between provocation and service. <br><br>Kaiya Waerea is a writer and designer, whose work looks critically at chronic illness and the body by activating alternate forms of knowledge production to interrogate how we can collaboratively develop new ways of listening and taking care of each other. <br><br>Together they are exploring notions of radical accessibility, the relationship between power & presence and the foregrounding of the aesthetics of accessibility."],
             "image": [
                 {
                     "url": "",
@@ -551,80 +647,41 @@
             ]
         },
         "artwork": {
-            "artwork_name": "DIY Solutions to End Tech Pain",
+            "artwork_name": "Proxy Politics",
             "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Workshop designing speculative treatments for the symptoms caused by excess digital technology use",
-            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
-            "artwork_description_50w_short": "DIY Solutions to End Tech Pain is a workshop focused on imagining DIY objects against health problems that arise from technology, using materials you can find in your own home. This workshop will be taking place online, so the main focus will be sketching and conceptualizing the various low-tech solutions, in order to create a discussion around the impact technology has on our physical and mental health. If you have ever experienced eye dryness from staring at a screen for too long or neck pain from looking down at your phone too much, this workshop is for you! <br><br> <em>Workhsop co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
+            "artwork_description_line": "Workshop exploring disability activism & accessibility with video calling devices",
+            "artwork_description_150w_long": ["This remote workshop is aimed at Bristol based artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation. "],
+            "artwork_description_50w_short": "Proxy Politics: Making and Unmaking Perspectives on Access is a remote workshop is aimed at Bristol based artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation.",
+            
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop",
-                "filterWeek": "week-1",
-                "day": "Saturday",
-                "date": ["3rd"],
-                "time": "1.30-3pm",
-                "location": "online",
+                "filterWeek": "week-3",
+                "day": "Thursday",
+                "date": ["15th"],
+                "time": "17:00 - 19:00",
+                "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119421465819"
+                "actionLink": "LINK"
             },
             "image": {
-                "url": "CTP-workshop_artwork_WEB.png",
-                "alt": "Image of a prototype laptop contraption from CTP"
+                "url": "power-tools-workshop_artwork_WEB.png",
+                "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on itr"
             }
         },
         "social_media": {
-            "website": "http://www.dashailina.com/",
-            "twitter": "https://twitter.com/PublicDasha",
-            "instagram": "https://www.instagram.com/dashesandcommas/"
-        }
-    },
-
-    {
-        "id": 14,
-        "artist": {
-            "name": "Naho Matsuda",
-            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "This City Is",
-            "artwork_type":"INSTALLATION",
-            "artwork_description_line": "Large-scale projection describing Bristol through the eyes of the internet",
-            "artwork_description_150w_long": ["‘This City is’ is a large-scale projection that describes Bristol through a continuous list of statements taken from twitter, reddit and various other online platforms. The statements range from personal opinions to public announcements and from commercial texts to political statements. Continuously updating and randomly arranged, this collectivised stream of consciousness is an attempt to capture the many layers, voices and emotions that exist in Bristol at this very moment. In a time where our engagement in public places has changed, it has become difficult to sense how a city ‘feels’ and to connect to the shared sentiment of a place. This work engages and reconnects with the multiple versions of this city through the re-edit of found text. This project is coded by Paul Angus, and was first commissioned by O,Miami 2020."],
-            "artwork_description_50w_short": "Being in public space has changed, and it has become difficult to sense how a city ‘feels’ and how to connect to the shared sentiment of a place. <em>This City Is</em> projects collectivised streams of consciousness back onto the city. Through large-scale projections we see Bristol through a continuous list of updates, ranging from personal opinions to public announcements. We project the many layers, voices and emotions that exist at this very moment right back into the city itself. <br><br><em>This project is coded by Paul Angus, and was first commissioned by O,Miami 2020.</em>",
-            "details": {
-                "filterOnline": "person",
-                "filterType": "exhibition event",
-                "filterWeek": "week-1",
-                "day": "Friday",
-                "date": ["2nd"],
-                "time": "6-11pm",
-                "location": "Bristol City Centre",
-                "practicalInfo": "",
-                "actionText": "Venue Info",
-                "actionLink": "venue-info.html"
-            },
-            "image": {
-                "url": "this-city-is_Artwork_WEB.gif",
-                "alt": "animated updates describing this city"
-            }
-        },
-        "social_media": {
-            "website": "https://www.nahomatsuda.com/"
+            "website": "",
+            "twitter": ""
         }
     },
     
+    
     {
-        "id": 19,
+        "id": 10,
         "artist": {
-            "name": "Naho Matsuda",
-            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
+            "name": "Arjun Harrison Mann, Benjamin Redgrove and Kaiya Waerea",
+            "bio_100w": ["Arjun Harrison-Mann and Benjamin Redgrove are an artist & designer duo, whose work is grounded in The Social Model of Disability, often in collaboration with activist group Disabled People Against Cuts. As allies to the Disability Rights Movement, and stemming from personal experiences with disability benefits in the UK, their work often sits somewhere between provocation and service. <br><br>Kaiya Waerea is a writer and designer, whose work looks critically at chronic illness and the body by activating alternate forms of knowledge production to interrogate how we can collaboratively develop new ways of listening and taking care of each other. <br><br>Together they are exploring notions of radical accessibility, the relationship between power & presence and the foregrounding of the aesthetics of accessibility."],
             "image": [
                 {
                     "url": "",
@@ -633,33 +690,119 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Data Poetics",
-            "artwork_type":"LUNCHTIME TALK",
-            "artwork_description_line": "Artist talk and discussion on data in the arts",
-            "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
+            "artwork_name": "Three Perspectives on Visibility",
+            "artwork_type":"SHORT FILMS",
+            "artwork_description_line": "Film vignettes considering how ways of seeing & being seen have reshaped the nuances of accessibility under lockdown",
+            "artwork_description_150w_long": ["Under lockdown, the form and power of representation and our expectations of participation are being questioned, subverted and reimagined. Normative tools of communication are changing, our screens are liquifying the borders between the office, our homes, & protests.<br><br> Developing from Arjun & Ben’s pre-existing work on access tools for protest in collaboration with activist group Disabled People Against Cuts, we ask three creative practitioners: how have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? <br><br>With this question, we have produced three film vignettes, each with a different performance-based practitioner, to think about how digital protest tools might be used beyond service, as methods and medium for art making. In doing so, the collaborations reflect on the aesthetics of access, and the styles and perspectives produced through what is or isn’t accessible to the particular needs of each artist. Produced remotely, the work uses custom wearable rigs, video conference calling, chat functions, and audio calls both in process and in final outcome. <br><br>Using each of their own practices and subjective relationship with accessibility, these vignettes subvert communications tools to explore representation, inclusion, intimacy and allyship. We are proud to be working with Sky Cubacub, Ebony Dark Rose, and a third artist who will be announced shortly. <br><br>These films will contain audio description, BSL & captioning."],
+            "artwork_description_50w_short": "How have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? <br><br>Through three film vignettes released throughout the festival, we will explore different performance-based practitioners' subjective relationship with accessibility and visibility. These films were produced remotely using custom made proxy tools and video-conferencing software, currently in collaboration with Sky Cubacub & Ebony Dark Rose.<br><br><em>These films will contain audio description, BSL & captioning.</em> ",
             "details": {
                 "filterOnline": "online",
-                "filterType": "event",
+                "filterType": "watchlisten",
                 "filterWeek": "week-1",
-                "day": "Friday",
-                "date": ["2nd"],
-                "time": "1-2pm",
-                "location": "Online",
+                "day": "",
+                "date": ["anytime"],
+                "time": "",
+                "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Watch online",
-                "actionLink": "youtube"
+                "actionLink": "Link"
             },
             "image": {
-                "url": "this-city-is-talk_Artwork_WEB.png",
-                "alt": "image of website describing the city"
+                "url": "power-tools-film_artwork_WEB.png",
+                "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on it"
             }
         },
         "social_media": {
-            "website": "https://www.nahomatsuda.com/"
+            "website": ""
         }
     },
-
+   
+     {
+        "id": 5,
+        "artist": {
+            "name": "Shannon Finnegan",
+            "bio_100w": ["Shannon Finnegan is a multidisciplinary artist living and working in New York City, making work about accessibility and disability culture. They have done projects with Banff Centre, the High Line, MCA Denver, Tallinn Art Hall, Nook Gallery, and the Wassaic Project. They have spoken about their work at the Brooklyn Museum, School for Poetic Computation, The 8th Floor, and The Andrew Heiskell Braille and Talking Book Library. In 2018, they received a Wynn Newhouse Award and participated in Art Beyond Sight’s Art + Disability Residency. In 2019, they were an artist-in-residence at Eyebeam."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "Alt-Text as Poetry",
+            "artwork_type":"WORKSHOP",
+            "artwork_description_line": "Workshop for creating “alt-text” poetry",
+            "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a  target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
+            "artwork_description_50w_short": "Alt-text is an essential part of the internet, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. Alt-text is often overlooked and vivid images are written as dull one-liners. In this workshop we will create alt-text poetry, and practice writing thoughtful and creative texts together.<br><br><em>Find out more on the workshop <a  target='_blank' href='https://docs.google.com/document/d/1bHBnwCoKZd1VMZ4op3dpdnU012kIdOF-5XHSCeAAWvE/edit?usp=sharing'>Access</a> page.</em>",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "workshop",
+                "filterWeek": "week-3",
+                "day": "Friday",
+                "date": ["16th"],
+                "time": "4-6pm",
+                "location": "ONLINE",
+                "practicalInfo": "",
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.com/e/119413175021"
+            },
+            "image": {
+                "url": "alt-text-poetry_artwork_WEB.png",
+                "alt": "Image of hand written alt text on a sheet of white paper"
+            }
+        },
+        "social_media": {
+            "website": "https://shannonfinnegan.com/",
+            "twitter": "https://twitter.com/shanfinnegan",
+            "instagram": "https://www.instagram.com/shanfinnegan/"
+        }
+    },
+    
+    
+    
+     {
+        "id": 4,
+        "artist": {
+            "name": "MELT",
+            "bio_100w": ["As MELT, <a  target='_blank' href='https://lorenbritton.com/'>Loren Britton</a> and <a  target='_blank' href='https://www.isabelpaehr.com/'>Isabel Paehr</a> are Berlin-based arts-design researchers who work with games, tech and radical pedagogy. Investigating the political & material conditions of tech infrastructures, they re-distribute agency in socio-technological systems with the methods of queer play, unlearning and leaking. Their work crumbles structures, unbounds materials, dissolves technology and makes collectivities. MELT is exploring how to make something but to keep it open to change, and is doing this through formats like video artworks and workshops. MELT has been influenced by (melting) Ice, Freezers, Software, Signal, moving too fast/slow, Wendy Hui Kyong Chun, Denise Ferreira Da Silva, Digital Materialism, Post/De Colonial thinking, Gifs, Climate Protests, Anti-Racism and Dancing."],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "MIAU ID",
+            "artwork_type":"WORKSHOP",
+            "artwork_description_line": "Workshop exploring network purrtocols (protocols) from the perspective of cats",
+            "artwork_description_150w_long": ["In MIAU ID, the cats of the internet gather to decide upon a network structure that's good for every cat! In this online workshop, the game is played by a group of around 15 cats (people). Stitching on an embroidery hoop / yarn network, each cat has a specific ID and transmits messages. Through 'miauing' the cats address each other, as they perform different rules on different networks: Centralized, Decentralized and Distributed. Depending on the purrotcols (protocols) of the network, they weave different patterns.", "By embodying networks, cats explore the politics of centralization, but also P2P networks and sharing. Thus it becomes possible to question the hard-wired power relations embedded within internet infrastructures. Cats shift control by making technical specificities accessible in play and through practicing that there are as many teachers as there are cats (people) in the room. This creates space to understand why the internet can be 'shut down' and to consider alternative infrastructures. MIAU ID is playable by people of any age and accessible towards those with variable mobility, neurodiverse peoples and hearing impaired peoples. We would love to be in touch with any peoples who have other accessibility concerns.", "Note: there is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and have bursaries available."],
+            "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! Using yarn, we will play as cats and address each other via different rules. On our agenda are three network types: Centralized, Decentralized and Distributed. Let us find out about these network's purrtocols (protocols)! <br><br><em>There is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and we have bursaries available.</em>",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "workshop",
+                "filterWeek": "week-2",
+                "day": "Saturday 17th",
+                "date": ["17th"],
+                "time": "14:00 - 16:30",
+                "location": "ONLINE",
+                "practicalInfo": "",
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.com/e/119423213045"
+            },
+            "image": {
+                "url": "miauID_artwork_WEB.png",
+                "alt": "a messy network of yarn in differnt colours"
+            }
+        },
+        "social_media": {
+            "website": "http://meltionary.com/",
+            "instagram": "https://www.instagram.com/meltionary"
+        }
+    },
+  
+    
     {
         "id": 15,
         "artist": {
@@ -700,89 +843,56 @@
         }
     },
 
-    {
-        "id": 17,
-        "artist": {
-            "name": "Dave Webb",
-            "bio_100w": ["Dave Webb is a creative technologist and artist working with code to express interesting and difficult ideas. Dave is studying for an MSc in Creative Computing at Bath Spa University, is a resident at <a  target='_blank' href='https://www.bathspa.ac.uk/research-and-enterprise/the-studio/'> The Studio, Palace Yard Mews</a> in Bath and is a member of the Control Shift Network."],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "AI for Nervous Humans",
-            "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Hands-on workshop creatively training AI using just pen + paper with analogue code",
-            "artwork_description_150w_long": ["AI for Nervous Humans is a creative coding workshop that takes a look at what Artificial Intelligence is, reminding ourselves of the incredible things we can do that machines cannot. Using tangible materials such as pen and paper, we will explore how Machine Learning does what it does, and how this helps us understand our brains. We will have a look at some common fears about, and positive potential of AI, and then we will see how easily you can train a simple Machine Learning Algorithm yourself, without any code."],
-            "artwork_description_50w_short": "AI for Nervous Humans is a hands-on workshop, exploring what artificial intelligence is and how it works, whilst asking what sort of things we might be worried about. Come and play with some very easy to train AI software to make it work for us.",
-            
-            "details": {
-                "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Monday",
-                "date": ["5th"],
-                "time": "18:30 - 20:00",
-                "location": "ONLINE",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "LINK"
-            },
-            "image": {
-                "url": "AI-for-nervous-humans_artwork_WEB.png",
-                "alt": "image of people coding with paper"
-            }
-        },
-        "social_media": {
-            "website": "https://remented.com/portfolio/",
-            "twitter": "https://twitter.com/crispysmokedweb"
-        }
-    },
     
-      {
-        "id": 18,
+
+    {
+        "id": 2,
         "artist": {
-            "name": "Arjun Harrison-Mann, Benjamin Redgrove and Kaiya Waerea",
-            "bio_100w": ["Arjun Harrison-Mann and Benjamin Redgrove are an artist & designer duo, whose work is grounded in The Social Model of Disability, often in collaboration with activist group Disabled People Against Cuts. As allies to the Disability Rights Movement, and stemming from personal experiences with disability benefits in the UK, their work often sits somewhere between provocation and service. <br><br>Kaiya Waerea is a writer and designer, whose work looks critically at chronic illness and the body by activating alternate forms of knowledge production to interrogate how we can collaboratively develop new ways of listening and taking care of each other. <br><br>Together they are exploring notions of radical accessibility, the relationship between power & presence and the foregrounding of the aesthetics of accessibility."],
+            "name": "Sarah Selby and Tim Kindberg",
+            "bio_100w": ["<a  target='_blank' href='https://www.sarahselby.co.uk/'>Sarah</a> is an interdisciplinary artist exploring digital culture through creative applications of emerging and pervasive technology. Graduating from Manchester Metropolitan University’s Interactive Arts course in 2017, she has since been selected to participate in Roche Continents Science and Art residency and was shortlisted for the Ashurst Emerging Artist Prize. Sarah was the winner of arebyte Gallery’s ‘Hotel Generation’ programme 2019 and is also a member of the Immersive Kind - an interdisciplinary network facilitating knowledge-exchange between artists, scientists and researchers.",
+             "<br>",
+            "Tim runs digital technology company <a  target='_blank' href='https://matter2media.com'>matter II media</a> where he carries out R&D and creates new platforms for a more sustainable and inclusive world, such as <a  target='_blank' href='https://ididntbuy.org/'>I Didn't Buy</a> and <a  target='_blank' href='https://grapevinemedia.co.uk'>Grapevine</a>. Tim creates surreal events with other artists, like <a  target='_blank' href='https://citypsychiatrist.org/'>City Psychiatrist</a> and he <a  target='_blank' href='http://matter2media.com/blog/'>blogs</a>  sceptically about AI, blockchain and other spurious technologies."],
             "image": [
                 {
                     "url": "",
                     "alt": ""
-                }
+            }
             ]
         },
         "artwork": {
-            "artwork_name": "Proxy Politics",
-            "artwork_type":"WORKSHOP",
-            "artwork_description_line": "Workshop exploring disability activism & accessibility with video calling devices",
-            "artwork_description_150w_long": ["This remote workshop is aimed at Bristol based artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation. "],
-            "artwork_description_50w_short": "Proxy Politics: Making and Unmaking Perspectives on Access is a remote workshop is aimed at Bristol based artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation.",
-            
+            "artwork_name": "The Departed",
+            "artwork_type":"PERFORMATIVE WORKSHOP",
+            "artwork_description_line": "Part séance, part workshop bridging the gap between physical and virtual realms",
+            "artwork_description_150w_long": ["Part séance, part performative workshop, The Departed is an attempt to bridge the gap between physical and virtual realms. Participants will be guided through a process that opens a communication channel between physical and digital worlds. Lockdown has disembodied us from the physical. Our fallible bodies are confined to ‘safe spaces’, isolated and hidden away from harm. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have re-explored the physical pathways, parks and gardens around us. We have listened to new birdsong, and to the silence of carless streets - things we lost as the world unlocked. We invite you to join us in making contact with those things that have departed, in both physical and virtual, human and non-human. We hope to inspire new ways of being in the world; finding what we have lost that was valuable, and discarding the rest."],
+            "artwork_description_50w_short": "Lockdown has disembodied us from the physical. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have listened to new birdsong, and to the silence of carless streets. Part séance, part performative workshop, The Departed guides us through open communication between physical and digital worlds. We invite you to join us in making contact with those things that have departed and the things we lost as the world unlocked.",
             "details": {
-                "filterOnline": "online",
-                "filterType": "workshop",
+                "filterOnline": "person",
+                "filterType": "event",
                 "filterWeek": "week-3",
-                "day": "Thursday",
-                "date": ["15th"],
-                "time": "17:00 - 19:00",
-                "location": "ONLINE",
+                "day": "Sunday",
+                "date": ["18th"],
+                "time": "",
+                "location": "Arnos Vale, Bristol",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "LINK"
+                "actionLink": "https://www.eventbrite.com/e/119415863061"
             },
             "image": {
-                "url": "power-tools-workshop_artwork_WEB.png",
-                "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on itr"
+                "url": "the-departed_Artwork_WEB.png",
+                "alt": "Image of the departed artwork"
             }
         },
         "social_media": {
-            "website": "",
-            "twitter": ""
+            "instagram": "https://www.instagram.com/sarahselbyart",
+            "twitter": "https://twitter.com/SarahSelbyArt",
+            "twitterTwo": "https://twitter.com/timkindberg"
         }
     }
+    
+    
+    
+
+    
     
     
     
