@@ -620,10 +620,10 @@ label input[type="radio"]:checked ~ span {
     background-color: var(--text-highlight);
     border: 1px solid var(--dark-primary);
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 5px 5px 5px 5px;
-    padding-top: 60px;
+    padding-top: 40px;
     text-align: center;
 }
 
