@@ -293,6 +293,10 @@ label input[type="radio"]:checked ~ span {
     margin-top: 30px;
 }
 
+.mainLinkText {
+    color: var(--dark-primary);
+}
+
 .modal-h2-text {
     color: var(--dark-primary);
     text-align: center;

@@ -88,6 +88,7 @@
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
                 artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4 pb-3"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                
                 artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterType + " " + data[i].artwork.details.filterOnline)
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
@@ -112,6 +113,11 @@
                 p3.innerHTML = data[i].artwork.artwork_description_line;
                 p3.setAttribute("class", "gridText aboutText pt-2 text-center");
 
+                //general link 
+                let link = document.createElement('a');
+                link.setAttribute("href", "#" + data[i].artwork.artwork_name);
+                link.setAttribute("class", "mainLinkText");
+
                 //make anchor
                 var a = document.createElement('a');
                 a.setAttribute("href", "#" + data[i].artwork.artwork_name);
@@ -130,9 +136,10 @@
                 a.appendChild(blueSquare);
                 blueSquare.appendChild(image);
                 artistContainer.appendChild(a); 
-                textTitle.appendChild(p1);
-                textTitle.appendChild(p2)
-                textInfo.appendChild(p3)
+                link.appendChild(p1)
+                link.appendChild(p2);
+                link.appendChild(p3)
+                textInfo.appendChild(link)
                 artistContainer.appendChild(textTitle); 
                 artistContainer.appendChild(textInfo); 
                 mainContainer.appendChild(artistContainer);
