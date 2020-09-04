@@ -103,7 +103,7 @@
             "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
             "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app encodes your texts into binary patterns so that we can carefully knit encoded messages instead. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag pictures with #knitwitter hashtag to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a>, and encode your own message into a piece of knitting</em>. ",
             "details": {
-                "filterOnline": "online person",
+                "filterOnline": "online",
                 "filterType": "workshop exhibition",
                 "filterWeek": "anytime",
                 "day": " ",
@@ -559,13 +559,13 @@
         },
         "artwork": {
             "artwork_name": "Thinking the digital through the indigenous",
-            "artwork_type":"SHORT FILMS",
+            "artwork_type":"PANEL DISCUSSION",
             "artwork_description_line": "Panel discussion with invited filmmakers, what are the new languages for technology?",
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
             "artwork_description_50w_short": "The invited filmmakers use their films as vehicles to think through some core questions. This panel discussion offers an alternative to the assumption that technology is a western invention; whilst problematising 'tech tools' through different lenses and practices. The artists also propose new languages to imagine technology, beyond hardware and software.",
             "details": {
                 "filterOnline": "online",
-                "filterType": "watchlisten event",
+                "filterType": "event",
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": ["10th"],
