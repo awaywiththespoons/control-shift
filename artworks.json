@@ -18,7 +18,7 @@
             "artwork_description_50w_short": "Join us for a walk along the harbour, to pause, reflect and listen to Bristol from an underwater perspective. We will contemplate tidal changes from an edge point of the city, demarcated by a shifting watery passageway carving a space between the urban and the rural.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "ARTIST WALK",
+                "filterType": "event",
                 "filterWeek": "week-1",
                 "day": "Monday",
                 "date": ["10th"],
@@ -59,7 +59,7 @@
             "artwork_description_50w_short": "Lockdown has disembodied us from the physical. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have listened to new birdsong, and to the silence of carless streets. Part séance, part performative workshop, The Departed guides us through open communication between physical and digital worlds. We invite you to join us in making contact with those things that have departed and the things we lost as the world unlocked.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "PERFORMATIVE WORKSHOP",
+                "filterType": "event",
                 "filterWeek": "week-3",
                 "day": "Sunday",
                 "date": ["18th"],
@@ -98,7 +98,7 @@
             "artwork_description_50w_short": "Let’s take a moment to reflect on what it is like to live and work online. Through laughter, tears and unfiltered conversations this three-part podcast series delves into the effects that “Zoom fatigue” has on our mental, emotional, and physical wellbeing. KASAVA bring creative womxn to the centre of the narrative, raising questions around who’s included and who isn’t, and ultimately, how can we do things differently?",
             "details": {
                 "filterOnline": "online",
-                "filterType": "PODCAST SERIES",
+                "filterType": "watchlisten",
                 "filterWeek": "anytime",
                 "day": "",
                 "date": ["anytime"],
@@ -136,7 +136,7 @@
             "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! Using yarn, we will play as cats and address each other via different rules. On our agenda are three network types: Centralized, Decentralized and Distributed. Let us find out about these network's purrtocols (protocols)! <br><br><em>There is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and we have bursaries available.</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Saturday 17th",
                 "date": ["17th"],
@@ -174,7 +174,7 @@
             "artwork_description_50w_short": "Alt-text is an essential part of the internet, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. Alt-text is often overlooked and vivid images are written as dull one-liners. In this workshop we will create alt-text poetry, and practice writing thoughtful and creative texts together.<br><br><em>Find out more on the workshop <a  target='_blank' href='https://docs.google.com/document/d/1bHBnwCoKZd1VMZ4op3dpdnU012kIdOF-5XHSCeAAWvE/edit?usp=sharing'>Access</a> page.</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-3",
                 "day": "Friday",
                 "date": ["16th"],
@@ -213,7 +213,7 @@
             "artwork_description_50w_short": "Center for Technological Pain (CTP) offers DIY products for tech-pain free lives. The mock-company was set up to manage, prevent and treat the symptoms caused by digital technologies. Among their products are contraptions to relieve eye-strain, insomnia, and strained elbows and fingers. This installation presents the latest innovations from CTP as well as exhibiting new products made by Bristol-based designers and makers in a recent workshop with CTP CEO, Dasha Ilina. <br><br> <em>Exhibition co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
                 "filterOnline": "person",
-                "filterType": "INSTALLATION",
+                "filterType": "exhibition",
                 "filterWeek": "week-1",
                 "day": "Saturday",
                 "date": [],
@@ -252,7 +252,7 @@
             "artwork_description_50w_short": "This workshop is an experience of speculative design and magical thinking. We will create prototypes of advanced technology to tackle the most central challenges of our current times. With this exercise, we will take back technology from the hands of Silicon Valley dudes and will give it back to our communities.",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Tuesday",
                 "date": ["6th"],
@@ -291,7 +291,7 @@
             "artwork_description_50w_short": "How do AI systems decide on personal labels such as age and gender based on looks alone? Face / On is an interactive installation that explores who systems see. It takes the form of a closed door embedded with a facial recognition system. Face/On is a gatekeeper deciding on who looks like they fit its criteria, and who will be permitted entry past the threshold. It may be necessary to adopt a disguise to fool the system.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "INSTALLATION",
+                "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "TBC",
                 "date": [],
@@ -328,7 +328,7 @@
             "artwork_description_50w_short": "We invite you to take a stroll around Brandon Hill. Heath, your guide, will walk with you to explore the paradoxes and consequences hidden within the park. Guided by a custom map that has been generated by an algorithm, see the parts of the park from the perspective of a computer.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "GUIDED WALK",
+                "filterType": "event",
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": ["10th"],
@@ -365,7 +365,7 @@
             "artwork_description_50w_short": "How have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? <br><br>Through three film vignettes released throughout the festival, we will explore different performance-based practitioners' subjective relationship with accessibility and visibility. These films were produced remotely using custom made proxy tools and video-conferencing software, currently in collaboration with Sky Cubacub & Ebony Dark Rose.<br><br><em>These films will contain audio description, BSL & captioning.</em> ",
             "details": {
                 "filterOnline": "online",
-                "filterType": "SHORT FILMS",
+                "filterType": "watchlisten",
                 "filterWeek": "week-1",
                 "day": "Saturday",
                 "date": ["3rd"],
@@ -402,7 +402,7 @@
             "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "SHORT FILMS",
+                "filterType": "watchlisten event",
                 "filterWeek": "week-2",
                 "day": "Saturday and Sunday",
                 "date": ["10th", "11th"],
@@ -442,7 +442,7 @@
             "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app encodes your texts into binary patterns so that we can carefully knit encoded messages instead. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag pictures with #knitwitter hashtag to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a>, and encode your own message into a piece of knitting</em>. ",
             "details": {
                 "filterOnline": "online person",
-                "filterType": "DIY KNITTING",
+                "filterType": "workshop",
                 "filterWeek": "anytime",
                 "day": " ",
                 "date": ["anytime"],
@@ -482,7 +482,7 @@
             "artwork_description_50w_short": "DIY Solutions to End Tech Pain is a workshop focused on imagining DIY objects against health problems that arise from technology, using materials you can find in your own home. This workshop will be taking place online, so the main focus will be sketching and conceptualizing the various low-tech solutions, in order to create a discussion around the impact technology has on our physical and mental health. If you have ever experienced eye dryness from staring at a screen for too long or neck pain from looking down at your phone too much, this workshop is for you! <br><br> <em>Workhsop co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "exhibition",
                 "filterWeek": "week-1",
                 "day": "Saturday",
                 "date": ["3rd"],
@@ -522,7 +522,7 @@
             "artwork_description_50w_short": "Being in public space has changed, and it has become difficult to sense how a city ‘feels’ and how to connect to the shared sentiment of a place. <em>This City Is</em> projects collectivised streams of consciousness back onto the city. Through large-scale projections we see Bristol through a continuous list of updates, ranging from personal opinions to public announcements. We project the many layers, voices and emotions that exist at this very moment right back into the city itself. <br><br><em>This project is coded by Paul Angus, and was first commissioned by O,Miami 2020.</em>",
             "details": {
                 "filterOnline": "person",
-                "filterType": "INSTALLATION",
+                "filterType": "event exhibition",
                 "filterWeek": "week-1",
                 "day": "Friday",
                 "date": ["2nd"],
@@ -560,7 +560,7 @@
             "artwork_description_50w_short": "AWAITING TEXT",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-1",
                 "day": " ",
                 "date": [],
@@ -600,7 +600,7 @@
             "artwork_description_50w_short": "AWAITING TEXT",
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Sunday",
                 "date": ["11th"],
@@ -641,7 +641,7 @@
             
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Monday",
                 "date": ["5th"],
@@ -681,7 +681,7 @@
             
             "details": {
                 "filterOnline": "online",
-                "filterType": "WORKSHOP",
+                "filterType": "workshop",
                 "filterWeek": "week-3",
                 "day": "Thursday",
                 "date": ["15th"],
