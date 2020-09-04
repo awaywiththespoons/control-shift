@@ -46,6 +46,7 @@ function windowResized() {
     imageSnap();
 }
 
+
 // set canvas height
 function setHeight(){
   if (isMobile()) {

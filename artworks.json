@@ -637,7 +637,7 @@
             "artwork_type":"LUNCHTIME TALK",
             "artwork_description_line": "Artist talk and discussion on data in the arts",
             "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
+            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
             "details": {
                 "filterOnline": "online",
                 "filterType": "event",
@@ -651,7 +651,7 @@
                 "actionLink": "youtube"
             },
             "image": {
-                "url": "this-city-is-talk_Artwork_WEB.gif",
+                "url": "this-city-is-talk_Artwork_WEB.png",
                 "alt": "image of website describing the city"
             }
         },
