@@ -511,7 +511,8 @@ label input[type="radio"]:checked ~ span {
     color: var(--dark-primary);
     font-size: 16px;
     font-family: var(--font-paragraph-modal);
-    margin: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 /* styles for single event pink box */
