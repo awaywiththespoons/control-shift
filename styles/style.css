@@ -131,16 +131,9 @@ a.dropdown-item:hover {
 
 
 .container {
-<<<<<<< HEAD
-   width: 100%;
-   max-width: 1200px;
-   overflow: hidden;
-/*    border: 1px black solid;*/
-=======
     width: 100%;
     max-width: 1200px;
     /*    border: 1px black solid;*/
->>>>>>> 2SEPT_becca
 }
 
 /*P5 sketch container*/
@@ -161,18 +154,14 @@ a.dropdown-item:hover {
     /*  background-position: center;*/
     /*  background-repeat: no-repeat;*/
     background-color: transparent;
-    */ background-size: 1000px;
+    background-size: 1000px; 
     /*        border: 1px black solid;*/
 
 }
 
-.jumbotron h2 {
-    /*    font-style: italic;*/
-}
-
 /* MENU */
 .navbar {
-    font-family: var(--font-nav-bar)
+    font-family: var(--font-nav-bar);
 }
 
 .navbar .active {
@@ -223,13 +212,8 @@ a.dropdown-item:hover {
 /* MENU for small screens */
 #menu-mobile {
     font-size: 1.6em;
-<<<<<<< HEAD
-    background-color: #fdfcd1;
-=======
-    background-color: #fdfcd1a6;
-    ;
->>>>>>> 2SEPT_becca
-    z-index: 1;
+    background-color: var(--background);
+    z-index: 5;
     max-width: 1200px;
     margin: 0 auto;
 }

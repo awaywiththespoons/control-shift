@@ -99,37 +99,15 @@ https://www.instagram.com/
 
 /* Artwork grid: all styles */
 
-/*
 .blueSquare {
-    object-fit: scale-down;
-    background: #074bdd;    
-    background-image: linear-gradient(rgba(7,75,221,1) 100%, rgba(7,75,221,1) 0%);
+    /*object-fit: scale-down;*/
+    background-color: rgba(79, 213, 165, 0.58);
+    color: rgb(7, 75, 221) !important;
+    /*background: #053cb0;   
+    background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);*/
     max-width: 795px;
     margin: 0 auto;
 }
-*/
-
-/*try yellow*/
-/*
-.blueSquare {
-    object-fit: scale-down;
-    background: #FDFCD1;    
-    background-image: linear-gradient(rgba(253,252,209,1) 100%, rgba(253,252,209,1) 0%);
-    max-width: 795px;
-    margin: 0 auto;
-}
-*/
-
-/*try darker*/
-
-.blueSquare {
-    object-fit: scale-down;
-    background: #053cb0;    
-    background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);
-    max-width: 795px;
-    margin: 0 auto;
-}
-
 
 .blueSquare:hover {
     background:none;  
@@ -139,13 +117,15 @@ https://www.instagram.com/
 .artworkImage {
     /* Image itself */
     object-fit: scale-down;
+    mix-blend-mode: multiply;
     /* height: 100%; */
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 }
 
 .artworkImage:hover {
     /*    transform: scale(1.01) translate(0px, -3px);*/
-    opacity: 100;
+    mix-blend-mode: normal;
+    /*opacity: 100;*/
 }
 
 /* #outerImage:hover > #gridTextBoxHighlight { color: var(--light-link); } */
@@ -306,9 +286,7 @@ label input[type="radio"]:checked ~ span {
     font-weight: 400;
     letter-spacing: 3px;
     padding-bottom: 20px;
-    padding-top: 20px;
-
-
+    margin-top: 20px;
 }
 
 .artwork-title-text {
@@ -371,7 +349,7 @@ label input[type="radio"]:checked ~ span {
 
 #actionLink:hover {
     border: 1px solid var(--light-link-hover);
-    padding: 10px;
+    padding: 4%;
 }
 
 .padding-modal-right-left {
@@ -437,17 +415,11 @@ label input[type="radio"]:checked ~ span {
         width: 50%;
         margin: 0 auto;
     }
-
-    #bookNowContainer {
-        padding-top: 10px;
+    .blueSquare  {
+        background: transparent
     }
-
-    #doNowContainer {
-        padding-top: 10px;
-    }
-
-    #calendarContainer {
-        padding-top: 10px;
+    .artworkImage {
+        opacity: 1;
     }
 }
 
@@ -464,121 +436,178 @@ label input[type="radio"]:checked ~ span {
         border-bottom: 1px solid var(--dark-link);
         padding: 0;
     }
-
+    .blueSquare  {
+        background: transparent
+    }
+    .artworkImage {
+        opacity: 1;
+    }
 }
 
 /* SCHEDULE PAGE */
 
-.container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 1em;
-}
-
-.row {
-    display: flex;
-}
-
-.box {
+/* the indivdual day boxes - setting width and min-width here*/
+.box { 
     background: var(--background);
     border: solid 1px var(--dark-primary);
     margin: 5px;
     position: relative;
     width: calc(100%/8);
-    min-width: 150px;
+    min-height: 200px;
+    min-width:126px;
 }
 
-.box-anytime {
+/* This sets each box as a square and sets the height to this padding: stops boxes being different sizes depending on content */
+/* .box:after {
+    content: "";
+    float: left;
+    padding-top: 170%;
+} */
+
+/* style for inner div of each box - centering divs containing text & event boxes inside */
+.inner-div { 
     background: var(--background);
-    border: solid 1px var(--dark-primary);
-    margin: 5px;
-    position: relative;
-    width: 56%;
-    min-width: 150px;
+    /* position: absolute; */
+    text-align: center;
+    left: 0;
+    right: 0;
 }
 
-@media only screen and (max-width: 768px) {
-    .box-anytime {
-        margin-bottom: 200px;
-        border: none;
-        width: 90%;
-    }
+/* diagonal cross on unactive days */
+.greyBox { 
+    background: repeating-linear-gradient(
+        45deg,
+        #053cb0,
+        #053cb0 1px,
+        #FDFCD1 1px,
+        #FDFCD1 20px
+      );
 }
 
-#anytimestyle {
-    padding: 10px;
-}
-
+/* text styles for box title : day of the week */
 .schedule-box-text {
     color: var(--dark-primary);
     font-size: 16px;
     font-family: var(--font-paragraph-modal);
-    margin: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
-.event-text {
-    color: var(--dark-primary);
-    font-size: 14px;
-    font-family: var(--font-paragraph-modal);
-    margin-bottom: 0px;
-}
-
-.box:after {
-    content: "";
-    float: left;
-    padding-top: 150%;
-}
-
-.inner-div {
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5px;
-}
-
-.title {
-    border-bottom: 1px solid var(--dark-primary);
-}
-
+/* styles for single event pink box */
 .single-event-box {
     background-color: var(--text-highlight);
-    width: 80%;
+    width: 90%;
     display: inline-block;
     margin: 5px 5px 5px 5px;
 }
 
-/* all 3 weeks box*/
 
-.box-long {
-    background: var(--background);
-    margin: 5px;
-    position: relative;
-    width: 50%;
-    min-width: 120px;
-    max-width: 600px;
-    height: 200px;
+/* text styles for text in event pink box */
+.event-text { 
+    color: var(--dark-primary);
+    font-size: 14px;
+    font-family: var(--font-paragraph-modal);
+    margin-bottom: 0px;
+    padding: 5px;
 }
 
+/* border under date in box */
+.title {
+    border-bottom: 1px solid var(--dark-primary);
+}
+
+/* width all splits the rows in weeks */
+.widthAll {
+    width: 100%
+}
+
+/* centers wider calendar box */
 .row-schedule {
     max-width: 1120px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-/* #anytime {
+
+/* SMALL PHONES: 1 BOX PER WIDTH */
+@media only screen and (max-width: 420px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+    .greyBox { /*do not display crossed out days on mobile screens */
+        display: none;
+    }
+    .single-event-box {
+        width: 95%;
+        margin: 5px 0 5px 0;
+        padding: 20px 0 20px 0;
+    }
+}
+
+/* LARGER PHONES: 2 BOXES PER WIDTH */
+@media (min-width: 420px) and (max-width: 600px){ 
+    [class*="col-"] {
+        width: 45%;
+    }
+    .greyBox { /*do not display crossed out days on mobile screens */
+        display: none;
+    }
+    .widthAll { /* This removes the divide between week rows */
+        width: 0% !important;
+    }
+} 
+
+/* TABLETS: 3 BOXES PER WIDTH */
+@media (min-width: 600px) and (max-width: 1000px){ 
+    [class*="col-"] {
+        width: 30%;
+    }
+    .greyBox { /*do not display crossed out days on mobile screens */
+        display: none;
+    }
+    .widthAll { /* This removes the divide between week rows */
+        width: 0% !important;
+    }
+} 
+
+/* LAPTOPS & DESKTOPS */
+@media (min-width: 1190px) { 
+    .box { 
+        min-width: 150px;
+    } 
+} 
+
+/* anytime box */
+
+#anytime {
     display: flex;
-} */
-
-.box-long:after {
-    content: "";
-    float: left;
-    padding-top: 200px;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
+.anytimeText {
+    text-align: center;
 }
+
+.anytime-event-text {
+    color: var(--dark-primary);
+    font-size: 18px;
+    font-family: var(--font-paragraph-modal);
+}
+
+.anytime-box {
+    background-color: var(--text-highlight);
+    border: 1px solid var(--dark-primary);
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 5px 5px 5px 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.anytimeContainer {
+    margin: 0 auto;
+    
+}
+
