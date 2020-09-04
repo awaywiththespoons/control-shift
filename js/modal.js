@@ -49,7 +49,7 @@ function createModal() {
                 var x = document.getElementById("modalImage");
                 x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
                 // Top Section Artwork TYPE
-                infoModal.find('.artwork-type').text(data[id].artwork.details.filterType);
+                infoModal.find('.artwork-type').text(data[id].artwork.artwork_type);
                 // Top Section Artwork call to action 
                 let action = document.getElementById('actionLink');
                 action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
