@@ -400,6 +400,8 @@ label input[type="radio"]:checked ~ span {
 
 .icon-max-width {
     max-width: 20px;
+    display: block;
+    margin: auto
 }
 
 .hide {
