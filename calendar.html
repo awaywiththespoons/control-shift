@@ -34,9 +34,24 @@
             <p class="pb-3">Some text here welcoming everyone and practical things like some events require booking</p>
             <!-- Row - week 1 -->
             <div class="row row-schedule">
-                <div class="col-xs  box-anytime">
-                    <div id="anytime" class="inner-div">
-                        <div class="title schedule-box-text">Watch or Listen at any time</div>
+                <div class="col-xs box greyBox">
+                    <div id="28th" class="inner-div ">
+                        <div class="title schedule-box-text">Mon 28th</div>
+                    </div>
+                </div>
+                <div class="col-xs box greyBox">
+                    <div id="29th" class="inner-div ">
+                        <div class="title schedule-box-text">Tues 29th</div>
+                    </div>
+                </div>
+                <div class="col-xs box greyBox">
+                    <div id="30th" class="inner-div ">
+                        <div class="title schedule-box-text">Wed 30th</div>
+                    </div>
+                </div>
+                <div class="col-xs box greyBox">
+                    <div id="1st" class="inner-div ">
+                        <div class="title schedule-box-text">Thurs 1st</div>
                     </div>
                 </div>
                 <div class="col-xs box">
@@ -54,9 +69,9 @@
                         <div class="title schedule-box-text">Sun 4th</div>
                     </div>
                 </div>
-            </div>
-            <!-- Row - week 2 -->
-            <div class="row row-schedule">
+            
+                <!-- Row - week 2 -->
+                <div class="widthAll"></div>
                 <div class="col-xs box">
                     <div id="5th" class="inner-div">
                         <div class="title schedule-box-text">Mon 5th</div>
@@ -91,9 +106,9 @@
                         <div class="title schedule-box-text">Sun 11th</div>
                     </div>
                 </div>
-            </div>
-            <!-- Row - week 3 -->
-            <div class="row row-schedule">
+            
+                <!-- Row - week 3 -->
+                <div class="widthAll"></div>
                 <div class="col-xs box">
                     <div id="12th" class="inner-div">
                         <div class="title schedule-box-text">Mon 12th</div>
@@ -132,7 +147,12 @@
             </div>
             <!-- End of last row -->
         </div>
+        <div class="anytimeContainer">
+            <p class="pb-1 anytimeText">You can take part in the following events at your own pace during Control Shift:</p>
+            <div id="anytime"></div>
+        </div>
     </div>
+
     
     <div id="modal"></div>
     
@@ -166,18 +186,23 @@
         function appendData(data) {
             // function adding events to calendar
             for (let i = 0; i < data.length; i++) {
-                let a = document.createElement('a');
-                a.setAttribute("data-id", data[i].artist.name);
-                a.setAttribute("id", data[i].artwork.details.date + "style");
-                a.setAttribute("class", "thumbnail single-event-box");
-                a.setAttribute("href", "#" + data[i].artist.name)
-                let p = document.createElement('p');
-                p.setAttribute("class", "event-text");
-                p.setAttribute("id", data[i].id);
-                p.innerText = data[i].artwork.artwork_name;
-                let postItDay = document.getElementById(data[i].artwork.details.date);
-                a.appendChild(p);
-                postItDay.appendChild(a);
+                for (let x = 0; x < data[i].artwork.details.date.length; x++) {
+                    let a = document.createElement('a');
+                    a.setAttribute("data-id", data[i].artist.name);
+                    a.setAttribute("class", "thumbnail single-event-box");
+                    a.setAttribute("href", "#" + data[i].artist.name)
+                    let p = document.createElement('p');
+                    p.setAttribute("class", "event-text ");
+                    if (data[i].artwork.details.date[x] == "anytime") {
+                        a.setAttribute("class", "anytime-box");
+                        p.setAttribute("class", "anytime-event-text");
+                    }
+                    p.innerText = data[i].artwork.artwork_name;
+                    a.appendChild(p);
+                    console.log(x)
+                    this["postItDay"+i] = document.getElementById(data[i].artwork.details.date[x]);
+                    this["postItDay"+i].appendChild(a)
+                }
             }
             $.getScript("./js/modal.js");
         }
