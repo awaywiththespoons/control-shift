@@ -468,47 +468,44 @@ label input[type="radio"]:checked ~ span {
 
 /* SCHEDULE PAGE */
 
-.container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 1em;
-}
-
-.row {
-    display: flex;
-}
-
-.box {
+/* the indivdual day boxes - setting width and min-width here*/
+.box { 
     background: var(--background);
     border: solid 1px var(--dark-primary);
     margin: 5px;
     position: relative;
     width: calc(100%/8);
-    min-width: 150px;
+    /* min-width: 95px; */
 }
 
-.box-anytime {
+/* This sets each box as a square and sets the height to this padding: stops boxes being different sizes depending on content */
+.box:after {
+    content: "";
+    float: left;
+    padding-top: 100%;
+}
+
+/* style for inner div of each box - centering divs containing text & event boxes inside */
+.inner-div { 
     background: var(--background);
-    border: solid 1px var(--dark-primary);
-    margin: 5px;
-    position: relative;
-    width: 56%;
-    min-width: 150px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
 
-@media only screen and (max-width: 768px) {
-    .box-anytime {
-        margin-bottom: 200px;
-        border: none;
-        width: 90%;
-    }
+/* diagonal cross on unactive days */
+.greyBox { 
+    background: repeating-linear-gradient(
+        45deg,
+        #053cb0,
+        #053cb0 1px,
+        #FDFCD1 1px,
+        #FDFCD1 20px
+      );
 }
 
-#anytimestyle {
-    padding: 10px;
-}
-
+/* text styles for box title : day of the week */
 .schedule-box-text {
     color: var(--dark-primary);
     font-size: 16px;
@@ -516,33 +513,7 @@ label input[type="radio"]:checked ~ span {
     margin: 1px;
 }
 
-.event-text {
-    color: var(--dark-primary);
-    font-size: 14px;
-    font-family: var(--font-paragraph-modal);
-    margin-bottom: 0px;
-}
-
-.box:after {
-    content: "";
-    float: left;
-    padding-top: 150%;
-}
-
-.inner-div {
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5px;
-}
-
-.title {
-    border-bottom: 1px solid var(--dark-primary);
-}
-
+/* styles for single event pink box */
 .single-event-box {
     background-color: var(--text-highlight);
     width: 80%;
@@ -550,34 +521,77 @@ label input[type="radio"]:checked ~ span {
     margin: 5px 5px 5px 5px;
 }
 
-/* all 3 weeks box*/
 
-.box-long {
-    background: var(--background);
-    margin: 5px;
-    position: relative;
-    width: 50%;
-    min-width: 120px;
-    max-width: 600px;
-    height: 200px;
+/* text styles for text in event pink box */
+.event-text { 
+    color: var(--dark-primary);
+    font-size: 14px;
+    font-family: var(--font-paragraph-modal);
+    margin-bottom: 0px;
 }
 
+/* border under date in box */
+.title {
+    border-bottom: 1px solid var(--dark-primary);
+}
+
+/* width all splits the rows in weeks */
+.widthAll {
+    width: 100%
+}
+
+/* centers wider calendar box */
 .row-schedule {
     max-width: 1120px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-/* #anytime {
-    display: flex;
-} */
 
-.box-long:after {
-    content: "";
-    float: left;
-    padding-top: 200px;
+/* SMALL PHONES: 1 BOX PER WIDTH */
+@media only screen and (max-width: 420px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+    .greyBox { /*do not display crossed out days on mobile screens */
+        display: none;
+    }
+    .single-event-box {
+        width: 95%;
+        margin: 5px 0 5px 0;
+        padding: 20px 0 20px 0;
+    }
 }
 
-.flex {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-}
+/* LARGER PHONES: 2 BOXES PER WIDTH */
+@media (min-width: 420px) and (max-width: 600px){ 
+    [class*="col-"] {
+        width: 45%;
+    }
+    .greyBox { /*do not display crossed out days on mobile screens */
+        display: none;
+    }
+    .widthAll { /* This removes the divide between week rows */
+        width: 0% !important;
+    }
+} 
+
+/* TABLETS: 3 BOXES PER WIDTH */
+@media (min-width: 600px) and (max-width: 900px){ 
+    [class*="col-"] {
+        width: 30%;
+    }
+    .greyBox { /*do not display crossed out days on mobile screens */
+        display: none;
+    }
+    .widthAll { /* This removes the divide between week rows */
+        width: 0% !important;
+    }
+} 
+
+/* LAPTOPS & DESKTOPS */
+@media (min-width: 1190px) { 
+    .box { 
+        min-width: 150px
+    } 
+} 
