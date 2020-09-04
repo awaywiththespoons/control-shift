@@ -37,10 +37,10 @@
         <p class="pt-2">Filter by week and location:</p>
         <div class="filterInputs">
             <label class="time-filter"><input type="radio" name="time" value="" checked><i></i><span>All</span></label>
-            <label class="time-filter"><input type="radio" name="time" value="anytime"><i></i><span>Anytime</span></label>
-            <label class="time-filter"><input type="radio" name="time" value="week-1"><i></i><span>week 1</span></label>
-            <label class="time-filter"><input type="radio" name="time" value="week-2"><i></i><span>week 2</span></label>
-            <label class="time-filter"><input type="radio" name="time" value="week-3"><i></i><span>week 3</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="anytime"><i></i><span>Workshop</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-1"><i></i><span>Exhibition</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-2"><i></i><span>Event</span></label>
+            <label class="time-filter"><input type="radio" name="time" value="week-3"><i></i><span>Watch + Listen</span></label>
         </div> 
         <div class="filterInputs pb-3">
             <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
@@ -88,7 +88,7 @@
                 //Making artist Container div to hold artist info
                 let artistContainer = document.createElement("div");
                 artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4 pb-3"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
-                artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterWeek + " " + data[i].artwork.details.filterOnline)
+                artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterType + " " + data[i].artwork.details.filterOnline)
                 artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
                 //setting Artist Name
                 let textTitle = document.createElement("div");
