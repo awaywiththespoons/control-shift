@@ -42,18 +42,14 @@ function setup() {
 
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+    resizeCanvas(window.innerWidth, setHeight());
     imageSnap();
 }
 
 
 // set canvas height
 function setHeight(){
-  if (isMobile()) {
     return 500;
-  } else {
-    return 600;
-  };
 }
 
 function isMobile() {
@@ -122,7 +118,6 @@ function imageSnap() {
 //        text("Control", 0, i )}
     fill(5,60,176,200);
     text("Control", 0,0);
-    console.log("control "+controlRand);
     pop(); // Restore original state
 
     
@@ -145,7 +140,6 @@ function imageSnap() {
 //        text("Shift", 0, i )}
     fill(5,60,176,200);
     text("Shift", 0,0)
-    console.log("shift "+shiftRand);
     pop(); // Restore original state
 
 

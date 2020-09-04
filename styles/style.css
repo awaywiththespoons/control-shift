@@ -143,7 +143,7 @@ a.dropdown-item:hover {
 }
 
 #sketch-container {
-    height: 600px;
+    height: 500px;
 }
 
 .jumbotron {
@@ -662,10 +662,6 @@ input:-webkit-autofill {
         font-size: 0.8em;
     }
 
-    #sketch-container {
-        height: 500px;
-    }
-
     .header-menu {
         display: none;
     }
@@ -708,10 +704,6 @@ input:-webkit-autofill {
 
     .jumbotron .how-to-apply {
         display: none;
-    }
-
-    #sketch-container {
-        height: 500px;
     }
 
     h1 span {

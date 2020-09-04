@@ -165,12 +165,14 @@ https://www.instagram.com/
 }
 
 .time-filter {
+    font-weight: bolder;
     color: var(--dark-primary);
     border: 1px solid var(--dark-primary);
     font-family: var(--font-large-headings);
 }
 
 .online-filter {
+    font-weight: bolder;
     color: var(--dark-link);
     border: 1px solid var(--dark-link);
     font-family: var(--font-large-headings);
@@ -416,6 +418,10 @@ label input[type="radio"]:checked ~ span {
     border-left: 1px solid var(--dark-link);
 }
 
+.border-left {
+    border-left: 1px solid var(--dark-link) !important;
+}
+
 @media only screen and (max-width: 575px) {
     .border-sides {
         border: none;
@@ -432,15 +438,19 @@ label input[type="radio"]:checked ~ span {
         mix-blend-mode: normal;
         /*opacity: 1;*/
     }
-
+    .border-left {
+        border-left: none !important;
+    }
     .middleColumn {
-        border-bottom: 1px solid var(--dark-link);
         border-top: 1px solid var(--dark-link);
         width: 250px;
         margin: 0 auto;
     }
+    .border-sides {
+        border-bottom: 1px solid var(--dark-link);
+    }
     .actionContainer {
-        margin-top: 5px;
+        margin-top: 10px;
     }
 }
 

@@ -66,7 +66,15 @@ function createModal() {
                 } 
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
-                
+                if (data[id].artwork.details.practicalInfo != "") {
+                    $( "#practicalInfoContainer" ).removeClass( "hide" );
+                    $( "#middleContainer" ).addClass( "border-sides" );
+                    infoModal.find('.practical-info-text').text(data[id].artwork.details.practicalInfo)
+                } else {
+                    $( "#practicalInfoContainer" ).addClass( "hide" );
+                    $( "#middleContainer" ).removeClass( "border-sides" );
+                    $( "#middleContainer" ).addClass( "border-left " );
+                }
                 // Artist Info: loop through array of artist bio - print new string as a <p> so displays on new line
                 for (let i = 0; i < data[id].artist.bio_100w.length; i++) {
                     let mainContainer = document.getElementById("aboutArtist");
