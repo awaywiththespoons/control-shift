@@ -36,7 +36,7 @@ function createModal() {
             success: function(data){  
                 // finding the right id from the artist name which is located in the query string
                 for (let i = 0; i < data.length; i++) {
-                    if (param === data[i].artist.name) {
+                    if (param === data[i].artwork.artwork_name) {
                         id = [i];
                     }
                 }
