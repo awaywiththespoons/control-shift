@@ -1,8 +1,6 @@
 [
-    
-    
     {
-        "id": 15,
+        "id": 0,
         "artist": {
             "name": "Antonio Roberts",
             "bio_100w": ["AWAITING TEXT"],
@@ -27,6 +25,7 @@
                 "date": ["11th"],
                 "time": "TBC",
                 "location": "online",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "TBCTBCTBCTBC"
             },
@@ -42,7 +41,7 @@
         }
     },
     {
-        "id": 0,
+        "id": 1,
         "artist": {
             "name": "Kathy Hinde",
             "bio_100w": ["Bristol based artist Kathy Hinde’s work grows from a partnership between nature and technology expressed through audio-visual installations and performances that combine sound, sculpture, image and light. She creates work that evolves and can be different each time it is experienced. Kathy frequently works in collaboration with other practitioners and scientists and often actively involves the audience in the creative process. Awards include an Honorary Mention at Prix Ars Electronica, a British Composer Award, an ORAM award and a Scottish Award for New Music. She became a Cryptic Artist in 2015, and is a member of the Bristol Experimental Expanded Film collective."],
@@ -67,6 +66,7 @@
                 "date": ["10th"],
                 "time": "11:00 - 12:30",
                 "location": "Bristol Harbourside",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/deep-listening-tickets-119422557083"
             },
@@ -82,7 +82,7 @@
         }
     },
     {
-        "id": 1,
+        "id": 2,
         "artist": {
             "name": "Sarah Selby and Tim Kindberg",
             "bio_100w": ["<a  target='_blank' href='https://www.sarahselby.co.uk/'>Sarah</a> is an interdisciplinary artist exploring digital culture through creative applications of emerging and pervasive technology. Graduating from Manchester Metropolitan University’s Interactive Arts course in 2017, she has since been selected to participate in Roche Continents Science and Art residency and was shortlisted for the Ashurst Emerging Artist Prize. Sarah was the winner of arebyte Gallery’s ‘Hotel Generation’ programme 2019 and is also a member of the Immersive Kind - an interdisciplinary network facilitating knowledge-exchange between artists, scientists and researchers.",
@@ -109,6 +109,7 @@
                 "date": ["18th"],
                 "time": "TBC",
                 "location": "Arnos Vale, Bristol",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/119415863061"
             },
@@ -124,7 +125,7 @@
         }
     },
     {
-        "id": 2,
+        "id": 3,
         "artist": {
             "name": "KASAVA",
             "bio_100w": ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a  target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a  target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a  target='_blank' href='www.courtenaywelcome.com'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
@@ -149,6 +150,7 @@
                 "date": ["anytime"],
                 "time": " ",
                 "location": "online",
+                "practicalInfo": "",
                 "actionText": "Listen Now",
                 "actionLink": "TBCTBCTBCTBC"
             },
@@ -163,7 +165,7 @@
         }
     },
     {
-        "id": 3,
+        "id": 4,
         "artist": {
             "name": "MELT",
             "bio_100w": ["As MELT, <a  target='_blank' href='https://lorenbritton.com/'>Loren Britton</a> and <a  target='_blank' href='https://www.isabelpaehr.com/'>Isabel Paehr</a> are Berlin-based arts-design researchers who work with games, tech and radical pedagogy. Investigating the political & material conditions of tech infrastructures, they re-distribute agency in socio-technological systems with the methods of queer play, unlearning and leaking. Their work crumbles structures, unbounds materials, dissolves technology and makes collectivities. MELT is exploring how to make something but to keep it open to change, and is doing this through formats like video artworks and workshops. MELT has been influenced by (melting) Ice, Freezers, Software, Signal, moving too fast/slow, Wendy Hui Kyong Chun, Denise Ferreira Da Silva, Digital Materialism, Post/De Colonial thinking, Gifs, Climate Protests, Anti-Racism and Dancing."],
@@ -188,6 +190,7 @@
                 "date": ["17th"],
                 "time": "14:00 - 16:30",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/119423213045"
             },
@@ -202,7 +205,7 @@
         }
     },
     {
-        "id": 4,
+        "id": 5,
         "artist": {
             "name": "Shannon Finnegan",
             "bio_100w": ["Shannon Finnegan is a multidisciplinary artist living and working in New York City, making work about accessibility and disability culture. They have done projects with Banff Centre, the High Line, MCA Denver, Tallinn Art Hall, Nook Gallery, and the Wassaic Project. They have spoken about their work at the Brooklyn Museum, School for Poetic Computation, The 8th Floor, and The Andrew Heiskell Braille and Talking Book Library. In 2018, they received a Wynn Newhouse Award and participated in Art Beyond Sight’s Art + Disability Residency. In 2019, they were an artist-in-residence at Eyebeam."],
@@ -227,6 +230,7 @@
                 "date": ["16th"],
                 "time": "4-6pm",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/119413175021"
             },
@@ -242,7 +246,7 @@
         }
     },
     {
-        "id": 5,
+        "id": 6,
         "artist": {
             "name": "Dasha Ilina",
             "bio_100w": ["Dasha Ilina is a Russian digital artist based in Paris, France. Her work explores the relationship we develop with the digital devices we use on a daily basis, specifically in regards to the human body. Ilina’s work centers around  notions of care and technology, DIY practices and low-tech solutions to examining various issues such as phone addiction, tech-related health problems and privacy in the digital age. She is the founder of the Center for Technological Pain, a center that proposes DIY solutions to health problems caused by digital technologies. She is also the co-director of NØ SCHOOL."],
@@ -267,6 +271,7 @@
                 "date": [],
                 "time": "",
                 "location": "TBC",
+                "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
             },
@@ -282,7 +287,7 @@
         }
     },
     {
-        "id": 6,
+        "id": 7,
         "artist": {
             "name": "DANAE",
             "bio_100w": ["Danae is a Chilean working-class feminist writer, multimedia artist and technologist based in Rotterdam. She is a lecturer of Hacking and Autonomous Practices at the Willem de Kooning Academy in Rotterdam and the founder of The Digital Witchcraft Institute, an artistic-research organization that develops advanced and non-conforming digital technologies for posthuman futures.", "In the past, Danae has been a fellow of the Mozilla Foundation and has led several interdisciplinary projects in activist organizations dedicated to technology and human rights in the US, Brazil and Chile. She has presented her work in places such as Kyoto, Havana, San Francisco, Tunisia, London, Honolulu. She has also published in magazines, academic journals and outlets of creative non-fiction. She is currently writing a thesis on masochism and artificial intelligence."],
@@ -307,6 +312,7 @@
                 "date": ["6th"],
                 "time": "TBC",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/119437981217"
             },
@@ -322,7 +328,7 @@
         }
     },
     {
-        "id": 7,
+        "id": 8,
         "artist": {
             "name": "Rachel Smith",
             "bio_100w": ["Bristol based Rachel Smith is a media artist and creative technologist with an MFA in Media Art from Bauhaus University Weimar and an undergraduate in Maths. She is a resident of the Pervasive Media Studio in Bristol and recently completed a Fellowship in Automation for the South West Creative Technology Network. Often creating playful experiences and interactive installations, she interrogates emerging technologies with both a critical and affectionate eye. Her main interests lie in the relationship between humans and machines and her work has a particular focus on the hidden decision-making processes found in artificial intelligence. She has exhibited internationally including at the Kunstverein Tiergarten in Berlin and the Ars Electronica festival."],
@@ -347,6 +353,7 @@
                 "date": [],
                 "time": "TBC",
                 "location": "TBC",
+                "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
             },
@@ -360,7 +367,7 @@
         }
     },
     {
-        "id": 8,
+        "id": 9,
         "artist": {
             "name": "Heath Bunting",
             "bio_100w": ["South West based artist Heath Bunting has exhibited, performed and taught internationally for over 25 years. As a young adult, he undertook a three year apprenticeship in stained glass. After this, Heath spent several years roaming both Bristol and London as a street artist as well as distributing thousands of art-works via postal and fax networks. During the rise of the internet, he was a key participant of the net.art movement. Within this time he founded <add link> irational.org. He has setup and run multiple radio transmission and listening stations internationally. He has worked as staff at The Banff Centre for the Arts (three years) and The Cube Cinema (eight years). His current work, The Status Project, uses artificial intelligence to search for artificial life in both societal and natural systems. Heath regularly runs artist's training workshops in artist resilience."],
@@ -385,6 +392,7 @@
                 "date": ["10th"],
                 "time": "2pm",
                 "location": "Brandon Hill, BRISTOL",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/119444458591"
             },
@@ -398,7 +406,7 @@
         }
     },
     {
-        "id": 9,
+        "id": 10,
         "artist": {
             "name": "Arjun Harrison Mann and Benjamin Redgrove",
             "bio_100w": ["Arjun Harrison-Mann and Benjamin Redgrove are an artist & designer duo, whose work is grounded in The Social Model of Disability, often in collaboration with activist group Disabled People Against Cuts. As allies to the Disability Rights Movement, and stemming from personal experiences with disability benefits in the UK, their work often sits somewhere between provocation and service. <br><br>Kaiya Waerea is a writer and designer, whose work looks critically at chronic illness and the body by activating alternate forms of knowledge production to interrogate how we can collaboratively develop new ways of listening and taking care of each other. <br><br>Together they are exploring notions of radical accessibility, the relationship between power & presence and the foregrounding of the aesthetics of accessibility."],
@@ -423,6 +431,7 @@
                 "date": ["3rd"],
                 "time": "TBC",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Watch online",
                 "actionLink": "TBCTBCTBCTBC"
             },
@@ -436,7 +445,7 @@
         }
     },
     {
-        "id": 10,
+        "id": 11,
         "artist": {
             "name": "Russel Hlongwane",
             "bio_100w": ["Russel Hlongwane is a cultural producer and creative industries consultant based in Durban, South Africa. His work obsesses over the tensions in Heritage/ Modernity and Culture/Tradition as it applies to black life. His practice includes cultural research, creative producing, design, film and curatorship. He is part of a number of working groups spread across the Southern African Region, the African continent more broadly and internationally. He has shown work in Munich, Marrakech, Maputo, Karlsruhe, Harare, Bristol, Tokyo as well as throughout South Africa."],
@@ -461,6 +470,7 @@
                 "date": ["10th", "11th"],
                 "time": "TBC",
                 "location": "Arnolfini",
+                "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
             },
@@ -477,7 +487,7 @@
     },
     
     {
-        "id": 11,
+        "id": 12,
         "artist": {
             "name": "Wisterlitz",
             "bio_100w": ["<a  target='_blank' href='https://wisterlitz.wordpress.com/'>Wisterlitz</a> (Liz Lister and Becky Hurwitz) make playful, interactive work exploring relationships between science, technologies, and society. Their work reflects on the position of women in relation to these areas, often looking afresh at invisible histories through a contemporary lens and combining physical making with digital mediums."],
@@ -502,6 +512,7 @@
                 "date": ["anytime"],
                 "time": " ",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Knitwitter App",
                 "actionLink": "https://www.knitwitter.com/"
             },
@@ -518,7 +529,7 @@
     },
     
     {
-        "id": 12,
+        "id": 13,
         "artist": {
             "name": "Dasha Ilina",
             "bio_100w": ["Dasha Ilina is a Russian digital artist based in Paris, France. Her work explores the relationship we develop with the digital devices we use on a daily basis, specifically in regards to the human body. Ilina’s work centers around  notions of care and technology, DIY practices and low-tech solutions to examining various issues such as phone addiction, tech-related health problems and privacy in the digital age. She is the founder of the Center for Technological Pain, a center that proposes DIY solutions to health problems caused by digital technologies. She is also the co-director of NØ SCHOOL."],
@@ -543,6 +554,7 @@
                 "date": ["3rd"],
                 "time": "1.30-3pm",
                 "location": "online",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/119421465819"
             },
@@ -559,7 +571,7 @@
     },
 
     {
-        "id": 13,
+        "id": 14,
         "artist": {
             "name": "Naho Matsuda",
             "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
@@ -584,6 +596,7 @@
                 "date": ["2nd"],
                 "time": "6-11pm",
                 "location": "TBC",
+                "practicalInfo": "",
                 "actionText": "Venue Info",
                 "actionLink": "venue-info.html"
             },
@@ -598,7 +611,7 @@
     },
 
     {
-        "id": 14,
+        "id": 15,
         "artist": {
             "name": "Alice Haynes, Pete Bennett and Dave Webb",
             "bio_100w": ["AWAITING TEXT"],
@@ -623,6 +636,7 @@
                 "date": [],
                 "time": " ",
                 "location": " ",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "TBCTBCTBCTBC"
             },
@@ -640,7 +654,7 @@
 
 
     {
-        "id": 15,
+        "id": 16,
         "artist": {
             "name": "Antonio Roberts",
             "bio_100w": ["AWAITING TEXT"],
@@ -665,6 +679,7 @@
                 "date": ["11th"],
                 "time": "TBC",
                 "location": "online",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "TBCTBCTBCTBC"
             },
@@ -681,7 +696,7 @@
     },
 
     {
-        "id": 16,
+        "id": 17,
         "artist": {
             "name": "Dave Webb",
             "bio_100w": ["Dave Webb is a creative technologist and artist working with code to express interesting and difficult ideas. Dave is studying for an MSc in Creative Computing at Bath Spa University, is a resident at <a  target='_blank' href='https://www.bathspa.ac.uk/research-and-enterprise/the-studio/'> The Studio, Palace Yard Mews</a> in Bath and is a member of the Control Shift Network."],
@@ -707,6 +722,7 @@
                 "date": ["5th"],
                 "time": "18:30 - 20:00",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "LINK"
             },
@@ -722,7 +738,7 @@
     },
     
       {
-        "id": 17,
+        "id": 18,
         "artist": {
             "name": "Arjun Harrison-Mann, Benjamin Redgrove and Kaiya Waerea",
             "bio_100w": ["Arjun Harrison-Mann and Benjamin Redgrove are an artist & designer duo, whose work is grounded in The Social Model of Disability, often in collaboration with activist group Disabled People Against Cuts. As allies to the Disability Rights Movement, and stemming from personal experiences with disability benefits in the UK, their work often sits somewhere between provocation and service. <br><br>Kaiya Waerea is a writer and designer, whose work looks critically at chronic illness and the body by activating alternate forms of knowledge production to interrogate how we can collaboratively develop new ways of listening and taking care of each other. <br><br>Together they are exploring notions of radical accessibility, the relationship between power & presence and the foregrounding of the aesthetics of accessibility."],
@@ -748,6 +764,7 @@
                 "date": ["15th"],
                 "time": "17:00 - 19:00",
                 "location": "ONLINE",
+                "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "LINK"
             },
