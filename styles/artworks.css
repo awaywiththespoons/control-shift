@@ -475,20 +475,21 @@ label input[type="radio"]:checked ~ span {
     margin: 5px;
     position: relative;
     width: calc(100%/8);
-    /* min-width: 95px; */
+    min-height: 200px;
+    min-width:126px;
 }
 
 /* This sets each box as a square and sets the height to this padding: stops boxes being different sizes depending on content */
-.box:after {
+/* .box:after {
     content: "";
     float: left;
     padding-top: 170%;
-}
+} */
 
 /* style for inner div of each box - centering divs containing text & event boxes inside */
 .inner-div { 
     background: var(--background);
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     left: 0;
     right: 0;
@@ -516,7 +517,7 @@ label input[type="radio"]:checked ~ span {
 /* styles for single event pink box */
 .single-event-box {
     background-color: var(--text-highlight);
-    width: 80%;
+    width: 90%;
     display: inline-block;
     margin: 5px 5px 5px 5px;
 }
@@ -528,6 +529,7 @@ label input[type="radio"]:checked ~ span {
     font-size: 14px;
     font-family: var(--font-paragraph-modal);
     margin-bottom: 0px;
+    padding: 5px;
 }
 
 /* border under date in box */
@@ -577,7 +579,7 @@ label input[type="radio"]:checked ~ span {
 } 
 
 /* TABLETS: 3 BOXES PER WIDTH */
-@media (min-width: 600px) and (max-width: 900px){ 
+@media (min-width: 600px) and (max-width: 1000px){ 
     [class*="col-"] {
         width: 30%;
     }
@@ -592,7 +594,7 @@ label input[type="radio"]:checked ~ span {
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 1190px) { 
     .box { 
-        min-width: 150px
+        min-width: 150px;
     } 
 } 
 
@@ -629,5 +631,4 @@ label input[type="radio"]:checked ~ span {
     margin: 0 auto;
     
 }
-
 
