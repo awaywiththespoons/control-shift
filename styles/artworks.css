@@ -345,7 +345,7 @@ label input[type="radio"]:checked ~ span {
 
 #actionLink:hover {
     border: 1px solid var(--light-link-hover);
-    padding: 10px;
+    padding: 4%;
 }
 
 .padding-modal-right-left {
