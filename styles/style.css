@@ -161,7 +161,7 @@ a.dropdown-item:hover {
 
 /* MENU */
 .navbar {
-    font-family: var(--font-nav-bar)
+    font-family: var(--font-nav-bar);
 }
 
 .navbar .active {
@@ -212,8 +212,8 @@ a.dropdown-item:hover {
 /* MENU for small screens */
 #menu-mobile {
     font-size: 1.6em;
-    background-color: #fdfcd1a6;
-    z-index: 1;
+    background-color: var(--background);
+    z-index: 5;
     max-width: 1200px;
     margin: 0 auto;
 }

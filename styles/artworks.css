@@ -482,7 +482,7 @@ label input[type="radio"]:checked ~ span {
 .box:after {
     content: "";
     float: left;
-    padding-top: 100%;
+    padding-top: 170%;
 }
 
 /* style for inner div of each box - centering divs containing text & event boxes inside */
@@ -595,3 +595,39 @@ label input[type="radio"]:checked ~ span {
         min-width: 150px
     } 
 } 
+
+/* anytime box */
+
+#anytime {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.anytimeText {
+    text-align: center;
+}
+
+.anytime-event-text {
+    color: var(--dark-primary);
+    font-size: 18px;
+    font-family: var(--font-paragraph-modal);
+}
+
+.anytime-box {
+    background-color: var(--text-highlight);
+    border: 1px solid var(--dark-primary);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.anytimeContainer {
+    margin: 0 auto;
+    
+}
+
+
