@@ -1,4 +1,45 @@
 [
+    
+    
+    {
+        "id": 15,
+        "artist": {
+            "name": "Antonio Roberts",
+            "bio_100w": ["AWAITING TEXT"],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+                }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "AWAITING TEXT",
+            "artwork_description_line": "AWAITING TEXT",
+            "artwork_description_150w_long": ["AWAITING TEXT"],
+            "artwork_description_50w_short": "AWAITING TEXT",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "WORKSHOP",
+                "filterWeek": "week-2",
+                "day": "Sunday",
+                "date": ["11th"],
+                "time": "TBC",
+                "location": "online",
+                "actionText": "Book Now",
+                "actionLink": "TBCTBCTBCTBC"
+            },
+            "image": {
+                "url": " ",
+                "alt": "AWAITING TEXT"
+            }
+        },
+        "social_media": {
+            "website": " ",
+            "twitter": " ",
+            "instagram": " "
+        }
+    },
     {
         "id": 0,
         "artist": {
@@ -581,45 +622,6 @@
         }
     },
 
-    {
-        "id": 15,
-        "artist": {
-            "name": "Antonio Roberts",
-            "bio_100w": ["AWAITING TEXT"],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-                }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "AWAITING TEXT",
-            "artwork_description_line": "AWAITING TEXT",
-            "artwork_description_150w_long": ["AWAITING TEXT"],
-            "artwork_description_50w_short": "AWAITING TEXT",
-            "details": {
-                "filterOnline": "online",
-                "filterType": "WORKSHOP",
-                "filterWeek": "week-2",
-                "day": "Sunday",
-                "date": ["11th"],
-                "time": "TBC",
-                "location": "online",
-                "actionText": "Book Now",
-                "actionLink": "TBCTBCTBCTBC"
-            },
-            "image": {
-                "url": " ",
-                "alt": "AWAITING TEXT"
-            }
-        },
-        "social_media": {
-            "website": " ",
-            "twitter": " ",
-            "instagram": " "
-        }
-    },
 
     {
         "id": 16,
