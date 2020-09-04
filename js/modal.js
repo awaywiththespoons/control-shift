@@ -54,7 +54,7 @@ function createModal() {
                 let action = document.getElementById('actionLink');
                 action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
                 action.innerHTML=data[id].artwork.details.actionText;
-                // Call to action substitute
+                // Top Section Artwork Call to action substitute
                 // delete from here when event brite live
                 let substituteAction = document.querySelector('.bookingOpensText');
                 //substituteAction.innerHTML = "some stuff";
