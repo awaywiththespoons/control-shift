@@ -54,6 +54,20 @@ function createModal() {
                 let action = document.getElementById('actionLink');
                 action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
                 action.innerHTML=data[id].artwork.details.actionText;
+                // Call to action substitute
+                // delete from here when event brite live
+                let substituteAction = document.querySelector('.bookingOpensText');
+                //substituteAction.innerHTML = "some stuff";
+                if (data[id].artwork.details.date[0] == "anytime" && data[id].artwork.details.filterOnline == "online") {
+                    substituteAction.innerHTML = "Link coming soon";
+                } 
+                else if(data[id].artwork.details.date[0] == "anytime" && data[id].artwork.details.filterOnline == "person") {
+                    substituteAction.innerHTML = "Location coming soon";
+                }
+                else {
+                   substituteAction.innerHTML = "You can book this event from 9th September";
+                };
+                // delete to here when event brite live
                 // Top Section: When/Where/Time text
                 if (data[id].artwork.details.date == "anytime") {
                     infoModal.find('.when-text').text("At your own pace");
