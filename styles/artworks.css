@@ -122,13 +122,14 @@ https://www.instagram.com/
 /*try darker*/
 
 .blueSquare {
-    object-fit: scale-down;
-    background: #053cb0;    
-    background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);
+    /*object-fit: scale-down;*/
+    background-color: rgba(79, 213, 165, 0.58);
+    color: rgb(7, 75, 221) !important;
+    /*background: #053cb0;   
+    background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);*/
     max-width: 795px;
     margin: 0 auto;
 }
-
 
 .blueSquare:hover {
     background:none;  
@@ -138,13 +139,15 @@ https://www.instagram.com/
 .artworkImage {
     /* Image itself */
     object-fit: scale-down;
+    mix-blend-mode: multiply;
     /* height: 100%; */
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 }
 
 .artworkImage:hover {
     /*    transform: scale(1.01) translate(0px, -3px);*/
-    opacity: 100;
+    mix-blend-mode: normal;
+    /*opacity: 100;*/
 }
 
 /* #outerImage:hover > #gridTextBoxHighlight { color: var(--light-link); } */
