@@ -15,6 +15,7 @@
         },
         "artwork": {
             "artwork_name": "AWAITING TEXT",
+            "artwork_type":"workshop",
             "artwork_description_line": "AWAITING TEXT",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "AWAITING TEXT",
