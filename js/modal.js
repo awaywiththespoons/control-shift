@@ -72,6 +72,7 @@ function createModal() {
                 if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
                     infoModal.find('.where-text').text("Available online throughout the programme");
                     infoModal.find('.when-text').text("Showing at the Arnolfini 10th - 11th October, 12 - 5pm");
+                    infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.details.date == "anytime") {
                     infoModal.find('.when-text').text("At your own pace");
