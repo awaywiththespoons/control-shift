@@ -1,4 +1,5 @@
 //based on code fot drawgramming https://www.beccarose.co.uk/code/drawgramming/ (this is a simplified version)
+
 var canvasWidth = window.innerWidth;
 var canvasHeight = setHeight();
 var imgBrand = [];

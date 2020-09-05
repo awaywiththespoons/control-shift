@@ -146,6 +146,7 @@ a.dropdown-item:hover {
 
 #sketch-container {
     height: 500px;
+    overflow: hidden;
 }
 
 .jumbotron {
