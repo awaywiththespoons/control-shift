@@ -185,22 +185,23 @@
         function appendData(data) {
             // function adding events to calendar
             for (let i = 0; i < data.length; i++) {
-                for (let x = 0; x < data[i].artwork.details.date.length; x++) {
-                    let a = document.createElement('a');
-                    a.setAttribute("data-id", data[i].artist.name);
-                    a.setAttribute("class", "thumbnail single-event-box");
-                    a.setAttribute("href", "#" + data[i].artwork.artwork_name)
-                    let p = document.createElement('p');
-                    p.setAttribute("class", "event-text ");
-                    if (data[i].artwork.details.date[x] == "anytime") {
-                        a.setAttribute("class", "anytime-box");
-                        p.setAttribute("class", "anytime-event-text");
+                if (data[i].artwork.details.date != "") {
+                    for (let x = 0; x < data[i].artwork.details.date.length; x++) {
+                        let a = document.createElement('a');
+                        a.setAttribute("data-id", data[i].artist.name);
+                        a.setAttribute("class", "thumbnail single-event-box");
+                        a.setAttribute("href", "#" + data[i].artwork.artwork_name)
+                        let p = document.createElement('p');
+                        p.setAttribute("class", "event-text");
+                        if (data[i].artwork.details.date[x] == "anytime") {
+                            a.setAttribute("class", "anytime-box");
+                            p.setAttribute("class", "anytime-event-text");
+                        }
+                        p.innerText = data[i].artwork.artwork_name;
+                        a.appendChild(p);
+                        this["postItDay"+i] = document.getElementById(data[i].artwork.details.date[x]);
+                        this["postItDay"+i].appendChild(a)
                     }
-                    p.innerText = data[i].artwork.artwork_name;
-                    a.appendChild(p);
-                    console.log(x)
-                    this["postItDay"+i] = document.getElementById(data[i].artwork.details.date[x]);
-                    this["postItDay"+i].appendChild(a)
                 }
             }
             $.getScript("./js/modal.js");
