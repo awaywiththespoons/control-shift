@@ -382,16 +382,16 @@ a.dropdown-item:hover {
 .jumbotron h1 {
     font-size: 4em;
     font-family: var(--font-small-headings);
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px;
     text-shadow: 4px 4px 1px var(--dark-link);
 }
 
 /* home page central heading */
 h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     font-family: var(--font-small-headings);
-    font-weight: 600;
+    font-weight: 1200;
     margin-bottom: 20px;
     letter-spacing: 2px;
     /*    text-shadow: 2px 2px var(--dark-link);*/
