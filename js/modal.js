@@ -78,6 +78,10 @@ function createModal() {
                     infoModal.find('.when-text').text("At your own pace");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
+                } else if (data[id].artwork.details.date == "") {
+                    infoModal.find('.when-text').text("At various dates");
+                    infoModal.find('.where-text').text(data[id].artwork.details.location);
+                    infoModal.find('.time-text').text(data[id].artwork.details.time);
                 } else {
                     infoModal.find('.when-text').text(data[id].artwork.details.date + " October");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
