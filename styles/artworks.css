@@ -619,6 +619,7 @@ a:hover.mainLinkText {
 
 #anytime {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
 }
@@ -629,23 +630,23 @@ a:hover.mainLinkText {
 
 .anytime-event-text {
     color: var(--dark-primary);
-    font-size: 18px;
+    font-size: 14px;
     font-family: var(--font-paragraph-modal);
+    padding: 20px;
+    margin-bottom: 0;
+    min-width: 200px;
 }
+
 
 .anytime-box {
     background-color: var(--text-highlight);
     border: 1px solid var(--dark-primary);
     display: inline-block;
-    width: 120px;
-    height: 120px;
     margin: 5px 5px 5px 5px;
-    padding-top: 40px;
     text-align: center;
 }
 
 .anytimeContainer {
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
