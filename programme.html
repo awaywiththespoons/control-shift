@@ -12,121 +12,178 @@
     <meta property="og:title" content="Control Shift">
     <meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
     <meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
-
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
+    <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-
+    <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-
-    <title> Control Shift - programme overview </title>
-
+    <link rel="stylesheet" type="text/css" href="styles/artworks.css">
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
+<body>
+    
+    
+    <div id="navbar"></div>
+    <!--  Grid of artworks generated from json file - see js below -->
+    <div class="pb-3 container home-page-content pt-4 nav-bar-space">
+        <h1>Programme</h1>
+        <p>
+           Join us to re-imagine our digital tools and reframe our relationships with technology; through three weeks of workshops, exhibitions and events - online and across Bristol, UK. 
+        </p>
+        <p>
+            The programme provides different lenses and approaches through which to
+            demystify, reframe and transform our relationships with technology.
+        </p>
+        <p>Booking for events, exhibition location details and Watch + Listen links coming soon!</p>
 
-<body class="programme-page-container">
-    <div class="container">
-        <!-- all content goes in the container -->
-        <!-- nav -->
-        <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">home</a>
-                    <li class="nav-item dropdown">
-                        <a class="navbar nav-item nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true">
-                            programme
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item active" href="#">Overview</a>
-                            <a class="dropdown-item" href="commissions.html">Commissions</a>
-                        </div>
-                    </li>
-                    <a class="nav-item nav-link" href="about.html">about us</a>
-                    <a class="nav-item nav-link" href="contact.html">contact</a>
-                </div>
-            </div>
-        </nav>
-        <!-- nav -->
-    </div> <!-- end of main container -->
-
-    <div class="container home-page-content content-wrap-programme ">
-        <!-- row -->
-        <p class="pt-4">
-            <h1>Programme Overview</h1>
-            <p>
-                We would like to publicly thank everyone who applied to our open call. We were thrilled by the response, and had over 180 applications from all over the world. We wish we could have worked with more artists and hope we will be able to grow to include more works in the future.
-            </p>
-            <p class="pb-4">
-                We have selected an exciting mix of brilliant artists and are currently shaping the programme and developing an appropriate format to share it with you. Control Shift will be taking place in the Autumn through online channels and physical safe spaces. Full programme will be announced soon, but you can find out a bit more through our Pervastive Media Studio lunchtime talk.
-            </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y-qekSm2lwE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="page-footer font-small teal pt-4">
-
-        <!-- Footer Text -->
-        <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-md-12 mt-md-0 mt-3">
-                    <h5 class="footer-text">We are grateful to our funding partners</h5>
-                </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-sm "></div>
-                <div class="col-sm text-center"><img src="logos/lottery_Logo.png" alt="Arts Council England logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/ioc.png" alt="Institute of code logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/KWMC-2014.png" alt="Knowle west Media Centre logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/uwe.png" alt="University of the west England logo" class="img-fluid"></div>
-                <div class="col-sm"></div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-md-12 mt-md-0 mt-3">
-                    <h5 class="footer-text">and continued support from</h5>
-                </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-sm "></div>
-                <div class="col-sm text-center"><img src="logos/PCD.png" alt="processing community day logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/watershed.png" alt="watershed logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/pmstudio.png" alt="bristol city council logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/curious.png" alt="we the cuious logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/BCC-logo.png" alt="bristol city council logo" class="img-fluid"></div>
-                <div class="col-sm"></div>
-            </div>
-            <!-- Grid row -->
-
-
-
+        <!--  filtering grid -->
+<!--        <p class="pt-2">Filter by type of event and location:</p>-->
+        <div class="filterInputs">
+            <label class="time-filter"><input type="radio" name="type" value="" checked><i></i><span>All</span></label>
+            <label class="time-filter"><input type="radio" name="type" value="workshop"><i></i><span>Workshop</span></label>
+            <label class="time-filter"><input type="radio" name="type" value="exhibition"><i></i><span>Exhibition</span></label>
+            <label class="time-filter"><input type="radio" name="type" value="event"><i></i><span>Event</span></label>
+            <label class="time-filter"><input type="radio" name="type" value="watchlisten"><i></i><span>Watch + Listen</span></label>
+        </div> 
+        <div class="filterInputs pb-3">
+            <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
+            <label class="online-filter"><input type="radio" name="online" value="online"><i></i><span>Online</span></label>
+            <label class="online-filter"><input type="radio" name="online" value="person"><i></i><span>In person</span></label>
         </div>
 
-        <!-- Footer Text -->
-
-    </footer>
-    <!-- Footer -->
-
-
-
-
-    <!-- JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <div class="padding-bottom" class="container">
+            <div id="myData" class="row"></div>
+        </div>
+    </div>
+    <div id="modal"></div>
+    
+    <!-- Include Footer -->
+    <div id="footer"></div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
 
-</html>
+    <!-- <script src="/modal.js"></script> -->
+    <script>
+        $('#navbar').load('./components/navigation.html');
+        $('#head').load('./components/head.html');
+        setTimeout(function(){ $('#footer').load('./components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
+        $('#modal').load('./components/artist-modal.html');
+    </script>
+
+    <script>
+        fetch('artworks.json') // fetching json code
+        .then(function (response) {
+            return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
+        })
+        .then(function (data) {
+            appendData(data); // If successful, runs appendData function below
+        })
+        .catch(function (err) {
+            console.log('error: ' + err); // catches error & console logs out the error message
+        });
+        // function to generate grid of artworks from json file
+        function appendData(data) {
+            let mainContainer = document.getElementById("myData");
+            for (let i = 0; i < data.length; i++) {
+                //Making artist Container div to hold artist info
+                let artistContainer = document.createElement("div");
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4 pb-3"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+                
+                artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterType + " " + data[i].artwork.details.filterOnline)
+                artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
+                //setting Artist Name
+                let textTitle = document.createElement("div");
+                textTitle.setAttribute("id", "gridTextBoxHighlight");
+                let textInfo = document.createElement("div");
+                
+                let p1 = document.createElement("div");
+                p1.innerHTML = data[i].artwork.artwork_name;
+                p1.setAttribute("class", "gridText gridTitle pt-4 text-center");
+                p1.setAttribute("id", "gridTitleHighlight");
+
+                let p2 = document.createElement("div");
+                if (data[i].artist.name === "Russel Hlongwane") {
+                    p2.innerHTML = "curated by " + data[i].artist.name
+                } else {
+                    p2.innerHTML = " by " + data[i].artist.name
+                }
+                p2.setAttribute("class", "gridText gridAbout pt-0 text-center");
+                
+                let p3 = document.createElement("div");
+                p3.innerHTML = data[i].artwork.artwork_description_line;
+                p3.setAttribute("class", "gridText aboutText pt-2 text-center");
+
+                //general link 
+                let link = document.createElement('a');
+                link.setAttribute("href", "#" + data[i].artwork.artwork_name);
+                link.setAttribute("class", "mainLinkText");
+
+                //make anchor
+                var a = document.createElement('a');
+                a.setAttribute("href", "#" + data[i].artwork.artwork_name);
+                a.setAttribute("data-id", data[i].artist.name);
+                a.setAttribute("class", "thumbnail");
+                //make div overlay for image - for the coloured filter
+                let blueSquare = document.createElement("div");
+                blueSquare.setAttribute("class", "blueSquare");
+                // setting Image
+                let image = document.createElement("IMG"); //creating image element
+                image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
+                image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
+                image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
+                image.setAttribute("id", "artworkID");
+                //adding new elements to one another & positioning in mainContainer
+                a.appendChild(blueSquare);
+                blueSquare.appendChild(image);
+                artistContainer.appendChild(a); 
+                link.appendChild(p1)
+                link.appendChild(p2);
+                link.appendChild(p3)
+                textInfo.appendChild(link)
+                artistContainer.appendChild(textTitle); 
+                artistContainer.appendChild(textInfo); 
+                mainContainer.appendChild(artistContainer);
+                loadWindowSystem();
+            }
+            $.getScript("./js/modal.js");
+        }
+    </script>
+    
+    <script>
+        // FILTER FUNCTIONALITY
+        function loadWindowSystem(){
+            const el_filters = document.querySelectorAll('[name="type"], [name="online"]'),
+            el_filterable = document.querySelectorAll('[data-filterable]');
+            const applyFilter = () => {
+            // Filter checked inputs
+            const el_checked = [...el_filters].filter(el => el.checked && el.value);
+            // Collect checked inputs values to array
+            const filters = [...el_checked].map(el => el.value);
+            // Get elements to filter
+            const el_filtered = [...el_filterable].filter(el => {
+                const props = el.getAttribute('data-filterable').trim().split(/\s+/);
+                return filters.every(fi => props.includes(fi))
+            });
+            // Hide all
+            el_filterable.forEach(el => el.classList.add('is-hidden'));
+            // Show filtered
+            el_filtered.forEach(el => el.classList.remove('is-hidden'));
+            }
+            // Assign event listener
+            el_filters.forEach(el => el.addEventListener('change', applyFilter));
+            // Init
+            applyFilter();
+        };  
+    
+        // $("#outerImage").hover(function(){
+        //     console.log('hovering')
+        // $('.gridTitle').css({'color':'blue','background-color':'white' });
+// });
+</script>
+
+</body></html>

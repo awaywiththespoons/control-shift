@@ -1,0 +1,41 @@
+    <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
+        <a class="anchor navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
+            <div class="menu-btn">
+            <div class="menu-btn__burger">
+            </div>
+          </div>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">home</a>
+                <a class="nav-item nav-link" href="programme.html">programme</a>
+                <a class="nav-item nav-link" href="calendar.html">calendar</a>
+                <a class="nav-item nav-link" href="about.html">about</a>
+                <a class="nav-item nav-link" href="contact.html">contact</a>
+            </div>
+        </div>
+    </nav>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var url = window.location;
+        $('nav.navbar a').filter(function() {
+            return this.href == url;
+        }).addClass('active');
+    });
+
+    const menuBtn = document.querySelector('.menu-btn');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () => {
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+    $( "#menu-mobile" ).addClass( "nav-bar-mobile-open" );
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+    $( "#menu-mobile" ).removeClass( "nav-bar-mobile-open" );
+
+  }
+});
+</script>
