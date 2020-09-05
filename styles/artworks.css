@@ -100,14 +100,14 @@ https://www.instagram.com/
 .artworkImage {
     /* Image itself */
     object-fit: scale-down;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     /* height: 100%; */
     /*opacity: 0.5;*/
 }
 
 .artworkImage:hover {
-    /*    transform: scale(1.01) translate(0px, -3px);*/
-    mix-blend-mode: normal;
+    transform: scale(1.01) translate(0px, -3px);
+    /* mix-blend-mode: normal; */
     /*opacity: 100;*/
 }
 
