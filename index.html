@@ -12,68 +12,38 @@
     <meta property="og:title" content="Control Shift">
     <meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
     <meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
-
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
+    <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-
+    <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
-    <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
-
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="js/sketch.js" type="text/javascript"></script>
 </head>
 
 <body>
+    <div id="navbar"></div>
+    
+
     <div class="container">
-        <!-- all content goes in the container -->
-
-
-        <!-- nav -->
-        <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">home</a>
-                    <li class="nav-item dropdown">
-                        <a class="navbar nav-item nav-link dropdown-toggle" href="programme.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true">
-                            programme
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="programme.html">Overview</a>
-                            <a class="dropdown-item" href="commissions.html">Commissions</a>
-                        </div>
-                    </li>
-                    <a class="nav-item nav-link" href="about.html">about us</a>
-                    <a class="nav-item nav-link" href="contact.html">contact</a>
-                </div>
+        <div class="row">
+            <div class="col-md-12 sketch">
+              <div id="sketch-container" class="d-flex justify-content-center"></div>
             </div>
-        </nav>
-        <!-- nav -->
-        <div class="jumbotron d-flex align-items-center">
-            <div class="container text-center">
-                <h1><span>Control Shift</span></h1>
-                <h2><span>*full programme coming soon*</span></h2>
-
-
-            </div>
-            <!--end of text container -->
-        </div> <!-- end of jumbotron -->
-
-    </div> <!-- end of main container -->
+        </div>
+    </div>
 
     <div class="container home-page-content">
-        <!-- row -->
-        <!--    <hr class="update">
-        <p class="text-center"><em><strong>UPDATE COVID-19:</strong></em></p>
-        <p><em>
-            We are sorry to say that Control Shift, June 2020, will need to be postponed. The programme will still happen, it is just uncertain at this time what the new dates will be. 
-            We will continue to release updates but in the meantime, if you have any questions, feel free to reach out to the team at <a href="mailto:martha.kng@gmail.com">martha.kng@gmail.com</a>
-        </em></p>
--->
         <hr class="update">
-        <p class="text-center"><em>Control Shift</em> is an exciting new arts programme coming to Bristol (UK) in the Autumn. We are developing a mix of online channels and physical safe spaces to bring you a programme of creative and critical approaches to technology, rooted in embodiment and materiality. </p>
+        <h1 class="pt-4 text-center">Control Shift</h1>
+        <p class="text-center"><strong>2 - 18 Oct 2020 - Hybrid edition</strong></p>
+        <p class="text-center"><em>An exciting new arts programme coming to Bristol this Autumn</em></p>
+        <p class="text-center">Three weeks of workshops, discussions, installations and screenings - online and across Bristol, UK - exploring ways to reframe and rethink our relationships with technology.</p>
         <hr>
         <div class="row">
             <div class="col-sm ">
@@ -83,88 +53,37 @@
             </div>
             <div class="col-sm">
                 <p>
-                    <em>Control Shift</em> asks how we can reframe and rethink our relationships with technology.
-                    How could we conceive of new possibilities beyond neoliberal versions of computing? What might happen if there was more space for poetic or tactile engagements with the digital? Can we reconsider our connections, responsibilities and embodied entanglements with technology?
+                    <em>The Control Shift</em> programme reflects on the intimate relationship we’ve had with technology over the past six months, asking questions such as: What impact do these technologies have on our minds and bodies? How could we digitally-connect differently? And who is creating the digital tools we have become increasingly reliant on? Exploring what happens when we reimagine digital tools through different lenses
                 </p>
             </div>
         </div>
-        <!-- row -->
-
-        <!-- row -->
+        <hr>
         <div class="row">
             <div class="col-sm">
-                <br>
-                <p>
-                    <strong>Launching soon, <em>Control Shift</em> will incorporate performances, workshops, talks and an exhibition sited across different locations in Bristol.</strong>
+                <p class="text-center">
+                    We are excited to bring you a programme from brilliant artists across the globe and close to home (Bristol, UK), helping us to explore some of these urgent questions together.  
                 </p>
-                <br><br>
+                <p class="text-center">
+                    Check out the full <a href="programme.html">Programme</a> for more details and how to get involved.
+                </p>
             </div>
         </div>
-        <!-- row -->
     </div>
+    <!-- Include Footer -->
+    <div class="pt-4" id="footer"></div>
 
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('#navbar').load('./components/navigation.html');
+        $('#head').load('./components/head.html');
+        $('#footer').load('./components/footer.html');
 
-
-
-
-    <!-- Footer -->
-    <footer class="page-footer font-small teal pt-4">
-
-        <!-- Footer Text -->
-        <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-md-12 mt-md-0 mt-3">
-                    <h5 class="footer-text">We are grateful to our funding partners</h5>
-                </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-      <div class="row logos">
-                <div class="col-sm "></div>
-                <div class="col-sm text-center"><img src="logos/lottery_Logo.png" alt="Arts Council England logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/ioc.png" alt="Institute of code logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/KWMC-2014.png" alt="Knowle west Media Centre logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/uwe.png" alt="University of the west England logo" class="img-fluid"></div>
-                <div class="col-sm"></div>
-          </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-md-12 mt-md-0 mt-3">
-                    <h5 class="footer-text">and continued support from</h5>
-                </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row logos">
-                <div class="col-sm "></div>
-                <div class="col-sm text-center"><img src="logos/PCD.png" alt="processing community day logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/watershed.png" alt="watershed logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/pmstudio.png" alt="bristol city council logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/curious.png" alt="we the cuious logo" class="img-fluid"></div>
-                <div class="col-sm text-center"><img src="logos/BCC-logo.png" alt="bristol city council logo" class="img-fluid"></div>
-                <div class="col-sm"></div>
-            </div>
-            <!-- Grid row -->
-
-
-
-        </div>
-
-        <!-- Footer Text -->
-
-
-
-        <!-- JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
 </body>
 
 </html>
