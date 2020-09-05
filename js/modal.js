@@ -69,7 +69,11 @@ function createModal() {
                 };
                 // delete to here when event brite live
                 // Top Section: When/Where/Time text
-                if (data[id].artwork.details.date == "anytime") {
+                if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
+                    infoModal.find('.where-text').text("Available online throughout the programme");
+                    infoModal.find('.when-text').text("Showing at the Arnolfini 10th - 11th October, 12 - 5pm");
+                }
+                else if (data[id].artwork.details.date == "anytime") {
                     infoModal.find('.when-text').text("At your own pace");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
