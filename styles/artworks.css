@@ -97,25 +97,6 @@ https://www.instagram.com/
 
 /* STYLES FOR ARTWORK PAGE */
 
-/* Artwork grid: all styles 
-
-.blueSquare {
-    /*object-fit: scale-down;*/
-    background-color: rgba(79, 213, 165, 0.58);
-    color: rgb(7, 75, 221) !important;
-    /*background: #053cb0;   
-    background-image: linear-gradient(rgba(5,60,176,1) 100%, rgba(5,60,176,1) 0%);*/
-    max-width: 795px;
-    margin: 0 auto;
-}*/
-
-/*
-.blueSquare:hover {
-    background:none;  
-    background-image: none;
-}
-*/
-
 .artworkImage {
     /* Image itself */
     object-fit: scale-down;
@@ -634,7 +615,6 @@ a:hover.mainLinkText {
     font-family: var(--font-paragraph-modal);
     padding: 20px;
     margin-bottom: 0;
-    min-width: 200px;
 }
 
 
