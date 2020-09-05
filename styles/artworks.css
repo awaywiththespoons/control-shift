@@ -634,6 +634,7 @@ a:hover.mainLinkText {
     font-family: var(--font-paragraph-modal);
     padding: 20px;
     margin-bottom: 0;
+    min-width: 200px;
 }
 
 
