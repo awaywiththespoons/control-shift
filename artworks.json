@@ -3,7 +3,7 @@
         "id": 0,
         "artist": {
             "name": "KASAVA",
-            "bio_100w": ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a  target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a  target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a  target='_blank' href='www.courtenaywelcome.com'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
+            "bio_100w": ["KASAVA is a new Bristol based collective. A wholly authentic voice speaking from their own experiences - ranging from huge triumphs to the struggle bus and everything in between. KASAVA is founded by <a  target='_blank' href='https://rising.org.uk/what-are-your-plans/'>Josephine Gyasi</a>, <a  target='_blank' href='https://www.bristolpost.co.uk/authors/rema-mukena/'>Rema Mukena</a>, <a  target='_blank' href='https://staceyolika.com'>Stacey Olika</a>, <a  target='_blank' href='https://www.rifemagazine.co.uk/author/euella_jackson/'>Euella Jackson</a>, <a  target='_blank' href='https://www.parysgardener.com/'>Parys Gardner</a> and <a  target='_blank' href='https://www.instagram.com/courtenay.welcome'>Courtenay Welcome</a>. Six women come together to inspire, help you channel the art of knowing who you are - whilst injecting a solid dose of positivity and power. Building a community where creative womxn feel like they are the centre of the narrative and not the other. Through everything they curate, from events to podcasts, there’ll be laughter, tears and most importantly unfiltered conversations throughout."],
             "image": [
                 {
                     "url": "",
@@ -203,8 +203,8 @@
     {
         "id": 5,
         "artist": {
-            "name": "Naho Matsuda",
-            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons. Her work includes; print, publications, writing, installation and performance. Naho holds a post as a research assistant in the Interaction Research Studio at Goldsmiths University."],
+            "name": "Naho Matsuda and Paul Angus",
+            "bio_100w": ["Naho is a German-Japanese artist based in London. Her work brings together the ordinary and the absurd to explore notions of labour, internet culture, emerging technology and the commons.<br><br>Paul is a Newcastle-based creative technologist who enjoys projects that demand the amalgamation of a diverse range of technologies. With a background in linguistics and pedagogy, he’s eager to bring digital applications to these domains."],
             "image": [
                 {
                     "url": "",
@@ -217,14 +217,14 @@
             "artwork_type":"LUNCHTIME TALK",
             "artwork_description_line": "Artist talk and discussion on data in the arts",
             "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
+            "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. <br><br>Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
             "details": {
                 "filterOnline": "online",
                 "filterType": "event",
                 "filterWeek": "week-1",
                 "day": "Friday",
                 "date": ["2nd"],
-                "time": "1-2pm",
+                "time": "13:00-14:00",
                 "location": "Online",
                 "practicalInfo": "",
                 "actionText": "Watch online",
@@ -616,11 +616,11 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Proxy Politics",
+            "artwork_name": "Proxy Politics: Making and Unmaking Perspectives on Access",
             "artwork_type":"WORKSHOP",
             "artwork_description_line": "Workshop exploring disability activism & accessibility with video calling devices",
             "artwork_description_150w_long": ["This remote workshop is aimed at Bristol based artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation. "],
-            "artwork_description_50w_short": "<em>Proxy Politics: Making and Unmaking Perspectives on Access</em> is a remote workshop aimed at Bristol based artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation.",
+            "artwork_description_50w_short": "This remote workshop is aimed at Bristol based artists and activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, Arjun, Ben and Kaiya will be using video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation.",
             
             "details": {
                 "filterOnline": "online",
