@@ -338,6 +338,9 @@ a:hover.mainLinkText {
 #actionLink {
     border: 1px solid var(--dark-primary);
     padding: 8px;
+    display: block;
+    max-width: 500px !important;
+    margin: 0 auto;
 }
 
 .bookingOpensText {
