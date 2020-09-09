@@ -51,23 +51,22 @@ function createModal() {
                 // Top Section Artwork TYPE
                 infoModal.find('.artwork-type').text(data[id].artwork.artwork_type);
                 // Top Section Artwork call to action 
-                let action = document.getElementById('actionLink');
-                action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
-                action.innerHTML=data[id].artwork.details.actionText;
-                // Top Section Artwork Call to action substitute
-                // delete from here when event brite live
-                let substituteAction = document.querySelector('.bookingOpensText');
-                //substituteAction.innerHTML = "some stuff";
-                if (data[id].artwork.details.date[0] == "anytime" && data[id].artwork.details.filterOnline == "online") {
-                    substituteAction.innerHTML = "Link coming soon";
-                } 
-                else if(data[id].artwork.details.date[0] == "anytime" && data[id].artwork.details.filterOnline == "person") {
-                    substituteAction.innerHTML = "Location coming soon";
-                }
-                else {
-                   substituteAction.innerHTML = "You can book this event from 9th September";
+                // Only create links with valid urls
+                if (data[id].artwork.details.actionLink != "addlink") {
+                    console.log("real link");
+                    // create booking link
+                    let action = document.getElementById('actionLink');
+                    action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
+                    action.innerHTML = data[id].artwork.details.actionText;
+                    document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
+                    // hide susbtitue booking text
+                    $(".bookingOpensText" ).hide();
+                } else {
+                    // create coming soon 
+                    document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
+                    // hide booking link
+                    $("#actionLink" ).hide();
                 };
-                // delete to here when event brite live
                 // Top Section: When/Where/Time text
                 if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
                     infoModal.find('.where-text').text("Available online throughout the programme");
