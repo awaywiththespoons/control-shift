@@ -27,7 +27,7 @@
                 "location": "online",
                 "practicalInfo": "",
                 "actionText": "Listen online soon",
-                "actionLink": "addLink"
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "intervave_artwork_WEB.png",
@@ -67,7 +67,7 @@
                 "location": "Bristol City Centre",
                 "practicalInfo": "",
                 "actionText": "Booking coming soon",
-                "actionLink": "addLink"
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "face-on_artwork_WEB.png",
@@ -106,7 +106,7 @@
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Watch online soon",
-                "actionLink": "addLink"
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "power-tools-film_artwork_WEB.png",
@@ -187,7 +187,7 @@
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Interact online soon",
-                "actionLink": "addLINK"
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "get-this-position_Artwork_WEB.gif",
@@ -228,7 +228,7 @@
                 "location": "Online",
                 "practicalInfo": "",
                 "actionText": "Watch online soon",
-                "actionLink": "addyoutube"
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "this-city-is-talk_Artwork_WEB.png",
