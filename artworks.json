@@ -26,8 +26,8 @@
                 "time": " ",
                 "location": "online",
                 "practicalInfo": "",
-                "actionText": "Listen Now",
-                "actionLink": "Link"
+                "actionText": "Listen online soon",
+                "actionLink": "addLink"
             },
             "image": {
                 "url": "intervave_artwork_WEB.png",
@@ -66,8 +66,8 @@
                 "time": "",
                 "location": "Bristol City Centre",
                 "practicalInfo": "",
-                "actionText": "Venue Info",
-                "actionLink": "venue-info.html"
+                "actionText": "Booking coming soon",
+                "actionLink": "addLink"
             },
             "image": {
                 "url": "face-on_artwork_WEB.png",
@@ -105,8 +105,8 @@
                 "time": "",
                 "location": "ONLINE",
                 "practicalInfo": "",
-                "actionText": "Watch online",
-                "actionLink": "Link"
+                "actionText": "Watch online soon",
+                "actionLink": "addLink"
             },
             "image": {
                 "url": "power-tools-film_artwork_WEB.png",
@@ -144,7 +144,7 @@
                 "time": " ",
                 "location": "ONLINE",
                 "practicalInfo": "",
-                "actionText": "Knitwitter App",
+                "actionText": "Go to Knitwitter",
                 "actionLink": "https://www.knitwitter.com/"
             },
             "image": {
@@ -186,8 +186,8 @@
                 "time": "",
                 "location": "ONLINE",
                 "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "LINK"
+                "actionText": "Interact online soon",
+                "actionLink": "addLINK"
             },
             "image": {
                 "url": "get-this-position_Artwork_WEB.gif",
@@ -227,8 +227,8 @@
                 "time": "13:00-14:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Watch online",
-                "actionLink": "youtube"
+                "actionText": "Watch online soon",
+                "actionLink": "addyoutube"
             },
             "image": {
                 "url": "this-city-is-talk_Artwork_WEB.png",
@@ -263,11 +263,11 @@
                 "filterWeek": "week-1",
                 "day": "Friday",
                 "date": ["2nd"],
-                "time": "6-11pm",
+                "time": "18:00-22:00",
                 "location": "Bristol City Centre",
                 "practicalInfo": "",
-                "actionText": "Venue Info",
-                "actionLink": "venue-info.html"
+                "actionText": "Booking coming sonn",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "this-city-is_Artwork_WEB.gif",
@@ -305,8 +305,8 @@
                 "time": "",
                 "location": "Bristol City Centre",
                 "practicalInfo": "",
-                "actionText": "Venue Info",
-                "actionLink": "venue-info.html"
+                "actionText": "Booking info coming soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "CTP-install1_artwork_WEB.png",
@@ -343,11 +343,11 @@
                 "filterWeek": "week-1",
                 "day": "Saturday",
                 "date": ["3rd"],
-                "time": "1.30-3pm",
+                "time": "13.30-15:00",
                 "location": "online",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119421465819"
+                "actionLink": "https://www.eventbrite.com/e/120178845161"
             },
             "image": {
                 "url": "CTP-workshop_artwork_WEB.png",
@@ -389,7 +389,7 @@
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "LINK"
+                "actionLink": "https://www.eventbrite.com/e/120180153073"
             },
             "image": {
                 "url": "AI-for-nervous-humans_artwork_WEB.png",
@@ -425,11 +425,11 @@
                 "filterWeek": "week-1",
                 "day": "Monday",
                 "date": ["10th"],
-                "time": "11:00 - 12:30",
+                "time": "11:00-12:30",
                 "location": "Bristol Harbourside",
                 "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/deep-listening-tickets-119422557083"
+                "actionText": "Booking coming soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "deep-listening_artwork_WEB.png",
@@ -469,8 +469,8 @@
                 "time": "2pm",
                 "location": "Brandon Hill, BRISTOL",
                 "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119444458591"
+                "actionText": "Booking coming soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "mapsofCP_WEB.png",
@@ -508,8 +508,8 @@
                 "time": "& at your own pace",
                 "location": "Online and Arnolfini",
                 "practicalInfo": "",
-                "actionText": "Venue Info",
-                "actionLink": "venue-info.html"
+                "actionText": "Watch online soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "film_artwork_WEB.png",
@@ -546,11 +546,11 @@
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": ["10th"],
-                "time": "6-7pm",
+                "time": "18:00-19:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Watch Online",
-                "actionLink": "youtubelink"
+                "actionText": "Watch online soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "film-QA_artwork_WEB.png",
@@ -587,11 +587,11 @@
                 "filterWeek": "week-2",
                 "day": "Sunday",
                 "date": ["11th"],
-                "time": "2-3:30pm",
+                "time": "14:00-15:30",
                 "location": "Online",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "link"
+                "actionLink": "https://www.eventbrite.com/e/120180153073"
             },
             "image": {
                 "url": "live-coding_artwork_WEB.png",
@@ -628,11 +628,11 @@
                 "filterWeek": "week-3",
                 "day": "Thursday",
                 "date": ["15th"],
-                "time": "17:00 - 19:00",
+                "time": "17:00-19:00",
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "LINK"
+                "actionLink": "https://www.eventbrite.com/e/120178189199"
             },
             "image": {
                 "url": "power-tools-workshop_artwork_WEB.png",
@@ -667,11 +667,11 @@
                 "filterWeek": "week-3",
                 "day": "Friday",
                 "date": ["16th"],
-                "time": "4-6pm",
+                "time": "16:00-18:00",
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119413175021"
+                "actionLink": "https://www.eventbrite.com/e/120181196193"
             },
             "image": {
                 "url": "alt-text-poetry_artwork_WEB.png",
@@ -712,7 +712,7 @@
                 "location": "ONLINE",
                 "practicalInfo": "",
                 "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119423213045"
+                "actionLink": "https://www.eventbrite.com/e/120181916347"
             },
             "image": {
                 "url": "miauID_artwork_WEB.png",
@@ -748,11 +748,11 @@
                 "filterWeek": "week-1",
                 "day": "Sunday",
                 "date": ["18th"],
-                "time": "3-5pm",
+                "time": "14:00-16:00",
                 "location": "Online",
                 "practicalInfo": "Family Friendly",
                 "actionText": "Book Now",
-                "actionLink": "link"
+                "actionLink": "https://www.eventbrite.com/e/120181555267"
             },
             "image": {
                 "url": "art-code-fruit_artwork_WEB.png",
@@ -792,8 +792,8 @@
                 "time": "",
                 "location": "Arnos Vale, Bristol",
                 "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/119415863061"
+                "actionText": "Booking coming soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "the-departed_Artwork_WEB.png",
@@ -834,8 +834,8 @@
                 "time": "",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": ""
+                "actionText": "Booking coming soon",
+                "actionLink": "addlink"
             },
             "image": {
                 "url": "swctn_artwork_WEB.png",
