@@ -61,11 +61,13 @@ function createModal() {
                     document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
                     // hide susbtitue booking text
                     $(".bookingOpensText" ).hide();
+                    $("#actionLink" ).show();
                 } else {
                     // create coming soon 
                     document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
                     // hide booking link
                     $("#actionLink" ).hide();
+                    $(".bookingOpensText" ).show();
                 };
                 // Top Section: When/Where/Time text
                 if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
