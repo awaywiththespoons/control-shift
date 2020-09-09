@@ -161,8 +161,8 @@
     {
         "id": 4,
         "artist": {
-            "name": "Jump Studio",
-            "bio_100w": ["Jump studio are a group of resident art makers and code wranglers aged 11-13 years. They meet every Monday at Knowle West Media Centre to explore how to be creative with technology. To make this work they collaborated with Bristol based media artist <a  target='_blank' href='https://www.beccarose.co.uk'> Becca Rose</a>"],
+            "name": "Control Alt Delete",
+            "bio_100w": ["Control Alt Delete is a group of resident art makers and code wranglers aged 10-16 years. They meet every Monday, as part of Jump Studios at Knowle West Media Centre, to explore how to be creative with technology. To make this work they collaborated with Bristol based media artist <a  target='_blank' href='https://www.beccarose.co.uk'> Becca Rose</a>"],
             "image": [
                 {
                     "url": "",
@@ -175,7 +175,7 @@
             "artwork_type":"INTERACTIVE FILTERS",
             "artwork_description_line": "Exhibition of DIY augmented reality filters by young people from Knowle West",
             "artwork_description_150w_long": [" "],
-            "artwork_description_50w_short": "Augmented reality filters, used in apps such as Tik Tok, Instagram and Snapchat are part of our lives in intimate ways whilst also defining who we are. Rather than defining themselves through the eyes of others, young people from KWMC’s Jump Studio have made their own augmented realities to share with the world. How do they look? <br><br><em>Exhibition co-prduced by <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a>.</em>",
+            "artwork_description_50w_short": "Augmented reality filters, used in apps such as Tik Tok, Instagram and Snapchat are part of our lives in intimate ways whilst also defining who we are. Rather than defining themselves through the eyes of others, young people from KWMC’s Jump Studio have made their own augmented realities to share with the world. How do they look? <br><br><em>Exhibition co-produced by <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a>.</em>",
             
             "details": {
                 "filterOnline": "online",
