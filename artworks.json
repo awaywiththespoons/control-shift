@@ -576,18 +576,18 @@
             ]
         },
         "artwork": {
-            "artwork_name": "Live Coding",
+            "artwork_name": "Live Coding Visuals",
             "artwork_type":"WORKSHOP",
             "artwork_description_line": "Live coding visuals workshop using Improviz",
             "artwork_description_150w_long": ["AWAITING TEXT"],
-            "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using Improviz for live visuals.",
+            "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using <a href='https://improviz.rumblesan.com' target='_blank'>Improviz</a> for live visuals.",
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop",
                 "filterWeek": "week-2",
                 "day": "Sunday",
                 "date": ["11th"],
-                "time": "14:00-15:30",
+                "time": "14:00-16:00",
                 "location": "Online",
                 "practicalInfo": "",
                 "actionText": "Book Now",
@@ -600,7 +600,7 @@
         },
         "social_media": {
             "website": "https://hellocatfood.com",
-            "instagram": "https://instagram.com/hellocatfooood"
+            "instagram": "http://instagram.com/hellocatfood"
         }
     },
     {
