@@ -522,8 +522,8 @@
                 "time": "16:00-19:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addLink"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.com/e/121388029865"
             },
             "image": {
                 "url": "oracle-bot_artwork_WEB.png",
