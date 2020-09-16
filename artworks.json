@@ -352,10 +352,10 @@
                 "filterWeek": "week-1",
                 "day": "Friday",
                 "date": ["2nd"],
-                "time": "18:00-22:00",
-                "location": "Bristol City Centre",
+                "time": "18:00-23:00",
+                "location": "Central Library, Bristol, BS1 5TL",
                 "practicalInfo": "Family Friendly",
-                "actionText": "Booking coming sonn",
+                "actionText": "No booking necessary",
                 "actionLink": "addlink"
             },
             "image": {
@@ -562,8 +562,8 @@
                 "time": "11-12:30 / 14-15:30",
                 "location": "Bristol Harbourside",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addlink"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.co.uk/e/deep-listening-by-kathy-hinde-registration-120502687783"
             },
             "image": {
                 "url": "deep-listening_artwork_WEB.png",
@@ -600,11 +600,11 @@
                 "filterWeek": "week-2",
                 "day": "Saturday",
                 "date": ["10th"],
-                "time": "11-12noon / 14-15:00 / 16-17:00",
+                "time": "11-12noon / 14-15:00",
                 "location": "Brandon Hill, Bristol",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addlink"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.com/e/120508182217"
             },
             "image": {
                 "url": "mapsofCP_WEB.png",
@@ -629,7 +629,7 @@
         },
         "artwork": {
             "artwork_name": "Thinking the digital through the indigenous",
-            "artwork_type": "PANEL DISCUSSION",
+            "artwork_type": "Panel Discussion",
             "artwork_description_line": "Panel discussion with invited filmmakers, what are the new languages for technology?",
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
             "artwork_description_50w_short": "The invited filmmakers use their films as vehicles to think through some core questions. This panel discussion offers an alternative to the assumption that technology is a western invention; whilst problematising 'tech tools' through different lenses and practices. The artists also propose new languages to imagine technology, beyond hardware and software.",
@@ -972,8 +972,8 @@
                 "time": "Various times from 18:00",
                 "location": "Bristol",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addlink"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.co.uk/e/the-departed-by-sarah-selby-and-tim-kindburg-registration-121405823085"
             },
             "image": {
                 "url": "the-departed_Artwork_WEB.png",
@@ -985,7 +985,52 @@
             "twitter": "https://twitter.com/SarahSelbyArt",
             "twitterTwo": "https://twitter.com/timkindberg"
         }
-    }
+    },
+    
+          {
+        "id": 20,
+        "artist": {
+            "name": "SWCTN Fellows",
+            "bio_100w": ["The South West Creative Technology Network (SWCTN) supports research and development in emerging technologies. Each year, the SWCTN team curates a cohort of fellows to collectively explore what is new, challenging and possible across the themes of Immersion, Automation and Data. SWCTN is underpinned by the concept and practice of ‘cultural ecology’, by cultivating and connecting diverse networks of people, places, communities and resources across the South West. "],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+            }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "SWCTN + Data",
+            "artwork_type":"Short talks",
+            "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
+            "artwork_description_150w_long": [""],
+            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these seris of short talks fellows will share their research and offer you the chance to get involved.<br><br><em>Event co-prduced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "event",
+                "filterWeek": "week-3",
+                "day": "",
+                "date": ["12th"],
+                "time": "13:00-14:00",
+                "location": "Online",
+                "practicalInfo": "",
+                "actionText": "Booking coming soon",
+                "actionLink": "addlink"
+            },
+            "image": {
+                "url": "swctn_artwork_WEB.png",
+                "alt": "Image from SWCTN research"
+            }
+        },
+        "social_media": {
+            "twitter": "https://twitter.com/SW_CTN",
+            "website": "https://www.swctn.org.uk/journal/",
+            "instagram": "https://www.instagram.com/swctn/"
+        }
+    } 
+    
+    
+
 
 
 ]
