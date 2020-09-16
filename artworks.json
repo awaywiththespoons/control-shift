@@ -713,7 +713,7 @@
         "artwork": {
             "artwork_name": "Robots with Pens",
             "artwork_type": "Workshop",
-            "artwork_description_line": "Workhops to make experimental robot drawings using code",
+            "artwork_description_line": "Workshop to make experimental robot drawings using code",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "Join Joseph for a journey along the lines of automated drawing. Inspired by the work of computer art pioneer Vera Molnár we’ll be remixing, experimenting, and breaking code using the <a href='https://p5js.org/' target='_blank'>P5</a> editor. You’ll learn how to generate drawings for a pen plotter (a robot that draws with paper & pens). At the end of the session everyone gets to take their robot drawings home (via post of course!).<br><br>This workshop is co-produced by <a href='https://www.swctn.org.uk/' target='_blank'>SWCTN</a>",
             "details": {
@@ -725,8 +725,8 @@
                 "time": "16:00-17:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addLink"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.co.uk/e/robots-with-pens-by-joseph-wilk-registration-121381490305"
             },
             "image": {
                 "url": "robots-with-pens_artwork_WEB.png",
@@ -769,8 +769,8 @@
                 "time": "17:00-18:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addLink"
+                "actionText": "Book Now",
+                "actionLink": "https://www.eventbrite.co.uk/e/where-is-my-space-by-tracey-bowen-registration-121384954667"
             },
             "image": {
                 "url": "where-my-space_artwork_WEB.png",
