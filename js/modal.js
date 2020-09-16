@@ -71,8 +71,8 @@ function createModal() {
                 };
                 // Top Section: When/Where/Time text
                 if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
-                    infoModal.find('.where-text').text("Available online throughout the programme");
-                    infoModal.find('.when-text').text("Showing at the Arnolfini 10th - 11th October, 12 - 5pm");
+                    infoModal.find('.where-text').text("Online");
+                    infoModal.find('.when-text').text("(also showing at the Arnolfini 10th-11th October, 12noon-17:00)");
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.details.date == "anytime") {
