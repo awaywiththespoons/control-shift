@@ -698,6 +698,51 @@
     },
 
 
+    
+        {
+        "id": 20,
+        "artist": {
+            "name": "SWCTN Fellows",
+            "bio_100w": ["The South West Creative Technology Network (SWCTN) supports research and development in emerging technologies. Each year, the SWCTN team curates a cohort of fellows to collectively explore what is new, challenging and possible across the themes of Immersion, Automation and Data. SWCTN is underpinned by the concept and practice of ‘cultural ecology’, by cultivating and connecting diverse networks of people, places, communities and resources across the South West. "],
+            "image": [
+                {
+                    "url": "",
+                    "alt": ""
+            }
+            ]
+        },
+        "artwork": {
+            "artwork_name": "SWCTN + Data",
+            "artwork_type":"Short talks",
+            "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
+            "artwork_description_150w_long": [""],
+            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these seris of short talks fellows will share their research and offer you the chance to get involved.<br><br><em>Event co-prduced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
+            "details": {
+                "filterOnline": "online",
+                "filterType": "event",
+                "filterWeek": "week-3",
+                "day": "",
+                "date": ["12th"],
+                "time": "13:00-14:00",
+                "location": "Online",
+                "practicalInfo": "",
+                "actionText": "Booking coming soon",
+                "actionLink": "addlink"
+            },
+            "image": {
+                "url": "swctn_artwork_WEB.png",
+                "alt": "Image from SWCTN research"
+            }
+        },
+        "social_media": {
+            "twitter": "https://twitter.com/SW_CTN",
+            "website": "https://www.swctn.org.uk/journal/",
+            "instagram": "https://www.instagram.com/swctn/"
+        }
+    },
+    
+    
+    
     {
         "id": 14,
         "artist": {
@@ -985,50 +1030,9 @@
             "twitter": "https://twitter.com/SarahSelbyArt",
             "twitterTwo": "https://twitter.com/timkindberg"
         }
-    },
+    }
     
-          {
-        "id": 20,
-        "artist": {
-            "name": "SWCTN Fellows",
-            "bio_100w": ["The South West Creative Technology Network (SWCTN) supports research and development in emerging technologies. Each year, the SWCTN team curates a cohort of fellows to collectively explore what is new, challenging and possible across the themes of Immersion, Automation and Data. SWCTN is underpinned by the concept and practice of ‘cultural ecology’, by cultivating and connecting diverse networks of people, places, communities and resources across the South West. "],
-            "image": [
-                {
-                    "url": "",
-                    "alt": ""
-            }
-            ]
-        },
-        "artwork": {
-            "artwork_name": "SWCTN + Data",
-            "artwork_type":"Short talks",
-            "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
-            "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these seris of short talks fellows will share their research and offer you the chance to get involved.<br><br><em>Event co-prduced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
-            "details": {
-                "filterOnline": "online",
-                "filterType": "event",
-                "filterWeek": "week-3",
-                "day": "",
-                "date": ["12th"],
-                "time": "13:00-14:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Booking coming soon",
-                "actionLink": "addlink"
-            },
-            "image": {
-                "url": "swctn_artwork_WEB.png",
-                "alt": "Image from SWCTN research"
-            }
-        },
-        "social_media": {
-            "twitter": "https://twitter.com/SW_CTN",
-            "website": "https://www.swctn.org.uk/journal/",
-            "instagram": "https://www.instagram.com/swctn/"
-        }
-    } 
-    
+      
     
 
 
