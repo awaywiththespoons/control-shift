@@ -146,6 +146,9 @@ a.dropdown-item:hover {
 }
 
 #sketch-container {
+    background-image: url("../img/banner-temp.png");
+    background-size: cover;
+
     height: 500px;
     overflow: hidden;
 }
