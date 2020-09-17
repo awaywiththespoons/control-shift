@@ -99,6 +99,8 @@ function createModal() {
                     $( "#middleContainer" ).removeClass( "border-sides" );
                     $( "#middleContainer" ).addClass( "border-left " );
                 }
+                // empty container to get rid of previous appended elements
+                $("#aboutArtist").empty();
                 // Artist Info: loop through array of artist bio - print new string as a <p> so displays on new line
                 for (let i = 0; i < data[id].artist.bio_100w.length; i++) {
                     let mainContainer = document.getElementById("aboutArtist");
