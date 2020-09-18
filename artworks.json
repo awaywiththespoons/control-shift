@@ -227,11 +227,11 @@
                 "time": "& at your own pace",
                 "location": "Online and Arnolfini",
                 "practicalInfo": "",
-                "actionText": "Watch online soon",
-                "actionLink": "addlink"
+                "actionText": "Book showing at the Arnolfini",
+                "actionLink": "https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/"
             },
             "image": {
-                "url": "film_artwork_WEB.png",
+                "url": "film-new-image.png",
                 "alt": "Man and digital hard drive"
             }
         },
@@ -642,8 +642,8 @@
                 "time": "18:00-19:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Watch online soon",
-                "actionLink": "addlink"
+                "actionText": "Watch online",
+                "actionLink": "https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/"
             },
             "image": {
                 "url": "film-QA_artwork_WEB.png",
