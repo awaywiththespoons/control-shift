@@ -217,7 +217,7 @@
             "artwork_type": "Programme of short films",
             "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction.",
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
-            "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.<br><br><em>Films will be online throughtout the Control Shift programme, and at Arnolfini on 10th & 11th October 12-5pm</em>",
+            "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.<br><br><em>Films will be online throughout the Control Shift programme, and at Arnolfini on 10th & 11th October 12-5pm</em>",
             "details": {
                 "filterOnline": "online person",
                 "filterType": "watchlisten event",
@@ -231,7 +231,7 @@
                 "actionLink": "https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/"
             },
             "image": {
-                "url": "film-new-image.png",
+                "url": "film_artwork_WEB.png",
                 "alt": "Man and digital hard drive"
             }
         },
@@ -642,11 +642,11 @@
                 "time": "18:00-19:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Watch online",
-                "actionLink": "https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/"
+                "actionText": "Watch online soon",
+                "actionLink": "addlink"
             },
             "image": {
-                "url": "film-QA_artwork_WEB.png",
+                "url": "film-new-image.png",
                 "alt": "Date and text subtitles"
             }
         },
