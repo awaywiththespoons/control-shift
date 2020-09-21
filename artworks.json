@@ -182,11 +182,11 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": [""],
-                "time": "",
-                "location": "Bristol City Centre",
+                "date": ["2nd - 18th"],
+                "time": "Mon - Sat 11:00 - 16:00",
+                "location": "Central Library, Bristol, BS1 5TL",
                 "practicalInfo": "Family Friendly",
-                "actionText": "Booking coming soon",
+                "actionText": "No booking necessary",
                 "actionLink": "addlink"
             },
             "image": {
@@ -227,7 +227,7 @@
                 "time": "& at your own pace",
                 "location": "Online and Arnolfini",
                 "practicalInfo": "",
-                "actionText": "Book showing at the Arnolfini",
+                "actionText": "Book screening at the Arnolfini",
                 "actionLink": "https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/"
             },
             "image": {
