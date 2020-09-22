@@ -396,8 +396,8 @@
                 "time": "13:00-14:00",
                 "location": "Online",
                 "practicalInfo": "Family Friendly",
-                "actionText": "Watch online soon",
-                "actionLink": "addlink"
+                "actionText": "Watch online",
+                "actionLink": "https://www.watershed.co.uk/studio/events/2020/10/02/data-poetics"
             },
             "image": {
                 "url": "this-city-is-talk_Artwork_WEB.png",
@@ -670,7 +670,7 @@
         },
         "artwork": {
             "artwork_name": "Live Coding Visuals",
-            "artwork_type": "WORKSHOP",
+            "artwork_type": "Workshop",
             "artwork_description_line": "Live coding visuals workshop using Improviz",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using <a href='https://improviz.rumblesan.com' target='_blank'>Improviz</a> for live visuals.",
@@ -882,7 +882,7 @@
         },
         "artwork": {
             "artwork_name": "Alt-Text as Poetry",
-            "artwork_type": "WORKSHOP",
+            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop for creating “alt-text” poetry",
             "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a  target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
             "artwork_description_50w_short": "Alt-text is an essential part of the internet, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. Alt-text is often overlooked and vivid images are written as dull one-liners. In this workshop we will create alt-text poetry, and practice writing thoughtful and creative texts together.<br><br><em>Access Information<br>The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a href='mailto:studio@shannonfinnegan.com' target='_blank'>studio@shannonfinnegan.com</a>.</em>",
@@ -923,10 +923,10 @@
         },
         "artwork": {
             "artwork_name": "MIAU ID",
-            "artwork_type": "WORKSHOP",
-            "artwork_description_line": "Workshop exploring network purrtocols (protocols) from the perspective of cats",
+            "artwork_type": "Workshop",
+            "artwork_description_line": "Workshop exploring network through embroidery whilst playing cats!",
             "artwork_description_150w_long": ["In MIAU ID, the cats of the internet gather to decide upon a network structure that's good for every cat! In this online workshop, the game is played by a group of around 15 cats (people). Stitching on an embroidery hoop / yarn network, each cat has a specific ID and transmits messages. Through 'miauing' the cats address each other, as they perform different rules on different networks: Centralized, Decentralized and Distributed. Depending on the purrotcols (protocols) of the network, they weave different patterns.", "By embodying networks, cats explore the politics of centralization, but also P2P networks and sharing. Thus it becomes possible to question the hard-wired power relations embedded within internet infrastructures. Cats shift control by making technical specificities accessible in play and through practicing that there are as many teachers as there are cats (people) in the room. This creates space to understand why the internet can be 'shut down' and to consider alternative infrastructures. MIAU ID is playable by people of any age and accessible towards those with variable mobility, neurodiverse peoples and hearing impaired peoples. We would love to be in touch with any peoples who have other accessibility concerns.", "Note: there is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and have bursaries available."],
-            "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! Using yarn, we will play as cats and address each other via different rules. On our agenda are three network types: Centralized, Decentralized and Distributed. Let us find out about these network's purrtocols (protocols)! <br><br><em>There is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and we have bursaries available.</em>",
+            "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! On our agenda are three network types: Centralized, Decentralized and Distributed. In this embroidery workshop, we will play as cats and address each other via different rules. Let us find out about these network's purrtocols (protocols) together online, through the act of sewing.<br><br><em>There is a small cost for this workshop that covers materials (custom printed fabric designed by the artists, embroidery hoop, needle and thread) and postage if you live outside of Bristol. We do not want this to put anyone off joining, and have bursaries available.</em>",
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop",
@@ -963,7 +963,7 @@
         },
         "artwork": {
             "artwork_name": "Art, Code and a Bowl of Fruit",
-            "artwork_type": "WORKSHOP",
+            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop to make coding tools to draw still-life",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "Come join us for a workshop of creative coding and art! In the first hour you will program your own drawing tool, in the second hour you will be doing some life-drawing with your new tool. Absolutely no art or coding skills are required for this workshop, only a sense of fun and an open mind!",
