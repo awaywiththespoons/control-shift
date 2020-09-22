@@ -62,11 +62,11 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": [""],
+                "date": ["2nd", "3rd", "4th","9th", "10th", "11th", "16th", "17th", "18th"],
                 "time": "",
-                "location": "Bristol City Centre",
+                "location": "Unit BG29, The Galleries, Street level entrance, off Merchant St, BS1 3XD",
                 "practicalInfo": "Family Friendly",
-                "actionText": "Booking coming soon",
+                "actionText": "No booking neccessary",
                 "actionLink": "addlink"
             },
             "image": {
@@ -182,11 +182,11 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": [""],
-                "time": "",
-                "location": "Bristol City Centre",
+                "date": ["3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th", "13th", "14th", "15th", "16th", "17th", "18th"],
+                "time": "11:00-16:00",
+                "location": "Central Library, Bristol, BS1 5TL",
                 "practicalInfo": "Family Friendly",
-                "actionText": "Booking coming soon",
+                "actionText": "No booking neccessary",
                 "actionLink": "addlink"
             },
             "image": {
@@ -217,7 +217,7 @@
             "artwork_type": "Programme of short films",
             "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction.",
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
-            "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.<br><br><em>Films will be online throughtout the Control Shift programme, and at Arnolfini on 10th & 11th October 12-5pm</em>",
+            "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.<br><br><em>Films will be online throughout the Control Shift programme, and at Arnolfini on 10th & 11th October 12-5pm</em>",
             "details": {
                 "filterOnline": "online person",
                 "filterType": "watchlisten event",
@@ -227,8 +227,8 @@
                 "time": "& at your own pace",
                 "location": "Online and Arnolfini",
                 "practicalInfo": "",
-                "actionText": "Watch online soon",
-                "actionLink": "addlink"
+                "actionText": "Book screening at the Arnolfini",
+                "actionLink": "https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/"
             },
             "image": {
                 "url": "film_artwork_WEB.png",
@@ -308,11 +308,11 @@
                 "filterType": "exhibition",
                 "filterWeek": "week-1",
                 "day": "Saturday",
-                "date": [""],
+                "date": ["2nd", "3rd", "4th","9th", "10th", "11th", "16th", "17th", "18th"],
                 "time": "",
-                "location": "Bristol City Centre",
+                "location": "Unit BG29, The Galleries, Street level entrance, off Merchant St, BS1 3XD",
                 "practicalInfo": "Family Friendly",
-                "actionText": "Booking info coming soon",
+                "actionText": "No booking neccessary",
                 "actionLink": "addlink"
             },
             "image": {
@@ -498,9 +498,9 @@
         "artist": {
             "name": "DANAE and Annika Kappner",
             "bio_100w": ["<a href = 'https://digitalwitchcraft.works/Institute' target='_blank'>DANAE</a> is a Chilean working-class feminist writer, multimedia artist and technologist based in Rotterdam. She is a lecturer of Hacking and Autonomous Practices at the Willem de Kooning Academy in Rotterdam and the founder of The Digital Witchcraft Institute, an artistic-research organization that develops advanced and non-conforming digital technologies for posthuman futures. In the past, Danae has been a fellow of the Mozilla Foundation and has led several interdisciplinary projects in activist organizations dedicated to technology and human rights in the US, Brazil and Chile. She has presented her work in places such as Kyoto, Havana, San Francisco, Tunisia, London, Honolulu. She has also published in magazines, academic journals and outlets of creative non-fiction. She is currently writing a thesis on masochism and artificial intelligence.",
-            "<br>",
-            "<a href='http://annikakappner.com/' target='_blank>Annika</a> creates multi-sensory compositions in the extended field of painting, combining installation, sculpture, sound and performance to create glitches in perception. Prompted by her experience as an investment banker, her work is interested in the evolution of consciousness, the shifting perception of (self) image in relation to mental patterns and the underlying forces that shape their systemic counterparts in nature, visual arts, technology and science. She seeks to add experiential perspectives of the contemporary relationship between human, nature and technology, addressing concepts of non-duality and otherness. She is a co-founder of the multi-disciplinary artist collective Elephants & Volcanoes."],
-            "image": [
+                "<br>",
+               "<a href = 'http://annikakappner.com/' target='_blank'>Annika</a> creates multi-sensory compositions in the extended field of painting, combining installation, sculpture, sound and performance to create glitches in perception. Prompted by her experience as an investment banker, her work is interested in the evolution of consciousness, the shifting perception of (self) image in relation to mental patterns and the underlying forces that shape their systemic counterparts in nature, visual arts, technology and science. She seeks to add experiential perspectives of the contemporary relationship between human, nature and technology, addressing concepts of non-duality and otherness. She is a co-founder of the multi-disciplinary artist collective Elephants & Volcanoes."],           
+                "image": [
                 {
                     "url": "",
                     "alt": ""
@@ -646,7 +646,7 @@
                 "actionLink": "addlink"
             },
             "image": {
-                "url": "film-QA_artwork_WEB.png",
+                "url": "film-new-image.png",
                 "alt": "Date and text subtitles"
             }
         },
