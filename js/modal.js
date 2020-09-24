@@ -80,7 +80,7 @@ function createModal() {
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
                 }
-                else if (data[id].artwork.artwork_name == "Needlework Probes") {
+                else if (data[id].artwork.artwork_name == "Electronic Needlework") {
                     infoModal.find('.when-text').text("3-18 Oct, 11:00 - 16:00 Daily");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
