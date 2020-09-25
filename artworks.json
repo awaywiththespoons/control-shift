@@ -62,9 +62,9 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": ["2nd", "3rd", "4th","9th", "10th", "11th", "16th", "17th", "18th"],
+                "date": ["2nd", "3rd", "4th", "9th", "10th", "11th", "16th", "17th", "18th"],
                 "time": "",
-                "location": "Unit BG29, The Galleries, Street level entrance, off Merchant St, BS1 3XD",
+                "location": "Central Bristol",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -199,12 +199,19 @@
             "instagram": "http://www.instagram.com/ireneposch"
         }
     },
-    
-     {
+
+    {
         "id": 12,
         "artist": {
             "name": "Russel Hlongwane",
-            "bio_100w": ["Russel Hlongwane is a cultural producer and creative industries consultant based in Durban, South Africa. His work obsesses over the tensions in Heritage/ Modernity and Culture/Tradition as it applies to black life. His practice includes cultural research, creative producing, design, film and curatorship. He is part of a number of working groups spread across the Southern African Region, the African continent more broadly and internationally. He has shown work in Munich, Marrakech, Maputo, Karlsruhe, Harare, Bristol, Tokyo as well as throughout South Africa."],
+            "bio_100w": ["Russel Hlongwane is a cultural producer and creative industries consultant based in Durban, South Africa. His work obsesses over the tensions in Heritage/ Modernity and Culture/Tradition as it applies to black life. His practice includes cultural research, creative producing, design, film and curatorship. He is part of a number of working groups spread across the Southern African Region, the African continent more broadly and internationally. He has shown work in Munich, Marrakech, Maputo, Karlsruhe, Harare, Bristol, Tokyo as well as throughout South Africa.",
+            "<br>",
+            "<strong>About the filmmakers</strong>",
+            "<a href = 'http://www.dilmandila.com/' target='_blank'>Dilman Dila</a> is author of a critically acclaimed collection of short stories, A Killing in the Sun. He has been shortlisted for the Commonwealth Short Story Prize (2013) and for the Nommo Awards for Best Novella (2017), and long listed for the BBC International Radio Playwriting Competition (2014), among other accolades. His short fiction have featured in several anthologies, and his films include What Happened in Room 13 (2007) and The Felistas Fable (2013), which was nominated for Best First Feature by a Director at AMAA (2014).",
+            "<br>",
+            "<a href = 'https://www.tabitarezaire.com/' target='_blank'>Tabita Rezaire</a> is an artist-healer-seeker working with screens and energy streams. Her cross-dimensional practice envisions network sciences - organic, electronic and spiritual - as healing technologies to serve the shift towards heart consciousness. Navigating digital, corporeal and ancestral memory as sites of struggles, she digs into scientific imaginaries to tackle the pervasive matrix of coloniality that affect the songs of our body-mind-spirits. Tabita is based in Cayenne, French Guiana.",
+            "<br>",
+            "<a href = 'www.francoisknoetze.com' target='_blank'>Francois Knoetze</a> is a Cape Town based performance artist, sculptor and filmmaker known for his sculptural suits and experimental video art. He was an Africa Centre Resident and 2016 laureate of the Nafasi Art Space Artist-In-Residence Programme (Dar es Salaam); and attended the OMI International Art Center Residency Programme (New York) in 2017. In 2018 he participated in Cosmopolis 1.5: Enlarged Intelligence (Chengdu) hosted by the Pompidou Centre, as well as Digital Imaginaries - Africas in Production at ZKM, Germany. In 2019 his work was exhibited at the Pompidou Centre as part of Cosmopolis #2. He is a recipient of Hivos' Digital Earth Fellowship 2019"],
             "image": [
                 {
                     "url": "",
@@ -241,7 +248,7 @@
             "twitter": "https://twitter.com/RusselHlongwane"
         }
     },
-    
+
     {
         "id": 5,
         "artist": {
@@ -308,9 +315,9 @@
                 "filterType": "exhibition",
                 "filterWeek": "week-1",
                 "day": "Saturday",
-                "date": ["2nd", "3rd", "4th","9th", "10th", "11th", "16th", "17th", "18th"],
+                "date": ["2nd", "3rd", "4th", "9th", "10th", "11th", "16th", "17th", "18th"],
                 "time": "",
-                "location": "Unit BG29, The Galleries, Street level entrance, off Merchant St, BS1 3XD",
+                "location": "The Galleries, Street level entrance, off Merchant St, BS1 3XD",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -499,8 +506,8 @@
             "name": "DANAE and Annika Kappner",
             "bio_100w": ["<a href = 'https://digitalwitchcraft.works/Institute' target='_blank'>DANAE</a> is a Chilean working-class feminist writer, multimedia artist and technologist based in Rotterdam. She is a lecturer of Hacking and Autonomous Practices at the Willem de Kooning Academy in Rotterdam and the founder of The Digital Witchcraft Institute, an artistic-research organization that develops advanced and non-conforming digital technologies for posthuman futures. In the past, Danae has been a fellow of the Mozilla Foundation and has led several interdisciplinary projects in activist organizations dedicated to technology and human rights in the US, Brazil and Chile. She has presented her work in places such as Kyoto, Havana, San Francisco, Tunisia, London, Honolulu. She has also published in magazines, academic journals and outlets of creative non-fiction. She is currently writing a thesis on masochism and artificial intelligence.",
                 "<br>",
-               "<a href = 'http://annikakappner.com/' target='_blank'>Annika</a> creates multi-sensory compositions in the extended field of painting, combining installation, sculpture, sound and performance to create glitches in perception. Prompted by her experience as an investment banker, her work is interested in the evolution of consciousness, the shifting perception of (self) image in relation to mental patterns and the underlying forces that shape their systemic counterparts in nature, visual arts, technology and science. She seeks to add experiential perspectives of the contemporary relationship between human, nature and technology, addressing concepts of non-duality and otherness. She is a co-founder of the multi-disciplinary artist collective Elephants & Volcanoes."],           
-                "image": [
+               "<a href = 'http://annikakappner.com/' target='_blank'>Annika</a> creates multi-sensory compositions in the extended field of painting, combining installation, sculpture, sound and performance to create glitches in perception. Prompted by her experience as an investment banker, her work is interested in the evolution of consciousness, the shifting perception of (self) image in relation to mental patterns and the underlying forces that shape their systemic counterparts in nature, visual arts, technology and science. She seeks to add experiential perspectives of the contemporary relationship between human, nature and technology, addressing concepts of non-duality and otherness. She is a co-founder of the multi-disciplinary artist collective Elephants & Volcanoes."],
+            "image": [
                 {
                     "url": "",
                     "alt": ""
@@ -698,8 +705,8 @@
     },
 
 
-    
-        {
+
+    {
         "id": 20,
         "artist": {
             "name": "SWCTN Fellows",
@@ -713,7 +720,7 @@
         },
         "artwork": {
             "artwork_name": "SWCTN X Data",
-            "artwork_type":"Short talks",
+            "artwork_type": "Short talks",
             "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
             "artwork_description_150w_long": [""],
             "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these series of short talks fellows will share their research and offer you the chance to get involved.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
@@ -740,9 +747,9 @@
             "instagram": "https://www.instagram.com/swctn/"
         }
     },
-    
-    
-    
+
+
+
     {
         "id": 14,
         "artist": {
@@ -1031,9 +1038,9 @@
             "twitterTwo": "https://twitter.com/timkindberg"
         }
     }
-    
-      
-    
+
+
+
 
 
 
