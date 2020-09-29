@@ -75,8 +75,13 @@ function createModal() {
                     infoModal.find('.when-text').text("(also showing at the Arnolfini 10th-11th October, 12noon-17:00)");
                     infoModal.find('.time-text').text("");
                 }
-                else if (data[id].artwork.artwork_name == "Center for Technological Pain" | data[id].artwork.artwork_name == "Face / On") {
+                else if (data[id].artwork.artwork_name == "Center for Technological Pain") {
                     infoModal.find('.when-text').text("Mon-Sat: 10-6pm, Sun: 11-5pm. 3 - 18 Oct");
+                    infoModal.find('.where-text').text(data[id].artwork.details.location);
+                    infoModal.find('.time-text').text("");
+                }
+                else if (data[id].artwork.artwork_name == "Face / On") {
+                    infoModal.find('.when-text').text("Times coming soon");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
                 }
