@@ -72,21 +72,21 @@ function createModal() {
                 // Top Section: When/Where/Time text
                 if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
                     infoModal.find('.where-text').text("Online");
-                    infoModal.find('.when-text').text("(also showing at the Arnolfini 10th-11th October, 12noon-17:00)");
+                    infoModal.find('.when-text').text("(also showing at the Arnolfini 10-11th Oct, 12-17:00)");
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.artwork_name == "Center for Technological Pain") {
-                    infoModal.find('.when-text').text("Mon-Sat: 10-6pm, Sun: 11-5pm. 3 - 18 Oct");
+                    infoModal.find('.when-text').text("2 - 18 Oct, Mon-Sat 10-18:00 / Sun 11-17:00");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.artwork_name == "Face / On") {
-                    infoModal.find('.when-text').text("Times coming soon");
+                    infoModal.find('.when-text').text("2-16 Oct, Wed-Fri 12-19:00");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.artwork_name == "Electronic Needlework") {
-                    infoModal.find('.when-text').text("3-18 Oct, 11:00 - 16:00 Daily");
+                    infoModal.find('.when-text').text("2-18 Oct, daily 11-16:00");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text("");
                 }

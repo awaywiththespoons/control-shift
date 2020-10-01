@@ -27,7 +27,7 @@
                 "location": "online",
                 "practicalInfo": "",
                 "actionText": "Listen online soon",
-                "actionLink": "addlink"
+                "actionLink": "addline"
             },
             "image": {
                 "url": "intervave_artwork_WEB.png",
@@ -62,9 +62,9 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": ["2nd", "3rd", "4th", "9th", "10th", "11th", "16th", "17th", "18th"],
+                "date": ["2nd", "7th", "8th", "9th", "14th", "15th", "16th"],
                 "time": "",
-                "location": "Central Bristol",
+                "location": "The Vestibules, College Green, Bristol BS1 5TR",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -180,15 +180,15 @@
             "artwork_type": "Installation",
             "artwork_description_line": "Installation of textiles and needlework tools adapted for electric engineering",
             "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "Imagine what technologies might be like if they were made by craftswomen. Would they be soft, patched together, or made in social circles? This set of textiles needlework tools have been adapted to be used for electric engineering. They are a tangible provocation on the roles and cultural assumptions of technologies and crafts. What do these tools enable, how, and for whom?",
+            "artwork_description_50w_short": "Imagine what technologies might be like if they were made by craftspeople. Would they be soft, patched together, or made in social circles? This set of textiles needlework tools have been adapted to be used for electric engineering. They are a tangible provocation on the roles and cultural assumptions of technologies and crafts. What do these tools enable, how, and for whom?",
             "details": {
                 "filterOnline": "person",
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": ["3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th", "13th", "14th", "15th", "16th", "17th", "18th"],
-                "time": "11:00-16:00",
-                "location": "Central Library, Bristol, BS1 5TL",
+                "date": ["anytime"],
+                "time": "11-16:00",
+                "location": "Bristol Central Library, BS1 5TL",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -321,7 +321,7 @@
                 "day": "Saturday",
                 "date": ["anytime"],
                 "time": "",
-                "location": "The Galleries, Street level entrance, off Broadmead St, BS1 3XD",
+                "location": "The Galleries, street level entrance, Broadmead, BS1 3XD",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -942,7 +942,7 @@
             "artwork_type": "Workshop",
             "artwork_description_line": "Workshop exploring networks through embroidery whilst playing cats!",
             "artwork_description_150w_long": ["In MIAU ID, the cats of the internet gather to decide upon a network structure that's good for every cat! In this online workshop, the game is played by a group of around 15 cats (people). Stitching on an embroidery hoop / yarn network, each cat has a specific ID and transmits messages. Through 'miauing' the cats address each other, as they perform different rules on different networks: Centralized, Decentralized and Distributed. Depending on the purrotcols (protocols) of the network, they weave different patterns.", "By embodying networks, cats explore the politics of centralization, but also P2P networks and sharing. Thus it becomes possible to question the hard-wired power relations embedded within internet infrastructures. Cats shift control by making technical specificities accessible in play and through practicing that there are as many teachers as there are cats (people) in the room. This creates space to understand why the internet can be 'shut down' and to consider alternative infrastructures. MIAU ID is playable by people of any age and accessible towards those with variable mobility, neurodiverse peoples and hearing impaired peoples. We would love to be in touch with any peoples who have other accessibility concerns.", "Note: there is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and have bursaries available."],
-            "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! On our agenda are three network types: Centralized, Decentralized and Distributed. In this embroidery workshop, we will play as cats and address each other via different rules. Let us find out about these network's purrtocols (protocols) together online, through the act of sewing.<br><br><em>There is a small cost for this workshop that covers materials (custom printed fabric designed by the artists, embroidery hoop, needle and thread) and postage if you live outside of Bristol. We do not want this to put anyone off joining, and have bursaries available.<br><br>Postage cut-off dates:<br> Outside Europe - book by 30 September<br>UK/Europe - book by 7th October<br>If you live in Bristol we'll get in touch about arranging materials pick-up.</em>",
+            "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! On our agenda are three network types: Centralized, Decentralized and Distributed. In this embroidery workshop, we will play as cats and address each other via different rules. Let us find out about these network's purrtocols (protocols) together online, through the act of sewing.<br><br><em>There is a small cost for this workshop that covers materials (custom printed fabric designed by the artists, embroidery hoop, needle and thread) and postage if you live outside of Bristol. We do not want this to put anyone off joining, and have bursaries available.<br><br>Postage cut-off dates:<br> Outside Europe - book by 30 September<br>UK/Europe - book by 6th October<br>If you live in Bristol we'll get in touch about arranging materials pick-up.</em>",
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop",
