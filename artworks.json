@@ -363,8 +363,8 @@
                 "filterWeek": "week-1",
                 "day": "Friday",
                 "date": ["2nd"],
-                "time": "18:00-23:00",
-                "location": "Central Library, Bristol, BS1 5TL",
+                "time": "18:00-late",
+                "location": "Bristol Central Library, BS1 5TL",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking necessary",
                 "actionLink": "addlink"
@@ -408,7 +408,7 @@
                 "location": "Online",
                 "practicalInfo": "Family Friendly",
                 "actionText": "Watch online",
-                "actionLink": "https://www.watershed.co.uk/studio/events/2020/10/02/data-poetics"
+                "actionLink": "https://www.youtube.com/watch?v=t_lkS5Uxx6s&list=PLbP2rruaw4OvyHmG5tYtqgtJ67xIJ5rOf&index=2"
             },
             "image": {
                 "url": "this-city-is-talk_Artwork_WEB.png",
