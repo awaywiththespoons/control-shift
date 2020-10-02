@@ -738,11 +738,11 @@
                 "filterType": "event",
                 "filterWeek": "week-3",
                 "day": "",
-                "date": ["12th"],
+                "date": ["13th"],
                 "time": "13:00-14:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Booking coming soon",
+                "actionText": "Watch soon",
                 "actionLink": "addlink"
             },
             "image": {
