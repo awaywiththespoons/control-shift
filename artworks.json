@@ -186,7 +186,7 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": ["anytime"],
+                "date": ["2nd", "3rd", "5th", "6th", "7th", "8th", "9th", "10th", "12th", "13th", "14th", "15th", "16th", "17th"],
                 "time": "11-16:00",
                 "location": "Bristol Central Library, BS1 5TL",
                 "practicalInfo": "Family Friendly",
