@@ -719,7 +719,7 @@
         "id": 20,
         "artist": {
             "name": "SWCTN Fellows",
-            "bio_100w": ["The South West Creative Technology Network (SWCTN) supports research and development in emerging technologies. Each year, the SWCTN team curates a cohort of fellows to collectively explore what is new, challenging and possible across the themes of Immersion, Automation and Data. SWCTN is underpinned by the concept and practice of ‘cultural ecology’, by cultivating and connecting diverse networks of people, places, communities and resources across the South West. "],
+            "bio_100w": ["The South West Creative Technology Network (SWCTN) supports research and development in emerging technologies. Each year, the SWCTN team curates a cohort of fellows to collectively explore what is new, challenging and possible across the themes of Immersion, Automation and Data. SWCTN is underpinned by the concept and practice of ‘cultural ecology’, by cultivating and connecting diverse networks of people, places, communities and resources across the South West."],
             "image": [
                 {
                     "url": "",
@@ -728,11 +728,11 @@
             ]
         },
         "artwork": {
-            "artwork_name": "SWCTN X Data",
+            "artwork_name": "The Human In Data",
             "artwork_type": "Short talks",
             "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
             "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these series of short talks fellows will share their research and offer you the chance to get involved.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
+            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these short talks SWCTN data fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette will share their research.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
             "details": {
                 "filterOnline": "online",
                 "filterType": "event",
