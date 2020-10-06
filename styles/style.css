@@ -775,3 +775,19 @@ input:-webkit-autofill {
         width: 100%
     }
 }
+
+.activeLink {
+    text-decoration: underline;
+    color: var(--dark-primary)
+}
+
+.activeLink:hover {
+    text-decoration: underline;
+    color: var(--dark-primary)
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}

@@ -53,9 +53,7 @@ function createModal() {
                 infoModal.find('.artwork-type').text(data[id].artwork.artwork_type);
                 // Top Section Artwork call to action 
                 // Only create links with valid urls
-                if (data[id].artwork.details.actionLink != "addlink") {
-                    console.log("real link");
-                    // create booking link
+                if (data[id].artwork.details.actionLink != "addlink") {                    // create booking link
                     let action = document.getElementById('actionLink');
                     action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
                     action.innerHTML = data[id].artwork.details.actionText;
@@ -104,6 +102,15 @@ function createModal() {
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text(data[id].artwork.details.time);
                 } 
+                if (data[id].artwork.details.locationLink) {
+                    infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
+                    infoModal.find('.modal-location-link').addClass("activeLink");
+                    infoModal.find('.modal-location-link').removeClass("inactiveLink")
+                } else {
+                    infoModal.find('.modal-location-link').removeAttr("href");
+                    infoModal.find('.modal-location-link').addClass("inactiveLink")
+                    infoModal.find('.modal-location-link').removeClass("activeLink")
+                }
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
                 if (data[id].artwork.details.practicalInfo != "") {
