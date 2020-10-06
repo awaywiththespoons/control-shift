@@ -12,6 +12,7 @@ $(document).ready(function(){
         $("p.modal-text").remove()
         $("p.about-modal-text").remove()
         $("img").empty()
+        $(".modal-location-link").addClass("inactiveLink")
         history.replaceState(null, null, ' ');
     });
 
@@ -53,9 +54,7 @@ function createModal() {
                 infoModal.find('.artwork-type').text(data[id].artwork.artwork_type);
                 // Top Section Artwork call to action 
                 // Only create links with valid urls
-                if (data[id].artwork.details.actionLink != "addlink") {
-                    console.log("real link");
-                    // create booking link
+                if (data[id].artwork.details.actionLink != "addlink") {                    // create booking link
                     let action = document.getElementById('actionLink');
                     action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
                     action.innerHTML = data[id].artwork.details.actionText;
@@ -84,6 +83,7 @@ function createModal() {
                 else if (data[id].artwork.artwork_name == "Face / On") {
                     infoModal.find('.when-text').text("2-16 Oct, Wed-Fri 12-19:00");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
+                    infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.artwork_name == "Electronic Needlework") {
@@ -103,6 +103,12 @@ function createModal() {
                     infoModal.find('.when-text').text(data[id].artwork.details.date + " October");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text(data[id].artwork.details.time);
+                    if (data[id].artwork.details.locationLink) {
+                        infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
+                        infoModal.find('.modal-location-link').addClass("activeLink")
+                    } else {
+                        infoModal.find('.modal-location-link').addClass("inactiveLink");
+                    }
                 } 
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);

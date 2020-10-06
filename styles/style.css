@@ -775,3 +775,19 @@ input:-webkit-autofill {
         width: 100%
     }
 }
+
+.modal-location-link {
+    text-decoration: underline;
+    color: var(--dark-primary)
+}
+
+.modal-location-link:hover {
+    text-decoration: underline;
+    color: var(--dark-primary)
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
