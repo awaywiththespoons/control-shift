@@ -777,8 +777,8 @@ input:-webkit-autofill {
 }
 
 .activeLink {
-    text-decoration: underline;
-    color: var(--dark-primary)
+    text-decoration: underline !important;
+    color: var(--dark-primary) !important;
 }
 
 .activeLink:hover {
