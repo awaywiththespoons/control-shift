@@ -109,7 +109,7 @@ function createModal() {
                 } else {
                     infoModal.find('.modal-location-link').removeAttr("href");
                     infoModal.find('.modal-location-link').addClass("inactiveLink")
-                    infoModal.find('.modal-location-link').removeClass("inactiveLink")
+                    infoModal.find('.modal-location-link').removeClass("activeLink")
                 }
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
