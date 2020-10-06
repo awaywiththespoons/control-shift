@@ -776,12 +776,12 @@ input:-webkit-autofill {
     }
 }
 
-.modal-location-link {
+.activeLink {
     text-decoration: underline;
     color: var(--dark-primary)
 }
 
-.modal-location-link:hover {
+.activeLink:hover {
     text-decoration: underline;
     color: var(--dark-primary)
 }

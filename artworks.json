@@ -65,7 +65,7 @@
                 "date": ["2nd", "7th", "8th", "9th", "14th", "15th", "16th"],
                 "time": "",
                 "location": "The Vestibules, College Green, Bristol BS1 5TR",
-                "locationLink": "ADD LINK",
+                "locationLink": "https://goo.gl/maps/5YCxrPwfaAw2Aa4dA",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -190,7 +190,6 @@
                 "date": ["2nd", "3rd", "5th", "6th", "7th", "8th", "9th", "10th", "12th", "13th", "14th", "15th", "16th", "17th"],
                 "time": "11-16:00",
                 "location": "Bristol Central Library, BS1 5TL",
-                "locationLink": "ADD LINK",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"

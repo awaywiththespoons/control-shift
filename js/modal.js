@@ -12,7 +12,6 @@ $(document).ready(function(){
         $("p.modal-text").remove()
         $("p.about-modal-text").remove()
         $("img").empty()
-        $(".modal-location-link").addClass("inactiveLink")
         history.replaceState(null, null, ' ');
     });
 
@@ -103,13 +102,16 @@ function createModal() {
                     infoModal.find('.when-text').text(data[id].artwork.details.date + " October");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
                     infoModal.find('.time-text').text(data[id].artwork.details.time);
-                    if (data[id].artwork.details.locationLink) {
-                        infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
-                        infoModal.find('.modal-location-link').addClass("activeLink")
-                    } else {
-                        infoModal.find('.modal-location-link').addClass("inactiveLink");
-                    }
                 } 
+                if (data[id].artwork.details.locationLink) {
+                    infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
+                    infoModal.find('.modal-location-link').addClass("activeLink");
+                    infoModal.find('.modal-location-link').removeClass("inactiveLink")
+                } else {
+                    infoModal.find('.modal-location-link').removeAttr("href");
+                    infoModal.find('.modal-location-link').addClass("inactiveLink")
+                    infoModal.find('.modal-location-link').removeClass("inactiveLink")
+                }
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
                 if (data[id].artwork.details.practicalInfo != "") {
