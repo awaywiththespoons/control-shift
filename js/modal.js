@@ -11,6 +11,7 @@ $(document).ready(function(){
         $(this).modal('dispose');
         $("p.modal-text").remove()
         $("p.about-modal-text").remove()
+        $("img").hide()
         history.replaceState(null, null, ' ');
     });
 
