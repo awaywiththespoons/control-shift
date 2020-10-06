@@ -82,7 +82,6 @@ function createModal() {
                 else if (data[id].artwork.artwork_name == "Face / On") {
                     infoModal.find('.when-text').text("2-16 Oct, Wed-Fri 12-19:00");
                     infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.artwork_name == "Electronic Needlework") {
