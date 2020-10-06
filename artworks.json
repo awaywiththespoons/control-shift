@@ -65,6 +65,7 @@
                 "date": ["2nd", "7th", "8th", "9th", "14th", "15th", "16th"],
                 "time": "",
                 "location": "The Vestibules, College Green, Bristol BS1 5TR",
+                "locationLink": "https://goo.gl/maps/5YCxrPwfaAw2Aa4dA",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
