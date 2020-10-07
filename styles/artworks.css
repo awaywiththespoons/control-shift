@@ -537,6 +537,7 @@ a:hover.mainLinkText {
     font-family: var(--font-paragraph-modal);
     margin-bottom: 0px;
     padding: 5px;
+    text-decoration: underline;
 }
 
 /* border under date in box */
@@ -624,6 +625,7 @@ a:hover.mainLinkText {
     font-family: var(--font-paragraph-modal);
     padding: 20px;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 
 

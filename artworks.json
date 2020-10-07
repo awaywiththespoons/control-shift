@@ -65,6 +65,7 @@
                 "date": ["2nd", "7th", "8th", "9th", "14th", "15th", "16th"],
                 "time": "",
                 "location": "The Vestibules, College Green, Bristol BS1 5TR",
+                "locationLink": "https://goo.gl/maps/5YCxrPwfaAw2Aa4dA",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -186,9 +187,10 @@
                 "filterType": "exhibition",
                 "filterWeek": "anytime",
                 "day": "",
-                "date": ["anytime"],
+                "date": ["2nd", "3rd", "5th", "6th", "7th", "8th", "9th", "10th", "12th", "13th", "14th", "15th", "16th", "17th"],
                 "time": "11-16:00",
                 "location": "Bristol Central Library, BS1 5TL",
+                "locationLink": "https://goo.gl/maps/uCobsNaiWcwRwtXm9",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -237,6 +239,7 @@
                 "date": ["10th", "11th", "anytime"],
                 "time": "& at your own pace",
                 "location": "Online and Arnolfini",
+                "locationLink": "https://g.page/arnolfiniarts?share",
                 "practicalInfo": "",
                 "actionText": "Watch online",
                 "actionLink": "https://www.youtube.com/playlist?list=PL1FKQP9-RTSwMvmKScAfaP-L7VQMU6eIO"
@@ -322,6 +325,7 @@
                 "date": ["anytime"],
                 "time": "",
                 "location": "The Galleries, street level entrance, Broadmead, BS1 3XD",
+                "locationLink": "https://goo.gl/maps/UTB1bshTzP25jqLE6",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking neccessary",
                 "actionLink": "addlink"
@@ -365,6 +369,7 @@
                 "date": ["2nd"],
                 "time": "18:00-late",
                 "location": "Bristol Central Library, BS1 5TL",
+                "locationLink": "https://goo.gl/maps/uCobsNaiWcwRwtXm9",
                 "practicalInfo": "Family Friendly",
                 "actionText": "No booking necessary",
                 "actionLink": "addlink"
@@ -571,7 +576,8 @@
                 "day": "Monday",
                 "date": ["10th"],
                 "time": "11-12:30 / 14-15:30",
-                "location": "Bristol Harbourside",
+                "location": "Harbour Masters Office, 24 Cumberland Rd, Bristol Harbourside, Bristol BS1 6XG",
+                "locationLink": "https://goo.gl/maps/TtwwzrM92RRD5U1H7",
                 "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.co.uk/e/deep-listening-by-kathy-hinde-registration-120502687783"
@@ -612,7 +618,8 @@
                 "day": "Saturday",
                 "date": ["10th"],
                 "time": "11-12noon / 14-15:00",
-                "location": "Brandon Hill, Bristol",
+                "location": "Brandon Hill, Bristol, BS8 1HJ",
+                "locationLink": "https://goo.gl/maps/hp2JrnCfAmk1ZRta6",
                 "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.com/e/120508182217"
@@ -1032,6 +1039,7 @@
                 "date": ["18th"],
                 "time": "Various times from 18:00",
                 "location": "Ashton Court Mansion, Bristol, BS41 9JN",
+                "locationLink": "https://goo.gl/maps/QYSyqS2XEvy63jjx5",
                 "practicalInfo": "",
                 "actionText": "Book Now",
                 "actionLink": "https://www.eventbrite.co.uk/e/the-departed-by-sarah-selby-and-tim-kindburg-registration-121405823085"
