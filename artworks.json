@@ -658,8 +658,8 @@
                 "time": "18:00-19:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Watch online soon",
-                "actionLink": "addlink"
+                "actionText": "Watch online",
+                "actionLink": "https://www.youtube.com/watch?v=N7UmalH1w1Q"
             },
             "image": {
                 "url": "film-new-image.png",
