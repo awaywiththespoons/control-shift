@@ -735,11 +735,11 @@
             ]
         },
         "artwork": {
-            "artwork_name": "The Human In Data",
+            "artwork_name": "Critical Voices in Data",
             "artwork_type": "Short talks",
             "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
             "artwork_description_150w_long": [""],
-            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through these short talks SWCTN data fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette will share their research.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
+            "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through a set of petcha kucha talks SWCTN data fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette will share their research and look at data collecting through critical eyes.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
             "details": {
                 "filterOnline": "online",
                 "filterType": "event",
@@ -749,8 +749,8 @@
                 "time": "13:00-14:00",
                 "location": "Online",
                 "practicalInfo": "",
-                "actionText": "Watch soon",
-                "actionLink": "addlink"
+                "actionText": "Watch online",
+                "actionLink": "https://www.youtube.com/watch?v=OQSzLevGGxM"
             },
             "image": {
                 "url": "swctn_artwork_WEB.png",
