@@ -138,13 +138,7 @@ function createModal() {
                 let mainContainer = document.getElementById("aboutArtwork");
                 var p = document.createElement('p');
                 p.setAttribute("class", "modal-text text" + data[id].id);
-                if (data[id].artwork.artwork_name == "The Departed") {
-                    p.innerHTML = 'The Departed live stream<br><br>The seance begins at 6pm UK time<br><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/bOyNInUyqV4?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>'+ data[id].artwork.artwork_description_50w_short;
-                }
-                else {
-                    p.innerHTML = data[id].artwork.artwork_description_50w_short;
-                };
-                //p.innerHTML = data[id].artwork.artwork_description_50w_short;
+                p.innerHTML = data[id].artwork.artwork_description_50w_short;
                 mainContainer.appendChild(p);       
                 // SOCIAL MEDIA SECTION
                 // If no social media accounts in json, then hide div
