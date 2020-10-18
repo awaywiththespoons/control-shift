@@ -70,8 +70,8 @@ function createModal() {
                 };
                 // Top Section: When/Where/Time text
                 if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
-                    infoModal.find('.where-text').text("Online");
-                    infoModal.find('.when-text').text("(also showing at the Arnolfini 10-11th Oct, 12-17:00)");
+                    infoModal.find('.where-text').text("Online and at the Arnolfini, 16 Narrow Quay, Bristol BS1 4QA");
+                    infoModal.find('.when-text').text("(10-11th Oct, 12-17:00)");
                     infoModal.find('.time-text').text("");
                 }
                 else if (data[id].artwork.artwork_name == "Center for Technological Pain") {
@@ -138,7 +138,13 @@ function createModal() {
                 let mainContainer = document.getElementById("aboutArtwork");
                 var p = document.createElement('p');
                 p.setAttribute("class", "modal-text text" + data[id].id);
-                p.innerHTML = data[id].artwork.artwork_description_50w_short;
+                if (data[id].artwork.artwork_name == "The Departed") {
+                    p.innerHTML = 'The Departed live stream<br><br>The seance begins at 6pm UK time<br><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/bOyNInUyqV4?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>'+ data[id].artwork.artwork_description_50w_short;
+                }
+                else {
+                    p.innerHTML = data[id].artwork.artwork_description_50w_short;
+                };
+                //p.innerHTML = data[id].artwork.artwork_description_50w_short;
                 mainContainer.appendChild(p);       
                 // SOCIAL MEDIA SECTION
                 // If no social media accounts in json, then hide div
