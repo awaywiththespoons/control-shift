@@ -8,7 +8,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="index.html">home</a>
-                <a class="nav-item nav-link" href="programme.html">programme</a>
+                <!-- <a class="nav-item nav-link" href="programme.html">programme</a> -->
+                <a class="nav-item nav-link" href="archive.html">archive</a>
                 <a class="nav-item nav-link" href="calendar.html">calendar</a>
                 <a class="nav-item nav-link" href="about.html">about</a>
                 <a class="nav-item nav-link" href="contact.html">contact</a>
@@ -22,6 +23,14 @@
         $('nav.navbar a').filter(function() {
             return this.href == url;
         }).addClass('active');
+
+        // if in 2020 archive folder add ../
+        if (url.href.includes("2020")) {
+            $('nav.navbar a').each(function(){
+                let str = this.getAttribute('href');
+                this.setAttribute('href', "../"+str);
+            });
+        };
     });
 
     const menuBtn = document.querySelector('.menu-btn');
