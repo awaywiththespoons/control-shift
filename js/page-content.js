@@ -39,26 +39,7 @@ function createPage() {
                 // Set modal image 
                 var x = document.getElementById("modalImage");
                 x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
-                // Top Section Artwork TYPE
-                infoModal.find('.artwork-type').text(data[id].artwork.artwork_type);
-                // Top Section Artwork call to action 
-                // Only create links with valid urls
-                if (data[id].artwork.details.actionLink != "addlink") {                    // create booking link
-                    let action = document.getElementById('actionLink');
-                    action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
-                    action.innerHTML = data[id].artwork.details.actionText;
-                    document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
-                    // hide susbtitue booking text
-                    $(".bookingOpensText" ).hide();
-                    $("#actionLink" ).show();
-                } else {
-                    // create coming soon 
-                    document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
-                    // hide booking link
-                    $("#actionLink" ).hide();
-                    $(".bookingOpensText" ).show();
-                };
-               
+
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
                 if (data[id].artwork.details.practicalInfo != "") {
