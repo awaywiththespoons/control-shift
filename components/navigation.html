@@ -19,13 +19,15 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        var url = window.location;
+        let url = window.location;
         $('nav.navbar a').filter(function() {
             return this.href == url;
         }).addClass('active');
+        if (url.href.includes("programme") || url.href.includes("artwork")) {
+            $('nav.navbar a[href="archive.html"]').addClass('active');
+        }
 
         // if in 2020 archive folder add ../
-
         var splitUrl = String(url).split("/");
         console.log(splitUrl[splitUrl.length-2]);
         // in directory if second to last item is not control-shift 
@@ -33,7 +35,6 @@
             $('nav.navbar a').each(function(){
                 let str = this.getAttribute('href');
                 this.setAttribute('href', "../"+str);
-                $('nav.navbar a[href="archive.html"]').addClass('active');
             });
         };
     });
