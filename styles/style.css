@@ -96,7 +96,7 @@ a:hover {
 
 
 
-p a {
+p a, h1 a {
     text-decoration: none;
     color: var(--dark-primary);
     border-bottom: 1px solid var(--mid-primary);
