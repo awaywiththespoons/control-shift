@@ -107,3 +107,18 @@
      <!-- Footer Text -->
 
  </footer>
+ <script>
+var url = String(window.location);
+var splitUrl = url.split("/");
+console.log(splitUrl[splitUrl.length-2]);
+// in directory if second to last item is not control-shift 
+if (splitUrl[splitUrl.length-2].includes("control-shift") == false) {
+    $('.logos img').each(function(){
+        let str = this.getAttribute('src');
+        this.setAttribute('src', "../"+str);
+        
+    });
+};
+</script>
+
+
