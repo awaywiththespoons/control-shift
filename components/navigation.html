@@ -25,10 +25,15 @@
         }).addClass('active');
 
         // if in 2020 archive folder add ../
-        if (url.href.includes("2020")) {
+
+        var splitUrl = String(url).split("/");
+        console.log(splitUrl[splitUrl.length-2]);
+        // in directory if second to last item is not control-shift 
+        if (splitUrl[splitUrl.length-2].includes("control-shift") == false) {
             $('nav.navbar a').each(function(){
                 let str = this.getAttribute('href');
                 this.setAttribute('href', "../"+str);
+                $('nav.navbar a[href="archive.html"]').addClass('active');
             });
         };
     });
