@@ -2,28 +2,12 @@
 // wait for page load
 $(document).ready(function(){
     // run on page load
-    createModal();
-
-    // listen...
-    // remove hash value when modal closes
-    $("#infoModal").on("hidden.bs.modal", function (e) {
-        e.preventDefault();
-        $(this).modal('dispose');
-        $("p.modal-text").remove()
-        $("p.about-modal-text").remove()
-        $("img").empty()
-        history.replaceState(null, null, ' ');
-    });
-
-    // listen for hash to change
-    $(window).bind('hashchange', function() {
-         createModal();
-    });
+    createPage();
 });
 
 // create and show modal
 // function to populate modal with artist info from json file, matching the url to the id
-function createModal() {
+function createPage() {
     // clicking on the thumbnail image
     // if hash value not empty create modal
     if (window.location.hash.substr(1) != "") {
@@ -46,6 +30,12 @@ function createModal() {
                 //injecting the text into elements with class specified
                 // POPULATING INFO 
                 const infoModal = $('#infoModal');
+                // artwork name
+                document.querySelector('.artwork-title-text').innerHTML = data[id].artwork.artwork_name;
+                // artist name
+                document.querySelector('.artist-name-text').innerHTML = data[id].artist.name;
+                //infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);
+                console.log(data[id].artwork.artwork_name);
                 // Set modal image 
                 var x = document.getElementById("modalImage");
                 x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
@@ -68,49 +58,7 @@ function createModal() {
                     $("#actionLink" ).hide();
                     $(".bookingOpensText" ).show();
                 };
-                // Top Section: When/Where/Time text
-                if (data[id].artwork.artwork_name == "Indigeneity & Digital Entanglements") {
-                    infoModal.find('.where-text').text("Online and at the Arnolfini, 16 Narrow Quay, Bristol BS1 4QA");
-                    infoModal.find('.when-text').text("(10-11th Oct, 12-17:00)");
-                    infoModal.find('.time-text').text("");
-                }
-                else if (data[id].artwork.artwork_name == "Center for Technological Pain") {
-                    infoModal.find('.when-text').text("2 - 18 Oct, Mon-Sat 10-18:00 / Sun 11-17:00");
-                    infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.time-text').text("");
-                }
-                else if (data[id].artwork.artwork_name == "Face / On") {
-                    infoModal.find('.when-text').text("2-16 Oct, Wed-Fri 12-19:00");
-                    infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.time-text').text("");
-                }
-                else if (data[id].artwork.artwork_name == "Electronic Needlework") {
-                    infoModal.find('.when-text').text("2-18 Oct, Mon-Sat 11-16:00");
-                    infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.time-text').text("");
-                }
-                else if (data[id].artwork.details.date == "anytime") {
-                    infoModal.find('.when-text').text("At your own pace");
-                    infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.time-text').text("");
-                } else if (data[id].artwork.details.date == "") {
-                    infoModal.find('.when-text').text("At various dates");
-                    infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.time-text').text(data[id].artwork.details.time);
-                } else {
-                    infoModal.find('.when-text').text(data[id].artwork.details.date + " October");
-                    infoModal.find('.where-text').text(data[id].artwork.details.location);
-                    infoModal.find('.time-text').text(data[id].artwork.details.time);
-                } 
-                if (data[id].artwork.details.locationLink) {
-                    infoModal.find('.modal-location-link').attr('href', data[id].artwork.details.locationLink);
-                    infoModal.find('.modal-location-link').addClass("activeLink");
-                    infoModal.find('.modal-location-link').removeClass("inactiveLink")
-                } else {
-                    infoModal.find('.modal-location-link').removeAttr("href");
-                    infoModal.find('.modal-location-link').addClass("inactiveLink")
-                    infoModal.find('.modal-location-link').removeClass("activeLink")
-                }
+               
                 // Artist Name
                 infoModal.find('.artist-name-text').text(data[id].artist.name);
                 if (data[id].artwork.details.practicalInfo != "") {

@@ -55,7 +55,7 @@
             <div id="myData" class="row"></div>
         </div>
     </div>
-    <div id="modal"></div>
+    <!-- <div id="modal"></div> -->
     
     <!-- Include Footer -->
     <div id="footer"></div>
@@ -70,7 +70,7 @@
         $('#navbar').load('../components/navigation.html');
         $('#head').load('../components/head.html');
         setTimeout(function(){ $('#footer').load('../components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
-        $('#modal').load('../components/artist-modal.html');
+        //$('#modal').load('../components/artist-modal.html');
     </script>
 
     <script>
@@ -123,7 +123,7 @@
 
                 //make anchor
                 var a = document.createElement('a');
-                a.setAttribute("href", "#" + data[i].artwork.artwork_name);
+                a.setAttribute("href", "artwork.html#" + data[i].artwork.artwork_name);
                 a.setAttribute("data-id", data[i].artist.name);
                 a.setAttribute("class", "thumbnail");
                 //make div overlay for image - for the coloured filter
@@ -148,7 +148,7 @@
                 mainContainer.appendChild(artistContainer);
                 loadWindowSystem();
             }
-            $.getScript("./js/modal.js");
+            //$.getScript("./js/page-content.js");
         }
     </script>
     
