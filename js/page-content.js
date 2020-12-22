@@ -27,51 +27,23 @@ function createPage() {
                 }
                 //removing any paragraphs which do not belong to this artist id
                 $("p.modal-text:not(.text" + data[id].id + ")").hide();
-                //injecting the text into elements with class specified
-                // POPULATING INFO 
                 const infoModal = $('#infoModal');
                 // artwork name
                 document.querySelector('.artwork-title-text').innerHTML = data[id].artwork.artwork_name;
                 // artist name
                 document.querySelector('.artist-name-text').innerHTML = data[id].artist.name;
-                //infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);
-                console.log(data[id].artwork.artwork_name);
                 // Set modal image 
                 var x = document.getElementById("modalImage");
                 x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
-                // Top Section Artwork TYPE
-                infoModal.find('.artwork-type').text(data[id].artwork.artwork_type);
-                // Top Section Artwork call to action 
-                // Only create links with valid urls
-                if (data[id].artwork.details.actionLink != "addlink") {                    // create booking link
+
+                if (data[id].artwork.details.actionLink) {                    
                     let action = document.getElementById('actionLink');
                     action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
                     action.innerHTML = data[id].artwork.details.actionText;
-                    document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
-                    // hide susbtitue booking text
-                    $(".bookingOpensText" ).hide();
-                    $("#actionLink" ).show();
                 } else {
-                    // create coming soon 
-                    document.querySelector(".bookingOpensText").innerHTML = data[id].artwork.details.actionText;
-                    // hide booking link
-                    $("#actionLink" ).hide();
-                    $(".bookingOpensText" ).show();
+                    $(".actionContainer").addClass('hide')
                 };
-               
-                // Artist Name
-                infoModal.find('.artist-name-text').text(data[id].artist.name);
-                if (data[id].artwork.details.practicalInfo != "") {
-                    $( "#practicalInfoContainer" ).removeClass( "hide" );
-                    $( "#middleContainer" ).addClass( "border-sides" );
-                    infoModal.find('.practical-info-text').text(data[id].artwork.details.practicalInfo)
-                } else {
-                    $( "#practicalInfoContainer" ).addClass( "hide" );
-                    $( "#middleContainer" ).removeClass( "border-sides" );
-                    $( "#middleContainer" ).addClass( "border-left " );
-                }
-                // empty container to get rid of previous appended elements
-                $("#aboutArtist").empty();
+
                 // Artist Info: loop through array of artist bio - print new string as a <p> so displays on new line
                 for (let i = 0; i < data[id].artist.bio_100w.length; i++) {
                     let mainContainer = document.getElementById("aboutArtist");
@@ -80,16 +52,14 @@ function createPage() {
                     p.innerHTML = data[id].artist.bio_100w[i];
                     mainContainer.appendChild(p);
                 }
-                // Artwork Name
-                infoModal.find('.artwork-title-text').text(data[id].artwork.artwork_name);             
+          
                 // Artwork Description
                 let mainContainer = document.getElementById("aboutArtwork");
                 var p = document.createElement('p');
                 p.setAttribute("class", "modal-text text" + data[id].id);
                 p.innerHTML = data[id].artwork.artwork_description_50w_short;
                 mainContainer.appendChild(p);       
-                // SOCIAL MEDIA SECTION
-                // If no social media accounts in json, then hide div
+                // SOCIAL MEDIA SECTION - if no social media accounts in json, then hide div
                 let socialAccounts = Object.keys(data[id].social_media).length; //count how many social media accounts artist needs displaying
                 if (socialAccounts === 0) {
                     $( "#socialMediaContainer" ).addClass( "hide" );

@@ -13,19 +13,12 @@
         },
         "artwork": {
             "artwork_name": "Interwave",
-            "artwork_type": "Three-part Podcast Series",
             "artwork_description_line": "Podcast series delving into unfiltered and intersectional narratives on Zoom fatigue",
             "artwork_description_150w_long": ["This three-part podcast series takes a deep dive into the effects of “Zoom fatigue”, a new social phenomenon created by living and working online. Using interviews, discussions and intersectional reflections, Interwave explores how increased video calling has impacted our mental, emotional and physical health. Coming from a female-led perspective, KASAVA bring creative womxn to the centre of the narrative. Through laughter, tears and unfiltered conversations, the Interwave podcast series weaves important issues into the Zoom fatigue narrative, raising questions around who’s included and who isn’t, and ultimately, how can we be doing things differently?"],
             "artwork_description_50w_short": "Let’s take a moment to reflect on what it is like to live and work online. Through laughter, tears and unfiltered conversations this three-part podcast series delves into the effects that “Zoom fatigue” has on our mental, emotional, and physical wellbeing. KASAVA bring creative womxn to the centre of the narrative, raising questions around who’s included and who isn’t, and ultimately, how can we do things differently?",
             "details": {
                 "filterOnline": "online",
                 "filterType": "watchlisten",
-                "filterWeek": "anytime",
-                "day": "",
-                "date": ["anytime"],
-                "time": " ",
-                "location": "online",
-                "practicalInfo": "",
                 "actionText": "Listen online",
                 "actionLink": "https://soundcloud.com/control_shift_network/sets/interwave-by-kasava"
             },
@@ -53,22 +46,12 @@
         },
         "artwork": {
             "artwork_name": "Face / On",
-            "artwork_type": "Installation",
             "artwork_description_line": "Interactive installation playfully engaging with facial recognition technology",
             "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise in order to gain access. Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Do they align with our own ideas of identity? Where have these rules come from and what are the consequences? Face / On is an invitation to playfully engage with ideas around facial recognition technology."],
             "artwork_description_50w_short": "How do AI systems decide on personal labels such as age and gender based on looks alone? Face / On is an interactive installation that explores what systems see. It takes the form of a closed door embedded with a facial recognition system. Face/On is a gatekeeper deciding on who looks like they fit its criteria, and who will be permitted entry past the threshold. It may be necessary to adopt a disguise to fool the system.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "exhibition",
-                "filterWeek": "anytime",
-                "day": "",
-                "date": ["2nd", "7th", "8th", "9th", "14th", "15th", "16th"],
-                "time": "",
-                "location": "The Vestibules, College Green, Bristol BS1 5TR",
-                "locationLink": "https://goo.gl/maps/5YCxrPwfaAw2Aa4dA",
-                "practicalInfo": "Family Friendly",
-                "actionText": "No booking neccessary",
-                "actionLink": "addlink"
+                "filterType": "exhibition"
             },
             "image": {
                 "url": "face-on_artwork_WEB.png",
@@ -97,19 +80,12 @@
         },
         "artwork": {
             "artwork_name": "Three Perspectives on Visibility",
-            "artwork_type": "Series of short films",
             "artwork_description_line": "Film vignettes considering how ways of seeing & being seen have reshaped the nuances of accessibility under lockdown",
             "artwork_description_150w_long": ["Under lockdown, the form and power of representation and our expectations of participation are being questioned, subverted and reimagined. Normative tools of communication are changing, our screens are liquifying the borders between the office, our homes, & protests.<br><br> Developing from Arjun & Ben’s pre-existing work on access tools for protest in collaboration with activist group Disabled People Against Cuts, we ask three creative practitioners: how have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? <br><br>With this question, we have produced three film vignettes, each with a different performance-based practitioner, to think about how digital protest tools might be used beyond service, as methods and medium for art making. In doing so, the collaborations reflect on the aesthetics of access, and the styles and perspectives produced through what is or isn’t accessible to the particular needs of each artist. Produced remotely, the work uses custom wearable rigs, video conference calling, chat functions, and audio calls both in process and in final outcome. <br><br>Using each of their own practices and subjective relationship with accessibility, these vignettes subvert communications tools to explore representation, inclusion, intimacy and allyship. We are proud to be working with Sky Cubacub, Ebony Dark Rose, and a third artist who will be announced shortly. <br><br>These films will contain audio description, BSL & captioning."],
             "artwork_description_50w_short": "How have ways of seeing & being seen reshaped the nuances of accessibility under lockdown? Through three film vignettes released throughout October, we will explore different performance-based practitioners' subjective relationship with accessibility and visibility. These films were produced remotely using custom made proxy tools and video-conferencing software, currently in collaboration with Sky Cubacub & Ebony Dark Rose.<br><br><em>Films will contain audio description and captioning.</em> ",
             "details": {
                 "filterOnline": "online",
                 "filterType": "watchlisten",
-                "filterWeek": "week-1",
-                "day": "",
-                "date": ["anytime"],
-                "time": "",
-                "location": "Online",
-                "practicalInfo": "",
                 "actionText": "Watch online",
                 "actionLink": "http://perspectivesonvisibility.com"
             },
@@ -136,19 +112,12 @@
         },
         "artwork": {
             "artwork_name": "Knitwitter",
-            "artwork_type": "DIY Knitting app",
             "artwork_description_line": "An invitation to encode secret messages into your knitting.",
             "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
             "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app instead transforms your messages into binary patterns for you to knit. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag your pictures with #knitwitter to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a></em>. ",
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop",
-                "filterWeek": "anytime",
-                "day": " ",
-                "date": ["anytime"],
-                "time": " ",
-                "location": "Online",
-                "practicalInfo": "Family Friendly",
                 "actionText": "Go to Knitwitter",
                 "actionLink": "https://www.knitwitter.com/"
             },
@@ -178,22 +147,12 @@
         },
         "artwork": {
             "artwork_name": "Electronic Needlework",
-            "artwork_type": "Installation",
             "artwork_description_line": "Installation of textiles and needlework tools adapted for electric engineering",
             "artwork_description_150w_long": [""],
             "artwork_description_50w_short": "Imagine what technologies might be like if they were made by craftspeople. Would they be soft, patched together, or made in social circles? This set of textiles needlework tools have been adapted to be used for electric engineering. They are a tangible provocation on the roles and cultural assumptions of technologies and crafts. What do these tools enable, how, and for whom?",
             "details": {
                 "filterOnline": "person",
-                "filterType": "exhibition",
-                "filterWeek": "anytime",
-                "day": "",
-                "date": ["2nd", "3rd", "5th", "6th", "7th", "8th", "9th", "10th", "12th", "13th", "14th", "15th", "16th", "17th"],
-                "time": "11-16:00",
-                "location": "Bristol Central Library, BS1 5TL",
-                "locationLink": "https://goo.gl/maps/uCobsNaiWcwRwtXm9",
-                "practicalInfo": "Family Friendly",
-                "actionText": "No booking neccessary",
-                "actionLink": "addlink"
+                "filterType": "exhibition"
             },
             "image": {
                 "url": "needlework-probes_artwork_WEB.png",
@@ -227,22 +186,12 @@
         },
         "artwork": {
             "artwork_name": "Indigeneity & Digital Entanglements",
-            "artwork_type": "Programme of short films",
             "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction.",
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
             "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.<br><br><em>Films will be online throughout the Control Shift programme, and also screened at Arnolfini on 10-11 October 12-5pm. <br><br><a  target='_blank' href='https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/'>Book Screening</a></em>",
             "details": {
                 "filterOnline": "online person",
-                "filterType": "watchlisten event",
-                "filterWeek": "week-2",
-                "day": "",
-                "date": ["10th", "11th", "anytime"],
-                "time": "& at your own pace",
-                "location": "Online and Arnolfini",
-                "locationLink": "https://g.page/arnolfiniarts?share",
-                "practicalInfo": "",
-                "actionText": "Watch online",
-                "actionLink": "https://www.youtube.com/playlist?list=PL1FKQP9-RTSwMvmKScAfaP-L7VQMU6eIO"
+                "filterType": "watchlisten event"
             },
             "image": {
                 "url": "film_artwork_WEB.png",
@@ -270,22 +219,13 @@
         },
         "artwork": {
             "artwork_name": "Get this position",
-            "artwork_type": "Interactive Filters",
             "artwork_description_line": "Exhibition of DIY augmented reality filters by young people from Knowle West",
             "artwork_description_150w_long": [" "],
             "artwork_description_50w_short": "Augmented reality filters, used in apps such as Tik Tok, Instagram and Snapchat are part of our lives in intimate ways whilst also defining who we are. Rather than defining themselves through the eyes of others, young people from KWMC’s Jump Studio have made their own augmented realities to share with the world. How do they look? <br><br><em>Co-produced by <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a>. Workshops are taking place at KWMC between 21 Sept - 5 Oct</em>",
 
             "details": {
                 "filterOnline": "online",
-                "filterType": "exhibition",
-                "filterWeek": "week-3",
-                "day": "",
-                "date": ["anytime"],
-                "time": "",
-                "location": "Online",
-                "practicalInfo": "Family Friendly",
-                "actionText": "Play online soon",
-                "actionLink": "addlink"
+                "filterType": "exhibition"
             },
             "image": {
                 "url": "get-this-position_Artwork_WEB.gif",
@@ -313,22 +253,12 @@
         },
         "artwork": {
             "artwork_name": "Center for Technological Pain",
-            "artwork_type": "Installation",
             "artwork_description_line": "Exhibition of DIY solutions to health problems caused by digital technologies",
             "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
             "artwork_description_50w_short": "Center for Technological Pain (CTP) offers DIY products for tech-pain free lives. The mock-company was set up to manage, prevent and treat the symptoms caused by digital technologies. Among their products are contraptions to relieve eye-strain, insomnia, and strained elbows and fingers. This installation presents the latest innovations from CTP as well as exhibiting new products made by Bristol-based designers and makers in a recent workshop with CTP CEO, Dasha Ilina. <br><br> <em>Exhibition co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
                 "filterOnline": "person",
-                "filterType": "exhibition",
-                "filterWeek": "week-1",
-                "day": "Saturday",
-                "date": ["anytime"],
-                "time": "",
-                "location": "The Galleries, street level entrance, Broadmead, BS1 3XD",
-                "locationLink": "https://goo.gl/maps/UTB1bshTzP25jqLE6",
-                "practicalInfo": "Family Friendly",
-                "actionText": "No booking neccessary",
-                "actionLink": "addlink"
+                "filterType": "exhibition"
             },
             "image": {
                 "url": "CTP-install1_artwork_WEB.png",
@@ -357,22 +287,12 @@
         },
         "artwork": {
             "artwork_name": "This City Is",
-            "artwork_type": "Large-Scale Projections",
             "artwork_description_line": "Large-scale projection describing Bristol through the eyes of the internet",
             "artwork_description_150w_long": ["‘This City is’ is a large-scale projection that describes Bristol through a continuous list of statements taken from twitter, reddit and various other online platforms. The statements range from personal opinions to public announcements and from commercial texts to political statements. Continuously updating and randomly arranged, this collectivised stream of consciousness is an attempt to capture the many layers, voices and emotions that exist in Bristol at this very moment. In a time where our engagement in public places has changed, it has become difficult to sense how a city ‘feels’ and to connect to the shared sentiment of a place. This work engages and reconnects with the multiple versions of this city through the re-edit of found text. This project is coded by Paul Angus, and was first commissioned by O,Miami 2020."],
             "artwork_description_50w_short": "Being in public space has changed, and it has become difficult to sense how a city ‘feels’ and how to connect to the shared sentiment of a place. <em>This City Is</em> projects collectivised streams of consciousness back onto the city. Through large-scale projections we see Bristol through a continuous list of updates, ranging from personal opinions to public announcements. We project the many layers, voices and emotions that exist at this very moment right back into the city itself. <br><br><em>This project is coded by Paul Angus, and was first commissioned by O,Miami 2020.</em>",
             "details": {
                 "filterOnline": "person",
-                "filterType": "event",
-                "filterWeek": "week-1",
-                "day": "Friday",
-                "date": ["2nd"],
-                "time": "18:00-late",
-                "location": "Bristol Central Library, BS1 5TL",
-                "locationLink": "https://goo.gl/maps/uCobsNaiWcwRwtXm9",
-                "practicalInfo": "Family Friendly",
-                "actionText": "No booking necessary",
-                "actionLink": "addlink"
+                "filterType": "event"
             },
             "image": {
                 "url": "this-city-is_Artwork_WEB.gif",
@@ -399,19 +319,12 @@
         },
         "artwork": {
             "artwork_name": "Data Poetics",
-            "artwork_type": "Lunchtime Talk",
             "artwork_description_line": "Artist talk and discussion on data in the arts",
             "artwork_description_150w_long": [""],
             "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. <br><br>Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
             "details": {
                 "filterOnline": "online",
                 "filterType": "event",
-                "filterWeek": "week-1",
-                "day": "Friday",
-                "date": ["2nd"],
-                "time": "13:00-14:00",
-                "location": "Online",
-                "practicalInfo": "Family Friendly",
                 "actionText": "Watch online",
                 "actionLink": "https://www.youtube.com/watch?v=t_lkS5Uxx6s&list=PLbP2rruaw4OvyHmG5tYtqgtJ67xIJ5rOf&index=2"
             },
@@ -424,8 +337,6 @@
             "website": "https://www.nahomatsuda.com/"
         }
     },
-
-
     {
         "id": 9,
         "artist": {
@@ -440,21 +351,12 @@
         },
         "artwork": {
             "artwork_name": "DIY Solutions to End Tech Pain",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop designing speculative treatments for the symptoms caused by excess digital technology use",
             "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
             "artwork_description_50w_short": "DIY Solutions to End Tech Pain is a workshop focused on imagining DIY objects against health problems that arise from technology, using materials you can find in your own home. This workshop will be taking place online, so the main focus will be sketching and conceptualizing the various low-tech solutions, in order to create a discussion around the impact technology has on our physical and mental health. If you have ever experienced eye dryness from staring at a screen for too long or neck pain from looking down at your phone too much, this workshop is for you! <br><br> <em>Workhsop co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-1",
-                "day": "Saturday",
-                "date": ["3rd"],
-                "time": "13.30-15:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120178845161"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "CTP-workshop_artwork_WEB.png",
@@ -481,22 +383,13 @@
         },
         "artwork": {
             "artwork_name": "AI for Nervous Humans",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Hands-on workshop creatively training AI using just pen + paper with analogue code",
             "artwork_description_150w_long": ["AI for Nervous Humans is a creative coding workshop that takes a look at what Artificial Intelligence is, reminding ourselves of the incredible things we can do that machines cannot. Using tangible materials such as pen and paper, we will explore how Machine Learning does what it does, and how this helps us understand our brains. We will have a look at some common fears about, and positive potential of AI, and then we will see how easily you can train a simple Machine Learning Algorithm yourself, without any code."],
             "artwork_description_50w_short": "AI for Nervous Humans is a hands-on workshop, exploring what artificial intelligence is and how it works, whilst asking what sort of things we might be worried about. Come and play with some very easy to train AI software to make it work for us.",
 
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Monday",
-                "date": ["5th"],
-                "time": "18:30 - 20:00",
-                "location": "Online",
-                "practicalInfo": "No experience necessary, reccomended for age 14+",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120180153073"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "AI-for-nervous-humans_artwork_WEB.png",
@@ -508,7 +401,6 @@
             "twitter": "https://twitter.com/crispysmokedweb"
         }
     },
-
     {
         "id": 11,
         "artist": {
@@ -525,21 +417,12 @@
         },
         "artwork": {
             "artwork_name": "Oracle Bots",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop for coding Bots that provide spiritual advice",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "The computational world is full of mystical references and similarities with magical traditions. In this workshop we'll explore parallels between coding and casting a spell through making oracle-bots. Bots are small computer programmes that automate text on social media streams we so often find ourselves on. Oracle-bots operate as divination machines and provide spiritual advice. The workshop will consist of coding sessions and guided meditations to explore the collective imagination around analogue and digital connectivity through the body.",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Friday",
-                "date": ["9th"],
-                "time": "16:00-19:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/121388029865"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "oracle-bot_artwork_WEB.png",
@@ -550,7 +433,6 @@
             "website": "http://digitalwitchcraft.net/oraclebots/"
         }
     },
-
     {
         "id": 10,
         "artist": {
@@ -565,22 +447,12 @@
         },
         "artwork": {
             "artwork_name": "Deep Listening",
-            "artwork_type": "Artist Walk",
             "artwork_description_line": "Artist walk exploring underwater perspectives of the Bristol floating harbour",
             "artwork_description_150w_long": ["In this artist led walk, you are invited to listen deeply to the waterways of Bristol using underwater microphones at the point where the floating harbour meets the gorge. Together, we will contemplate the huge tidal range of the Bristol Channel by positioning ourselves at an edge point of the city, demarcated by a shifting watery passageway that carves a liminal space between the urban and the rural. There are many interventions that keep Bristol’s relationship with water flowing and smooth. Watery compositions created from underwater sounds and shaped by tidal data, are integrated into the walk, inviting us to consider the potential future of rising sea levels. Join us to develop a meaningful connection with the watery environs of Bristol by pausing to reflect through listening from an underwater perspective.<br><br><em>Photo by James Cook</em>"],
             "artwork_description_50w_short": "Join us for a walk along the harbour, to pause, reflect and listen to Bristol from an underwater perspective. We will contemplate tidal changes from an edge point of the city, demarcated by a shifting watery passageway carving a space between the urban and the rural.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "event",
-                "filterWeek": "week-1",
-                "day": "Monday",
-                "date": ["10th"],
-                "time": "11-12:30 / 14-15:30",
-                "location": "Harbour Masters Office, 24 Cumberland Rd, Bristol Harbourside, Bristol BS1 6XG",
-                "locationLink": "https://goo.gl/maps/TtwwzrM92RRD5U1H7",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.co.uk/e/deep-listening-by-kathy-hinde-registration-120502687783"
+                "filterType": "event"
             },
             "image": {
                 "url": "deep-listening_artwork_WEB.png",
@@ -607,22 +479,12 @@
         },
         "artwork": {
             "artwork_name": "Maps of Consequential Paradox",
-            "artwork_type": "Artist Walk",
             "artwork_description_line": "Artist walk exploring networks in Brandon Hill park",
             "artwork_description_150w_long": ["We invite you on a walk around Brandon Hill park. Heath, your guide, will walk with you whilst examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.", "Visit Maps of Consequential Paradox website <a  target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
             "artwork_description_50w_short": "We invite you to take a stroll around Brandon Hill. Heath, your guide, will walk with you to explore the paradoxes and consequences hidden within the park. Guided by a custom map that has been generated by an algorithm, see the parts of the park from the perspective of a computer.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "event",
-                "filterWeek": "week-2",
-                "day": "Saturday",
-                "date": ["10th"],
-                "time": "11-12noon / 14-15:00",
-                "location": "Brandon Hill, Bristol, BS8 1HJ",
-                "locationLink": "https://goo.gl/maps/hp2JrnCfAmk1ZRta6",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120508182217"
+                "filterType": "event"
             },
             "image": {
                 "url": "mapsofCP_WEB.png",
@@ -652,19 +514,12 @@
         },
         "artwork": {
             "artwork_name": "Thinking the digital through the indigenous",
-            "artwork_type": "Panel Discussion",
             "artwork_description_line": "Panel discussion with invited filmmakers, what are the new languages for technology?",
             "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
             "artwork_description_50w_short": "The invited filmmakers use their films as vehicles to think through some core questions. This panel discussion offers an alternative to the assumption that technology is a western invention; whilst problematising 'tech tools' through different lenses and practices. The artists also propose new languages to imagine technology, beyond hardware and software.",
             "details": {
                 "filterOnline": "online",
                 "filterType": "event",
-                "filterWeek": "week-2",
-                "day": "Saturday",
-                "date": ["10th"],
-                "time": "18:00-19:00",
-                "location": "Online",
-                "practicalInfo": "",
                 "actionText": "Watch online",
                 "actionLink": "https://www.youtube.com/watch?v=N7UmalH1w1Q"
             },
@@ -693,21 +548,12 @@
         },
         "artwork": {
             "artwork_name": "Live Coding Visuals",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Live coding visuals workshop using Improviz",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using <a href='https://improviz.rumblesan.com' target='_blank'>Improviz</a> for live visuals.",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Sunday",
-                "date": ["11th"],
-                "time": "14:00-16:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120178189199"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "live-coding_artwork_WEB.png",
@@ -736,25 +582,18 @@
         },
         "artwork": {
             "artwork_name": "Critical Voices in Data",
-            "artwork_type": "Short talks",
             "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
             "artwork_description_150w_long": [""],
             "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through a set of petcha kucha talks SWCTN data fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette will share their research and look at data collecting through critical eyes.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "event",
-                "filterWeek": "week-3",
-                "day": "",
-                "date": ["13th"],
-                "time": "13:00-14:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Watch online",
-                "actionLink": "https://www.youtube.com/watch?v=OQSzLevGGxM"
+                "filterType": "event"
             },
             "image": {
                 "url": "swctn_artwork_WEB.png",
-                "alt": "Image from SWCTN research"
+                "alt": "Image from SWCTN research",
+                "actionText": "Watch online",
+                "actionLink": "https://www.youtube.com/watch?v=OQSzLevGGxM"
             }
         },
         "social_media": {
@@ -780,21 +619,12 @@
         },
         "artwork": {
             "artwork_name": "Robots with Pens",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop to make experimental robot drawings using code",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "Join Joseph for a journey along the lines of automated drawing. Inspired by the work of computer art pioneer Vera Molnár we’ll be remixing, experimenting, and breaking code using the <a href='https://p5js.org/' target='_blank'>P5</a> editor. You’ll learn how to generate drawings for a pen plotter (a robot that draws with paper & pens). At the end of the session everyone gets to take their robot drawings home (via post of course!).<br><br>This workshop is co-produced by <a href='https://www.swctn.org.uk/' target='_blank'>SWCTN</a>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Monday",
-                "date": ["12th"],
-                "time": "16:00-17:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.co.uk/e/robots-with-pens-by-joseph-wilk-registration-121381490305"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "robots-with-pens_artwork_WEB.png",
@@ -807,9 +637,6 @@
             "twitter": "https://twitter.com/josephwilk"
         }
     },
-
-
-
     {
         "id": 14,
         "artist": {
@@ -824,21 +651,12 @@
         },
         "artwork": {
             "artwork_name": "Where is my space? AI FOR OTHERS",
-            "artwork_type": "Discussion",
             "artwork_description_line": "Discussion on bias coded into algorithms",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "Through ‘Where is my space?’, Tracey throws a much needed spotlight on the disturbing prevalence of bias coded into algorithms. The session will start with a short film screening followed by a Q&A with Tracey, focusing on Racial Justice in Data & AI. In this online discussion, we take a moment to consider access to tech spaces for marginalised communities. We’ll explore where we go from here by introducing new voices to the conversation, dissecting the contributing factors, and asking how we can resist the spread of ‘racist robots’.<br><br>This session is co-produced by <a href='https://www.swctn.org.uk/' target='_blank'>SWCTN</a>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "event",
-                "filterWeek": "week-2",
-                "day": "Tuesday",
-                "date": ["13th"],
-                "time": "17:00-18:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.co.uk/e/where-is-my-space-by-tracey-bowen-registration-121384954667"
+                "filterType": "event"
             },
             "image": {
                 "url": "where-my-space_artwork_WEB.png",
@@ -849,8 +667,6 @@
             "website": "https://whereismyspace.carrd.co/"
         }
     },
-
-
     {
         "id": 15,
         "artist": {
@@ -865,22 +681,13 @@
         },
         "artwork": {
             "artwork_name": "Proxy Politics: Making and Unmaking Perspectives on Access",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop exploring disability activism & accessibility with video calling devices",
             "artwork_description_150w_long": ["This workshop is aimed at artists & activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, we will be using our video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation. "],
             "artwork_description_50w_short": "This workshop is aimed at artists and activists who are engaged with or interested in disability activism & accessibility in the arts. Working through simple prompts, Arjun, Ben and Kaiya will be using video calling devices and materials around our homes to discuss perspectives on access and make simple tools to think through disability and representation.",
 
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-3",
-                "day": "Thursday",
-                "date": ["15th"],
-                "time": "17:00-19:00",
-                "location": "Online",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120180943437"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "power-tools-workshop_artwork_WEB.png",
@@ -905,21 +712,12 @@
         },
         "artwork": {
             "artwork_name": "Alt-Text as Poetry",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop for creating “alt-text” poetry",
             "artwork_description_150w_long": ["Alt-text is an essential part of web accessibility, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. It is often overlooked altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt-text thoughtfully and creatively? In this workshop, developed by artists Bojana Coklyat and Shannon Finnegan, we will reframe alt-text as a type of poetry and practice writing it together.", "Access information: The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a  target='_blank' href='mailto:studio@shannonfinnegan.com'>studio@shannonfinnegan.com.</a>"],
             "artwork_description_50w_short": "Alt-text is an essential part of the internet, making visual content accessible to people who are blind, low vision, or have certain cognitive disabilities. Alt-text is often overlooked and vivid images are written as dull one-liners. In this workshop we will create alt-text poetry, and practice writing thoughtful and creative texts together.<br><br><em>Access Information<br>The workshop uses a slide presentation. All content from the presentation is read aloud and described. Three of the exercises involve participants describing images. A variety of images are provided with a range of contrast and complexity. The exercises involve writing 2–3 sentences in 5–10 minutes, but participants don't need to finish writing in order to participate in the discussion. One exercise asks participants to use an image from their own phone. If they don't have a phone or have access to images on their phone, participants can describe something in their space. All workshop materials can be emailed ahead of time upon request by emailing <a href='mailto:studio@shannonfinnegan.com' target='_blank'>studio@shannonfinnegan.com</a>.</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-3",
-                "day": "Friday",
-                "date": ["16th"],
-                "time": "16:00-18:00",
-                "location": "ONLINE",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120181196193"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "alt-text-poetry_artwork_WEB.png",
@@ -946,21 +744,12 @@
         },
         "artwork": {
             "artwork_name": "MIAU ID",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop exploring networks through embroidery whilst playing cats!",
             "artwork_description_150w_long": ["In MIAU ID, the cats of the internet gather to decide upon a network structure that's good for every cat! In this online workshop, the game is played by a group of around 15 cats (people). Stitching on an embroidery hoop / yarn network, each cat has a specific ID and transmits messages. Through 'miauing' the cats address each other, as they perform different rules on different networks: Centralized, Decentralized and Distributed. Depending on the purrotcols (protocols) of the network, they weave different patterns.", "By embodying networks, cats explore the politics of centralization, but also P2P networks and sharing. Thus it becomes possible to question the hard-wired power relations embedded within internet infrastructures. Cats shift control by making technical specificities accessible in play and through practicing that there are as many teachers as there are cats (people) in the room. This creates space to understand why the internet can be 'shut down' and to consider alternative infrastructures. MIAU ID is playable by people of any age and accessible towards those with variable mobility, neurodiverse peoples and hearing impaired peoples. We would love to be in touch with any peoples who have other accessibility concerns.", "Note: there is a small cost for this workshop that covers materials and postage, we do not want this to put anyone off joining, and have bursaries available."],
             "artwork_description_50w_short": "Calling feline creatures of the internet! Gather with us to decide upon a network structure that's good for every cat! On our agenda are three network types: Centralized, Decentralized and Distributed. In this embroidery workshop, we will play as cats and address each other via different rules. Let us find out about these network's purrtocols (protocols) together online, through the act of sewing.<br><br><em>There is a small cost for this workshop that covers materials (custom printed fabric designed by the artists, embroidery hoop, needle and thread) and postage if you live outside of Bristol. We do not want this to put anyone off joining, and have bursaries available.<br><br>Postage cut-off dates:<br> Outside Europe - book by 30 September<br>UK/Europe - book by 6th October<br>If you live in Bristol we'll get in touch about arranging materials pick-up.</em>",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-2",
-                "day": "Saturday 17th",
-                "date": ["17th"],
-                "time": "14:00 - 16:30",
-                "location": "ONLINE",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120181916347"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "miauID_artwork_WEB.png",
@@ -986,21 +775,12 @@
         },
         "artwork": {
             "artwork_name": "Art, Code and a Bowl of Fruit",
-            "artwork_type": "Workshop",
             "artwork_description_line": "Workshop to make coding tools to draw still-life",
             "artwork_description_150w_long": ["AWAITING TEXT"],
             "artwork_description_50w_short": "Come join us for a workshop of creative coding and art! In the first hour you will program your own drawing tool, in the second hour you will be doing some life-drawing with your new tool. Absolutely no art or coding skills are required for this workshop, only a sense of fun and an open mind!",
             "details": {
                 "filterOnline": "online",
-                "filterType": "workshop",
-                "filterWeek": "week-1",
-                "day": "Sunday",
-                "date": ["18th"],
-                "time": "14:00-16:00",
-                "location": "Online",
-                "practicalInfo": "Family Friendly",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.com/e/120181555267"
+                "filterType": "workshop"
             },
             "image": {
                 "url": "art-code-fruit_artwork_WEB.png",
@@ -1027,22 +807,12 @@
         },
         "artwork": {
             "artwork_name": "The Departed",
-            "artwork_type": "Digital Seance",
             "artwork_description_line": "Part séance, part installation bridging the gap between physical and virtual realms",
             "artwork_description_150w_long": ["Part séance, part installation, The Departed is an attempt to bridge the gap between physical and virtual realms. Participants will be guided through a process that opens a communication channel between physical and digital worlds. Lockdown has disembodied us from the physical. Our fallible bodies are confined to ‘safe spaces’, isolated and hidden away from harm. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have re-explored the physical pathways, parks and gardens around us. We have listened to new birdsong, and to the silence of carless streets - things we lost as the world unlocked. We invite you to join us in making contact with those things that have departed, in both physical and virtual, human and non-human. We hope to inspire new ways of being in the world; finding what we have lost that was valuable, and discarding the rest."],
             "artwork_description_50w_short": "Lockdown has disembodied us from the physical. We are super-virtual phenomena, wandering cyberspace for a sense of connection. At the same time, we have listened to new birdsong, and to the silence of carless streets. Part séance, part installation, The Departed guides us through open communication between physical and digital worlds. We invite you to join us in making contact with the things that have departed and the things we lost as the world unlocked.",
             "details": {
                 "filterOnline": "person",
-                "filterType": "event",
-                "filterWeek": "week-3",
-                "day": "Sunday",
-                "date": ["18th"],
-                "time": "Various times from 18:00",
-                "location": "Ashton Court Mansion, Bristol, BS41 9JN",
-                "locationLink": "https://goo.gl/maps/QYSyqS2XEvy63jjx5",
-                "practicalInfo": "",
-                "actionText": "Book Now",
-                "actionLink": "https://www.eventbrite.co.uk/e/the-departed-by-sarah-selby-and-tim-kindburg-registration-121405823085"
+                "filterType": "event"
             },
             "image": {
                 "url": "the-departed_Artwork_WEB.png",
@@ -1055,10 +825,4 @@
             "twitterTwo": "https://twitter.com/timkindberg"
         }
     }
-
-
-
-
-
-
 ]
