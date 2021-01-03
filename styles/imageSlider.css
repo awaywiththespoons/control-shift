@@ -1,0 +1,153 @@
+.wrapper {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* =Project Slides */
+.projects {
+    height: 400px;
+    position: relative;
+}
+.project {
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    width: 100%
+}
+
+.project-image,
+.project-image img,
+.project-image:before,
+.project-image:after {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.project-image img {
+    position: relative;
+    z-index: 4;
+    display: block;
+}
+
+/* =Navigation */
+button.btn {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    color: #053cb0;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+button.btn.next {
+    left: auto;
+    right: 0;
+}
+button.btn span {display: none;}
+button.btn:hover,
+button.btn:focus,
+button.btn:active {
+    outline: none;
+    background-color: transparent;
+    color: #bb2cc6;
+    border-radius: 100%;
+    cursor: pointer;
+}
+button.btn:before {
+    content: "\2039";
+    display: block;
+    position: absolute;
+    top: -29px;
+    font-size: 70px;
+    font-weight: 300;
+}
+button.btn.prev:before {
+    content: "\2039";
+    left: 13px;
+}
+button.btn.next:before {
+    content: "\203a";
+    left: 18px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot {
+    background-color: rgba(7, 75, 221,0.2);
+    width: 20px;
+    height: 20px;
+    text-indent: -9999em;
+    overflow: hidden;
+    border: none;
+    border-radius: 100%;
+    transition: all 0.3s linear;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.dot:focus,
+.dot:active,
+.dot:hover {
+    outline: none;
+    background-color: rgba(7, 75, 221,0.4);
+}
+.dot.active {
+    background-color: rgba(7, 75, 221,0.4);
+}
+.spot {
+    width: 10px;
+    height: 10px;
+    background-color: #053cb0;
+    border-radius: 50%;
+    top: 5px;
+    z-index: -1;
+    position: absolute;
+}
+
+@media only screen and (min-width: 480px) {
+    .project-title {
+        max-width: 80%;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .project-title {
+        max-width: 80%;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    
+}
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    .project-image,
+    .project-image img,
+    .project-image:before,
+    .project-image:after {
+        width: 100%;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }

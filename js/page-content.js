@@ -33,8 +33,8 @@ function createPage() {
                 // artist name
                 document.querySelector('.artist-name-text').innerHTML = data[id].artist.name;
                 // Set modal image 
-                var x = document.getElementById("modalImage");
-                x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
+                // var x = document.getElementById("modalImage");
+                // x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
 
                 if (data[id].artwork.details.actionLink) {                    
                     let action = document.getElementById('actionLink');
