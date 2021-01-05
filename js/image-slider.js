@@ -1,23 +1,17 @@
 function init(){
     gsap.set('.project', {x: '-100%'});
-    gsap.set('.project', {autoAlpha: 1})
+    gsap.set('.project', {autoAlpha: 1});
+    let currentStep = 0; //first image
+    const totalSlides = document.querySelectorAll('.project').length //total images
+    const wrapper = gsap.utils.wrap(0, totalSlides) 
+    createfirstTimeline('next', currentStep)
 
-    let currentStep = 0;
-    const totalSlides = document.querySelectorAll('.project').length
-    const wrapper = gsap.utils.wrap(0, totalSlides)
-
-    createTimelineIn('next', currentStep)
-
-    function createTimelineIn(direction, index) {
+    function createfirstTimeline(direction, index) {
         const goPrev = direction === 'prev';
-
-        const element = document.querySelector('div.project0' + index);
-        projectClasses = element.className.split(' ');
-        projectClass = projectClasses[1];
-        // title = element.querySelector('.project-title');
-        // subtitle = element.getElementsByClassName('project-subtitle')
-        // button = element.querySelector('.button-container');
-
+        const imageInnerRight = document.querySelector('div.project0' + index)
+        const imageFurthestRight = document.querySelector('div.project0' + (index+1));
+        leftImage = index -1 < 0 ? totalSlides -1 : index - 1;
+        const imageInnerLeft = document.querySelector('div.project0' + leftImage);
         const timelineIn = gsap.timeline({
             id: "timelineIn",
             defaults: {  // it's best to set a modifier like this, so it applied to all animations on timeline
@@ -28,51 +22,92 @@ function init(){
                 }
             }
         });
-        timelineIn.fromTo(element, {
-            autoAlpha: 0, //autoAlpha animates opacity - in this case from 0 to 1 
+        timelineIn.fromTo(imageInnerRight, {
+            x: '100%', //starting position (set above)
+            }, { 
+                duration: 1.3,
+                x: 0,
+            }
+        ),
+        timelineIn.fromTo(imageInnerLeft, {
             x: '-100%', //starting position (set above)
             }, { 
-                duration: 0.7,
-                x: 0,
-                autoAlpha: 1,
-                onStart: updateClass,
-                onStartParams: [projectClass],
-            })
-            // .from([title, subtitle, button], {
-            //     duration: 0.2,
-            //     x: -20,
-            //     autoAlpha: 0,
-            //     stagger: 0.09
-            // })
-
+                duration: 1.0,
+                x: -650,
+            }, 0.7
+        ),
+        timelineIn.fromTo(imageFurthestRight, {
+            // autoAlpha: 0, //autoAlpha animates opacity - in this case from 0 to 1 
+            x: '100%', //starting position (set above)
+            }, { 
+                duration: 1.0,
+                x: 650,
+            }, 0.7 // this 0 sets this tween to start at time 0
+        )
         return timelineIn;
     }
 
-    function createTimelineOut(direction, index) {
+    function createTimelineIn(direction, index, current) {
         const goPrev = direction === 'prev';
-        const element = document.querySelector('div.project0' + index);
-        const tlOut = gsap.timeline();
-        tlOut.to(element, {
-            duration: 0.7,  x: 250,
-            autoAlpha: 0,
-            modifiers: {
-                x: gsap.utils.unitize(function(x) { //unitize removes px so only a number s
-                    return goPrev? -x : x; // either returning positive value of 250 or the negative
-                })
-            },
-            ease: "back.in(1)" //animate out with a slight swing - try out different easings
-        });
-
-        return tlOut;
+        let imageFurthestLeft, imageInnerLeft, imageFurthestRight, imageInnerRight;
+        if (!goPrev) {
+            toExit = current -1 < 0 ? totalSlides -1 : current - 1;
+            toEnter = index + 1 > totalSlides - 1 ? 0 : index + 1;
+            imageFurthestLeft = document.querySelector('div.project0' + toExit);
+            imageInnerRight = document.querySelector('div.project0' + index);
+            imageFurthestRight = document.querySelector('div.project0' + toEnter);
+            imageInnerLeft = document.querySelector('div.project0' + current);
+        } else {
+            toEnter = index -1 < 0 ? totalSlides -1 : index - 1;
+            toExit = current + 1 > totalSlides - 1 ? 0 : current + 1;
+            imageFurthestLeft = document.querySelector('div.project0' + toEnter);
+            imageFurthestRight = document.querySelector('div.project0' + toExit);
+            imageInnerRight = document.querySelector('div.project0' + current)
+            imageInnerLeft = document.querySelector('div.project0' + index);
+        }
+        const timelineIn = gsap.timeline({ id: "timelineIn" });
+        timelineIn.fromTo(imageFurthestRight, {
+            x: 1300, 
+            }, { 
+                runBackwards: goPrev ? true : false,
+                duration: 0.7,
+                x: 650,
+            } 
+        ),
+        timelineIn.fromTo(imageInnerRight, {
+            x: 650, 
+            }, { 
+                runBackwards: goPrev ? true : false,
+                duration: 0.7,
+                x: 0,
+            }, 0
+        ),
+        timelineIn.fromTo(imageInnerLeft, {
+            x: 0, 
+            }, { 
+                runBackwards: goPrev ? true : false,
+                duration: 0.7,
+                x: -650,
+            }, 0 
+        ),
+        timelineIn.fromTo(imageFurthestLeft, {
+            x: -650, 
+            }, { 
+                runBackwards: goPrev ? true : false,
+                duration: 0.7,
+                x: -1300,
+            }, 0 
+        )
+        return timelineIn;
     }
 
     function updateCurrentStep(goToIndex) {
         currentStep = goToIndex;
         //set active to the right dot
-        document.querySelectorAll('.dot').forEach(function(element, index) {
-            element.setAttribute('class', 'dot')
+        document.querySelectorAll('.dot').forEach(function(imageInnerRight, index) {
+            imageInnerRight.setAttribute('class', 'dot')
             if(index === currentStep) {
-                element.classList.add('active')
+                imageInnerRight.classList.add('active')
             }  
         })
         positionDot()
@@ -86,11 +121,9 @@ function init(){
                 updateCurrentStep(toIndex)
             }
         })
-        const tlOut = createTimelineOut(direction, currentStep)
-        const tlIn = createTimelineIn(direction, toIndex)
+        const tlIn = createTimelineIn(direction, toIndex, currentStep)
 
         timelineTransition
-            .add(tlOut) //first animate out
             .add(tlIn) // then bring in the next slide
         
         return timelineTransition;
@@ -112,10 +145,6 @@ function init(){
         !isTweening() && transition('prev', prevStep)
     })
 
-    function updateClass(projectClass) {  // update the right body class - background colour
-        document.querySelector('body').className = projectClass
-    }
-
     function createNavigation() {
         //create dots container
         const newDiv = document.createElement('div');
@@ -127,20 +156,20 @@ function init(){
 
         //create a dot for each slide
         for (let index = 0; index < totalSlides; index ++) {
-            const element = document.createElement('button')
+            const imageInnerRight = document.createElement('button')
             const text = document.createTextNode(index);
-            element.appendChild(text);
-            element.setAttribute('class','dot');
+            imageInnerRight.appendChild(text);
+            imageInnerRight.setAttribute('class','dot');
             if(currentStep === index) {
-                element.classList.add('active')
+                imageInnerRight.classList.add('active')
             }
-            element.addEventListener('click', function() {
+            imageInnerRight.addEventListener('click', function() {
                 if (!isTweening() && currentStep !== index) {
                     const direction = index > currentStep ? 'next' : 'prev'
                     transition(direction, index)
                 }
             })
-            newDiv.appendChild(element)
+            newDiv.appendChild(imageInnerRight)
         }
         //add to projects container
         newDiv.appendChild(spot)

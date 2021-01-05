@@ -45,7 +45,7 @@ button.btn {
     border-radius: 100%;
     overflow: hidden;
     position: absolute;
-    top: 100px;
+    top: 340px;
     z-index: 1;
 }
 button.btn.next {
