@@ -7,20 +7,12 @@ function init(){
     createfirstTimeline('next', currentStep)
 
     function createfirstTimeline(direction, index) {
-        const goPrev = direction === 'prev';
         const imageInnerRight = document.querySelector('div.project0' + index)
         const imageFurthestRight = document.querySelector('div.project0' + (index+1));
         leftImage = index -1 < 0 ? totalSlides -1 : index - 1;
         const imageInnerLeft = document.querySelector('div.project0' + leftImage);
         const timelineIn = gsap.timeline({
-            id: "timelineIn",
-            defaults: {  // it's best to set a modifier like this, so it applied to all animations on timeline
-                modifiers: {
-                    x: gsap.utils.unitize(function(x) { //unitize removes px so only a number is sent to math.abs function
-                        return goPrev ? Math.abs(x) : x; // Math.abs returns an absolute value - positive value if negative
-                    })
-                }
-            }
+            id: "timelineIn"
         });
         timelineIn.fromTo(imageInnerRight, {
             x: '100%', //starting position (set above)
@@ -48,8 +40,27 @@ function init(){
     }
 
     function createTimelineIn(direction, index, current) {
+        console.log('index', index)
+        console.log('current', current)
         const goPrev = direction === 'prev';
         let imageFurthestLeft, imageInnerLeft, imageFurthestRight, imageInnerRight;
+        progressBar = document.querySelector('.gallery-list__progress-bar')
+        progressBarWidth = document.querySelector('.gallery-list__progress-track').clientWidth
+        const progressIndicatorWidth = progressBar.clientWidth
+        let position;
+        let overflow;
+        if (current === 0 && direction === 'prev') {
+            position = progressBarWidth - progressIndicatorWidth
+            overflow = true;
+        } else if(current === totalSlides -1 && direction === 'next') {
+            position = 0
+            overflow = true;
+        } else if (direction === 'prev') {
+            position = `-=` + (progressBarWidth - progressIndicatorWidth)/(totalSlides - 1);
+        } else {
+            position = `+=` + (progressBarWidth - progressIndicatorWidth)/(totalSlides - 1);
+        }
+        console.log('progress', position)
         if (!goPrev) {
             toExit = current -1 < 0 ? totalSlides -1 : current - 1;
             toEnter = index + 1 > totalSlides - 1 ? 0 : index + 1;
@@ -97,6 +108,11 @@ function init(){
                 duration: 0.7,
                 x: -1300,
             }, 0 
+        ),
+        timelineIn.to(progressBar, {
+                duration: 0.7,
+                x: position
+            }, 0
         )
         return timelineIn;
     }

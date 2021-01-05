@@ -5,7 +5,7 @@
 
 /* =Project Slides */
 .projects {
-    height: 400px;
+    height: 420px;
     position: relative;
 }
 .project {
@@ -38,20 +38,27 @@
 /* =Navigation */
 button.btn {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height:40px;
+    border-radius: 0;
     background-color: transparent;
     color: #053cb0;
-    border-radius: 100%;
+    border: 1px solid #053cb0;
     overflow: hidden;
     position: absolute;
     top: 340px;
     z-index: 1;
+    margin: 25px 30px 0 30px;
 }
+
 button.btn.next {
-    left: auto;
-    right: 0;
+    left: 50%;
 }
+
+button.btn.prev {
+    right: 50%;
+}
+
 button.btn span {display: none;}
 button.btn:hover,
 button.btn:focus,
@@ -59,35 +66,36 @@ button.btn:active {
     outline: none;
     background-color: transparent;
     color: #bb2cc6;
-    border-radius: 100%;
+    border-radius: 0;
     cursor: pointer;
 }
 button.btn:before {
     content: "\2039";
     display: block;
     position: absolute;
-    top: -29px;
+    top: -40px;
     font-size: 70px;
-    font-weight: 300;
+    font-weight: 100;
 }
 button.btn.prev:before {
     content: "\2039";
-    left: 13px;
+    left: 6px;
 }
 button.btn.next:before {
     content: "\203a";
-    left: 18px;
+    left: 7px;
 }
 
 .dots {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 0;
     right: 0;
     top: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none !important
 }
 .dot {
     background-color: rgba(7, 75, 221,0.2);
@@ -150,4 +158,38 @@ button.btn.next:before {
         padding-left: 0;
         padding-right: 0;
     }
-  }
+}
+
+/* new progress bar */
+.gallery-list__progress-track {
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    left: 0;
+    height: 6px;
+    top: -26px;
+    border-radius: 3px;
+    background-color: #ecbbf0;
+    background: -moz-linear-gradient(left,#ecbbf0 0,#07dd99 100%);
+    background: -webkit-linear-gradient(left,#ecbbf0 0,#07dd99 100%);
+    background: linear-gradient(to right,#ecbbf0 0,#07dd99 100%);
+}
+
+.gallery-list__progress-hit-area {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: -22px;
+    margin-left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.gallery-list__progress-bar {
+    position: absolute;
+    width: 5vw;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #074bdd;
+    pointer-events: none;
+}
