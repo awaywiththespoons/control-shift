@@ -5,7 +5,7 @@
 
 /* =Project Slides */
 .projects {
-    height: 420px;
+    height: 370px;
     position: relative;
 }
 .project {
@@ -36,8 +36,16 @@
 }
 
 /* =Navigation */
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px
+}
+
 button.btn {
-    display: block;
     width: 40px;
     height:40px;
     border-radius: 0;
@@ -45,18 +53,12 @@ button.btn {
     color: #053cb0;
     border: 1px solid #053cb0;
     overflow: hidden;
-    position: absolute;
-    top: 340px;
     z-index: 1;
-    margin: 25px 30px 0 30px;
+    margin: 0 30px 0 30px;
 }
 
-button.btn.next {
-    left: 50%;
-}
-
-button.btn.prev {
-    right: 50%;
+.fas {
+    font-size: 21px;
 }
 
 button.btn span {display: none;}
@@ -69,82 +71,15 @@ button.btn:active {
     border-radius: 0;
     cursor: pointer;
 }
-button.btn:before {
-    content: "\2039";
-    display: block;
-    position: absolute;
-    top: -40px;
-    font-size: 70px;
-    font-weight: 100;
-}
-button.btn.prev:before {
+
+/* button.btn.prev:before {
     content: "\2039";
     left: 6px;
 }
 button.btn.next:before {
     content: "\203a";
     left: 7px;
-}
-
-.dots {
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    right: 0;
-    top: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none !important
-}
-.dot {
-    background-color: rgba(7, 75, 221,0.2);
-    width: 20px;
-    height: 20px;
-    text-indent: -9999em;
-    overflow: hidden;
-    border: none;
-    border-radius: 100%;
-    transition: all 0.3s linear;
-    margin: 0 8px;
-    cursor: pointer;
-}
-.dot:focus,
-.dot:active,
-.dot:hover {
-    outline: none;
-    background-color: rgba(7, 75, 221,0.4);
-}
-.dot.active {
-    background-color: rgba(7, 75, 221,0.4);
-}
-.spot {
-    width: 10px;
-    height: 10px;
-    background-color: #053cb0;
-    border-radius: 50%;
-    top: 5px;
-    z-index: -1;
-    position: absolute;
-}
-
-@media only screen and (min-width: 480px) {
-    .project-title {
-        max-width: 80%;
-        font-size: 25px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .project-title {
-        max-width: 80%;
-        font-size: 40px;
-    }
-}
-
-@media only screen and (min-width: 1140px) {
-    
-}
+} */
 
 @media only screen and (max-width: 480px) {
     /* For mobile phones: */
