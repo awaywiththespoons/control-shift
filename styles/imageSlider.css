@@ -4,10 +4,12 @@
 }
 
 /* =Project Slides */
+/* the project height will be overwritten by js and determined based on height of image */
 .projects {
-    height: 370px;
+    height: 370px; 
     position: relative;
 }
+
 .project {
     text-align: center;
     position: absolute;
