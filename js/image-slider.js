@@ -156,6 +156,11 @@ function init(){
     })
 }
 
-window.addEventListener('load', function(){
+// changed so script runs after DOM is loaded
+$( document ).ready(function() {
     init();
 });
+
+/*window.addEventListener('load', function(){
+    init();
+});*/
