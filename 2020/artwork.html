@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/imageSlider.css">
     <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
     <script src="https://kit.fontawesome.com/d18a6fd4fe.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
 </head>
 <body>
     
@@ -47,12 +48,12 @@
     <script>
         $('#navbar').load('../components/navigation.html');
         $('#head').load('../components/head.html');
-        $('#page-content').load('../components/artist-page.html');
+        $('#page-content').load('../components/artist-page.html', function(){
+            // load scripts in call back after html component loads + enable caching
+            $.getScript({url: "../js/page-content.js",cache:true});
+            $.getScript({url: "../js/image-slider.js",cache:true});
+        });
         setTimeout(function(){ $('#footer').load('../components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
         //$('#modal').load('../components/artist-modal.html');
     </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
-    <script src="../js/image-slider.js"></script>
-    <script src="../js/page-content.js"></script>
 </body></html>
