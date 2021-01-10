@@ -33,7 +33,7 @@ function init(){
             x: '-100%', //starting position - entering from the lefthand side
             }, { 
                 duration: 1.0,
-                x: -650, //ending position - moving into the far left position (partially off lefthand side)
+                x: -700, //ending position - moving into the far left position (partially off lefthand side)
             }, 0.7 // this sets a 0.7 second delay in tween starting
         ),
         timelineIn.fromTo(imageFurthestRight, {
@@ -41,7 +41,7 @@ function init(){
             x: '100%', //starting position (set above)
             }, { 
                 duration: 1.0,
-                x: 650, //ending position - moving into the far right position (partially off right side)
+                x: 700, //ending position - moving into the far right position (partially off right side)
             }, 0.7 // this sets a 0.7 second delay in tween starting
         )
         return timelineIn;
@@ -84,15 +84,15 @@ function init(){
         }
         const timelineIn = gsap.timeline({ id: "timelineIn" });
         timelineIn.fromTo(imageFurthestRight, {
-            x: 1300, 
+            x: 1400, 
             }, { 
                 runBackwards: goPrev ? true : false, //if user pressed back (goPrev is true) then runBackwards will reverse the start and end x position
                 duration: 0.7,
-                x: 650,
+                x: 700,
             } 
         ),
         timelineIn.fromTo(imageInnerRight, {
-            x: 650, 
+            x: 700, 
             }, { 
                 runBackwards: goPrev ? true : false,
                 duration: 0.7,
@@ -104,15 +104,15 @@ function init(){
             }, { 
                 runBackwards: goPrev ? true : false,
                 duration: 0.7,
-                x: -650,
+                x: -700,
             }, 0 
         ),
         timelineIn.fromTo(imageFurthestLeft, {
-            x: -650, 
+            x: -700, 
             }, { 
                 runBackwards: goPrev ? true : false,
                 duration: 0.7,
-                x: -1300,
+                x: -1400,
             }, 0 
         ),
         timelineIn.to(progressBar, {
