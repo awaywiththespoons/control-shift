@@ -1,0 +1,132 @@
+.wrapper {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* =Project Slides */
+/* the project height will be overwritten by js and determined based on height of image */
+.projects {
+    height: 370px; 
+    position: relative;
+}
+
+.project {
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    width: 100%
+}
+
+.project-image,
+.project-image img,
+.project-image:before,
+.project-image:after {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.project-image img {
+    position: relative;
+    z-index: 4;
+    display: block;
+}
+
+/* =Navigation */
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+button.btn {
+    width: 40px;
+    height:40px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #053cb0;
+    border: 1px solid #053cb0;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0 30px 0 30px;
+}
+
+.fas {
+    font-size: 21px;
+}
+
+button.btn span {display: none;}
+button.btn:hover,
+button.btn:focus,
+button.btn:active {
+    outline: none;
+    background-color: transparent;
+    color: #bb2cc6;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* button.btn.prev:before {
+    content: "\2039";
+    left: 6px;
+}
+button.btn.next:before {
+    content: "\203a";
+    left: 7px;
+} */
+
+@media only screen and (max-width: 580px) {
+    /* For mobile phones: */
+    .project-image,
+    .project-image img,
+    .project-image:before,
+    .project-image:after {
+        width: 100%;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* new progress bar */
+.gallery-list__progress-track {
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    left: 0;
+    height: 6px;
+    top: -26px;
+    border-radius: 3px;
+    background-color: #ecbbf0;
+    background: -moz-linear-gradient(left,#ecbbf0 0,#07dd99 100%);
+    background: -webkit-linear-gradient(left,#ecbbf0 0,#07dd99 100%);
+    background: linear-gradient(to right,#ecbbf0 0,#07dd99 100%);
+}
+
+.gallery-list__progress-hit-area {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: -22px;
+    margin-left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.gallery-list__progress-bar {
+    position: absolute;
+    width: 5vw;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #074bdd;
+    pointer-events: none;
+}

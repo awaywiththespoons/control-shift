@@ -20,7 +20,10 @@
     <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <link rel="stylesheet" type="text/css" href="../styles/artworks.css">
+    <link rel="stylesheet" type="text/css" href="../styles/imageSlider.css">
     <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <script src="https://kit.fontawesome.com/d18a6fd4fe.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
 </head>
 <body>
     
@@ -40,15 +43,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <!-- <script src="/modal.js"></script> -->
     <script>
         $('#navbar').load('../components/navigation.html');
         $('#head').load('../components/head.html');
-        $('#page-content').load('../components/artist-page.html');
+        $('#page-content').load('../components/artist-page.html', function(){
+            // load scripts in call back after html component loads + enable caching
+            $.getScript({url: "../js/page-content.js",cache:true});
+            $.getScript({url: "../js/image-slider.js",cache:true});
+        });
         setTimeout(function(){ $('#footer').load('../components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
         //$('#modal').load('../components/artist-modal.html');
     </script>
-
-    <script src="../js/page-content.js"></script>
 </body></html>
