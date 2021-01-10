@@ -83,7 +83,7 @@ button.btn.next:before {
     left: 7px;
 } */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
     /* For mobile phones: */
     .project-image,
     .project-image img,
