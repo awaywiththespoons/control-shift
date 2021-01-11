@@ -6,16 +6,16 @@ function changeButtonPosition() {
 }
 
 function init(){
-    changeButtonPosition()
+    console.log('image-slider.js starts')
     gsap.set('.project', {x: '-100%'}); // images start off screen
     gsap.set('.project', {autoAlpha: 1});
 
     let currentStep = 0; //first image
     const totalSlides = document.querySelectorAll('.project').length //total images
     const wrapper = gsap.utils.wrap(0, totalSlides) 
+    changeButtonPosition()
 
     createfirstTimeline(currentStep)
-
     function createfirstTimeline(index) {
         leftImage = index -1 < 0 ? totalSlides -1 : index - 1; // if user presses back it will show last image
         const imageInnerRight = document.querySelector('div.project0' + index)
@@ -154,6 +154,7 @@ function init(){
         const prevStep = wrapper(currentStep-1)
         !isTweening() && transition('prev', prevStep)
     })
+    console.log('image-slider.js finishes')
 }
 
 // changed so script runs after DOM is loaded

@@ -32,7 +32,34 @@ function createPage() {
                 document.querySelector('.artwork-title-text').innerHTML = data[id].artwork.artwork_name;
                 // artist name
                 document.querySelector('.artist-name-text').innerHTML = data[id].artist.name;
-                // Set modal image 
+                // Set modal images for slider
+                if (data[id].artwork.sliderImages) {
+                    console.log(data[id].artwork.sliderImages.length)
+                    for (let i = 0; i < data[id].artwork.sliderImages.length; i++) {
+                        console.log('i', i)
+                        let sliderContainer = document.getElementById('slider-container');
+                        let imageOuterDiv = document.createElement('div');
+                        imageOuterDiv.setAttribute("class", "project project" + i);
+                        let imageInnerDiv = document.createElement('div');
+                        if (i === 0) {
+                            imageInnerDiv.setAttribute("class", "project-image project-image01");
+                        } else {
+                            imageInnerDiv.setAttribute("class", "project-image");
+                        }
+                        let sliderImage = document.createElement('img');
+                        sliderImage.setAttribute("class", "sliderImage");
+                        sliderImage.setAttribute("src", `../img/artists-work/` + data[id].artwork.sliderImages[i].url);
+                        console.log('sliderContainer', sliderContainer)
+                        console.log('sliderImage', sliderImage)
+                        console.log('imageOuterDiv', imageOuterDiv)
+                        console.log('imageInnerDiv', imageInnerDiv)
+
+                        imageInnerDiv.appendChild(sliderImage)
+                        imageOuterDiv.appendChild(imageInnerDiv);
+                        sliderContainer.appendChild(imageOuterDiv);
+                    }
+                }
+                
                 // var x = document.getElementById("modalImage");
                 // x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
 
@@ -101,6 +128,9 @@ function createPage() {
                 infoModal.modal('show');
             }
         });
+        $.getScript({url: "/js/image-slider.js",cache:true});
+
         return false;
+        
     }  
 }
