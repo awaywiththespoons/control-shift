@@ -49,9 +49,11 @@
         $('#navbar').load('../components/navigation.html');
         $('#head').load('../components/head.html');
         $('#page-content').load('../components/artist-page.html')
-        $.getScript({url: "../js/page-content.js",cache:true});
-        // $.getScript({url: "../js/image-slider.js",cache:true});
         setTimeout(function(){ $('#footer').load('../components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
         //$('#modal').load('../components/artist-modal.html');
     </script>
+    <script src="../js/page-content.js"></script>
+    <script src="../js/image-slider.js"></script>
+
+
 </body></html>

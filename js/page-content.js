@@ -1,9 +1,9 @@
-// event listeners
-// wait for page load
-$(document).ready(function(){
-    // run on page load
-    createPage();
-});
+// const waitToComplete = 
+//     (new Promise())
+
+
+
+createPage();
 
 // create and show modal
 // function to populate modal with artist info from json file, matching the url to the id
@@ -18,6 +18,7 @@ function createPage() {
             type: "GET", 
             url: './artworks.json',
             dataType: 'json',
+            cache: true,
             success: function(data){  
                 // finding the right id from the artist name which is located in the query string
                 for (let i = 0; i < data.length; i++) {
@@ -33,32 +34,31 @@ function createPage() {
                 // artist name
                 document.querySelector('.artist-name-text').innerHTML = data[id].artist.name;
                 // Set modal images for slider
-                if (data[id].artwork.sliderImages) {
-                    console.log(data[id].artwork.sliderImages.length)
-                    for (let i = 0; i < data[id].artwork.sliderImages.length; i++) {
-                        console.log('i', i)
-                        let sliderContainer = document.getElementById('slider-container');
-                        let imageOuterDiv = document.createElement('div');
-                        imageOuterDiv.setAttribute("class", "project project" + i);
-                        let imageInnerDiv = document.createElement('div');
-                        if (i === 0) {
-                            imageInnerDiv.setAttribute("class", "project-image project-image01");
-                        } else {
-                            imageInnerDiv.setAttribute("class", "project-image");
-                        }
-                        let sliderImage = document.createElement('img');
-                        sliderImage.setAttribute("class", "sliderImage");
-                        sliderImage.setAttribute("src", `../img/artists-work/` + data[id].artwork.sliderImages[i].url);
-                        console.log('sliderContainer', sliderContainer)
-                        console.log('sliderImage', sliderImage)
-                        console.log('imageOuterDiv', imageOuterDiv)
-                        console.log('imageInnerDiv', imageInnerDiv)
 
-                        imageInnerDiv.appendChild(sliderImage)
-                        imageOuterDiv.appendChild(imageInnerDiv);
-                        sliderContainer.appendChild(imageOuterDiv);
+
+                const imageLoaded = (data[id].artwork.sliderImages ? data[id].artwork.sliderImages : []).map(function(image, i) {
+                    let sliderContainer = document.getElementById('slider-container');
+                    let imageOuterDiv = document.createElement('div');
+                    imageOuterDiv.setAttribute("class", "project project" + i);
+                    let imageInnerDiv = document.createElement('div');
+                    if (i === 0) {
+                        imageInnerDiv.setAttribute("class", "project-image project-image01");
+                    } else {
+                        imageInnerDiv.setAttribute("class", "project-image");
                     }
-                }
+                    let sliderImage = document.createElement('img');
+                    sliderImage.setAttribute("class", "sliderImage");
+                    const loaded = new Promise(function(resolve) {
+                        sliderImage.onload = resolve
+                    });
+                    sliderImage.setAttribute("src", `../img/artists-work/` + image.url);
+                    imageInnerDiv.appendChild(sliderImage)
+                    imageOuterDiv.appendChild(imageInnerDiv);
+                    sliderContainer.appendChild(imageOuterDiv);
+                    return loaded
+                })
+            
+                
                 
                 // var x = document.getElementById("modalImage");
                 // x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
@@ -126,11 +126,9 @@ function createPage() {
                     $( "#linkedIn" ).addClass( "hide" )
                 }
                 infoModal.modal('show');
+                Promise.all(imageLoaded.slice(0, 2).concat(imageLoaded.slice(-1))).then(init)
             }
         });
-        $.getScript({url: "/js/image-slider.js",cache:true});
-
         return false;
-        
     }  
 }
