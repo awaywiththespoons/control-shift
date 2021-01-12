@@ -2,25 +2,25 @@ window.onresize = changeButtonPosition; //because the image container is set as 
 
 function changeButtonPosition() {
     projectContainerHeight = document.querySelector('.project-image').clientHeight
+    console.log('document.querySelector height', document.querySelector('.project-image').clientHeight)
     document.querySelector('.projects').style.height = (projectContainerHeight + 15)+ 'px'
 }
 
 function init(){
-    changeButtonPosition()
     gsap.set('.project', {x: '-100%'}); // images start off screen
     gsap.set('.project', {autoAlpha: 1});
 
     let currentStep = 0; //first image
     const totalSlides = document.querySelectorAll('.project').length //total images
     const wrapper = gsap.utils.wrap(0, totalSlides) 
+    changeButtonPosition()
 
     createfirstTimeline(currentStep)
-
     function createfirstTimeline(index) {
         leftImage = index -1 < 0 ? totalSlides -1 : index - 1; // if user presses back it will show last image
-        const imageInnerRight = document.querySelector('div.project0' + index)
-        const imageFurthestRight = document.querySelector('div.project0' + (index+1));
-        const imageInnerLeft = document.querySelector('div.project0' + leftImage);
+        const imageInnerRight = document.querySelector('div.project' + index)
+        const imageFurthestRight = document.querySelector('div.project' + (index+1));
+        const imageInnerLeft = document.querySelector('div.project' + leftImage);
         const timelineIn = gsap.timeline({ id: "timelineIn" }); //creating gsap timeline
         timelineIn.fromTo(imageInnerRight, {
             x: '100%', //starting position - entering from righthand side
@@ -70,17 +70,17 @@ function init(){
         if (!goPrev) { //working out which images to target in order to change their position in the timeline below
             toExit = current -1 < 0 ? totalSlides -1 : current - 1;
             toEnter = index + 1 > totalSlides - 1 ? 0 : index + 1;
-            imageFurthestLeft = document.querySelector('div.project0' + toExit);
-            imageInnerRight = document.querySelector('div.project0' + index);
-            imageFurthestRight = document.querySelector('div.project0' + toEnter);
-            imageInnerLeft = document.querySelector('div.project0' + current);
+            imageFurthestLeft = document.querySelector('div.project' + toExit);
+            imageInnerRight = document.querySelector('div.project' + index);
+            imageFurthestRight = document.querySelector('div.project' + toEnter);
+            imageInnerLeft = document.querySelector('div.project' + current);
         } else { //working out which images to target in order to change their position in the timeline below
             toEnter = index -1 < 0 ? totalSlides -1 : index - 1;
             toExit = current + 1 > totalSlides - 1 ? 0 : current + 1;
-            imageFurthestLeft = document.querySelector('div.project0' + toEnter);
-            imageFurthestRight = document.querySelector('div.project0' + toExit);
-            imageInnerRight = document.querySelector('div.project0' + current)
-            imageInnerLeft = document.querySelector('div.project0' + index);
+            imageFurthestLeft = document.querySelector('div.project' + toEnter);
+            imageFurthestRight = document.querySelector('div.project' + toExit);
+            imageInnerRight = document.querySelector('div.project' + current)
+            imageInnerLeft = document.querySelector('div.project' + index);
         }
         const timelineIn = gsap.timeline({ id: "timelineIn" });
         timelineIn.fromTo(imageFurthestRight, {
@@ -155,12 +155,3 @@ function init(){
         !isTweening() && transition('prev', prevStep)
     })
 }
-
-// changed so script runs after DOM is loaded
-$( document ).ready(function() {
-    init();
-});
-
-/*window.addEventListener('load', function(){
-    init();
-});*/

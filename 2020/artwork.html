@@ -44,16 +44,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <!-- <script src="/modal.js"></script> -->
     <script>
         $('#navbar').load('../components/navigation.html');
         $('#head').load('../components/head.html');
-        $('#page-content').load('../components/artist-page.html', function(){
-            // load scripts in call back after html component loads + enable caching
-            $.getScript({url: "../js/page-content.js",cache:true});
-            $.getScript({url: "../js/image-slider.js",cache:true});
-        });
+        $('#page-content').load('../components/artist-page.html')
         setTimeout(function(){ $('#footer').load('../components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
-        //$('#modal').load('../components/artist-modal.html');
     </script>
+    <script src="../js/page-content.js"></script>
+    <script src="../js/image-slider.js"></script>
 </body></html>

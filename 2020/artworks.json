@@ -263,7 +263,45 @@
             "image": {
                 "url": "CTP-install1_artwork_WEB.png",
                 "alt": "Image of CTP installed in a gallery"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "CTP_artwork_0.jpg",
+                    "alt": "CTP alt 1"
+                },
+                {
+                    "url": "CTP_artwork_1.jpg",
+                    "alt": "CTP alt 2"
+                },
+                {
+                    "url": "CTP_artwork_2.jpg",
+                    "alt": "CTP alt 3"
+                },
+                {
+                    "url": "CTP_artwork_3.jpg",
+                    "alt": "CTP alt 4"
+                },
+                {
+                    "url": "CTP_artwork_4.jpg",
+                    "alt": "CTP alt 5"
+                },
+                {
+                    "url": "CTP_artwork_5.jpg",
+                    "alt": "CTP alt 6"
+                },
+                {
+                    "url": "CTP_artwork_6.jpg",
+                    "alt": "CTP alt 7"
+                },
+                {
+                    "url": "CTP_artwork_7.jpg",
+                    "alt": "CTP alt 8"
+                },
+                {
+                    "url": "CTP_artwork_8.jpg",
+                    "alt": "CTP alt 9"
+                }
+            ]
         },
         "social_media": {
             "website": "http://www.dashailina.com/",
