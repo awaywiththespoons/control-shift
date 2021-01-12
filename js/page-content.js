@@ -1,4 +1,8 @@
-createPage();
+$(document).ready(function(){
+    // run on page load
+    createPage();
+});
+
 
 // create and show modal
 // function to populate modal with artist info from json file, matching the url to the id
