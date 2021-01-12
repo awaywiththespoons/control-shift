@@ -17,6 +17,11 @@
     width: 100%
 }
 
+.sliderImage {
+    max-height: 433px;
+    object-fit: contain 
+}
+
 .project-image,
 .project-image img,
 .project-image:before,

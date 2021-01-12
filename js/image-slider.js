@@ -7,7 +7,6 @@ function changeButtonPosition() {
 }
 
 function init(){
-    // console.log('promise', imagesArray)
     gsap.set('.project', {x: '-100%'}); // images start off screen
     gsap.set('.project', {autoAlpha: 1});
 
@@ -155,14 +154,4 @@ function init(){
         const prevStep = wrapper(currentStep-1)
         !isTweening() && transition('prev', prevStep)
     })
-    console.log('image-slider.js finishes')
 }
-
-// changed so script runs after DOM is loaded
-// $( document ).ready(function() {
-//     init();
-// });
-
-/*window.addEventListener('load', function(){
-    init();
-});*/

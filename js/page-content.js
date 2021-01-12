@@ -1,8 +1,3 @@
-// const waitToComplete = 
-//     (new Promise())
-
-
-
 createPage();
 
 // create and show modal
@@ -57,12 +52,8 @@ function createPage() {
                     sliderContainer.appendChild(imageOuterDiv);
                     return loaded
                 })
-            
                 
-                
-                // var x = document.getElementById("modalImage");
-                // x.getAttributeNode("src").value = `./img/artists-work/` + data[id].artwork.image.url;
-
+                // Action Link
                 if (data[id].artwork.details.actionLink) {                    
                     let action = document.getElementById('actionLink');
                     action.getAttributeNode("href").value = data[id].artwork.details.actionLink;
