@@ -47,6 +47,7 @@ function init(){
         return timelineIn;
     }
 
+
     function createTimelineIn(direction, index, current) {
         const goPrev = direction === 'prev';
         let imageFurthestLeft, imageInnerLeft, imageFurthestRight, imageInnerRight, position, overflow;
@@ -154,4 +155,26 @@ function init(){
         const prevStep = wrapper(currentStep-1)
         !isTweening() && transition('prev', prevStep)
     })
+
+    // touch events
+    let ts;
+    $('.project img').on({ 'touchstart' : function(e){
+        ts = e.originalEvent.touches[0].clientX;
+     } });
+
+
+    
+    $('.project img').on({ 'touchmove' : function(e){
+        var te = e.originalEvent.changedTouches[0].clientX;
+        if (ts > te) {
+            console.log('left');
+            const nextStep = wrapper(currentStep+1);
+            !isTweening() && transition('next', nextStep);
+        } else {
+            console.log('right');
+            const prevStep = wrapper(currentStep-1);
+            !isTweening() && transition('prev', prevStep);
+        }
+     } });
+
 }
