@@ -19,7 +19,7 @@
 
 .sliderImage {
     max-height: 433px;
-    object-fit: contain 
+    object-fit: contain;
 }
 
 .project-image,
@@ -99,6 +99,9 @@ button.btn.next:before {
     .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .sliderImage {
+        max-height:260px;
     }
 }
 
