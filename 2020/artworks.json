@@ -54,9 +54,51 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "face-on_artwork_WEB.png",
+                "url": "face-on_artwork_7.jpg",
                 "alt": "Image of Rachel's face mixed with Arnold Schwarzenegger"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "face-on/face-on_artwork_0.jpg",
+                    "alt": "face-on alt 1"
+                },
+                {
+                    "url": "face-on/face-on_artwork_1.jpg",
+                    "alt": "face-on alt 2"
+                },
+                {
+                    "url": "face-on/face-on_artwork_2.jpg",
+                    "alt": "face-on alt 3"
+                },
+                {
+                    "url": "face-on/face-on_artwork_3.jpg",
+                    "alt": "face-on alt 4"
+                },
+                {
+                    "url": "face-on/face-on_artwork_4.jpg",
+                    "alt": "face-on alt 5"
+                },
+                {
+                    "url": "face-on/face-on_artwork_5.jpg",
+                    "alt": "face-on alt 6"
+                },
+                {
+                    "url": "face-on/face-on_artwork_6.jpg",
+                    "alt": "face-on alt 7"
+                },
+                {
+                    "url": "face-on/face-on_artwork_7.jpg",
+                    "alt": "face-on alt 8"
+                },
+                {
+                    "url": "face-on/face-on_artwork_8.jpg",
+                    "alt": "face-on alt 9"
+                },
+                {
+                    "url": "face-on/face-on_artwork_9.jpg",
+                    "alt": "face-on alt 10"
+                }
+            ]
         },
         "social_media": {
             "website": "https://www.watershed.co.uk/studio/residents/rachel-smith"
@@ -261,45 +303,61 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "CTP-install1_artwork_WEB.png",
-                "alt": "Image of CTP installed in a gallery"
+                "url": "CTP_artwork_5",
+                "alt": "Image of CTP installed in the galleries shopping centre"
             }, 
             "sliderImages": [
                 {
-                    "url": "CTP_artwork_0.jpg",
+                    "url": "ctp/CTP_artwork_0.jpg",
                     "alt": "CTP alt 1"
                 },
                 {
-                    "url": "CTP_artwork_1.jpg",
+                    "url": "ctp/CTP_artwork_1.jpg",
                     "alt": "CTP alt 2"
                 },
                 {
-                    "url": "CTP_artwork_2.jpg",
+                    "url": "ctp/CTP_artwork_2.jpg",
                     "alt": "CTP alt 3"
                 },
                 {
-                    "url": "CTP_artwork_3.jpg",
+                    "url": "ctp/CTP_artwork_3.jpg",
                     "alt": "CTP alt 4"
                 },
                 {
-                    "url": "CTP_artwork_4.jpg",
+                    "url": "ctp/CTP_artwork_4.jpg",
                     "alt": "CTP alt 5"
                 },
                 {
-                    "url": "CTP_artwork_5.jpg",
+                    "url": "ctp/CTP_artwork_5.jpg",
                     "alt": "CTP alt 6"
                 },
                 {
-                    "url": "CTP_artwork_6.jpg",
+                    "url": "ctp/CTP_artwork_6.jpg",
                     "alt": "CTP alt 7"
                 },
                 {
-                    "url": "CTP_artwork_7.jpg",
+                    "url": "ctp/CTP_artwork_7.jpg",
                     "alt": "CTP alt 8"
                 },
                 {
-                    "url": "CTP_artwork_8.jpg",
+                    "url": "ctp/CTP_artwork_8.jpg",
                     "alt": "CTP alt 9"
+                },
+                {
+                    "url": "ctp/CTP_artwork_9.jpg",
+                    "alt": "CTP alt 10"
+                },
+                {
+                    "url": "ctp/CTP_artwork_10.jpg",
+                    "alt": "CTP alt 11"
+                },
+                {
+                    "url": "ctp/CTP_artwork_11.jpg",
+                    "alt": "CTP alt 12"
+                },
+                {
+                    "url": "ctp/CTP_artwork_12.jpg",
+                    "alt": "CTP alt 13"
                 }
             ]
         },
@@ -333,9 +391,51 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "this-city-is_Artwork_WEB.gif",
+                "url": "this-city-is_artwork_1.jpg",
                 "alt": "animated updates describing this city"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "this-city-is/this-city-is_artwork_0.jpg",
+                    "alt": "this-city-is alt 1"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_1.jpg",
+                    "alt": "this-city-is alt 2"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_2.jpg",
+                    "alt": "this-city-is alt 3"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_3.jpg",
+                    "alt": "this-city-is alt 4"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_4.jpg",
+                    "alt": "this-city-is alt 5"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_5.jpg",
+                    "alt": "this-city-is alt 6"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_6.jpg",
+                    "alt": "this-city-is alt 7"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_7.jpg",
+                    "alt": "this-city-is alt 8"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_8.jpg",
+                    "alt": "this-city-is alt 9"
+                },
+                {
+                    "url": "this-city-is/this-city-is_artwork_9.jpg",
+                    "alt": "this-city-is alt 10"
+                }
+            ]
         },
         "social_media": {
             "website": "https://www.nahomatsuda.com/"
@@ -493,9 +593,63 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "deep-listening_artwork_WEB.png",
+                "url": "deep-listening_artwork_8.jpg",
                 "alt": "photo of Kathy Hinde exploring underwater perspectives"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "deep-listening/deep-listening_artwork_0.jpg",
+                    "alt": "deep-listening alt 1"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_1.jpg",
+                    "alt": "deep-listening alt 2"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_2.jpg",
+                    "alt": "deep-listening alt 3"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_3.jpg",
+                    "alt": "deep-listening alt 4"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_4.jpg",
+                    "alt": "deep-listening alt 5"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_5.jpg",
+                    "alt": "deep-listening alt 6"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_6.jpg",
+                    "alt": "deep-listening alt 7"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_7.jpg",
+                    "alt": "deep-listening alt 8"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_8.jpg",
+                    "alt": "deep-listening alt 9"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_9.jpg",
+                    "alt": "deep-listening alt 10"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_10.jpg",
+                    "alt": "deep-listening alt 11"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_11.jpg",
+                    "alt": "deep-listening alt 12"
+                },
+                {
+                    "url": "deep-listening/deep-listening_artwork_12.jpg",
+                    "alt": "deep-listening alt 13"
+                }
+            ]
         },
         "social_media": {
             "website": "http://kathyhinde.co.uk/deep-listening-walks/",
@@ -525,9 +679,59 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "mapsofCP_WEB.png",
+                "url": "maps-of-cons_artwork_11.jpg",
                 "alt": "Group of people looking at maps"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_0.jpg",
+                    "alt": "maps-of-cons alt 1"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_1.jpg",
+                    "alt": "maps-of-cons alt 2"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_2.jpg",
+                    "alt": "maps-of-cons alt 3"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_3.jpg",
+                    "alt": "maps-of-cons alt 4"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_4.jpg",
+                    "alt": "maps-of-cons alt 5"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_5.jpg",
+                    "alt": "maps-of-cons alt 6"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_6.jpg",
+                    "alt": "maps-of-cons alt 7"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_7.jpg",
+                    "alt": "maps-of-cons alt 8"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_8.jpg",
+                    "alt": "maps-of-cons alt 9"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_9.jpg",
+                    "alt": "maps-of-cons alt 10"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_10.jpg",
+                    "alt": "maps-of-cons alt 11"
+                },
+                {
+                    "url": "maps-of-cons/maps-of-cons_artwork_11.jpg",
+                    "alt": "maps-of-cons alt 12"
+                }
+            ]
         },
         "social_media": {
             "website": "http://status.irational.org/consequential_paradox/"

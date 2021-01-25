@@ -50,7 +50,7 @@ function createPage() {
                     const loaded = new Promise(function(resolve) {
                         sliderImage.onload = resolve
                     });
-                    sliderImage.setAttribute("src", `../img/artists-work/` + image.url);
+                    sliderImage.setAttribute("src", "../2020/img/" + image.url);
                     imageInnerDiv.appendChild(sliderImage)
                     imageOuterDiv.appendChild(imageInnerDiv);
                     sliderContainer.appendChild(imageOuterDiv);
