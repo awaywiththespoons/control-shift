@@ -25,7 +25,21 @@
             "image": {
                 "url": "intervave_artwork_WEB.png",
                 "alt": "Image showing the Interwave theme - womxn at work and relaxing"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "placeholder.png",
+                    "alt": "Interwave podcast 1"
+                },
+                {
+                    "url": "placeholder.png",
+                    "alt": "Interwave podcast 1"
+                },
+                {
+                    "url": "placeholder.png",
+                    "alt": "Interwave podcast 1"
+                }
+            ]
         },
         "social_media": {
             "instagram": "https://www.instagram.com/kasavacollective",
@@ -132,9 +146,27 @@
                 "actionLink": "http://perspectivesonvisibility.com"
             },
             "image": {
-                "url": "power-tools-film_artwork_WEB.png",
-                "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on it"
-            }
+                "url": "persp-visibility_artwork_0.jpg",
+                "alt": "Proxy user with phone strapped to  chest. The phone has an image of a face on it"
+            },
+            "sliderImages": [
+                {
+                    "url": "persp-visibility/persp-visibility_artwork_0.jpg",
+                    "alt": "Perspectives on visibility: Hot Pink Chain Mail"
+                },
+                {
+                    "url": "placeholder.png",
+                    "alt": "Perspectives on visibility: Hot Pink Chain Mail"
+                },
+                {
+                    "url": "persp-visibility/persp-visibility_artwork_1.jpg",
+                    "alt": "Perspectives on visibility: Outside Inside"
+                },
+                {
+                    "url": "placeholder.png",
+                    "alt": "Perspectives on visibility: Outside Inside"
+                }
+            ]
         },
         "social_media": {
             "website": "http://proxyprotest.com/"
@@ -166,7 +198,17 @@
             "image": {
                 "url": "knitwitter_Artwork_WEB.png",
                 "alt": "Digital knitting pattern"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "placeholder-img.png",
+                    "alt": "Knitwitter"
+                },
+                {
+                    "url": "placeholder-img.png",
+                    "alt": "Knitwitter"
+                }
+            ]
         },
         "social_media": {
             "website": "https://www.knitwitter.com/",
@@ -197,9 +239,27 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "needlework-probes_artwork_WEB.png",
+                "url": "needlework-probes_artwork.jpg",
                 "alt": "add text"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "elec-needlework/elec-needlework_artwork_0.jpg",
+                    "alt": "Electronic Needlework installation and display"
+                },
+                {
+                    "url": "elec-needlework/elec-needlework_artwork_1.jpg",
+                    "alt": "Electronic Needlework installation and display"
+                },
+                {
+                    "url": "elec-needlework/elec-needlework_artwork_2.jpg",
+                    "alt": "Electronic Needlework installation and display"
+                },
+                {
+                    "url": "elec-needlework/elec-needlework_artwork_3.jpg",
+                    "alt": "Electronic Needlework installation and display"
+                }
+            ]
         },
         "social_media": {
             "website": "http://www.ireneposch.net",
@@ -238,7 +298,25 @@
             "image": {
                 "url": "film_artwork_WEB.png",
                 "alt": "Man and digital hard drive"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "indig-entanglements/indig-entag_artwork_0.jpg",
+                    "alt": "Installation in the Arnolfini, Bristol"
+                },
+                {
+                    "url": "indig-entanglements/indig-entag_artwork_1.jpg",
+                    "alt": "Installation in the Arnolfini, Bristol"
+                },
+                {
+                    "url": "indig-entanglements/indig-entag_artwork_2.jpg",
+                    "alt": "Installation in the Arnolfini, Bristol"
+                },
+                {
+                    "url": "indig-entanglements/indig-entag_artwork_3.jpg",
+                    "alt": "Installation in the Arnolfini, Bristol"
+                }
+            ]
         },
         "social_media": {
             "website": "https://www.facebook.com/russel.hlongwane",
@@ -467,9 +545,15 @@
                 "actionLink": "https://www.youtube.com/watch?v=t_lkS5Uxx6s&list=PLbP2rruaw4OvyHmG5tYtqgtJ67xIJ5rOf&index=2"
             },
             "image": {
-                "url": "this-city-is-talk_Artwork_WEB.png",
+                "url": "this-city-is-talk_Artwork.jpg",
                 "alt": "image of website describing the city"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "placeholder.png",
+                    "alt": "Data Poetics Talk by Naho Matsuda and Paul Angus"
+                }
+            ]
         },
         "social_media": {
             "website": "https://www.nahomatsuda.com/"
@@ -497,9 +581,31 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "CTP-workshop_artwork_WEB.png",
+                "url": "CTP-workshop_artwork.jpg",
                 "alt": "Image of a prototype laptop contraption from CTP"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "ctp-workshop/ctp-workshop_artwork_0.jpg",
+                    "alt": "CTP Hybrid online / offline workshop with dasha Ilina"
+                },
+                {
+                    "url": "ctp-workshop/ctp-workshop_artwork_1.jpg",
+                    "alt": "CTP Hybrid online / offline workshop with dasha Ilina"
+                },
+                {
+                    "url": "ctp-workshop/ctp-workshop_artwork_2.gif",
+                    "alt": "CTP Hybrid online / offline workshop with dasha Ilina"
+                },
+                {
+                    "url": "ctp-workshop/ctp-workshop_artwork_3.gif",
+                    "alt": "CTP Hybrid online / offline workshop with dasha Ilina"
+                },
+                {
+                    "url": "ctp-workshop/ctp-workshop_artwork_4.gif",
+                    "alt": "CTP Hybrid online / offline workshop with dasha Ilina"
+                }
+            ]
         },
         "social_media": {
             "website": "http://www.dashailina.com/",
@@ -530,9 +636,15 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "AI-for-nervous-humans_artwork_WEB.png",
+                "url": "AI-for-nervous-humans_artwork.jpg",
                 "alt": "image of people coding with paper"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "ai-nervous/ai_artwork_0.jpg",
+                    "alt": "AI for Nervous Humans"
+                }
+            ]
         },
         "social_media": {
             "website": "https://remented.com/portfolio/",
@@ -563,9 +675,31 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "oracle-bot_artwork_WEB.png",
+                "url": "oracle-bot_artwork.jpg",
                 "alt": "image of robot in blue on pink and black background"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "oracle-bots/oracle-bots_artwork_0.jpg",
+                    "alt": "Oracle Bots online workshop with DANAE and Annika Kappner"
+                },
+                {
+                    "url": "oracle-bots/oracle-bots_artwork_1.jpg",
+                    "alt": "Oracle Bots online workshop with DANAE and Annika Kappner"
+                },
+                {
+                    "url": "oracle-bots/oracle-bots_artwork_2.jpg",
+                    "alt": "Oracle Bots online workshop with DANAE and Annika Kappner"
+                },
+                {
+                    "url": "oracle-bots/oracle-bots_artwork_3.jpg",
+                    "alt": "Oracle Bots online workshop with DANAE and Annika Kappner"
+                },
+                {
+                    "url": "oracle-bots/oracle-bots_artwork_4.jpg",
+                    "alt": "Oracle Bots online workshop with DANAE and Annika Kappner"
+                }
+            ]
         },
         "social_media": {
             "website": "http://digitalwitchcraft.net/oraclebots/"
