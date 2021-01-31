@@ -1130,7 +1130,33 @@
             "image": {
                 "url": "miauID_artwork_WEB.png",
                 "alt": "a messy network of yarn in differnt colours"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "miau-id/miau_id_0.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                },
+                {
+                    "url": "miau-id/miau_id_1.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                },
+                {
+                    "url": "miau-id/miau_id_2.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                },
+                {
+                    "url": "miau-id/miau_id_3.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                },
+                {
+                    "url": "miau-id/miau_id_4.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                },
+                {
+                    "url": "miau-id/miau_id_5.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                }
+            ]
         },
         "social_media": {
             "website": "http://meltionary.com/",
@@ -1191,9 +1217,51 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "the-departed_Artwork_WEB.png",
+                "url": "the-departed_Artwork.jpg",
                 "alt": "Image of the departed artwork"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "the-departed/the-departed_artwork_0.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_1.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_2.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_3.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_4.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_5.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_6.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_7.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_8.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
+                    "url": "the-departed/the-departed_artwork_9.jpg",
+                    "alt": "The Departed digital seance"
+                }
+            ]
         },
         "social_media": {
             "instagram": "https://www.instagram.com/sarahselbyart",
