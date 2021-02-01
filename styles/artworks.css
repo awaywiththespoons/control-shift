@@ -97,9 +97,18 @@ https://www.instagram.com/
 
 /* STYLES FOR ARTWORK PAGE */
 
-.fa-caret-left:before {
-    font-size: 30px;
-    margin-right: -20px;
+.fa-arrow-left:before {
+    font-size: 35px;
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    top: 20px;
+    /*margin-right: -20px;*/
+    text-decoration: none;
+}
+
+.artwork-title {
+    text-align: center;
 }
 
 .artworkImage {
@@ -424,6 +433,12 @@ a:hover.mainLinkText {
 }
 
 @media only screen and (max-width: 575px) {
+    .fa-arrow-left:before {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+    }
+
     .border-sides {
         border: none;
     }
