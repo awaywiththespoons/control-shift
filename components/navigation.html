@@ -9,7 +9,7 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.html">home</a>
             <!-- <a class="nav-item nav-link" href="programme.html">programme</a> -->
-            <a class="nav-item nav-link" href="archive.html">archive</a>
+            <a class="nav-item nav-link" href="2020/programme.html">archive</a>
             <!-- <a class="nav-item nav-link" href="calendar.html">calendar</a> -->
             <a class="nav-item nav-link" href="about.html">about</a>
             <a class="nav-item nav-link" href="contact.html">contact</a>
@@ -24,7 +24,7 @@
             return this.href == url;
         }).addClass('active');
         if (url.href.includes("programme") || url.href.includes("artwork")) {
-            $('nav.navbar a[href="archive.html"]').addClass('active');
+            $('nav.navbar a[href="2020/programme.html"]').addClass('active');
         }
 
         // if in 2020 archive folder add ../

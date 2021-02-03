@@ -96,19 +96,17 @@ https://www.instagram.com/
 
 
 /* STYLES FOR ARTWORK PAGE */
+.artwork-title {
+    text-align: center;
+}
+
+.artwork-title a {
+    float: left;
+    border: none;
+}
 
 .fa-arrow-left:before {
     font-size: 35px;
-    position: absolute;
-    z-index: 100;
-    left: 20px;
-    top: 20px;
-    /*margin-right: -20px;*/
-    text-decoration: none;
-}
-
-.artwork-title {
-    text-align: center;
 }
 
 .artworkImage {
@@ -395,7 +393,23 @@ a:hover.mainLinkText {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 990px) {
+    .fa-arrow-left:before {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        z-index: 100;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    /*.fa-arrow-left:before {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        z-index: 100;
+    }*/
+
     #socialMediaContainer {
         width: 100%;
     }
@@ -433,12 +447,13 @@ a:hover.mainLinkText {
 }
 
 @media only screen and (max-width: 575px) {
-    .fa-arrow-left:before {
+    /*.fa-arrow-left:before {
         position: fixed;
         left: 20px;
         top: 20px;
+        z-index: 100;
     }
-
+*/
     .border-sides {
         border: none;
     }

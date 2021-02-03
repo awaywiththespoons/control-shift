@@ -28,17 +28,33 @@
     <div id="navbar"></div>
     <!--  Grid of artworks generated from json file - see js below -->
     <div class="pb-3 container home-page-content pt-4 nav-bar-space">
-        <h1>Control Shift 2020 Programme</h1>
-        <p><strong>2 - 18 Oct 2020 - Hybrid edition</strong></p>
-        <p>Workshops, discussions, installations and screenings - online and across Bristol, UK - that explored ways to reframe and rethink our relationships with technology.</p>
-        <p>
-            The programme provided different lenses and approaches through which to
-            <em>demystify</em>, <em>reframe</em> and <em>transform</em> our relationships with technology.
-        </p>
+        <h1>Control Shift 2020 Archive</h1>
+        <!-- row  -->
+        <div class="row pb-3">
+            <div class="col-sm">
+                 <p>Control Shift 2020 took place between 2 - 18 Oct and incorporated  workshops, discussions, installations and screenings - online and across Bristol, UK - exploring ways to reframe and rethink our relationships with technology.</p>
+                <hr>
+                <div class="row">
+                    <div class="col-sm ">
+                        <p>
+                            We live in a world where machines increasingly collect information about us, reducing our bodies and the things around us to streams of data. In turn the digital realm can feel abstract, and out of our control. The stuff of computers and digital infrastructure is often hidden out of sight and huge power imbalances exist around who is making technology and who benefits from it. Yet the impact of our interactions with machines and technologies are very much rooted in the body, materials, and emotions.
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p>
+                            <em>The Control Shift</em> programme reflected on the intimate relationship we’ve had with technology over during 2020, asking questions such as: What impact do these technologies have on our minds and bodies? How could we digitally-connect differently? And who is creating the digital tools we have become increasingly reliant on? Together we explored what happens when we reimagine digital tools through different lenses.
+                        </p>
+                    </div>
+                </div>  
+                <hr>
+
+            </div>
+        </div>
+        <!-- row  -->
 
         <!--  filtering grid -->
 <!--        <p class="pt-2">Filter by type of event and location:</p>-->
-        <div class="filterInputs">
+        <!-- <div class="filterInputs">
             <label class="time-filter"><input type="radio" name="type" value="" checked><i></i><span>All</span></label>
             <label class="time-filter"><input type="radio" name="type" value="workshop"><i></i><span>Workshop</span></label>
             <label class="time-filter"><input type="radio" name="type" value="exhibition"><i></i><span>Exhibition</span></label>
@@ -49,7 +65,7 @@
             <label class="online-filter"><input type="radio" name="online" value="" checked><i></i><span>All</span></label>
             <label class="online-filter"><input type="radio" name="online" value="online"><i></i><span>Online</span></label>
             <label class="online-filter"><input type="radio" name="online" value="person"><i></i><span>In person</span></label>
-        </div>
+        </div> -->
 
         <div class="padding-bottom" class="container">
             <div id="myData" class="row"></div>
@@ -116,14 +132,18 @@
                 p3.innerHTML = data[i].artwork.artwork_description_line;
                 p3.setAttribute("class", "gridText aboutText pt-2 text-center");
 
+                // create link param
+                let linkParam = data[i].artwork.artwork_name;
+                linkParam = linkParam.replace(/\s+/g, '-');
+
                 //general link 
                 let link = document.createElement('a');
-                link.setAttribute("href", "#" + data[i].artwork.artwork_name);
+                link.setAttribute("href", "artwork.html?artwork=" + linkParam);
                 link.setAttribute("class", "mainLinkText");
 
                 //make anchor
                 var a = document.createElement('a');
-                a.setAttribute("href", "artwork.html#" + data[i].artwork.artwork_name);
+                a.setAttribute("href", "artwork.html?artwork=" + linkParam);
                 a.setAttribute("data-id", data[i].artist.name);
                 a.setAttribute("class", "thumbnail");
                 //make div overlay for image - for the coloured filter

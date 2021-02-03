@@ -8,10 +8,11 @@ $(document).ready(function(){
 // function to populate modal with artist info from json file, matching the url to the id
 function createPage() {
     // clicking on the thumbnail image
-    // if hash value not empty create modal
-    if (window.location.hash.substr(1) != "") {
-        let param = window.location.hash.substr(1);
-        param = param.replace(/%20/g, " ");
+    let urlParams = new URLSearchParams(window.location.search);
+
+    if (urlParams.has('artwork')) {
+        urlParams = urlParams.get('artwork');
+        urlParams = urlParams.replace(/-/g, ' ');
         let id;
         $.ajax({    
             type: "GET", 
@@ -21,7 +22,7 @@ function createPage() {
             success: function(data){  
                 // finding the right id from the artist name which is located in the query string
                 for (let i = 0; i < data.length; i++) {
-                    if (param === data[i].artwork.artwork_name) {
+                    if (urlParams === data[i].artwork.artwork_name) {
                         id = [i];
                     }
                 }
