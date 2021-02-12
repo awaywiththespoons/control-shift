@@ -643,6 +643,22 @@
                 {
                     "url": "ai-nervous/ai_artwork_0.jpg",
                     "alt": "AI for Nervous Humans"
+                },
+                {
+                    "url": "ai-nervous/ai_artwork_1.jpg",
+                    "alt": "AI for Nervous Humans"
+                },
+                {
+                    "url": "ai-nervous/ai_artwork_2.jpg",
+                    "alt": "AI for Nervous Humans"
+                },
+                {
+                    "url": "ai-nervous/ai_artwork_3.jpg",
+                    "alt": "AI for Nervous Humans"
+                },
+                {
+                    "url": "ai-nervous/ai_artwork_4.jpg",
+                    "alt": "AI for Nervous Humans"
                 }
             ]
         },
@@ -1185,9 +1201,39 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "art-code-fruit_artwork_WEB.png",
-                "alt": "a digital illustration of a statue, seen through a 90s style browser"
-            }
+                "url": "art-code-fruit_artwork.png",
+                "alt": "two digital hand made drawings"
+            },
+             "sliderImages": [
+                {
+                    "url": "art-code/art-code_artwork_0.jpg",
+                    "alt": "Art Code and a Bowl of Fruit workshop"
+                },
+                {
+                    "url": "art-code/art-code_artwork_1.jpg",
+                    "alt": "Art Code and a Bowl of Fruit workshop"
+                },
+                {
+                    "url": "art-code/art-code_artwork_2.jpg",
+                    "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
+                },
+                {
+                   "url": "art-code/art-code_artwork_3.jpg",
+                    "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
+                },
+                {
+                   "url": "art-code/art-code_artwork_4.jpg",
+                    "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
+                },
+                {
+                    "url": "art-code/art-code_artwork_5.jpg",
+                    "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
+                },
+                {
+                    "url": "art-code/art-code_artwork_6.jpg",
+                    "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
+                }
+            ]
         },
         "social_media": {
             "website": "https://cranbim.github.io/artcodeandabowloffruit/"
