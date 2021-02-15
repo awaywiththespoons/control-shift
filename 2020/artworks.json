@@ -201,12 +201,16 @@
             },
             "sliderImages": [
                 {
-                    "url": "placeholder-img.png",
-                    "alt": "Knitwitter"
+                    "url": "knitwitter/knitwitter_artwork_0.png",
+                    "alt": "Knitting created with Knitwitter"
                 },
                 {
-                    "url": "placeholder-img.png",
-                    "alt": "Knitwitter"
+                    "url": "knitwitter/knitwitter_artwork_1.jpg",
+                    "alt": "Knitwitter web site"
+                },
+                {
+                    "url": "knitwitter/knitwitter_artwork_0.png",
+                    "alt": "Knitting created with Knitwitter"
                 }
             ]
         },
@@ -948,9 +952,27 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "live-coding_artwork_WEB.png",
+                "url": "live-coding_artwork.jpg",
                 "alt": "vibrant live coded visuals with code-text"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "live-coding/live-coding_artwork_3.jpg",
+                    "alt": "Live coding workshop using Improviz"
+                },
+                {
+                   "url": "live-coding/live-coding_artwork_0.jpg",
+                    "alt": "Live coding workshop using Improviz"
+                },
+                {
+                    "url": "live-coding/live-coding_artwork_1.jpg",
+                    "alt": "Live coding workshop using Improviz"
+                },
+                {
+                   "url": "live-coding/live-coding_artwork_2.jpg",
+                    "alt": "Live coding workshop using Improviz"
+                }
+            ]
         },
         "social_media": {
             "website": "https://hellocatfood.com",
@@ -1019,9 +1041,27 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "robots-with-pens_artwork_WEB.png",
+                "url": "robots-with-pens_artwork.jpg",
                 "alt": "a pen plotter drawing a red wave"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "robots-pens/robots-with-pens_artwork_0.jpg",
+                    "alt": "Code controlled robotic drawing machines, zoom workshop"
+                },
+                {
+                   "url": "robots-pens/robots-with-pens_artwork_1.jpg",
+                    "alt": "Code controlled robotic drawing machines, zoom workshop"
+                },
+                {
+                    "url": "robots-pens/robots-with-pens_artwork_2.jpg",
+                    "alt": "Code controlled robotic drawing machines, zoom workshop"
+                },
+                {
+                    "url": "robots-pens/robots-with-pens_artwork_3.jpg",
+                    "alt": "Code controlled robotic drawing machines, zoom workshop"
+                }
+            ]
         },
         "social_media": {
             "website": "http://art.josephwilk.net",
@@ -1084,7 +1124,21 @@
             "image": {
                 "url": "power-tools-workshop_artwork_WEB.png",
                 "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on itr"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "proxy-politics/proxy-politics_artwork_1.jpg",
+                    "alt": "Demonstration of how to strap a phone to your chest"
+                },
+                {
+                    "url": "proxy-politics/proxy-politics_artwork_2.jpg",
+                    "alt": "Demonstration of how to strap a phone to your chest"
+                },
+                {
+                    "url": "proxy-politics/proxy-politics_artwork_0.jpg",
+                    "alt": "Image of the proxy politics zoom workshop"
+                }
+            ]
         },
         "social_media": {
             "website": "http://proxyprotest.com/"
