@@ -61,6 +61,16 @@ function createPage() {
                         sliderElem.setAttribute("allow", "autoplay");
                         sliderElem.setAttribute("src", image.url);
                     }
+                    else if (image.url.includes("youtube")) {
+                        console.log("soundcloud");
+                        sliderElem = document.createElement('iframe');
+                        sliderElem.setAttribute("width", "560");
+                        sliderElem.setAttribute("height", "315");
+                        sliderElem.setAttribute("allowfullscreen", "true");
+                        sliderElem.setAttribute("frameborder", "no");
+                        sliderElem.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+                        sliderElem.setAttribute("src", image.url);
+                    }
                     // if image.url contains iframe
                     /*if (image.url.includes("iframe")) {
                         console.log("iframe");
