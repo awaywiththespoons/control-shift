@@ -50,28 +50,41 @@ function createPage() {
 
                     // create slider element
                     let sliderElem;
+                     // if image.url contains soundcloud
+                    if (image.url.includes("soundcloud")) {
+                        console.log("soundcloud");
+                        sliderElem = document.createElement('iframe');
+                        sliderElem.setAttribute("width", "500");
+                        sliderElem.setAttribute("height", "166");
+                        sliderElem.setAttribute("scrolling", "no");
+                        sliderElem.setAttribute("frameborder", "no");
+                        sliderElem.setAttribute("allow", "autoplay");
+                        sliderElem.setAttribute("src", image.url);
+                    }
                     // if image.url contains iframe
-                    if (image.url.includes("iframe")) {
+                    /*if (image.url.includes("iframe")) {
                         console.log("iframe");
                         sliderElem = image.url;
                         imageInnerDiv.innerHTML = sliderElem;
                         imageOuterDiv.appendChild(imageInnerDiv);
                         sliderContainer.appendChild(imageOuterDiv);
-                    }
+                    }*/
                     // else (is an image)
                     else {
                         sliderElem = document.createElement('img');
                         sliderElem.setAttribute("class", "sliderImage");
                         sliderElem.setAttribute("src", "../2020/img/" + image.url);
-                        // add slider element
-                        imageInnerDiv.appendChild(sliderElem);
-                        const loaded = new Promise(function(resolve) {
-                            sliderElem.onload = resolve;
-                        });
-                        imageOuterDiv.appendChild(imageInnerDiv);
-                        sliderContainer.appendChild(imageOuterDiv);
-                        return loaded
                     };
+
+                    // add slider element
+                    imageInnerDiv.appendChild(sliderElem);
+                    const loaded = new Promise(function(resolve) {
+                        sliderElem.onload = resolve;
+                    });
+                    imageOuterDiv.appendChild(imageInnerDiv);
+                    sliderContainer.appendChild(imageOuterDiv);
+                    return loaded
+
                 })
                 
                 // Action Link
