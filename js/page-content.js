@@ -46,16 +46,32 @@ function createPage() {
                     } else {
                         imageInnerDiv.setAttribute("class", "project-image");
                     }
-                    let sliderImage = document.createElement('img');
-                    sliderImage.setAttribute("class", "sliderImage");
-                    const loaded = new Promise(function(resolve) {
-                        sliderImage.onload = resolve
-                    });
-                    sliderImage.setAttribute("src", "../2020/img/" + image.url);
-                    imageInnerDiv.appendChild(sliderImage)
-                    imageOuterDiv.appendChild(imageInnerDiv);
-                    sliderContainer.appendChild(imageOuterDiv);
-                    return loaded
+                    // if image.
+
+                    // create slider element
+                    let sliderElem;
+                    // if image.url contains iframe
+                    if (image.url.includes("iframe")) {
+                        console.log("iframe");
+                        sliderElem = image.url;
+                        imageInnerDiv.innerHTML = sliderElem;
+                        imageOuterDiv.appendChild(imageInnerDiv);
+                        sliderContainer.appendChild(imageOuterDiv);
+                    }
+                    // else (is an image)
+                    else {
+                        sliderElem = document.createElement('img');
+                        sliderElem.setAttribute("class", "sliderImage");
+                        sliderElem.setAttribute("src", "../2020/img/" + image.url);
+                        // add slider element
+                        imageInnerDiv.appendChild(sliderElem);
+                        const loaded = new Promise(function(resolve) {
+                            sliderElem.onload = resolve;
+                        });
+                        imageOuterDiv.appendChild(imageInnerDiv);
+                        sliderContainer.appendChild(imageOuterDiv);
+                        return loaded
+                    };
                 })
                 
                 // Action Link
