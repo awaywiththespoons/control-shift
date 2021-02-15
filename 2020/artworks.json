@@ -15,7 +15,7 @@
             "artwork_name": "Interwave",
             "artwork_description_line": "Podcast series delving into unfiltered and intersectional narratives on Zoom fatigue",
             "artwork_description_150w_long": ["This three-part podcast series takes a deep dive into the effects of “Zoom fatigue”, a new social phenomenon created by living and working online. Using interviews, discussions and intersectional reflections, Interwave explores how increased video calling has impacted our mental, emotional and physical health. Coming from a female-led perspective, KASAVA bring creative womxn to the centre of the narrative. Through laughter, tears and unfiltered conversations, the Interwave podcast series weaves important issues into the Zoom fatigue narrative, raising questions around who’s included and who isn’t, and ultimately, how can we be doing things differently?"],
-            "artwork_description_50w_short": "Let’s take a moment to reflect on what it is like to live and work online. Through laughter, tears and unfiltered conversations this three-part podcast series delves into the effects that “Zoom fatigue” has on our mental, emotional, and physical wellbeing. KASAVA bring creative womxn to the centre of the narrative, raising questions around who’s included and who isn’t, and ultimately, how can we do things differently?",
+            "artwork_description_50w_short": "Let’s take a moment to reflect on what it is like to live and work online. Through laughter, tears and unfiltered conversations this three-part podcast series delves into the effects that “Zoom fatigue” has on our mental, emotional, and physical wellbeing. KASAVA bring creative women to the centre of the narrative, raising questions around who’s included and who isn’t, and ultimately, how can we do things differently?",
             "details": {
                 "filterOnline": "online",
                 "filterType": "watchlisten",
@@ -28,7 +28,7 @@
             }, 
             "sliderImages": [
                 {
-                    "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/902716945&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+                    "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/902716945&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
                     "alt": "Interwave podcast 1"
                 },
                 {
