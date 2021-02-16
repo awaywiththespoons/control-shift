@@ -926,7 +926,17 @@
             "image": {
                 "url": "film-new-image.png",
                 "alt": "Date and text subtitles"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "https://www.youtube.com/embed/N7UmalH1w1Q?start=340",
+                    "alt": "Live coding workshop using Improviz"
+                },
+                {
+                   "url": "blank.png",
+                    "alt": ""
+                }
+            ]
         },
         "social_media": {
             "website": "https://www.facebook.com/russel.hlongwane",
@@ -1008,11 +1018,21 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "swctn_artwork_WEB.png",
+                "url": "swctn_artwork.png",
                 "alt": "Image from SWCTN research",
                 "actionText": "Watch online",
                 "actionLink": "https://www.youtube.com/watch?v=OQSzLevGGxM"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "https://www.youtube.com/embed/OQSzLevGGxM?start=228",
+                    "alt": "SWCTN fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette look at data critically"
+                },
+                {
+                    "url": "blank.png",
+                    "alt": ""
+                }
+            ]
         },
         "social_media": {
             "twitter": "https://twitter.com/SW_CTN",
