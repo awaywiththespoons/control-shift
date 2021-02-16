@@ -12,6 +12,12 @@ function init(){
 
     let currentStep = 0; //first image
     const totalSlides = document.querySelectorAll('.project').length //total images
+    // if less than 3 slider elements hide prev and next
+    if (totalSlides < 3) {
+        console.log(totalSlides);
+        $(".prev").addClass('hide');
+        $(".next").addClass('hide');
+    };
     const wrapper = gsap.utils.wrap(0, totalSlides) 
     changeButtonPosition()
 
@@ -156,6 +162,13 @@ function init(){
         !isTweening() && transition('prev', prevStep)
     })
 
+    // if less than 3 slider elements hide prev and next
+    /*if (totalSlides < 3) {
+        console.log(totalSlides);
+        $(".prev").addClass('hide');
+        $(".next").addClass('hide');
+    };*/
+
     // touch events
     let ts;
     $('.project img').on({ 'touchstart' : function(e){
@@ -166,7 +179,7 @@ function init(){
     
     $('.project img').on({ 'touchmove' : function(e){
         var te = e.originalEvent.changedTouches[0].clientX;
-        if (ts > te) {
+        if (ts > te && totalSlides > 3) {
             console.log('left');
             const nextStep = wrapper(currentStep+1);
             !isTweening() && transition('next', nextStep);

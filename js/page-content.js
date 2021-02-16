@@ -12,7 +12,7 @@ function createPage() {
 
     if (urlParams.has('artwork')) {
         urlParams = urlParams.get('artwork');
-        urlParams = urlParams.replace(/-/g, ' ');
+        urlParams = urlParams.replace(/_/g, ' ');
         let id;
         $.ajax({    
             type: "GET", 
@@ -37,6 +37,7 @@ function createPage() {
 
 
                 const imageLoaded = (data[id].artwork.sliderImages ? data[id].artwork.sliderImages : []).map(function(image, i) {
+                    console.log(data[id].artwork.sliderImages.length);
                     let sliderContainer = document.getElementById('slider-container');
                     let imageOuterDiv = document.createElement('div');
                     imageOuterDiv.setAttribute("class", "project project" + i);
@@ -61,6 +62,7 @@ function createPage() {
                         sliderElem.setAttribute("allow", "autoplay");
                         sliderElem.setAttribute("src", image.url);
                     }
+                    // if image.url contains youtube
                     else if (image.url.includes("youtube")) {
                         console.log("soundcloud");
                         sliderElem = document.createElement('iframe');

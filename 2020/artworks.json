@@ -554,16 +554,12 @@
             }, 
             "sliderImages": [
                 {
-                    "url": "https://www.youtube.com/embed/t_lkS5Uxx6s?start=369",
-                    "alt": "Naho Matsuda and Paul Angus talk about This City Is"
-                },
-                {
                     "url": "https://www.youtube.com/embed/t_lkS5Uxx6s",
                     "alt": "Naho Matsuda and Paul Angus talk about This City Is"
                 },
                 {
-                    "url": "https://www.youtube.com/embed/t_lkS5Uxx6s",
-                    "alt": "Naho Matsuda and Paul Angus talk about This City Is"
+                    "url": "blank.png",
+                    "alt": ""
                 }
             ]
         },
@@ -1176,7 +1172,13 @@
             "image": {
                 "url": "alt-text-poetry_artwork_WEB.png",
                 "alt": "Image of hand written alt text on a sheet of white paper"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "miau-id/miau_id_0.jpg",
+                    "alt": "Miau ID artwork and workshop"
+                }
+            ]
         },
         "social_media": {
             "website": "https://shannonfinnegan.com/",
