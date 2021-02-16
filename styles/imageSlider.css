@@ -103,6 +103,9 @@ button.btn.next:before {
     .sliderImage {
         max-height:260px;
     }
+    .project-image iframe {
+        width: 100% !important;
+    }
 }
 
 /* new progress bar */
