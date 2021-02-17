@@ -63,6 +63,7 @@ function createPage() {
                     }
                     // if image.url contains youtube
                     else if (image.url.includes("youtube")) {
+                        // height of the YT video is set in the query string of the YT link
                         let heightParam = new URLSearchParams(image.url);
                         heightParam = heightParam.get('height');
                         console.log('height=' + heightParam);
