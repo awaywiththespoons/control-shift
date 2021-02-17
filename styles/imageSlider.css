@@ -105,6 +105,7 @@ button.btn.next:before {
     }
     .project-image iframe {
         width: 100% !important;
+        max-height: 250px !important;
     }
 }
 

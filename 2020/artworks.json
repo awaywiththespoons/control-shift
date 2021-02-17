@@ -73,7 +73,7 @@
             }, 
             "sliderImages": [
                 {
-                    "url": "face-on/face-on_artwork_0.jpg",
+                    "url": "https://www.youtube.com/embed/SyXWody2rSQ?start=2&height=434",
                     "alt": "face-on alt 1"
                 },
                 {
@@ -554,7 +554,7 @@
             }, 
             "sliderImages": [
                 {
-                    "url": "https://www.youtube.com/embed/t_lkS5Uxx6s?start=369",
+                    "url": "https://www.youtube.com/embed/t_lkS5Uxx6s?start=369&height=315",
                     "alt": "Naho Matsuda and Paul Angus talk about This City Is"
                 },
                 {
@@ -1190,14 +1190,23 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "alt-text-poetry_artwork_WEB.png",
+                "url": "alt-text-poetry_artwork.png",
                 "alt": "Image of hand written alt text on a sheet of white paper"
             },
             "sliderImages": [
                 {
-                    "url": "miau-id/miau_id_0.jpg",
-                    "alt": "Miau ID artwork and workshop"
+                    "url": "alt-text/alt-text_artwork_0.png",
+                    "alt": "Example of alt text used as part of the Alt-text workshop"
+                },
+                {
+                    "url": "alt-text/alt-text_artwork_1.png",
+                    "alt": "Creative use of Alt-text workshop"
+                },
+                {
+                    "url": "alt-text/alt-text_artwork_2.png",
+                    "alt": "Example of alt text used as part of the Alt-text workshop"
                 }
+
             ]
         },
         "social_media": {

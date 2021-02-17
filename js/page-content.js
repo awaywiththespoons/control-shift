@@ -53,7 +53,6 @@ function createPage() {
                     let sliderElem;
                      // if image.url contains soundcloud
                     if (image.url.includes("soundcloud")) {
-                        console.log("soundcloud");
                         sliderElem = document.createElement('iframe');
                         sliderElem.setAttribute("width", "500");
                         sliderElem.setAttribute("height", "166");
@@ -64,10 +63,12 @@ function createPage() {
                     }
                     // if image.url contains youtube
                     else if (image.url.includes("youtube")) {
-                        console.log("soundcloud");
+                        let heightParam = new URLSearchParams(image.url);
+                        heightParam = heightParam.get('height');
+                        console.log('height=' + heightParam);
                         sliderElem = document.createElement('iframe');
                         sliderElem.setAttribute("width", "560");
-                        sliderElem.setAttribute("height", "315");
+                        sliderElem.setAttribute("height", heightParam);
                         sliderElem.setAttribute("allowfullscreen", "true");
                         sliderElem.setAttribute("frameborder", "no");
                         sliderElem.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
