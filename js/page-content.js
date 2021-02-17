@@ -74,14 +74,6 @@ function createPage() {
                         sliderElem.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
                         sliderElem.setAttribute("src", image.url);
                     }
-                    // if image.url contains iframe
-                    /*if (image.url.includes("iframe")) {
-                        console.log("iframe");
-                        sliderElem = image.url;
-                        imageInnerDiv.innerHTML = sliderElem;
-                        imageOuterDiv.appendChild(imageInnerDiv);
-                        sliderContainer.appendChild(imageOuterDiv);
-                    }*/
                     // else (is an image)
                     else {
                         sliderElem = document.createElement('img');
