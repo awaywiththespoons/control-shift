@@ -122,7 +122,7 @@ function createPage() {
                 let mainContainer = document.getElementById("aboutArtwork");
                 var p = document.createElement('p');
                 p.setAttribute("class", "modal-text text" + data[id].id);
-                p.innerHTML = data[id].artwork.artwork_description_50w_short;
+                p.innerHTML = data[id].artwork.artwork_description_150w_long;
                 mainContainer.appendChild(p);       
                 // SOCIAL MEDIA SECTION - if no social media accounts in json, then hide div
                 let socialAccounts = Object.keys(data[id].social_media).length; //count how many social media accounts artist needs displaying
