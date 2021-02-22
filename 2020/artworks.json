@@ -200,21 +200,33 @@
                 "actionLink": "https://www.knitwitter.com/"
             },
             "image": {
-                "url": "knitwitter_Artwork_WEB.png",
+                "url": "knitwitter_Artwork.jpg",
                 "alt": "Digital knitting pattern"
             },
             "sliderImages": [
                 {
                     "url": "knitwitter/knitwitter_artwork_0.png",
-                    "alt": "Knitting created with Knitwitter"
+                    "alt": "A message encoded as binary code in knitting using knitwitter"
                 },
                 {
                     "url": "knitwitter/knitwitter_artwork_1.jpg",
                     "alt": "Knitwitter web site"
                 },
                 {
-                    "url": "knitwitter/knitwitter_artwork_0.png",
-                    "alt": "Knitting created with Knitwitter"
+                    "url": "knitwitter/knitwitter_artwork_2.jpg",
+                    "alt": "Knitting encoded as binary code using knitwitter"
+                },
+                {
+                    "url": "knitwitter/knitwitter_artwork_3.jpg",
+                    "alt": "A message encoded as binary code in knitting using knitwitter"
+                },
+                {
+                    "url": "knitwitter/knitwitter_artwork_4.jpg",
+                    "alt": "A message inspired by the removal of Colston's statue encoded as binary code using knitwitter"
+                },
+                {
+                    "url": "knitwitter/knitwitter_artwork_5.jpg",
+                    "alt": "A Fair Isle style message encoded as binary code in knitting using knitwitter"
                 }
             ]
         },
