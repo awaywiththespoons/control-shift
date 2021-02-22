@@ -1192,7 +1192,29 @@
             "image": {
                 "url": "where-my-space_artwork_WEB.png",
                 "alt": "woman holding protest sign on street"
-            }
+            },
+            "sliderImages": [
+                {
+                    "url": "ai-for-others/ai_for_others_artwork_0.jpg",
+                    "alt": "Discussion around bias in AI"
+                },
+                {
+                   "url": "ai-for-others/ai_for_others_artwork_1.jpg",
+                    "alt": "Discussion around bias in AI"
+                },
+                {
+                    "url": "ai-for-others/ai_for_others_artwork_2.jpg",
+                    "alt": "Discussion around bias in AI"
+                },
+                {
+                    "url": "ai-for-others/ai_for_others_artwork_3.jpg",
+                    "alt": "Discussion around bias in AI"
+                },
+                {
+                    "url": "ai-for-others/ai_for_others_artwork_4.jpg",
+                    "alt": "Discussion around bias in AI"
+                }
+            ]
         },
         "social_media": {
             "website": "https://whereismyspace.carrd.co/"
