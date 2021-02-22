@@ -406,7 +406,30 @@
             "image": {
                 "url": "get-this-position_Artwork_WEB.gif",
                 "alt": "moving image of an face with colour"
-            }
+            }, 
+            "sliderImages": [
+                {
+                    "url": "get-this-pos/get-this-pos_artwork_0.jpg",
+                    "alt": "AR filters workshop for young people"
+                },
+                {
+                    "url": "get-this-pos/get-this-pos_artwork_1.jpg",
+                    "alt": "AR filters workshop for young people"
+                },
+                {
+                    "url": "get-this-pos/get-this-pos_artwork_2.jpg",
+                    "alt": "AR filters workshop for young people"
+                },
+                {
+                    "url": "get-this-pos/get-this-pos_artwork_3.jpg",
+                    "alt": "AR filters workshop for young people"
+                }
+                ,
+                {
+                    "url": "get-this-pos/get-this-pos_artwork_4.jpg",
+                    "alt": "AR filters workshop for young people"
+                }
+            ]
         },
         "social_media": {
             "website": "https://kwmc.org.uk/projects/jumpstudios/",
