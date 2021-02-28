@@ -142,3 +142,17 @@ button.btn.next:before {
     background-color: #074bdd;
     pointer-events: none;
 }
+
+
+.captionContainer {
+    position: fixed;
+    z-index: 10;
+    background: rgba(7, 93, 221,.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption-text {
+    color: #FDFCD1;
+}
