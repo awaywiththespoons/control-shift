@@ -57,6 +57,7 @@ function init(){
             }, { 
                 duration: 1.3,
                 x: 0, //ending position - moving into the center
+                zIndex:10,
             }
         ),
         timelineIn.fromTo(imageInnerLeft, {
@@ -128,6 +129,7 @@ function init(){
                 runBackwards: goPrev ? true : false,
                 duration: 0.7,
                 x: 0,
+                zIndex:10
             }, 0
         ),
         timelineIn.fromTo(imageInnerLeft, {
