@@ -1,14 +1,38 @@
 window.onresize = changeButtonPosition; //because the image container is set as absolute, we need a way of telling if the image is smaller on some screens to prevent a gap between the projects div and the navigation buttons
 
 function changeButtonPosition() {
+    makeCaptionContainers() //resize caption divs on resize
     projectContainerHeight = document.querySelector('.project-image').clientHeight
-    console.log('document.querySelector height', document.querySelector('.project-image').clientHeight)
     document.querySelector('.projects').style.height = (projectContainerHeight + 15)+ 'px'
 }
 
+
+
+function makeCaptionContainers() {
+    let imageArray = Array.prototype.slice.call(document.querySelectorAll('.sliderImage'))
+    let captions = Array.prototype.slice.call(document.querySelectorAll('.captionContainer'))
+    imageArray.forEach((imageArray, i) => {
+        const halfWidth = imageArray.width / 2;
+        captions[i].style.width = imageArray.width + 'px';
+        captions[i].style.height = imageArray.height + 'px';
+        captions[i].style.left = `calc(50% - ${halfWidth}px)`;
+    });
+    gsap.utils.toArray(".captionContainer").forEach((container) => {
+        let tl1 = gsap.timeline();
+        let tl2 = gsap.timeline();
+        tl1.to(container, { opacity: 1 })
+        tl2.to(container, { opacity: 0 });
+        container.addEventListener("mouseleave", () => tl2.play(0));
+        container.addEventListener("mouseenter", () => tl1.play(0));
+    })
+}
+
 function init(){
+
+    makeCaptionContainers()
     gsap.set('.project', {x: '-100%'}); // images start off screen
     gsap.set('.project', {autoAlpha: 1});
+    gsap.set(".captionContainer", {opacity:0});
 
     let currentStep = 0; //first image
     const totalSlides = document.querySelectorAll('.project').length //total images

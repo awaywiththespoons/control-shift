@@ -37,7 +37,6 @@ function createPage() {
 
 
                 const imageLoaded = (data[id].artwork.sliderImages ? data[id].artwork.sliderImages : []).map(function(image, i) {
-                    console.log(data[id].artwork.sliderImages.length);
                     let sliderContainer = document.getElementById('slider-container');
                     let imageOuterDiv = document.createElement('div');
                     imageOuterDiv.setAttribute("class", "project project" + i);
@@ -66,7 +65,6 @@ function createPage() {
                         // height of the YT video is set in the query string of the YT link
                         let heightParam = new URLSearchParams(image.url);
                         heightParam = heightParam.get('height');
-                        console.log('height=' + heightParam);
                         sliderElem = document.createElement('iframe');
                         sliderElem.setAttribute("width", "560");
                         sliderElem.setAttribute("height", heightParam);
@@ -80,6 +78,14 @@ function createPage() {
                         sliderElem = document.createElement('img');
                         sliderElem.setAttribute("class", "sliderImage");
                         sliderElem.setAttribute("src", "../2020/img/" + image.url);
+                        // creating caption div and text
+                        let captionContainer =  document.createElement('div'); // create div for caption
+                        captionContainer.setAttribute("class", `captionContainer captionContainer${i}`);
+                        imageInnerDiv.appendChild(captionContainer);
+                        let p = document.createElement('h3');
+                        p.setAttribute("class", "caption-text");
+                        p.innerHTML = data[id].artwork.sliderImages[i].alt
+                        captionContainer.appendChild(p);
                     };
 
                     // add slider element
