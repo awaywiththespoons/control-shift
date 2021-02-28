@@ -40,6 +40,8 @@ function createPage() {
                     let sliderContainer = document.getElementById('slider-container');
                     let imageOuterDiv = document.createElement('div');
                     imageOuterDiv.setAttribute("class", "project project" + i);
+                    data[id].artwork.sliderImages.length === 1 ? gsap.set('.button-container, .gallery-list__progress-bar', { display: 'none' }) : '';
+
                     let imageInnerDiv = document.createElement('div');
                     if (i === 0) {
                         imageInnerDiv.setAttribute("class", "project-image project-image01");
