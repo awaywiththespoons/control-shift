@@ -1084,7 +1084,7 @@
         "artwork": {
             "artwork_name": "Critical Voices in Data",
             "artwork_description_line": "Talks exploring what is new, challenging and possible in data",
-            "artwork_description_150w_long": [""],
+            "artwork_description_150w_long": ["SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through a set of petcha kucha talks SWCTN data fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette share their research and look at data collecting through critical eyes.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>"],
             "artwork_description_50w_short": "SWCTN fellows invite you to join them in exploring what is new, challenging and possible across the themes of data. Through a set of petcha kucha talks SWCTN data fellows Pete Quinn-Davis, Michelle Forrest Becket, Grace Quantock and Annie Blanchette will share their research and look at data collecting through critical eyes.<br><br><em>Event co-produced by <a  target='_blank' href='https://www.swctn.org.uk'> SWCTN</a>.</em>",
             "details": {
                 "filterOnline": "online",
@@ -1127,7 +1127,7 @@
         "artwork": {
             "artwork_name": "Robots with Pens",
             "artwork_description_line": "Workshop to make experimental robot drawings using code",
-            "artwork_description_150w_long": ["AWAITING TEXT"],
+            "artwork_description_150w_long": ["In this workshop Joseph Wilk explored automated drawing. Inspired by the work of computer art pioneer Vera Molnár remixing, experimenting, and breaking code using the <a href='https://p5js.org/' target='_blank'>P5</a> editor. Participants learnt how to generate drawings for a pen plotter (a robot that draws with paper & pens).<br><br>This workshop is co-produced by <a href='https://www.swctn.org.uk/' target='_blank'>SWCTN</a>"],
             "artwork_description_50w_short": "Join Joseph for a journey along the lines of automated drawing. Inspired by the work of computer art pioneer Vera Molnár we’ll be remixing, experimenting, and breaking code using the <a href='https://p5js.org/' target='_blank'>P5</a> editor. You’ll learn how to generate drawings for a pen plotter (a robot that draws with paper & pens). At the end of the session everyone gets to take their robot drawings home (via post of course!).<br><br>This workshop is co-produced by <a href='https://www.swctn.org.uk/' target='_blank'>SWCTN</a>",
             "details": {
                 "filterOnline": "online",
