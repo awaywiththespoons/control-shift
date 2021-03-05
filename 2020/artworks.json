@@ -704,7 +704,7 @@
         "id": 10,
         "artist": {
             "name": "Dave Webb",
-            "bio_100w": ["Dave Webb is a creative technologist and artist working with code to express interesting and difficult ideas. Dave is studying for an MSc in Creative Computing at Bath Spa University, is a resident at <a  target='_blank' href='https://www.bathspa.ac.uk/research-and-enterprise/the-studio/'> The Studio, Palace Yard Mews</a> in Bath and is a member of the Control Shift Network."],
+            "bio_100w": ["Dave Webb is a creative technologist and artist working with code to express interesting and difficult ideas. Dave has an MSc in Creative Computing from Bath Spa University and is a resident at <a  target='_blank' href='https://www.bathspa.ac.uk/research-and-enterprise/the-studio/'> The Studio, Palace Yard Mews</a> in Bath and is a member of the Control Shift Network."],
             "image": [
                 {
                     "url": "",
@@ -715,7 +715,7 @@
         "artwork": {
             "artwork_name": "AI for Nervous Humans",
             "artwork_description_line": "Hands-on workshop creatively training AI using just pen + paper with analogue code",
-            "artwork_description_150w_long": ["AI for Nervous Humans is a creative coding workshop that takes a look at what Artificial Intelligence is, reminding ourselves of the incredible things we can do that machines cannot. Using tangible materials such as pen and paper, we will explore how Machine Learning does what it does, and how this helps us understand our brains. We will have a look at some common fears about, and positive potential of AI, and then we will see how easily you can train a simple Machine Learning Algorithm yourself, without any code."],
+            "artwork_description_150w_long": ["A Hands-on creative coding workshop that looked at what Artificial Intelligence is, reminding ourselves of the incredible things we can do that machines cannot. Using tangible materials such as pen and paper, AI for Nervous Humans explored how Machine Learning works, and how this helps us understand our brains. The workshop looked at some common fears about AI, and its positive potential.<br><br>Participants trained a simple Machine Learning Algorithm, without any code."],
             "artwork_description_50w_short": "AI for Nervous Humans is a hands-on workshop, exploring what artificial intelligence is and how it works, whilst asking what sort of things we might be worried about. Come and play with some very easy to train AI software to make it work for us.",
 
             "details": {
@@ -771,7 +771,7 @@
         "artwork": {
             "artwork_name": "Oracle Bots",
             "artwork_description_line": "Workshop for coding Bots that provide spiritual advice",
-            "artwork_description_150w_long": ["AWAITING TEXT"],
+            "artwork_description_150w_long": ["The computational world is full of mystical references and similarities with magical traditions. In this workshop participants explored parallels between coding and casting a spell through making oracle-bots. Bots are small computer programmes that automate text on social media streams we so often find ourselves on. Oracle-bots operate as divination machines and provide spiritual advice. The workshop consisted of coding sessions and guided meditations to explore the collective imagination around analogue and digital connectivity through the body."],
             "artwork_description_50w_short": "The computational world is full of mystical references and similarities with magical traditions. In this workshop we'll explore parallels between coding and casting a spell through making oracle-bots. Bots are small computer programmes that automate text on social media streams we so often find ourselves on. Oracle-bots operate as divination machines and provide spiritual advice. The workshop will consist of coding sessions and guided meditations to explore the collective imagination around analogue and digital connectivity through the body.",
             "details": {
                 "filterOnline": "online",
@@ -823,7 +823,7 @@
         "artwork": {
             "artwork_name": "Deep Listening",
             "artwork_description_line": "Artist walk exploring underwater perspectives of the Bristol floating harbour",
-            "artwork_description_150w_long": ["In this artist led walk, you are invited to listen deeply to the waterways of Bristol using underwater microphones at the point where the floating harbour meets the gorge. Together, we will contemplate the huge tidal range of the Bristol Channel by positioning ourselves at an edge point of the city, demarcated by a shifting watery passageway that carves a liminal space between the urban and the rural. There are many interventions that keep Bristol’s relationship with water flowing and smooth. Watery compositions created from underwater sounds and shaped by tidal data, are integrated into the walk, inviting us to consider the potential future of rising sea levels. Join us to develop a meaningful connection with the watery environs of Bristol by pausing to reflect through listening from an underwater perspective.<br><br><em>Photo by James Cook</em>"],
+            "artwork_description_150w_long": ["In this artist led walk, participants were invited to listen deeply to the waterways of Bristol using underwater microphones at the point where the floating harbour meets the gorge. <br><br>The walk contemplated the huge tidal range of the Bristol Channel by exploring an edge point of the city, demarcated by a shifting watery passageway that carves a liminal space between the urban and the rural. There are many interventions that keep Bristol’s relationship with water flowing and smooth. Watery compositions created from underwater sounds and shaped by tidal data, were integrated into the walk, inviting participants to consider the potential future of rising sea levels. <br><br>The walk created a meaningful connection with the watery environs of Bristol by pausing to reflect and to listen from an underwater perspective.<br><br>Thanks to Bristol Harbour Master and especially Marine Services Officer Ben Wookey for his contribution to Deep Listening.<br><br><em>Photo by James Cook</em>"],
             "artwork_description_50w_short": "Join us for a walk along the harbour, to pause, reflect and listen to Bristol from an underwater perspective. We will contemplate tidal changes from an edge point of the city, demarcated by a shifting watery passageway carving a space between the urban and the rural.",
             "details": {
                 "filterOnline": "person",
@@ -836,55 +836,55 @@
             "sliderImages": [
                 {
                     "url": "deep-listening/deep-listening_artwork_0.jpg",
-                    "alt": "deep-listening alt 1"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_1.jpg",
-                    "alt": "deep-listening alt 2"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_2.jpg",
-                    "alt": "deep-listening alt 3"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_3.jpg",
-                    "alt": "deep-listening alt 4"
+                    "alt": "Deep Listening walk with Marine Services Officer Ben Wookey"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_4.jpg",
-                    "alt": "deep-listening alt 5"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_5.jpg",
-                    "alt": "deep-listening alt 6"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_6.jpg",
-                    "alt": "deep-listening alt 7"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_7.jpg",
-                    "alt": "deep-listening alt 8"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_8.jpg",
-                    "alt": "deep-listening alt 9"
+                    "alt": "Deep Listening walk with Kathy Hinde"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_9.jpg",
-                    "alt": "deep-listening alt 10"
+                    "alt": "Deep Listening walk"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_10.jpg",
-                    "alt": "deep-listening alt 11"
+                    "alt": "Deep Listening walk with Kathy Hinde"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_11.jpg",
-                    "alt": "deep-listening alt 12"
+                    "alt": "Deep Listening walk with Kathy Hinde"
                 },
                 {
                     "url": "deep-listening/deep-listening_artwork_12.jpg",
-                    "alt": "deep-listening alt 13"
+                    "alt": "Deep Listening walk"
                 }
             ]
         },
@@ -909,7 +909,7 @@
         "artwork": {
             "artwork_name": "Maps of Consequential Paradox",
             "artwork_description_line": "Artist walk exploring networks in Brandon Hill park",
-            "artwork_description_150w_long": ["We invite you on a walk around Brandon Hill park. Heath, your guide, will walk with you whilst examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.", "Visit Maps of Consequential Paradox website <a  target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
+            "artwork_description_150w_long": ["A walk around Brandon Hill park with Heath, your guide, examining sustainability, paradox and consequence that underlies the park exploring the ecology of the area as seen from the perspective of a computer. Guided by a custom map that has been generated by an algorithm, visitors explore the ecological interconnections of plants, animals and humans around Brandon Hill park. On this circuitous mis-guided walk, both the departure and arrival points will be local edible plants, but other subjects such as labour, shopping and money will probably be visited.<br>Visit Maps of Consequential Paradox website <a  target='_blank' href='http://status.irational.org/consequential_paradox/'>here</a>."],
             "artwork_description_50w_short": "We invite you to take a stroll around Brandon Hill. Heath, your guide, will walk with you to explore the paradoxes and consequences hidden within the park. Guided by a custom map that has been generated by an algorithm, see the parts of the park from the perspective of a computer.",
             "details": {
                 "filterOnline": "person",
@@ -994,13 +994,11 @@
         "artwork": {
             "artwork_name": "Thinking the digital through the indigenous",
             "artwork_description_line": "Panel discussion with invited filmmakers, what are the new languages for technology?",
-            "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
+            "artwork_description_150w_long": ["A conversation between Russel Hlongwane, DANAE and Dilman Dila exploring the Western dominance of our understanding of technology. It’s links to colonialism and the legacy of imperialism. <br><br>The talk proposed a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. <br>The conversation also explores the crossovers between Russel, DANAE and Dilman’s practices."],
             "artwork_description_50w_short": "The invited filmmakers use their films as vehicles to think through some core questions. This panel discussion offers an alternative to the assumption that technology is a western invention; whilst problematising 'tech tools' through different lenses and practices. The artists also propose new languages to imagine technology, beyond hardware and software.",
             "details": {
-                "filterOnline": "online",
-                "filterType": "event",
-                "actionText": "Watch online",
-                "actionLink": "https://www.youtube.com/watch?v=N7UmalH1w1Q"
+                "filterOnline": "",
+                "filterType": "event"
             },
             "image": {
                 "url": "film-new-image.png",
@@ -1034,7 +1032,7 @@
         "artwork": {
             "artwork_name": "Live Coding Visuals",
             "artwork_description_line": "Live coding visuals workshop using Improviz",
-            "artwork_description_150w_long": ["AWAITING TEXT"],
+            "artwork_description_150w_long": ["A creative coding workshop to make live visuals for live coding events and Algoraves. Lled by visual artist Antonio Roberts aka hellocatfood, it introduced the world of live coding, and guided participants through the basics of using <a href='https://improviz.rumblesan.com' target='_blank'>Improviz</a> for live visuals."],
             "artwork_description_50w_short": "If you've ever been curious about using code to make live visuals and have aspirations to perform at live coding events and Algoraves then this workshop is perfect for you. This two-hour workshop, led by visual artist Antonio Roberts aka hellocatfood, will introduce you to the world of live coding, and guide you through the basics of using <a href='https://improviz.rumblesan.com' target='_blank'>Improviz</a> for live visuals.",
             "details": {
                 "filterOnline": "online",
