@@ -18,9 +18,7 @@
             "artwork_description_50w_short": "Let’s take a moment to reflect on what it is like to live and work online. Through laughter, tears and unfiltered conversations this three-part podcast series delves into the effects that “Zoom fatigue” has on our mental, emotional, and physical wellbeing. KASAVA bring creative women to the centre of the narrative, raising questions around who’s included and who isn’t, and ultimately, how can we do things differently?",
             "details": {
                 "filterOnline": "online",
-                "filterType": "watchlisten",
-                "actionText": "Listen online",
-                "actionLink": "https://soundcloud.com/control_shift_network/sets/interwave-by-kasava"
+                "filterType": "watchlisten"
             },
             "image": {
                 "url": "intervave_artwork_WEB.png",
@@ -61,7 +59,7 @@
         "artwork": {
             "artwork_name": "Face / On",
             "artwork_description_line": "Interactive installation playfully engaging with facial recognition technology",
-            "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, a persona is allocated at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. It may be necessary to adopt a disguise in order to gain access. Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Do they align with our own ideas of identity? Where have these rules come from and what are the consequences? <br><br>Face / On is an invitation to playfully engage with ideas around facial recognition technology.<br><br>Face / On film:<br>videographer: David Weir<br>Sound: Tom Hoey."],
+            "artwork_description_150w_long": ["Face / On takes the form of an interactive door embedded with a facial recognition system. On approach, the facial recognition system allocates a persona at random, for example, Female 47. Only a face fitting the criteria in the eyes of the system will be permitted entry. <br><br>In order to gain access visitors may need to adopt a disguise to trick the facial recognition system. <br><br>Using available tools (face swapping, filters, or ageing apps) it becomes possible to fool the door. In doing so, we build up an idea of how the system decides on such personal labels as age and gender. Where have these rules come from and what are the consequences? <br><br> Face / On interrogates the hidden algorithms which make decisions about our identities and lives. What are these categories in the eyes of the algorithm and how do they compare with our own idea about identity. The algorithim that makes the decisions in Face/On is developed by Microsoft and is widely available to integrate into products. It is a typical example of a facial recognition system that you might encounter elsewhere. <br><br>Face / On film:<br>videographer: David Weir<br>Sound: Tom Hoey."],
             "artwork_description_50w_short": "How do AI systems decide on personal labels such as age and gender based on looks alone? Face / On is an interactive installation that explores what systems see. It takes the form of a closed door embedded with a facial recognition system. Face/On is a gatekeeper deciding on who looks like they fit its criteria, and who will be permitted entry past the threshold. It may be necessary to adopt a disguise to fool the system.",
             "details": {
                 "filterOnline": "person",
@@ -191,7 +189,7 @@
         "artwork": {
             "artwork_name": "Knitwitter",
             "artwork_description_line": "An invitation to encode secret messages into your knitting.",
-            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you.", "Women have used knitting to encode secret messages since WW1. Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.", "***Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
+            "artwork_description_150w_long": ["What if we could encode our own secret messages as an everyday item, something innocuous, hiding in plain sight? Knitwitter is an invitation for anyone familiar with knitting needles or a crochet hook and yarn to encode some text into a pattern, and then use that pattern to hide their message in a piece of knitting or crochet. The Knitwitter app encodes your text into binary code and makes pattern suggestions, but the message you choose to encode and how you choose to interpret the pattern in your knitting or crochet is up to you. Women have used knitting to encode secret messages since World War 1. <br><br>Now, encoded messages are sent all the time using programming languages and machine code. Instant, digital, text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us and keep secret from others. <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter</a> will grow into a collaboratively made knitted artwork highlighting our intimate yet intangible and complex relationship with code.<br><br>Participate in Knitwitter by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>website</a>, and encode your own message in a piece of knitting. Wisterlitz will collect, curate, and display the knitted messages into a collaborative artwork."],
             "artwork_description_50w_short": "Text-based communications are made from millions of hidden zeros and ones that we entrust our phones to interpret for us. The Knitwitter app instead transforms your messages into binary patterns for you to knit. If you are familiar with knitting needles or a crochet hook (or you’ve always wanted to learn), head to the knitwitter site to encode and knit your own messages. <br><br><em>Wisterlitz will curate images of the knitted messages into a collaborative artwork, tag your pictures with #knitwitter to be part of the knitted database of yarn! Participate by visiting the <a  target='_blank' href='https://www.knitwitter.com/'>Knitwitter website</a></em>. ",
             "details": {
                 "filterOnline": "online",
@@ -252,7 +250,7 @@
         "artwork": {
             "artwork_name": "Electronic Needlework",
             "artwork_description_line": "Installation of textiles and needlework tools adapted for electric engineering",
-            "artwork_description_150w_long": [""],
+            "artwork_description_150w_long": ["Imagine what digital technologies might be like if they were made by craftspeople. Would they be soft, patched together, or made in social circles? This set of textiles needlework tools have been adapted to be used for electric engineering. They are a tangible provocation on the roles and cultural assumptions of technologies and crafts. What do these tools enable, how, and for whom?<br><br>For Control Shift Electronic Needlework was presented in Bristol Central Library on College Green."],
             "artwork_description_50w_short": "Imagine what technologies might be like if they were made by craftspeople. Would they be soft, patched together, or made in social circles? This set of textiles needlework tools have been adapted to be used for electric engineering. They are a tangible provocation on the roles and cultural assumptions of technologies and crafts. What do these tools enable, how, and for whom?",
             "details": {
                 "filterOnline": "person",
@@ -309,7 +307,7 @@
         "artwork": {
             "artwork_name": "Indigeneity and Digital Entanglements",
             "artwork_description_line": "Programme of film shorts offering a counter to technology as a western construction.",
-            "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.", "This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices."],
+            "artwork_description_150w_long": ["The ruins of history offer a host of unresolved traces that enable us to imagine the global south as a site of prehistoric technologies. It is on this basis that we use the theme indigeneity and digital entanglements to invoke a new system of thought. One that alludes to a more productive and equitable arrangement of technology, its tools and structures. A reimagined system that accounts for humanity’s multi-dimensionality and proposes a new digital political economy. This proposition rethinks technology, without hardware or software and beyond advanced algorithms.<br><br>This programme of short films offers counter evidence to the popular belief that technology is a construction of the West. This considered selection of films can be understood as a sample of cinematic expressions from Africa addressing the politics of technology and its consequences for the continent. They affirm Africa as an active agent in the production of technology through indigenous practices.<br><br>The films were presented in the Arnolfini Art Centre in central Bristol.<br><br>Films:<br><br><strong>Deep Down Tidal, Tabita Rezaire, South Africa, 2017, 18.44 min.</strong><br>It may feel as if the internet is up in the clouds, but in actual fact it's at the bottom of the ocean, in the form of 880,000 kilometers of fiber-optic cables. These cables make up the essential infrastructure for sending all our emails, websites, photos, films and of course emoticons. Beneath the waves, our wireless life is very bound up with physical wires—it's the virtual made physical. Among the submerged cities, drowned sailors and hidden histories, the ocean is home to a complex communications network. Here, the technologies controlled by the West expand along the old colonial routes, so in a way the cables are the hardware of a new, electronic imperialism. Deep Down Tidal is a video essay in typical net.art style, weaving together cosmological, spiritual, political and technological narratives about water and its role in communication, then and now. It's about how this cable network can facilitate the retention and expansion of power. It also reminds us that water doesn’t forget.<br><br><strong>Ifu Elimnyama: The Dark Cloud, Russel Hlongwane, South Africa, 2019, 6.34min.</strong><br>Set in the year 1220 of the recently decimated metropolis village of The Great Mapungubwe, uMalanje, the installer flaneur moving curiously across time-space. uMalanje, broke away from a group of remaining villagers after the near obliteration the metropolis kingdom of Mapungubwe. The surviving few decided to send a group of their kind to the fourth dimension in order to preserve the black race. Upon this decision, a consensus was reached that the history of the black race (since the Big Bang) would be secretly stored in the cloud. The local wealthy and resourceful Nqomqhayise family was given custodianship of this cloud. <br><br>However, the grandson of the Nqomqhayise family is secretly flying to Silicon Valley to lure venture capitalists to invest in his shrewd digital empire. His plan is to migrate the history of the black civilisation into his company's server after which he will infect the cloud and charge the population to access their own history. <br><br>Upon this threat, the imincwi (those who migrated to the fourth dimension) secretly return to devise a strategy to counter Nqomqhayise’s shrewd plan. They have assembled a group of elite technologists from Mapungubwe to travel to Nairobi where they will work with local technologist to revive the cloud and hopefully successfully foil Nqomqhayise’s plan. The ultimate mandate for these geeks is to lay an extensive fibre network that will connect the entire continent in order to realise the promise of the Pan-African!<br><br><strong>Kifaro, Dilman Dila, Uganda, 2020, 12.37 min.</strong><br>An African science fiction about a man who visits a diviner to know why his wife doesn’t love him anymore. The diviner discovers that the wife is cheating on him, and offers him evil medicine (kifaro) to deal with the problem. The film is an exploration of science and African divination systems under the framework of technology.<br><br><strong>Core Dump, Shenzen, Fracois Knoetze, South Africa, 2019, 12.17min.</strong><br>Core Dump is a series of 4 films, Kinshasa (2018), Shenzhen (2019), New York (2019) and Dakar (2018). The project explores the relationship between digital technology, cybernetics, colonialism and the reenchanted notion of a Non-Aligned Humanist Utopia.<br><br>The four films of Core Dump are rhizomatic assemblages of found footage, performance documentation and recorded interviews that form narrative portraits of the uncertainty in the nervous system of the digital earth. The films are fragmented arrangements of images and sounds, with each chapter forming links across geographic and temporal discontinuities. The conceptual framework draws from audiovisual archives, and responds to the pan-African, Marxist utopias of early African cinema (specifically Ousmane Sembene’s films), and a range of writers and thinkers – from Donna Haraway, Sylvia Wynter and Louis Chude-Sokei to Gayatri Spivak, Franz Fanon, and Aimé Césaire.<br><br>The series compares critical contexts and histories to suggest that the crucial technologies involved in moving towards a more just and equitable world are less physical than they are social. While the cynical billionaires of Silicon Valley invest in transhumanist technologies in an attempt to become immortal, build luxury underground apocalypse bunkers to fight off future climate refugees, and design rockets to colonise mars, Core Dump emerges from the dystopian landfills of consumer culture as an imaginary of a new inclusive humanism that underscores relationality and interhuman narratives."],
             "artwork_description_50w_short": "The ruins of history offer a host of unresolved traces that imagine the global south as a site of prehistoric technologies. This programme of short-films offers counter evidence to the assumption that technology is a western construction. The films address the politics of technology in Africa, affirming the continent as an active agent in the production of technology through indigenous practices.<br><br><em>Films will be online throughout the Control Shift programme, and also screened at Arnolfini on 10-11 October 12-5pm. <br><br><a  target='_blank' href='https://arnolfini.org.uk/whatson/indigeneity-and-digital-entanglements/'>Book Screening</a></em>",
             "details": {
                 "filterOnline": "online person",
@@ -334,15 +332,15 @@
                 },
                 {
                     "url": "indig-entanglements/Core-Dump-Shenzhen-Francois-Knoetze_artwork_0.jpg",
-                    "alt": "Core Dump: Shenzhen by Francois-Knoetze, still.jpg"
+                    "alt": "Core Dump: Shenzhen by Francois-Knoetze"
                 },
                 {
                     "url": "indig-entanglements/Core-Dump-Shenzhen-Francois-Knoetze_artwork_1.jpg",
-                    "alt": "Core Dump: Shenzhen by Francois-Knoetze, still.jpg"
+                    "alt": "Core Dump: Shenzhen by Francois-Knoetze"
                 },
                 {
                    "url": "indig-entanglements/Core-Dump-Shenzhen-Francois-Knoetze_artwork_2.jpg",
-                    "alt": "Core Dump: Shenzhen by Francois-Knoetze, still.jpg"
+                    "alt": "Core Dump: Shenzhen by Francois-Knoetze"
                 },
                 {
                    "url": "indig-entanglements/Core-Dump-Shenzhen-Francois-Knoetze_artwork_3.jpg",
@@ -408,7 +406,7 @@
         "artwork": {
             "artwork_name": "Get this position",
             "artwork_description_line": "Exhibition of DIY augmented reality filters by young people from Knowle West",
-            "artwork_description_150w_long": [" "],
+            "artwork_description_150w_long": ["Augmented reality filters, used in apps such as Tik Tok, Instagram and Snapchat are part of our lives in intimate ways whilst also defining who we are. Rather than defining themselves through the eyes of others, young people from KWMC’s Jump Studio have made their own augmented realities to share with the world.<br><br><em>Co-produced by <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a>. Workshops took place at KWMC between 21 Sept - 5 Oct 2020.</em>"],
             "artwork_description_50w_short": "Augmented reality filters, used in apps such as Tik Tok, Instagram and Snapchat are part of our lives in intimate ways whilst also defining who we are. Rather than defining themselves through the eyes of others, young people from KWMC’s Jump Studio have made their own augmented realities to share with the world. How do they look? <br><br><em>Co-produced by <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a>. Workshops are taking place at KWMC between 21 Sept - 5 Oct</em>",
 
             "details": {
@@ -465,7 +463,7 @@
         "artwork": {
             "artwork_name": "Center for Technological Pain",
             "artwork_description_line": "Exhibition of DIY solutions to health problems caused by digital technologies",
-            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
+            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction.<br><br>For Control Shift CTP was presented in a double shop front in the Galleries Shopping Centre in central Bristol."],
             "artwork_description_50w_short": "Center for Technological Pain (CTP) offers DIY products for tech-pain free lives. The mock-company was set up to manage, prevent and treat the symptoms caused by digital technologies. Among their products are contraptions to relieve eye-strain, insomnia, and strained elbows and fingers. This installation presents the latest innovations from CTP as well as exhibiting new products made by Bristol-based designers and makers in a recent workshop with CTP CEO, Dasha Ilina. <br><br> <em>Exhibition co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
                 "filterOnline": "person",
@@ -553,7 +551,7 @@
         "artwork": {
             "artwork_name": "This City Is",
             "artwork_description_line": "Large-scale projection describing Bristol through the eyes of the internet",
-            "artwork_description_150w_long": ["‘This City is’ is a large-scale projection that describes Bristol through a continuous list of statements taken from twitter, reddit and various other online platforms. The statements range from personal opinions to public announcements and from commercial texts to political statements. Continuously updating and randomly arranged, this collectivised stream of consciousness is an attempt to capture the many layers, voices and emotions that exist in Bristol at this very moment. In a time where our engagement in public places has changed, it has become difficult to sense how a city ‘feels’ and to connect to the shared sentiment of a place. This work engages and reconnects with the multiple versions of this city through the re-edit of found text. This project is coded by Paul Angus, and was first commissioned by O,Miami 2020."],
+            "artwork_description_150w_long": ["‘This City is’ is a large-scale projection that describes Bristol through a continuous list of statements taken from twitter, reddit and various other online platforms. The statements range from personal opinions to public announcements and from commercial texts to political statements. Continuously updating and randomly arranged, this collectivised stream of consciousness is an attempt to capture the many layers, voices and emotions that exist in Bristol at this very moment. In a time where our engagement in public places has changed, it has become difficult to sense how a city ‘feels’ and to connect to the shared sentiment of a place. This work engages and reconnects with the multiple versions of this city through the re-edit of found text. This project is coded by Paul Angus, and was first commissioned by O,Miami 2020.<br><br>'This City Is' was projected onto the facade of Bristol Central Library on October 2nd 2020."],
             "artwork_description_50w_short": "Being in public space has changed, and it has become difficult to sense how a city ‘feels’ and how to connect to the shared sentiment of a place. <em>This City Is</em> projects collectivised streams of consciousness back onto the city. Through large-scale projections we see Bristol through a continuous list of updates, ranging from personal opinions to public announcements. We project the many layers, voices and emotions that exist at this very moment right back into the city itself. <br><br><em>This project is coded by Paul Angus, and was first commissioned by O,Miami 2020.</em>",
             "details": {
                 "filterOnline": "person",
@@ -566,43 +564,43 @@
             "sliderImages": [
                 {
                     "url": "this-city-is/this-city-is_artwork_0.jpg",
-                    "alt": "this-city-is alt 1"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_1.jpg",
-                    "alt": "this-city-is alt 2"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_2.jpg",
-                    "alt": "this-city-is alt 3"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_3.jpg",
-                    "alt": "this-city-is alt 4"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_4.jpg",
-                    "alt": "this-city-is alt 5"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_5.jpg",
-                    "alt": "this-city-is alt 6"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_6.jpg",
-                    "alt": "this-city-is alt 7"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_7.jpg",
-                    "alt": "this-city-is alt 8"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_8.jpg",
-                    "alt": "this-city-is alt 9"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 },
                 {
                     "url": "this-city-is/this-city-is_artwork_9.jpg",
-                    "alt": "this-city-is alt 10"
+                    "alt": "This City Is large scale projection onto Bristol Central Library"
                 }
             ]
         },
@@ -627,13 +625,11 @@
         "artwork": {
             "artwork_name": "Data Poetics",
             "artwork_description_line": "Artist talk and discussion on data in the arts",
-            "artwork_description_150w_long": [""],
+            "artwork_description_150w_long": ["Naho Matsuda and Paul Angus discuss data poetics and how places can come to life through excavating digital layers about a location, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Paul and Naho talk about the staging of This City Is… a large scale live data projection commissioned for Control Shift."],
             "artwork_description_50w_short": "Naho Matsuda is an artist and designer making data based artworks. <br><br>Her approach delves into a shared sentiment of a place from new perspectives. Places come to life through updates, ranging from personal opinions to public announcements, incorporating many layers, voices and emotions. In this Pervasive Media Studio lunchtime talk Naho will discuss her work and process. Don't forget your sandwiches!",
             "details": {
-                "filterOnline": "online",
-                "filterType": "event",
-                "actionText": "Watch online",
-                "actionLink": "https://www.youtube.com/watch?v=t_lkS5Uxx6s&list=PLbP2rruaw4OvyHmG5tYtqgtJ67xIJ5rOf&index=2"
+                "filterOnline": "",
+                "filterType": ""
             },
             "image": {
                 "url": "this-city-is-talk_Artwork.jpg",
@@ -643,10 +639,6 @@
                 {
                     "url": "https://www.youtube.com/embed/t_lkS5Uxx6s?start=369&height=315",
                     "alt": "Naho Matsuda and Paul Angus talk about This City Is"
-                },
-                {
-                    "url": "blank.png",
-                    "alt": ""
                 }
             ]
         },
@@ -669,7 +661,7 @@
         "artwork": {
             "artwork_name": "DIY Solutions to End Tech Pain",
             "artwork_description_line": "Workshop designing speculative treatments for the symptoms caused by excess digital technology use",
-            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to fight this contemporary addiction."],
+            "artwork_description_150w_long": ["<a  target='_blank' href='http://centerfortechpain.com/'>Center for Technological Pain</a> (CTP) is a mock company that offers DIY and open source solutions to solve health problems caused by digital technologies such as smartphones and laptops. Among the prototypes it has developed are mechanical eye shields that reduce eye-strain, a headset to free the user’s hands, an insomnia-free box and various more or less absurd contraptions to relieve strained elbows and fingers. <br><br>CTP further questions the negative effects of technology by adapting self-defense techniques and organizing workshops to ideate new tools to fight this contemporary addiction. <br><br>This workshop took place at <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> on Saturday 3rd October 2020."],
             "artwork_description_50w_short": "DIY Solutions to End Tech Pain is a workshop focused on imagining DIY objects against health problems that arise from technology, using materials you can find in your own home. This workshop will be taking place online, so the main focus will be sketching and conceptualizing the various low-tech solutions, in order to create a discussion around the impact technology has on our physical and mental health. If you have ever experienced eye dryness from staring at a screen for too long or neck pain from looking down at your phone too much, this workshop is for you! <br><br> <em>Workhsop co-produced with <a  target='_blank' href='https://kwmc.org.uk/Knowle'> Knowle West Media Centre</a> and KWMC: The Factory</em>",
             "details": {
                 "filterOnline": "online",
