@@ -80,13 +80,14 @@ function createPage() {
                         sliderElem = document.createElement('img');
                         sliderElem.setAttribute("class", "sliderImage");
                         sliderElem.setAttribute("src", "../2020/img/" + image.url);
+                        sliderElem.setAttribute("alt", data[id].artwork.sliderImages[i].alt);
                         // creating caption div and text
                         let captionContainer =  document.createElement('div'); // create div for caption
                         captionContainer.setAttribute("class", `captionContainer captionContainer${i}`);
                         imageInnerDiv.appendChild(captionContainer);
                         let p = document.createElement('h3');
                         p.setAttribute("class", "caption-text");
-                        p.innerHTML = data[id].artwork.sliderImages[i].alt
+                        p.innerHTML = data[id].artwork.sliderImages[i].alt;
                         captionContainer.appendChild(p);
                     };
 
