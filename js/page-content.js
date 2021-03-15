@@ -32,7 +32,11 @@ function createPage() {
                 // artwork name
                 document.querySelector('.artwork-title-text').innerHTML = data[id].artwork.artwork_name;
                 // artist name
-                document.querySelector('.artist-name-text').innerHTML = data[id].artist.name;
+                let ArtistName = document.querySelectorAll('.artist-name-text');
+                ArtistName.forEach(function(name) {
+                    name.innerHTML = data[id].artist.name;;
+                });
+                console.log(data[id].artist.name);
                 // Set modal images for slider
 
 
