@@ -23,7 +23,7 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "oracle-bot_artwork.jpg",
+                "url": "oracle-bot_thumb.png",
                 "alt": "image of robot in blue on pink and black background"
             }, 
             "sliderImages": [
@@ -75,7 +75,7 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "deep-listening_artwork_8.jpg",
+                "url": "deep-listening_thumb.png",
                 "alt": "photo of Kathy Hinde exploring underwater perspectives"
             },
             "sliderImages": [
@@ -161,7 +161,7 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "miauID_artwork_WEB.png",
+                "url": "miau-id_thumb.png",
                 "alt": "a messy network of yarn in differnt colours"
             }, 
             "sliderImages": [
@@ -218,7 +218,7 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "maps-of-cons_artwork_11.jpg",
+                "url": "maps-of-cons_thumb.png",
                 "alt": "Group of people looking at maps"
             },
             "sliderImages": [
@@ -302,7 +302,7 @@
                 "filterType": "watchlisten"
             },
             "image": {
-                "url": "persp-visibility_artwork_0.jpg",
+                "url": "persp-visibility_thumb.png",
                 "alt": "Proxy user with phone strapped to  chest. The phone has an image of a face on it"
             },
             "sliderImages": [
@@ -343,7 +343,7 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "power-tools-workshop_artwork_WEB.png",
+                "url": "proxy-politics_thumb.gif",
                 "alt": "Proxy protester with phone strapped to his chest. The phone has an image of a face on itr"
             },
             "sliderImages": [
@@ -387,7 +387,7 @@
                 "filterType": "watchlisten"
             },
             "image": {
-                "url": "intervave_artwork_WEB.png",
+                "url": "interwave_thumb.png",
                 "alt": "Image showing the Interwave theme - womxn at work and relaxing"
             }, 
             "sliderImages": [
@@ -432,8 +432,8 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "needlework-probes_artwork.jpg",
-                "alt": "add text"
+                "url": "needlework-probes_thumb.png",
+                "alt": "installation of electronic needlework tools"
             },
             "sliderImages": [
                 {
@@ -481,8 +481,8 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "live-coding_artwork.jpg",
-                "alt": "vibrant live coded visuals with code-text"
+                "url": "live-coding_thumb.gif",
+                "alt": "vibrant live coded visuals"
             },
             "sliderImages": [
                 {
@@ -537,8 +537,8 @@
                 "filterType": "watchlisten event"
             },
             "image": {
-                "url": "indig-entanglements_artwork.jpg",
-                "alt": "Man and digital hard drive"
+                "url": "indig-entanglements_thumb.png",
+                "alt": "Man with ipads for eyes"
             },
             "sliderImages": [
                 {
@@ -640,7 +640,7 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "film-new-image.png",
+                "url": "think-ind_thumb.png",
                 "alt": "Date and text subtitles"
             },
             "sliderImages": [
@@ -678,7 +678,7 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "this-city-is_artwork_1.jpg",
+                "url": "this-city-is_thumb.png",
                 "alt": "animated updates describing this city"
             },
             "sliderImages": [
@@ -750,7 +750,7 @@
                 "filterType": ""
             },
             "image": {
-                "url": "this-city-is-talk_Artwork.jpg",
+                "url": "data-poetics_thumb.png",
                 "alt": "image of website describing the city"
             }, 
             "sliderImages": [
@@ -786,8 +786,8 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "face-on_artwork_7.jpg",
-                "alt": "Image of Rachel's face mixed with Arnold Schwarzenegger"
+                "url": "face-on_thumb.png",
+                "alt": "Image of person holding a phone in front of facial recognition system on a yellow door"
             }, 
             "sliderImages": [
                 {
@@ -862,8 +862,8 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "CTP_artwork_5",
-                "alt": "Image of CTP installed in the galleries shopping centre"
+                "url": "CTP_thumb.png",
+                "alt": "Image of device to prevent wrist strain"
             }, 
             "sliderImages": [
                 {
@@ -948,8 +948,8 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "CTP-workshop_artwork.jpg",
-                "alt": "Image of a prototype laptop contraption from CTP"
+                "url": "DIY_thumb.gif",
+                "alt": "Images of sketches and drawings of designs for objects"
             }, 
             "sliderImages": [
                 {
@@ -1002,7 +1002,7 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "robots-with-pens_artwork.jpg",
+                "url": "robots-with-pens_thumb.png",
                 "alt": "a pen plotter drawing a red wave"
             },
             "sliderImages": [
@@ -1053,8 +1053,8 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "AI-for-nervous-humans_artwork.jpg",
-                "alt": "image of people coding with paper"
+                "url": "AI-for-nervous-humans_thumb.jpg",
+                "alt": "image of machine learning dataset comprised of photos of a person"
             }, 
             "sliderImages": [
                 {
@@ -1106,7 +1106,7 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "swctn_artwork.png",
+                "url": "swctn_thumb.png",
                 "alt": "Image from SWCTN research",
                 "actionText": "Watch online",
                 "actionLink": "https://www.youtube.com/watch?v=OQSzLevGGxM"
@@ -1146,7 +1146,7 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "where-my-space_artwork_WEB.png",
+                "url": "where-my-space_thumb.png",
                 "alt": "woman holding protest sign on street"
             },
             "sliderImages": [
@@ -1202,8 +1202,8 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "alt-text-poetry_artwork.png",
-                "alt": "Image of hand written alt text on a sheet of white paper"
+                "url": "alt-text_thumb.png",
+                "alt": "Image of alt text description and zoom workshop"
             },
             "sliderImages": [
                 {
@@ -1249,7 +1249,7 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "knitwitter_Artwork.jpg",
+                "url": "knitwitter_thumb.png",
                 "alt": "Digital knitting pattern"
             },
             "sliderImages": [
@@ -1307,8 +1307,8 @@
                 "filterType": "workshop"
             },
             "image": {
-                "url": "art-code-fruit_artwork.png",
-                "alt": "two digital hand made drawings"
+                "url": "art-code_thumb.png",
+                "alt": "image of a code and a code drawing with a person playing the trombone"
             },
              "sliderImages": [
                 {
@@ -1368,7 +1368,7 @@
                 "filterType": "exhibition"
             },
             "image": {
-                "url": "get-this-position_Artwork_WEB.gif",
+                "url": "get-this-position_thumb.gif",
                 "alt": "moving image of an face with colour"
             }, 
             "sliderImages": [
@@ -1425,8 +1425,8 @@
                 "filterType": "event"
             },
             "image": {
-                "url": "the-departed_Artwork.jpg",
-                "alt": "Image of the departed artwork"
+                "url": "the-departed_thumb.png",
+                "alt": "Image of an electronic ouija board"
             }, 
             "sliderImages": [
                 {
