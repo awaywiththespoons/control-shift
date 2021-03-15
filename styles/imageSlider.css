@@ -58,7 +58,7 @@ button.btn {
     border-radius: 0;
     background-color: transparent;
     color: #053cb0;
-    border: 1px solid #053cb0;
+    border: 0px solid #053cb0;
     overflow: hidden;
     z-index: 1;
     margin: 0 30px 0 30px;
@@ -119,9 +119,9 @@ button.btn.next:before {
     top: -26px;
     border-radius: 3px;
     background-color: #ecbbf0;
-    background: -moz-linear-gradient(left,#ecbbf0 0,#07dd99 100%);
-    background: -webkit-linear-gradient(left,#ecbbf0 0,#07dd99 100%);
-    background: linear-gradient(to right,#ecbbf0 0,#07dd99 100%);
+    background: -moz-linear-gradient(left,#07dd99 0,#07dd99 100%);
+    background: -webkit-linear-gradient(left,#07dd99 0,#07dd99 100%);
+    background: linear-gradient(to right,#07dd99 0,#07dd99 100%);
 }
 
 .gallery-list__progress-hit-area {
