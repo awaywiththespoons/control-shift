@@ -17,7 +17,7 @@
             "artwork_name": "Oracle Bots",
             "artwork_description_line": "Workshop for coding Bots that provided spiritual advice",
             "artwork_description_150w_long": ["The computational world is full of mystical references and similarities with magical traditions. In this workshop participants explored parallels between coding and casting a spell through making oracle-bots. Bots are small computer programmes that automate text on social media streams we so often find ourselves on. Oracle-bots operate as divination machines and provide spiritual advice. The workshop consisted of coding sessions and guided meditations to explore the collective imagination around analogue and digital connectivity through the body."],
-            "artwork_description_50w_short": "The computational world is full of mystical references and similarities with magical traditions. In this workshop DANAE and Annika Kappne explored parallels between coding and casting a spell through making oracle-bots. Bots are small computer programmes that automate the text on social media streams that we so often find ourselves on. Oracle-bots operate as divination machines and provide spiritual advice. The workshop consisted of coding sessions and guided meditations to explore the collective imagination around analogue and digital connectivity through the body, resulting in a range of new bots still tweeting today - made using <a href = 'https://cheapbotsdonequick.com/' target='_blank'>CheapBotsDoneQuick</a> for those using Twitter and <a href = 'https://cheapbotstootsweet.com/' target='_blank'>CheapBotsTootSweet</a> if on Mastodon!",
+            "artwork_description_50w_short": "The computational world is full of mystical references and similarities with magical traditions. In this workshop DANAE and Annika Kappne explored parallels between coding and casting a spell through making oracle-bots. Bots are small computer programmes that automate text on social media streams that we so often find ourselves on. Oracle-bots operate as divination machines and provide spiritual advice. <br><br>The workshop consisted of coding sessions and guided meditations to explore the collective imagination around analogue and digital connectivity through the body. This resulted in a range of new bots like an <a href = 'https://twitter.com/BotIntangible 'target='_blank'>IntangibleBot</a> making analogue generative artwork and <a href = 'https://twitter.com/ai_arcana' 'target='_blank'>AI Arcana</a>, a mystic bot performing rituals based on algorithmic divination.",
             "details": {
                 "filterOnline": "online",
                 "filterType": "workshop"
@@ -25,7 +25,7 @@
             "image": {
                 "url": "oracle-bot_thumb.png",
                 "alt": "image of robot in blue on pink and black background"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "oracle-bots/oracle-bots_artwork_0.jpg",
@@ -163,7 +163,7 @@
             "image": {
                 "url": "miau-id_thumb.png",
                 "alt": "a messy network of yarn in differnt colours"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "miau-id/miau_id_0.jpg",
@@ -389,7 +389,7 @@
             "image": {
                 "url": "interwave_thumb.png",
                 "alt": "Image showing the Interwave theme - womxn at work and relaxing"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/902716945&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
@@ -752,7 +752,7 @@
             "image": {
                 "url": "data-poetics_thumb.png",
                 "alt": "image of website describing the city"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "https://www.youtube.com/embed/t_lkS5Uxx6s?start=369&height=315",
@@ -788,7 +788,7 @@
             "image": {
                 "url": "face-on_thumb.png",
                 "alt": "Image of person holding a phone in front of facial recognition system on a yellow door"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "https://www.youtube.com/embed/SyXWody2rSQ?start=2&height=434",
@@ -864,7 +864,7 @@
             "image": {
                 "url": "CTP_thumb.png",
                 "alt": "Image of device to prevent wrist strain"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "ctp/CTP_artwork_0.jpg",
@@ -950,7 +950,7 @@
             "image": {
                 "url": "DIY_thumb.gif",
                 "alt": "Images of sketches and drawings of designs for objects"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "ctp-workshop/ctp-workshop_artwork_4.gif",
@@ -1055,7 +1055,7 @@
             "image": {
                 "url": "AI-for-nervous-humans_thumb.jpg",
                 "alt": "image of machine learning dataset comprised of photos of a person"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "ai-nervous/ai_artwork_0.jpg",
@@ -1110,7 +1110,7 @@
                 "alt": "Image from SWCTN research",
                 "actionText": "Watch online",
                 "actionLink": "https://www.youtube.com/watch?v=OQSzLevGGxM"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "https://www.youtube.com/embed/OQSzLevGGxM?start=228&height=315",
@@ -1370,7 +1370,7 @@
             "image": {
                 "url": "get-this-position_thumb.gif",
                 "alt": "moving image of an face with colour"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "get-this-pos/get-this-pos_artwork_0.jpg",
@@ -1427,7 +1427,7 @@
             "image": {
                 "url": "the-departed_thumb.png",
                 "alt": "Image of an electronic ouija board"
-            }, 
+            },
             "sliderImages": [
                 {
                     "url": "the-departed/the-departed_artwork_0.jpg",
