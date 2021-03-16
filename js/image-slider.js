@@ -58,7 +58,7 @@ function init(){
         if (totalSlides === 1) {
             const image = document.querySelector('div.project0')
             gsap.timeline().fromTo(image, {
-                x: '100%', //starting position - entering from righthand side
+                x: '0%', //starting position - entering from righthand side
                 }, { 
                     duration: 1.3,
                     x: 0, //ending position - moving into the center
@@ -71,9 +71,9 @@ function init(){
             const imageInnerLeft = document.querySelector('div.project' + leftImage);
             const timelineIn = gsap.timeline({ id: "timelineIn" }); //creating gsap timeline
             timelineIn.fromTo(imageInnerRight, {
-                x: '100%', //starting position - entering from righthand side
+                x: '0%', //starting position - entering from righthand side
                 }, { 
-                    duration: 1.3,
+                    duration: 0,
                     x: 0, //ending position - moving into the center
                     zIndex:10,
                 }
