@@ -2,7 +2,7 @@ window.onresize = changeButtonPosition; //because the image container is set as 
 
 // changes button position to under project image & also resizez caption container with image
 function changeButtonPosition() {
-    makeCaptionContainers()
+    //makeCaptionContainers()
     projectContainerHeight = document.querySelector('.project-image').clientHeight
     document.querySelector('.projects').style.height = (projectContainerHeight + 15)+ 'px'
 }
@@ -37,7 +37,7 @@ function createProgessBar() {
 // called on return of promises - when the images are loaded into the slider
 function init(){
     createProgessBar()
-    makeCaptionContainers()
+    //makeCaptionContainers()
     changeButtonPosition()
 
     gsap.set('.project', {x: '-100%'}); // images start off screen
