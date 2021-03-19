@@ -231,40 +231,20 @@
                     "alt": "maps-of-cons alt 2"
                 },
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_2.jpg",
-                    "alt": "maps-of-cons alt 3"
-                },
-                {
                     "url": "maps-of-cons/maps-of-cons_artwork_3.jpg",
                     "alt": "maps-of-cons alt 4"
-                },
-                {
-                    "url": "maps-of-cons/maps-of-cons_artwork_4.jpg",
-                    "alt": "maps-of-cons alt 5"
                 },
                 {
                     "url": "maps-of-cons/maps-of-cons_artwork_5.jpg",
                     "alt": "maps-of-cons alt 6"
                 },
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_6.jpg",
-                    "alt": "maps-of-cons alt 7"
-                },
-                {
                     "url": "maps-of-cons/maps-of-cons_artwork_7.jpg",
                     "alt": "maps-of-cons alt 8"
                 },
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_8.jpg",
-                    "alt": "maps-of-cons alt 9"
-                },
-                {
                     "url": "maps-of-cons/maps-of-cons_artwork_9.jpg",
                     "alt": "maps-of-cons alt 10"
-                },
-                {
-                    "url": "maps-of-cons/maps-of-cons_artwork_10.jpg",
-                    "alt": "maps-of-cons alt 11"
                 },
                 {
                     "url": "maps-of-cons/maps-of-cons_artwork_11.jpg",
@@ -313,6 +293,14 @@
                 {
                     "url": "persp-visibility/persp-visibility_artwork_1.jpg",
                     "alt": "Perspectives on visibility: Outside Inside"
+                },
+                {
+                    "url": "persp-visibility/persp-visibility_artwork_2.jpg",
+                    "alt": "Perspectives on visibility: Hot Pink Chain Mail"
+                },
+                {
+                    "url": "persp-visibility/persp-visibility_artwork_3.jpg",
+                    "alt": "Perspectives on visibility: Outside Inside"
                 }
             ]
         },
@@ -350,14 +338,6 @@
                 {
                     "url": "proxy-politics/proxy-politics_artwork_1.jpg",
                     "alt": "Demonstration of how to strap a phone to your chest"
-                },
-                {
-                    "url": "proxy-politics/proxy-politics_artwork_2.jpg",
-                    "alt": "Demonstration of how to strap a phone to your chest"
-                },
-                {
-                    "url": "proxy-politics/proxy-politics_artwork_0.jpg",
-                    "alt": "Image of the proxy politics zoom workshop"
                 }
             ]
         },
@@ -546,19 +526,11 @@
                     "alt": "Ifu Elimnyama, The Dark Cloud by Russel-Hlongwane"
                 },
                 {
-                    "url": "indig-entanglements/Ifu-Elimnyama-The-Dark-Cloud-Russel-Hlongwane_artwork_1.jpg",
-                    "alt": "Ifu Elimnyama, The Dark Cloud by Russel-Hlongwane"
-                },
-                {
                     "url": "indig-entanglements/Ifu-Elimnyama-The-Dark-Cloud-Russel-Hlongwane_artwork_2.jpg",
                     "alt": "Ifu Elimnyama, The Dark Cloud by Russel-Hlongwane"
                 },
                 {
                     "url": "indig-entanglements/Core-Dump-Shenzhen-Francois-Knoetze_artwork_0.jpg",
-                    "alt": "Core Dump: Shenzhen by Francois-Knoetze"
-                },
-                {
-                    "url": "indig-entanglements/Core-Dump-Shenzhen-Francois-Knoetze_artwork_1.jpg",
                     "alt": "Core Dump: Shenzhen by Francois-Knoetze"
                 },
                 {
@@ -571,10 +543,6 @@
                 },
                 {
                     "url": "indig-entanglements/deep-down-tabita-rezaire_artwork_0.jpg",
-                    "alt": "Deep Down by Tabita Rezaire"
-                },
-                {
-                    "url": "indig-entanglements/deep-down-tabita-rezaire_artwork_1.jpg",
                     "alt": "Deep Down by Tabita Rezaire"
                 },
                 {
@@ -811,28 +779,12 @@
                     "alt": "face-on alt 4"
                 },
                 {
-                    "url": "face-on/face-on_artwork_4.jpg",
-                    "alt": "face-on alt 5"
-                },
-                {
                     "url": "face-on/face-on_artwork_5.jpg",
                     "alt": "face-on alt 6"
                 },
                 {
                     "url": "face-on/face-on_artwork_6.jpg",
                     "alt": "face-on alt 7"
-                },
-                {
-                    "url": "face-on/face-on_artwork_7.jpg",
-                    "alt": "face-on alt 8"
-                },
-                {
-                    "url": "face-on/face-on_artwork_8.jpg",
-                    "alt": "face-on alt 9"
-                },
-                {
-                    "url": "face-on/face-on_artwork_9.jpg",
-                    "alt": "face-on alt 10"
                 }
             ]
         },
@@ -866,41 +818,17 @@
                 "alt": "Image of device to prevent wrist strain"
             },
             "sliderImages": [
+                                {
+                    "url": "ctp/CTP_artwork_8.jpg",
+                    "alt": "CTP alt 9"
+                },
                 {
                     "url": "ctp/CTP_artwork_0.jpg",
                     "alt": "CTP alt 1"
                 },
                 {
-                    "url": "ctp/CTP_artwork_2.jpg",
-                    "alt": "CTP alt 2"
-                },
-                {
-                    "url": "ctp/CTP_artwork_1.jpg",
-                    "alt": "CTP alt 3"
-                },
-                {
-                    "url": "ctp/CTP_artwork_3.jpg",
-                    "alt": "CTP alt 4"
-                },
-                {
-                    "url": "ctp/CTP_artwork_4.jpg",
-                    "alt": "CTP alt 5"
-                },
-                {
-                    "url": "ctp/CTP_artwork_5.jpg",
-                    "alt": "CTP alt 6"
-                },
-                {
-                    "url": "ctp/CTP_artwork_6.jpg",
-                    "alt": "CTP alt 7"
-                },
-                {
-                    "url": "ctp/CTP_artwork_7.jpg",
-                    "alt": "CTP alt 8"
-                },
-                {
-                    "url": "ctp/CTP_artwork_8.jpg",
-                    "alt": "CTP alt 9"
+                    "url": "ctp/CTP_artwork_12.jpg",
+                    "alt": "CTP alt 13"
                 },
                 {
                     "url": "ctp/CTP_artwork_9.jpg",
@@ -915,8 +843,16 @@
                     "alt": "CTP alt 12"
                 },
                 {
-                    "url": "ctp/CTP_artwork_12.jpg",
-                    "alt": "CTP alt 13"
+                    "url": "ctp/CTP_artwork_1.jpg",
+                    "alt": "CTP alt 3"
+                },
+                {
+                    "url": "ctp/CTP_artwork_3.jpg",
+                    "alt": "CTP alt 4"
+                },
+                {
+                    "url": "ctp/CTP_artwork_7.jpg",
+                    "alt": "CTP alt 8"
                 }
             ]
         },
@@ -1063,10 +999,6 @@
                 },
                 {
                     "url": "ai-nervous/ai_artwork_1.jpg",
-                    "alt": "AI for Nervous Humans"
-                },
-                {
-                    "url": "ai-nervous/ai_artwork_2.jpg",
                     "alt": "AI for Nervous Humans"
                 },
                 {
@@ -1332,10 +1264,6 @@
                     "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
                 },
                 {
-                    "url": "art-code/art-code_artwork_5.jpg",
-                    "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
-                },
-                {
                     "url": "art-code/art-code_artwork_6.jpg",
                     "alt": "Art Code and a Bowl of Fruit artworks created in the workshop"
                 }
@@ -1385,11 +1313,6 @@
                     "alt": "AR filters workshop for young people"
                 },
                 {
-                    "url": "get-this-pos/get-this-pos_artwork_3.jpg",
-                    "alt": "AR filters workshop for young people"
-                }
-                ,
-                {
                     "url": "get-this-pos/get-this-pos_artwork_4.jpg",
                     "alt": "AR filters workshop for young people"
                 }
@@ -1434,6 +1357,10 @@
                     "alt": "The Departed digital seance"
                 },
                 {
+                    "url": "the-departed/the-departed_artwork_9.jpg",
+                    "alt": "The Departed digital seance"
+                },
+                {
                     "url": "the-departed/the-departed_artwork_1.jpg",
                     "alt": "The Departed digital seance"
                 },
@@ -1442,31 +1369,11 @@
                     "alt": "The Departed digital seance"
                 },
                 {
-                    "url": "the-departed/the-departed_artwork_3.jpg",
-                    "alt": "The Departed digital seance"
-                },
-                {
                     "url": "the-departed/the-departed_artwork_4.jpg",
                     "alt": "The Departed digital seance"
                 },
                 {
-                    "url": "the-departed/the-departed_artwork_5.jpg",
-                    "alt": "The Departed digital seance"
-                },
-                {
-                    "url": "the-departed/the-departed_artwork_6.jpg",
-                    "alt": "The Departed digital seance"
-                },
-                {
                     "url": "the-departed/the-departed_artwork_7.jpg",
-                    "alt": "The Departed digital seance"
-                },
-                {
-                    "url": "the-departed/the-departed_artwork_8.jpg",
-                    "alt": "The Departed digital seance"
-                },
-                {
-                    "url": "the-departed/the-departed_artwork_9.jpg",
                     "alt": "The Departed digital seance"
                 }
             ]

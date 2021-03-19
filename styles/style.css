@@ -233,7 +233,7 @@ a.dropdown-item:hover {
 #menu-mobile {
     font-size: 1.6em;
     background-color: var(--background);
-    z-index: 5;
+    z-index: 100;
     max-width: 1200px;
     margin: 0 auto;
 }
