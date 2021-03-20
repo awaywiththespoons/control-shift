@@ -2,7 +2,6 @@ window.onresize = changeButtonPosition; //because the image container is set as 
 
 // changes button position to under project image & also resizez caption container with image
 function changeButtonPosition() {
-    //makeCaptionContainers()
     projectContainerHeight = document.querySelector('.project-image').clientHeight
     document.querySelector('.projects').style.height = (projectContainerHeight + 15)+ 'px'
 }
