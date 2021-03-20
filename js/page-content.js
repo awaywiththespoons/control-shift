@@ -36,10 +36,7 @@ function createPage() {
                 ArtistName.forEach(function(name) {
                     name.innerHTML = data[id].artist.name;;
                 });
-                console.log(data[id].artist.name);
                 // Set modal images for slider
-
-
                 const imageLoaded = (data[id].artwork.sliderImages ? data[id].artwork.sliderImages : []).map(function(image, i) {
                     let sliderContainer = document.getElementById('slider-container');
                     let imageOuterDiv = document.createElement('div');
@@ -85,14 +82,6 @@ function createPage() {
                         sliderElem.setAttribute("class", "sliderImage");
                         sliderElem.setAttribute("src", "../2020/img/" + image.url);
                         sliderElem.setAttribute("alt", data[id].artwork.sliderImages[i].alt);
-                        // creating caption div and text
-                        let captionContainer =  document.createElement('div'); // create div for caption
-                        captionContainer.setAttribute("class", `captionContainer captionContainer${i}`);
-                        imageInnerDiv.appendChild(captionContainer);
-                        let p = document.createElement('h3');
-                        p.setAttribute("class", "caption-text");
-                        p.innerHTML = data[id].artwork.sliderImages[i].alt;
-                        captionContainer.appendChild(p);
                     };
 
                     // add slider element

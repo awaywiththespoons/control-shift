@@ -1,29 +1,9 @@
 window.onresize = changeButtonPosition; //because the image container is set as absolute, we need a way of telling if the image is smaller on some screens to prevent a gap between the projects div and the navigation buttons
 
-// changes button position to under project image & also resizez caption container with image
+// changes button position to under project image
 function changeButtonPosition() {
     projectContainerHeight = document.querySelector('.project-image').clientHeight
     document.querySelector('.projects').style.height = (projectContainerHeight + 15)+ 'px'
-}
-
-// sets caption container to the correct height of the slider image div and adds event listener to change opacity if hovered over
-function makeCaptionContainers() {
-    let imageArray = Array.prototype.slice.call(document.querySelectorAll('.sliderImage'))
-    let captions = Array.prototype.slice.call(document.querySelectorAll('.captionContainer'))
-    imageArray.forEach((imageArray, i) => {
-        const halfWidth = imageArray.width / 2;
-        captions[i].style.width = imageArray.width + 'px';
-        captions[i].style.height = imageArray.height + 'px';
-        captions[i].style.left = `calc(50% - ${halfWidth}px)`;
-    });
-    gsap.utils.toArray(".captionContainer").forEach((container) => {
-        let tl1 = gsap.timeline();
-        let tl2 = gsap.timeline();
-        tl1.to(container, { opacity: 1 })
-        tl2.to(container, { opacity: 0 });
-        container.addEventListener("mouseleave", () => tl2.play(0));
-        container.addEventListener("mouseenter", () => tl1.play(0));
-    })
 }
 
 // creating the width of the progress bar by the client width of whole bar divded by no of divs in slider
@@ -36,12 +16,10 @@ function createProgessBar() {
 // called on return of promises - when the images are loaded into the slider
 function init(){
     createProgessBar()
-    //makeCaptionContainers()
     changeButtonPosition()
 
     gsap.set('.project', {x: '-100%'}); // images start off screen
     gsap.set('.project', {autoAlpha: 1}); // images all set to full opacity
-    gsap.set('.captionContainer', {opacity:0}); //caption containers all set to zero opacity
 
     let currentStep = 0; //first image
     const totalSlides = document.querySelectorAll('.project').length //total divs in slider
@@ -52,7 +30,6 @@ function init(){
 
     function createfirstTimeline(index) {
         leftImage = index -1 < 0 ? totalSlides -1 : index - 1; // if user presses back it will show last image
-        console.log('totalSlides', totalSlides)
         // Handles only one slide
         if (totalSlides === 1) {
             const image = document.querySelector('div.project0')
@@ -215,11 +192,9 @@ function init(){
     $('.project img').on({ 'touchmove' : function(e){
         var te = e.originalEvent.changedTouches[0].clientX;
         if (ts > te && totalSlides > 3) {
-            console.log('left');
             const nextStep = wrapper(currentStep+1);
             !isTweening() && transition('next', nextStep);
         } else {
-            console.log('right');
             const prevStep = wrapper(currentStep-1);
             !isTweening() && transition('prev', prevStep);
         }
