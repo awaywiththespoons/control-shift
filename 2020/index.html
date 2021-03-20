@@ -39,8 +39,27 @@
                     <div class="gallery-list__progress-bar"></div>
                     <div class="gallery-list__progress-hit-area"></div>
                 </div>
+                <div class="project project0">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/placeholder.png" alt=""/>
+                    </div>
+                </div>
+                <div class="project project1">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/placeholder.png" alt=""/>
+                    </div>
+                </div>
+                <div class="project project2">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/placeholder.png" alt=""/>
+                    </div>
+                </div>
+                <div class="project project3">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/placeholder.png" alt=""/>
+                    </div>
+                </div>
             </div>
-
             <div class="button-container">
                 <button class="btn prev"><span>Prev</span>
                     <i class="fas fa-chevron-left"></i>
@@ -109,7 +128,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
-
+    <script src="../js/image-slider.js"></script>
     <!-- <script src="/modal.js"></script> -->
     <script>
         $('#navbar').load('../components/navigation.html');
@@ -119,6 +138,7 @@
     </script>
 
     <script>
+        init()
         fetch('artworks.json') // fetching json code
         .then(function (response) {
             return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
@@ -225,11 +245,9 @@
             // Init
             applyFilter();
         };
-
         // $("#outerImage").hover(function(){
         //     console.log('hovering')
         // $('.gridTitle').css({'color':'blue','background-color':'white' });
 // });
 </script>
- <script src="../js/image-slider.js"></script>
 </body></html>
