@@ -4,8 +4,8 @@ $(document).ready(function(){
 });
 
 
-// create and show modal
-// function to populate modal with artist info from json file, matching the url to the id
+// create and show artist page
+// function to populate artist page with artist info from json file, matching the url to the id
 function createPage() {
     // clicking on the thumbnail image
     let urlParams = new URLSearchParams(window.location.search);
