@@ -80,7 +80,8 @@ body {
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 3;
+        z-index: 100;
+        background-color: #fdfcd1;
     }
 }
 
@@ -212,6 +213,7 @@ a.dropdown-item:hover {
 .nav-bar-mobile-open {
     border-bottom: 1px solid var(--dark-link);
     padding-bottom: 30px;
+    background-color: #fdfcd1;
 }
 =
 
