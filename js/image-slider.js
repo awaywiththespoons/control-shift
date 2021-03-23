@@ -55,7 +55,7 @@ function init(){
                 }
             ),
             timelineIn.fromTo(imageInnerLeft, {
-                x: '-100%', //starting position - entering from the lefthand side
+                x: '-700', //starting position - entering from the lefthand side
                 }, { 
                     duration: 1.0,
                     x: -700, //ending position - moving into the far left position (partially off lefthand side)
@@ -63,7 +63,7 @@ function init(){
             ),
             timelineIn.fromTo(imageFurthestRight, {
                 // autoAlpha: 0, //autoAlpha animates opacity - in this case from 0 to 1 
-                x: '100%', //starting position (set above)
+                x: '700', //starting position (set above)
                 }, { 
                     duration: 1.0,
                     x: 700, //ending position - moving into the far right position (partially off right side)
