@@ -75,6 +75,8 @@ body {
     height: 75px;
 }
 
+
+
 @media (max-width: 850px) {
     #navbar {
         position: fixed;
@@ -189,6 +191,7 @@ a.dropdown-item:hover {
 /* MENU */
 .navbar {
     font-family: var(--font-nav-bar);
+    z-index: 100;
 }
 
 .navbar .active {
@@ -255,6 +258,12 @@ a.dropdown-item:hover {
 @media (max-width: 850px) {
     .nav-bar-space {
         margin-top: 58px;
+    }
+
+    .nav-bar-mobile-open {
+        border-bottom: 1px solid var(--dark-link);
+        padding-bottom: 30px;
+        background-color: #fdfcd1;
     }
 }
 
@@ -756,6 +765,8 @@ input:-webkit-autofill {
     .home-page-content {
         margin-top: 70px !important;
     }
+
+
 }
 
 @media (max-width: 1000px) {
