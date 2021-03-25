@@ -223,11 +223,11 @@
             },
             "sliderImages": [
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_0.jpg",
+                    "url": "maps-of-cons/maps-of-cons_artwork_11.jpg",
                     "alt": "maps-of-cons alt 1"
                 },
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_1.jpg",
+                    "url": "maps-of-cons/maps-of-cons_artwork_7.jpg",
                     "alt": "maps-of-cons alt 2"
                 },
                 {
@@ -239,16 +239,12 @@
                     "alt": "maps-of-cons alt 6"
                 },
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_7.jpg",
+                    "url": "maps-of-cons/maps-of-cons_artwork_6.jpg",
                     "alt": "maps-of-cons alt 8"
                 },
                 {
-                    "url": "maps-of-cons/maps-of-cons_artwork_9.jpg",
+                    "url": "maps-of-cons/maps-of-cons_artwork_12.jpg",
                     "alt": "maps-of-cons alt 10"
-                },
-                {
-                    "url": "maps-of-cons/maps-of-cons_artwork_11.jpg",
-                    "alt": "maps-of-cons alt 12"
                 }
             ]
         },
