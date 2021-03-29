@@ -735,6 +735,9 @@ input:-webkit-autofill {
         font-size: 2em;
         /*        text-shadow: 2px 2px var(--dark-link);*/
     }
+     .indent{
+        padding-left: 25px;
+    }
 
 
     .logos img {
