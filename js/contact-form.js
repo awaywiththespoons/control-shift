@@ -1,3 +1,5 @@
+console.log("contactForm js");
+
 //modal scripts
 var overlay = document.getElementById('overlay');
 
