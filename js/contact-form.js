@@ -36,7 +36,7 @@ function sendValues(str, emailValidation, msgValidation) {
   if (msgValidation && emailValidation) {
     document.getElementById("sendStatus").innerHTML = "Sending...Please wait for confirmation";
     openModal();
-    /*const xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open("POST", "https://getform.io/f/https://getform.io/f/58bf1032-e3d6-4dfe-80df-c31b5693a233");
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.setRequestHeader("Accept", "application/json");
@@ -44,9 +44,9 @@ function sendValues(str, emailValidation, msgValidation) {
       JSON.stringify({
         message: "Hello, World!",
       })
-    );*/
+    );
 
-    var xmlhttp = new XMLHttpRequest();
+    /*var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
         document.getElementById("sendStatus").innerHTML = xmlhttp.responseText;
@@ -58,7 +58,7 @@ function sendValues(str, emailValidation, msgValidation) {
     xmlhttp.open("POST", "https://www.roddickinson.net/control-shift/sendMail.php", true);
     //xmlhttp.open("POST", "https://www.irational.org/rodd/control-shift/sendMail.php", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xmlhttp.send("inputFromForm=" + str);
+    xmlhttp.send("inputFromForm=" + str);*/
   } else { //not validated
     document.getElementById("sendStatus").innerHTML = "Sorry your mail could not be sent"; //err msg
     return;
