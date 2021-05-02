@@ -45,7 +45,7 @@ function sendValues(str, emailValidation, msgValidation) {
         message: "Hello, World!",
       })
     );*/
-      
+
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
@@ -115,7 +115,7 @@ function subscribeMe(){
 
   $.ajax({
     type: "GET", 
-    url: "https://irational.org/rodd/control-shift/sendSub.php", 
+    url: "https://www.roddickinson.net/control-shift/sendSub.php", 
     //url: "../control-shift-network-server/sendSub.php", 
     data: options,
     cache: false,
