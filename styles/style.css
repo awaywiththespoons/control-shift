@@ -257,7 +257,7 @@ a.dropdown-item:hover {
 
 @media (max-width: 850px) {
     .nav-bar-space {
-        margin-top: 58px;
+        margin-top: 68px;
     }
 
     .nav-bar-mobile-open {
@@ -783,6 +783,12 @@ input:-webkit-autofill {
     .mobile-menu {
         display: none;
     }
+
+    
+    .logo-ht img {
+        max-height: 60px;
+    }
+
 }
 
 .youtubeEmbed {
