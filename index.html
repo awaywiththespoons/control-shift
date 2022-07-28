@@ -1,137 +1,115 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Control Shift is... ">
-    <meta name="keywords" content="art, artists, Bristol, data, care">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta property="og:url" content="http://www.control???.com">
-    <meta property="og:title" content="controlshift">
-    <meta property="og:description" content="Control Shift is...  ">
-    <meta property="og:image" content="XXXXXhttps://ADDmedia.pngXXXXX">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Control Shift is an exciting new arts programme coming to Bristol (UK) in June 2020.">
+  <meta name="keywords" content="art, artists, Bristol, data, embodiement, materiality, code">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta property="og:url" content="http://www.control-shift.network">
+  <meta property="og:title" content="Control Shift">
+  <meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
+  <meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
+  <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!--  Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
 
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+<body>
+  <div id="navbar"></div>
 
-    <title>Control Shift</title>
+  <div class="container home-page-content">
+      <h1 class="pt-4 text-center">Control Shift</h1>
+      <p class="text-center">Control Shift celebrates computational arts that explore the messy spaces in-between humans, nature and machines. We bring people together to re-imagine our relationships with technology through dialogue and arts. </p>
 
-    
-
-  </head>
-  <body>
-    <div class="container">
-      <!-- all content goes in the container -->
-     
-
-      <!-- nav -->
-      <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
-        <!-- <a class="navbar-brand" href="#">Control Shift</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">home</a>
-            <a class="nav-item nav-link" href="about.html">about</a>
-            <a class="nav-item nav-link" href="call.html">open call</a>
-            <a class="nav-item nav-link" href="contact.html">contact</a>
-          </div>
-        </div>
-      </nav>
-      <!-- nav -->
-
-       <div class="jumbotron d-flex align-items-center">
-        <div class="container text-center">
-          <h1><span>Control Shift</span></h1>
-          <h2>Weekender 5-7 June 2020</h2>
-          <h2>Exhibition 5-19 June 2020</h2>
-          <p>Control Shift is an exciting new arts programme coming to Bristol (UK) in June 2020 exploring alternative visions of technology, based around care, embodied interaction and critical reflection.</p>
-        </div>
-      </div>
-
-      <!-- row  -->
-      <div class="row">
-        <div class="col-sm">
-          <p>
-          ‘Control Shift’ asks how we can create an alternative vision of technology that combats the abstract computational
-          processes that are pervasive in contemporary culture, and explore possibilities for technology that are based around
-          care, embodied interaction, and critical reflection. Where ‘care’ might be thought of more expansively than its
-          usual framing and might include a more situated, affective and connected approach to technology that includes
-          sociotechnical assemblages and objects as lively politically charged “things.” (de La Bellacasa, 2017)
-          It might also echo some of Latour’s “matters of concern” and Dingpolitik.
-        </p>
-        <br>
-        <p>
-          more info to come...
-        </p>
-      </div>
         
+     <!--   <div class="row">
+
+        <div class="col-md-12 sketch">
+            <div id="sketch-container" class="d-flex justify-content-center"></div>
+
+          </div>
+      </div>
+       <div class="video-container">
+        <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+        <script>
+        window.addEventListener("load",function(){
+            var iframe = document.getElementById('player1');
+            var player = window.$f(iframe);
+            // When the player is ready, add listeners for pause, finish, and playProgress
+            player.addEvent('ready', function() {
+                iframe.contentWindow.postMessage({method: "enableTextTrack", value:"en-GB"},"*");
+                player.api('setVolume', 0);
+            });
+        });
+        </script>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+         <iframe id="player1" src="https://player.vimeo.com/video/524330198?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&player_id=player1&color=fcfcfc" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+
+    <hr>
+    <div class="row">
+      div class="col-sm ">
+        <p>
+          Control Shift 2020 was an ambitious three week hybrid digital arts programme. Through installations, workshops and events we explored ways to reframe and rethink how we relate to technology.
+        </p>
+        <p>
+          To find out more, check out the full <a href="2020/index.html">archive</a> or join our <a href="https://mailchi.mp/46ef034d1381/control-shift-network" target="_blank">mailing list</a> for updates.
+        </p>
+        <p>
+          We live in a world where machines increasingly collect information about us, reducing our bodies and the things around us to streams of data. In turn the digital realm can feel abstract, and out of our control. The stuff of computers and
+          digital infrastructure is often hidden out of sight and huge power imbalances exist around who is making technology and who benefits from it. Yet the impact of our interactions with machines and technologies are very much rooted in the
+          body, materials, and emotions.
+        </p>
+      </div> -->
+      <div class="col-sm">
+          <center><img class="img-fluid" src="img/callout-emoji.png"></center>
+          <br>
+          <h1 class="text-center"> Open Call for Feeling Machines!</h1>
+            <br>
+            <p>Our 2022-2023 programme <strong><em>Feeling Machines</em></strong> explores how digital technologies intertwine with the most intimate aspects of our lives. Together we will take a deep dive into the sticky, messy, fluffy ways that we live our lives within the binary logics of digital machines.
+              </p>
+          <p>    
+              We are currently inviting UK based artists, designers, performers, activists, coders, makers, researchers, facilitators, and creative technologists whose work relates to <em>Feeling Machines</em> to submit proposals for workshops, artworks or performances. 
+          <h2>
+          More info can be found on our <a href="/call">open call page</a>.<br>
+         </h2> 
+          <h2>Deadline: Friday 9th September 2022, 23:59 UK time.</h2>
       </div>
     </div>
-
-    <!-- Footer -->
-<footer class="page-footer font-small teal pt-4">
-
-  <!-- Footer Text -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-md-12 mt-md-0 mt-3">
-        <h5>Control Shift is funded by:</h5>
-      </div>
-    </div>
-    <!-- Grid row -->
-
-    <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-sm "></div>
-      <div class="col-sm text-center"><img src="logos/ioc.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/lottery_Logo.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/KWMC-2014.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/uwe.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm"></div>
-    </div>
-    <!-- Grid row -->
-
-   <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-md-12 mt-md-0 mt-3">
-        <h5>Control Shift is supported by:</h5>
-      </div>
-    </div>
-    <!-- Grid row -->
-
-    <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-sm "></div>
-      <div class="col-sm text-center"><img src="logos/PCD.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/watershed.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/curious.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/BCC-logo.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm"></div>
-    </div>
-    <!-- Grid row -->
-
+    <!--  <hr>
+        <div class="row">
+            <div class="col-sm">
+                <p class="text-center">
+                    We are excited to bring you a programme from brilliant artists across the globe and close to home (Bristol, UK), helping us to explore some of these urgent questions together.
+                </p>
+                <p class="text-center">
+                    Sign-up to our <a href="programme.html">newsletter</a> for more details and how to get involved.
+                </p>
+            </div>
+        </div>-->
   </div>
+  <!-- Include Footer -->
+  <div class="pt-4" id="footer"></div>
 
-  <!-- Footer Text -->
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    $('#navbar').load('./components/navigation.html');
+    $('#head').load('./components/head.html');
+    $('#footer').load('./components/footer.html');
+  </script>
+  <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
+</body>
 
-</footer>
-<!-- Footer -->
-
-  
-    
-
-    <!-- JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
 </html>

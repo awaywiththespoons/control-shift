@@ -1,242 +1,96 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Control Shift is... ">
-    <meta name="keywords" content="art, artists, Bristol, data, care">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta property="og:url" content="http://www.control???.com">
-    <meta property="og:title" content="controlshift">
-    <meta property="og:description" content="Control Shift is...  ">
-    <meta property="og:image" content="XXXXXhttps://ADDmedia.pngXXXXX">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Control Shift is an exciting new arts programme coming to Bristol (UK) in June 2020.">
+<meta name="keywords" content="art, artists, Bristol, data, embodiement, materiality, code">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta property="og:url" content="http://www.control-shift.network">
+<meta property="og:title" content="Control Shift">
+<meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
+<meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
+<title> Control (╯°▽°)╯ ┻━┻ Shift </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-
+    <!--  Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
 
-    <title>Control Shift</title>
-    <style>
-    /* modal styles */
-    .is-hidden { display: none; }
+<body>
+    <div id="navbar"></div>
+    <div class="container nav-bar-space">
+        <!-- row  -->
+        <div class="row">
+            <div class="col-sm">
+                <h1 class="pt-4">Contact us / Subscribe</h1>
 
-    #overlay{
-        border:1px solid red;
-        position: relative;
-        min-height: 40px;
-        border-radius: 4px;
-        padding-left: 15px;
-        padding-top: 6px;
-        margin-bottom: 4px;
-        background-color: red;
-        color: white;
-        font-size: 0.8em;
-    }
+                <p>If you have any questions please contact us through the form below. <br>Join our mailing list for the latest news and info by checking the subscribe box.</p>
 
-    .button-close {
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      cursor: pointer;
-      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAowAAAKMB8MeazgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB5SURBVDiNrZPRCcAwCEQfnUiySAZuF8kSWeH6Yz8KrQZMQAicJ+epAB0YwAmYJKIADLic0/GPPCbQAnLznCd/4NWUFfkgy1VjH8CryA95ApYltAiTRCZxpuoW+gz9WXE6NPeg+ra1UDIxGlWEObe4SGxY5fIxlc75Bkt9V4JS7KWJAAAAAElFTkSuQmCC59ef34356faa7edebc7ed5432ddb673d');
-    }
-    /* modal styles */
-    </style>
-    
+                <div class="form-area d-flex justify-content-center padding-bottom">
+                    <form role="form" name="contactForm" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" value="" name="FNAME" class="form-control mc" id="mce-FNAME" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" value="" name="LNAME" class="form-control mc" id="mce-LNAME" placeholder="Last Name" required>
+                            </div>
+                        </div>
 
-  </head>
-  <body>
-    <div class="container">
-      <!-- all content goes in the container -->
-     
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="email" value="" name="EMAIL" class="form-control required email mc" id="mce-EMAIL" placeholder="Email" required>
+                            </div>
+                        </div>
 
-      <!-- nav -->
-      <nav class="navbar navbar-expand-lg navbar-light" id="menu-mobile">
-        <!-- <a class="navbar-brand" href="#">Control Shift</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Open the menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">home</a>
-            <a class="nav-item nav-link" href="about.html">about</a>
-            <a class="nav-item nav-link" href="call.html">open call</a>
-            <a class="nav-item nav-link disabled active" href="#">contact</a>
-          </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <textarea id="inputMsg" type="textarea" name="inputMsg" class="form-control" placeholder="Optional Message" maxlength="140" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-check col-md-12 pl-4">
+                                <input type="checkbox" class="form-check-input" id="SubscribeCheckBox" checked="checked">
+                                <label class="checkmark form-check-label" for="SubscribeCheckBox">Subscribe me to the Control Shift mailing list, I have read and agree to the <a href="privacy.html" target="_blank">Privacy Policy</a></label>
+                            </div>
+                        </div>
+
+                        <div class="overlay is-hidden" id="overlay">
+                            <span class="" id="sendStatus">hello</span><span class="button-close" onclick="closeModal();"></span>
+                        </div>
+
+                        <div id="sendMsg" class="send-submit">
+                            Send
+                        </div>
+
+                    </form>
+                </div>
+                <p class="padding-bottom">
+                    If you would like to contribute to the network and become part of the Control Shift Community please contact us and watch out for more volunteering opportunities.
+                </p>
+            </div>
+
         </div>
-      </nav>
-      <!-- nav -->
-
-      <!-- row  -->
-      <div class="row">
-        <div class="col-sm">
-          <h1>Contact Control Shift</h1>
-          <div class="form-area">  
-              <form role="form" name="emailForm">
-                <br style="clear:both">
-                <div class="form-group">
-                  <input id="inputName" type="text" name="inputFromForm" class="form-control" placeholder="Name" required>
-                </div>
-                
-                <div class="form-group">
-                  <input id="inputEmail" type="text" name="inputEmail" class="form-control" placeholder="Email" required>
-                </div>
-                
-                <div class="form-group">
-                    <textarea id="inputMsg" type="textarea" name="inputMsg" class="form-control" placeholder="Message" maxlength="140" rows="7"></textarea>       
-                </div>
-
-                <div class="overlay is-hidden" id="overlay">
-                    <span class="" id="sendStatus">hello</span><span class="button-close" onclick="closeModal();"></span>
-                </div>
-
-                <a class="btn btn-blue" onclick="sendValues(getFormValues(),validateEmail(),validateMsg())" >Send</a>
-
-                <!--<input type="submit" id="submit" name="submit" value="Submit" class="button fixed">-->
-              </form>
-          </div>
-          <p></p>
-        </div>
-        
-      </div>
     </div>
-
-    <!-- Footer -->
-<footer class="page-footer font-small teal pt-4">
-
-  <!-- Footer Text -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-md-12 mt-md-0 mt-3">
-        <h5>Control Shift is funded by:</h5>
-      </div>
-    </div>
-    <!-- Grid row -->
-
-    <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-sm "></div>
-      <div class="col-sm text-center"><img src="logos/ioc.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/lottery_Logo.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/KWMC-2014.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/uwe.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm"></div>
-    </div>
-    <!-- Grid row -->
-
-   <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-md-12 mt-md-0 mt-3">
-        <h5>Control Shift is supported by:</h5>
-      </div>
-    </div>
-    <!-- Grid row -->
-
-    <!-- Grid row -->
-    <div class="row logos">
-      <div class="col-sm "></div>
-      <div class="col-sm text-center"><img src="logos/PCD.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/watershed.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/curious.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm text-center"><img src="logos/BCC-logo.png" alt="..." class="img-fluid"></div>
-      <div class="col-sm"></div>
-    </div>
-    <!-- Grid row -->
-
-  </div>
-
-  <!-- Footer Text -->
-
-</footer>
-<!-- Footer -->
-
-<script> 
-//modal scripts
-var overlay = document.getElementById('overlay');
-function openModal(){
-  overlay.classList.remove("is-hidden");
-}
-
-function closeModal(){
-  overlay.classList.add("is-hidden");
-}
-</script> 
-
-<script>
-
-
-//SEND FORM VALUES VIA AJAX
-function sendValues(str, emailValidation, msgValidation) {
-    if (msgValidation && emailValidation) { 
-        document.getElementById("sendStatus").innerHTML = "Sending...Please wait for confirmation";
-        openModal();
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                document.getElementById("sendStatus").innerHTML = xmlhttp.responseText;
-                document.getElementById("overlay").style.backgroundColor = "green";
-                document.getElementById("overlay").style.borderColor = "green";
-            }
-        };
-        console.log(str);
-        xmlhttp.open("POST", "https://www.irational.org/rodd/control-shift/sendMail.php", true);
-        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-        xmlhttp.send("inputFromForm=" + str);
-    } else { //not validated
-        document.getElementById("sendStatus").innerHTML = "Sorry your mail could not be sent"; //err msg
-        return;
-    }
-}
-
-//GET THE VALUE OF EACH FORM
-function getFormValues() {
-    var name = document.getElementById("inputName").value;
-    var email = document.getElementById("inputEmail").value;
-    var msg = document.getElementById("inputMsg").value;
-    var values = name + "\n\n" + email + "\n\n" + msg;
-    return values;
-}
-
-//CHECK FOR VALID EMAIL
-function validateEmail() {
-    var x = document.forms["emailForm"]["inputEmail"].value;
-    var atpos = x.indexOf("@");
-    var dotpos = x.lastIndexOf(".");
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-        alert("Sorry, please add a valid e-mail address");
-        return false;
-    } else {
-        return true;
-    }
-}
-
-//CHECK FOR MSG CONTENT
-function validateMsg() {
-     var msg =  document.forms["emailForm"]["inputMsg"].value;
-     if (msg == "") {
-        alert("Sorry, you need to add a message");
-        return false;
-     } else {
-        return true;
-     }
-}
-
-
-</script>
-    
-
-    <!-- JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Include Footer -->
+    <div id="footer"></div>
+    <script src="js/contact-form.js"></script>
+    <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script>
+        $('#navbar').load('./components/navigation.html');
+        $('#head').load('./components/head.html');
+        $('#footer').load('./components/footer.html');
+    </script>
+    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
+</body>
 </html>

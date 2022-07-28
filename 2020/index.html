@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Control Shift is an exciting new arts programme coming to Bristol (UK) in June 2020.">
+    <meta name="keywords" content="art, artists, Bristol, data, embodiement, materiality, code">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:url" content="http://www.control-shift.network">
+    <meta property="og:title" content="Control Shift">
+    <meta property="og:description" content="Control Shift is an exciting new arts programme coming to Bristol (UK), exploring creative and critical approaches to technology, rooted in embodiment and materiality.">
+    <meta property="og:image" content="https://www.control-shift.network/img/control-shiftBanner.png">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,623;0,700;1,300;1,400;1,500;1,600;1,623;1,700&display=swap" rel="stylesheet">
+    <title> Control (╯°▽°)╯ ┻━┻ Shift </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--  Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/artworks.css">
+    <link rel="stylesheet" type="text/css" href="../styles/imageSlider.css">
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <script src="https://kit.fontawesome.com/d18a6fd4fe.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+</head>
+<body>
+
+
+    <div id="navbar"></div>
+    <!--  Grid of artworks generated from json file - see js below -->
+    <div class="container home-page-content pt-4 nav-bar-space">
+
+        <!-- PHOTO SLIDER -->
+       <!-- <div class="wrapper">
+            <div id="slider-container" class="projects">
+                <div class="gallery-list__progress-track" style="transform: translate3d(0px, 0px, 1px); margin-left: 0px;">
+                    <div class="gallery-list__progress-bar"></div>
+                    <div class="gallery-list__progress-hit-area"></div>
+                </div>
+                <div class="project project0">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_0.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project1">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_1.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project2">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_2.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project3">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_3.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project4">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_4.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project5">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_5.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project6">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_6.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project project7">
+                    <div class="project-image">
+                        <img class="sliderImage" src="img/archive/archive_artwork_7.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="btn prev"><span>Prev</span>
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="btn next"><span>Next</span>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>-->
+        <!-- PHOTO SLIDER -->
+<!-- vimeo -->
+                <div class="video-container">
+                    <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+                    <script>
+                    window.addEventListener("load",function(){
+                        var iframe = document.getElementById('player1');
+                        var player = window.$f(iframe);
+                        // When the player is ready, add listeners for pause, finish, and playProgress
+                        player.addEvent('ready', function() {
+                            iframe.contentWindow.postMessage({method: "enableTextTrack", value:"en-GB"},"*");
+                            player.api('setVolume', 0);
+                        });
+                    });
+                    </script>
+                    <div style="padding:56.25% 0 0 0;position:relative;">
+                     <iframe id="player1" src="https://player.vimeo.com/video/524330198?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&player_id=player1&color=fcfcfc" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+        <br>
+
+        <!-- row  -->
+        <div class="row pb-3">
+            <div class="col-sm indent">
+                <h1>Control Shift 2020</h1>
+                <h2>Bristol &amp; online</h2>
+                <h2>2-18 October</h2>
+                <p>
+                    <em>Control Shift 2020</em> reflected on the intimate relationships we had with technologies during the lockdown. The programme provided different lenses and approaches to explore how we connect digitally. Through workshops, discussions, installations and screenings we explored ways to reframe, demystify, and transform our relationships with digital technology.</p>
+                </p>
+                
+                <hr>
+            </div>
+        </div>
+        <!-- row  -->
+        <div class="row pb-3">
+            <div class="col-sm">
+                <div class="padding-bottom" class="container">
+                    <div id="myData" class="row"></div>
+                </div>
+            </div>
+        </div>
+        <!-- row  -->
+        <div class="row pb-3">
+            <div class="col-sm indent">
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- <div id="modal"></div> -->
+
+    <!-- Include Footer -->
+    <div id="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14619/init.js"></script>
+    <script src="../js/image-slider.js"></script>
+    <!-- <script src="/modal.js"></script> -->
+    <script>
+        $('#navbar').load('../components/navigation.html');
+        $('#head').load('../components/head.html');
+        setTimeout(function(){ $('#footer').load('../components/footer.html')}, 200); // stop flash of footer content before rest of the page is loaded
+        //$('#modal').load('../components/artist-modal.html');
+    </script>
+
+    <script>
+        setTimeout(function(){ init()}, 1000)
+        fetch('artworks.json') // fetching json code
+        .then(function (response) {
+            return response.json(); // Takes a Response stream & returns a promise that resolves with the result of parsing the body text as JSON.
+        })
+        .then(function (data) {
+            appendData(data); // If successful, runs appendData function below
+        })
+        .catch(function (err) {
+            console.log('error: ' + err); // catches error & console logs out the error message
+        });
+        // function to generate grid of artworks from json file
+        function appendData(data) {
+            let mainContainer = document.getElementById("myData");
+            for (let i = 0; i < data.length; i++) {
+                //Making artist Container div to hold artist info
+                let artistContainer = document.createElement("div");
+                artistContainer.setAttribute("class", "col-md-4 artworkImageDiv pt-4 pb-3"); // setting this div to have bootstrap class "col", so each artists container is a responsive bootstrap coloumn
+
+                artistContainer.setAttribute("data-filterable", data[i].artwork.details.filterType + " " + data[i].artwork.details.filterOnline)
+                artistContainer.setAttribute("id", "outerImage"); //setting unique id to artist name
+                //setting Artist Name
+                let textTitle = document.createElement("div");
+                textTitle.setAttribute("id", "gridTextBoxHighlight");
+                let textInfo = document.createElement("div");
+
+                let p1 = document.createElement("div");
+                p1.innerHTML = data[i].artwork.artwork_name;
+                p1.setAttribute("class", "gridText gridTitle pt-4 text-center");
+                p1.setAttribute("id", "gridTitleHighlight");
+
+                let p2 = document.createElement("div");
+                if (data[i].artist.name === "Russel Hlongwane") {
+                    p2.innerHTML = "curated by " + data[i].artist.name
+                } else {
+                    p2.innerHTML = " by " + data[i].artist.name
+                }
+                p2.setAttribute("class", "gridText gridAbout pt-0 text-center");
+
+                let p3 = document.createElement("div");
+                p3.innerHTML = data[i].artwork.artwork_description_line;
+                p3.setAttribute("class", "gridText aboutText pt-2 text-center");
+
+                // create link param with-hyphens-like-this
+                let linkParam = data[i].artwork.artwork_name;
+                linkParam = linkParam.replace(/\s+/g, '_');
+
+                //general link
+                let link = document.createElement('a');
+                link.setAttribute("href", "artwork.html?artwork=" + linkParam);
+                link.setAttribute("class", "mainLinkText");
+
+                //make anchor
+                var a = document.createElement('a');
+                a.setAttribute("href", "artwork.html?artwork=" + linkParam);
+                a.setAttribute("data-id", data[i].artist.name);
+                a.setAttribute("class", "thumbnail");
+                //make div overlay for image - for the coloured filter
+                let blueSquare = document.createElement("div");
+                blueSquare.setAttribute("class", "blueSquare");
+                // setting Image
+                let image = document.createElement("IMG"); //creating image element
+                image.setAttribute("src", `./img/artists-work/` + data[i].artwork.image.url ); //variable 'src' set to first image in array;
+                image.setAttribute("alt", data[i].artwork.image.alt); //variable 'alt' set to matching alt value
+                image.setAttribute("class", " mx-auto d-block artworkImage img-fluid");
+                image.setAttribute("id", "artworkID");
+                //adding new elements to one another & positioning in mainContainer
+                a.appendChild(blueSquare);
+                blueSquare.appendChild(image);
+                artistContainer.appendChild(a);
+                link.appendChild(p1)
+                link.appendChild(p2);
+                link.appendChild(p3)
+                textInfo.appendChild(link)
+                artistContainer.appendChild(textTitle);
+                artistContainer.appendChild(textInfo);
+                mainContainer.appendChild(artistContainer);
+                loadWindowSystem();
+            }
+        }
+    </script>
+
+    <script>
+        // FILTER FUNCTIONALITY
+        function loadWindowSystem(){
+            const el_filters = document.querySelectorAll('[name="type"], [name="online"]'),
+            el_filterable = document.querySelectorAll('[data-filterable]');
+            const applyFilter = () => {
+            // Filter checked inputs
+            const el_checked = [...el_filters].filter(el => el.checked && el.value);
+            // Collect checked inputs values to array
+            const filters = [...el_checked].map(el => el.value);
+            // Get elements to filter
+            const el_filtered = [...el_filterable].filter(el => {
+                const props = el.getAttribute('data-filterable').trim().split(/\s+/);
+                return filters.every(fi => props.includes(fi))
+            });
+            // Hide all
+            el_filterable.forEach(el => el.classList.add('is-hidden'));
+            // Show filtered
+            el_filtered.forEach(el => el.classList.remove('is-hidden'));
+            }
+            // Assign event listener
+            el_filters.forEach(el => el.addEventListener('change', applyFilter));
+            // Init
+            applyFilter();
+        };
+</script>
+</body></html>
